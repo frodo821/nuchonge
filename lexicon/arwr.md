@@ -208,7 +208,7 @@
 
 ## 例文
 1. rka kamno kotban̩ arwr-ta (陸地は神の言葉によって現れた)
-2. mz̩kr̩ kartr̩a arwr-e (水が引いて乾いた地が現れる)
+2. m̩zkr̩ kartr̩a arwr-e (水が引いて乾いた地が現れる)
 3. jor owatte taijoa arwr-a (夜が終わり太陽が現れる)
 4. kono mondaia vjkt arwr-ta (この問題は突然現れた)
 

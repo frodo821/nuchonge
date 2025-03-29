@@ -24,7 +24,7 @@
    - 例: fni ça (二日目)
    
 3. **分配数形**: fnfn
-   - 例: fnfn mz̩kir (二つずつの水蒸気)
+   - 例: fnfn m̩zkir (二つずつの水蒸気)
 
 4. **倍数形**: fn-bæ
    - 例: fn-bæ ɔk (二倍大きい)
@@ -33,7 +33,7 @@
    - 例: fn-bn̩ (二分の一、半分)
 
 ## 例文
-1. "majaa uæʃtan̩ wakrte, sora to umn̩ nare" to kama iertas, iedɔri mz̩kira fnn̩ wakrte, soraa tsukrtrta. (「もやは上下に分かれ、空と海になれ」と神が言われると、そのとおり水蒸気が二つに分かれ、空ができました。)
+1. "majaa uæʃtan̩ wakrte, sora to umn̩ nare" to kama iertas, iedɔri m̩zkira fnn̩ wakrte, soraa tsukrtrta. (「もやは上下に分かれ、空と海になれ」と神が言われると、そのとおり水蒸気が二つに分かれ、空ができました。)
 2. korske, fni çamo owatta. (こうして、二日目も終わりました。)
 3. fni çiti vtʃi ikrow. (二日目に私は行くでしょう。)
 4. kori fni mono araw. (これは二番目のものです。)

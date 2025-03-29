@@ -7,7 +7,7 @@
 
 > 2 地は形も定まらず、闇に包まれた水の上を、さらに神の霊が覆っていました。
 
-2 tr̩a katçn̩ artan̩, jamia pakurtr̩ mz̩ad arta, mata kamno reii mz̩no uæo ɔirtrta.
+2 tr̩a katçn̩ artan̩, jamia pakurtr̩ m̩zad arta, mata kamno reii m̩zno uæo ɔirtrta.
 
 
 > 3 「光よ、輝き出よ。」神が言われると、光がさっとさしてきました。
@@ -25,12 +25,12 @@
 
 > 7-8 そのとおり水蒸気が二つに分かれ、空ができました。こうして二日目も終わりました。
 
-7-8 iedɔri mz̩kira fnn̩ wakrte, soraa tsukrtrta. korskr̩, fni çamo owatta.
+7-8 iedɔri m̩zkira fnn̩ wakrte, soraa tsukrtrta. korskr̩, fni çamo owatta.
 
 
 > 9-10 「空の下の水は集まって海となり、乾いた地が現れ出よ。」こう神が言われると、そのとおりになりました。神は乾いた地を「陸地」、水の部分を「海」と名づけました。それを見て満足すると、
 
-9-10 "sorano ʃta mz̩a atsmarte umn̩ nare, kartr̩a arwre." kama korske iertas, iedɔrn̩ natta. kama kartr̩o "rk" to, mz̩no hæo "um" to namta. karo mirte kama manskte,
+9-10 "sorano ʃta m̩za atsmarte umn̩ nare, kartr̩a arwre." kama korske iertas, iedɔrn̩ natta. kama kartr̩o "rk" to, m̩zno hæo "um" to namta. karo mirte kama manskte,
 
 > 11-12 神はまた言われました。「陸地には、あらゆる種類の草、種のある植物、実のなる木が生えよ。それぞれの種から同じ種類の草や木が生えるようになれ。」すると、そのとおりになり、神は満足しました。
 

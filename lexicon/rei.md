@@ -26,7 +26,7 @@
 | 共格 | reit    | reits  | reiit   | reiits  |
 
 ## 例文
-1. kamno reii mz̩ad urwa (神の霊が水の上を動いている)
+1. kamno reii m̩zad urwa (神の霊が水の上を動いている)
 2. reii çitn̩ ikra (霊が人に宿る)
 
 ## 関連語

@@ -66,7 +66,7 @@
 2. kar hn̩**-dak-a** miro. (彼は本だけを見るでしょう。)
 3. çisi çit**-dek-i** korn̩ kurtaw. (小さい人だけがここに来ました。)
 4. mir**-dek** næn jom**-dak** matantaw. (見るだけでなく読むだけでも待ちました。)
-5. arj-çiti mz̩**-dak-o** nom**-dak** tbentaw. (すべての人々は水だけを飲むだけ食べました。)
+5. arj-çiti m̩z**-dak-o** nom**-dak** tbentaw. (すべての人々は水だけを飲むだけ食べました。)
 
 ## 関連語
 - **-smad/-smed**: ～さえ、～すら (極限を表す接尾辞)

@@ -250,7 +250,7 @@
 </table>
 
 ## 例文
-1. tr̩a katçn̩ artan̩, jamia pakurtr̩ mz̩ad arta. (地は形も定まらず、闇に包まれた水の上を覆っていました。)
+1. tr̩a katçn̩ artan̩, jamia pakurtr̩ m̩zad arta. (地は形も定まらず、闇に包まれた水の上を覆っていました。)
 2. korsa itsi ça arta. (これが五日目です。)
 3. çiru to jora arte, çti çaa owatta. (昼と夜ができて、一日目が終わりました。)
 

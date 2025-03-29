@@ -27,7 +27,7 @@
 ## 例文
 1. tr̩ad arjr spno ʃitsri haea (地にはあらゆる種類の植物が生える)
 2. ʃitsrne mio tbenaw (植物の実を食べます)
-3. ʃitsrri mz̩o suka (植物たちは水を好む)
+3. ʃitsrri m̩zo suka (植物たちは水を好む)
 
 ## 関連語
 - **kas**: 草

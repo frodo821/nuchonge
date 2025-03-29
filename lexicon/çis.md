@@ -48,7 +48,7 @@
 
 ## 例文
 1. ɔki çitis vtʃne çisi æe miren. (大きな人が私の小さな家を見ています。)
-2. çisa mz̩a aramd ara. (小さな水が地面にあります。)
+2. çisa m̩za aramd ara. (小さな水が地面にあります。)
 3. kors çiti çisi ara. (この人は小さいです。)
 4. vtʃi çise hn̩e jomtaw. (私は小さな本を読みました。)
 

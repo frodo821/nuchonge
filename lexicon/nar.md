@@ -209,7 +209,7 @@
 
 ## 例文
 1. "majaa uæʃtan̩ wakrte, sora to umn̩ nare" to kama iertas. (「もやは上下に分かれ、空と海になれ」と神が言われました。)
-2. sorano ʃta mz̩a atsmarte umn̩ nare. (空の下の水は集まって海となり。)
+2. sorano ʃta m̩za atsmarte umn̩ nare. (空の下の水は集まって海となり。)
 3. tæmi çti çaa narta. (時は一日目になりました。)
 4. iedɔrn̩ natta. (そのとおりになりました。)
 

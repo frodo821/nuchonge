@@ -27,8 +27,8 @@
 | 共格 | rkto     | rktos   | rkato    | rkatos  |
 
 ## 例文
-1. "sorano ʃta mz̩a atsmarte umn̩ nare, kartr̩a arwre." (「空の下の水は集まって海となり、乾いた地が現れ出よ。」)
-2. kama kartr̩o "rk" to, mz̩no hæo "um" to namta. (神は乾いた地を「陸地」と、水の部分を「海」と名づけました。)
+1. "sorano ʃta m̩za atsmarte umn̩ nare, kartr̩a arwre." (「空の下の水は集まって海となり、乾いた地が現れ出よ。」)
+2. kama kartr̩o "rk" to, m̩zno hæo "um" to namta. (神は乾いた地を「陸地」と、水の部分を「海」と名づけました。)
 3. "rkad, arjr spno kas, spno ari ʃitsr, mio tskr tr̩a haee." (「陸地には、あらゆる種類の草、種のある植物、実のなる木が生えよ。」)
 
 ## 関連語

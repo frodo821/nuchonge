@@ -35,7 +35,7 @@
 1. ɔki çitis vtʃne çisi æe miren. (大きな人が私の小さな家を見ています。)
 2. ɔka jama deba ara. (大きな山は美しいです。)
 3. kors hn̩a tvɔka ara. (この本はとても大きいです。)
-4. vtʃi ɔko mz̩o nomtaw. (私は大きな水を飲みました。)
+4. vtʃi ɔko m̩zo nomtaw. (私は大きな水を飲みました。)
 
 ## 関連語
 - ɔkæ: 大邸宅（「大きい」+「家」の複合語）

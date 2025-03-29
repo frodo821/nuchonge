@@ -225,7 +225,7 @@
 </table>
 
 ## 例文
-1. jamia mz̩-o pakur-tr-ta (闇が水を包んでいた)
+1. jamia m̩z-o pakur-tr-ta (闇が水を包んでいた)
 2. kama jor-d tr̩-o pakur-ta (神は夜で地を包んだ)
 3. vtʃi hn̩-o kami-d pakur-a-w (私は本を紙で包みます)
 4. kar-o çiz-a pakur-tr-a (彼を沈黙が包んでいる)
