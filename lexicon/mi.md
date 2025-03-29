@@ -19,10 +19,10 @@
 | ---- | --------- | -------- | --------- | -------- |
 | 主格  | mi       | mis      | miri      | miris     |
 | 対格  | mie      | mies     | mire      | mires     |
-| 与格  | min̩      | min̩s     | mirn̩      | mirn̩s     |
+| 与格  | miñ      | miñs     | mirñ      | mirñs     |
 | 所格  | mid      | mids     | miid      | miids     |
 | 属格  | mine     | mines    | miine     | miines    |
-| 出格  | mikr̩     | mikr̩s    | miikr̩     | miikr̩s    |
+| 出格  | mikr̃     | mikr̃s    | miikr̃     | miikr̃s    |
 | 向格  | mihe     | mihes    | miihe     | miihes    |
 | 共格  | mit      | mits     | mite      | mites     |
 
@@ -30,7 +30,7 @@
 1. kino vtʃi **mie** tbentataw. (昨日私は果実を食べました。)
 2. kis **mii** joksi ara. (この実はおいしい。)
 3. kino nogim **miri** battataw. (昨日多くの実が熟れた。)
-4. çiti **miikr̩** çisi tabemonoo tsukrataw. (人は実から小さな食べ物を作った。)
+4. çiti **miikr̃** çisi tabemonoo tsukrataw. (人は実から小さな食べ物を作った。)
 5. benrjone **mii** joksi kotba jomia ara. (勉強の成果は良い言葉を読むことだ。)
 
 ## 関連語

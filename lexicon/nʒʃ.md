@@ -208,9 +208,9 @@
 
 ## 例文
 1. antpraa sakana to tori to arjr dɔbutsuno nʒʃ aras (あなたがたは魚と鳥とすべての動物の主人です)
-2. kamno kotban̩ çita tr̩no nʒʃ-ta (神の言葉によって人は地の主人となった)
+2. kamno kotbañ çita tr̃no nʒʃ-ta (神の言葉によって人は地の主人となった)
 3. kono tɔçino nʒʃ-e-w (この土地の主人になります)
-4. kamkamia tr̩-ne arjr ikimonono nʒʃ ara (神々は地のあらゆる生き物の主です)
+4. kamkamia tr̃-ne arjr ikimonono nʒʃ ara (神々は地のあらゆる生き物の主です)
 
 ## 関連語
 - **ɔsamr**: 治める

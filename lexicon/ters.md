@@ -208,7 +208,7 @@
 
 ## 例文
 1. çkari jamio terse (光が闇を照らす)
-2. taijoa tr̩o terse (太陽が地を照らす)
+2. taijoa tr̃o terse (太陽が地を照らす)
 
 ## 関連語
 - **çkar** (光) - 名詞

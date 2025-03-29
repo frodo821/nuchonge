@@ -207,8 +207,8 @@
 </table>
 
 ## 例文
-1. tr̩ad kas-a hae-a (地に草が生える)
-2. ʃitsr-a m̩z-n̩ hae-ro (植物は水に生えるだろう)
+1. tr̃ad kas-a hae-a (地に草が生える)
+2. ʃitsr-a m̃z-ñ hae-ro (植物は水に生えるだろう)
 3. çit-ne kes-d kami-a hae-a (人の頭に髪が生える)
 4. æno tno-d kinɔk-a hae-ta (家の庭にキノコが生えた)
 

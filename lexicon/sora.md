@@ -19,17 +19,17 @@
 | ---- | --------- | --------- | ---------- | ---------- |
 | 主格 | soraa     | soraas    | sorara     | soraras    |
 | 対格 | sorao     | soraos    | soraro     | soraros    |
-| 与格 | soran̩     | soran̩s    | sorarn̩     | sorarn̩s    |
+| 与格 | sorañ     | sorañs    | sorarñ     | sorarñs    |
 | 所格 | sorad     | sorads    | soraad     | soraads    |
 | 属格 | sorano    | soranos   | soraano    | soraanos   |
-| 出格 | sorakr̩    | sorakr̩s   | soraakr̩    | soraakr̩s   |
+| 出格 | sorakr̃    | sorakr̃s   | soraakr̃    | soraakr̃s   |
 | 向格 | sorah     | sorahs    | soraah     | soraahs    |
 | 共格 | sorato    | soratos   | soraato    | soraatos   |
 
 ## 例文
-1. "majaa uæʃtan̩ wakrte, sora to umn̩ nare" to kama iertas. (「もやは上下に分かれ、空と海になれ」と神が言われました。)
-2. kama karo soran̩ çirbmte, tr̩o tersijon̩ ʃta. (神はそれを空にちりばめ、地を照らすようにしました。)
-3. soraa arjr spno tɔrn̩ mitʃe. (空はあらゆる種類の鳥で満ちよ。)
+1. "majaa uæʃtañ wakrte, sora to umñ nare" to kama iertas. (「もやは上下に分かれ、空と海になれ」と神が言われました。)
+2. kama karo sorañ çirbmte, tr̃o tersijoñ ʃta. (神はそれを空にちりばめ、地を照らすようにしました。)
+3. soraa arjr spno tɔrñ mitʃe. (空はあらゆる種類の鳥で満ちよ。)
 
 ## 関連語
 - ten (天) - 名詞

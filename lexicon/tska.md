@@ -20,15 +20,15 @@
 | ---- | --------- | --------- | ---------- | ---------- |
 | 主格 | tskaa     | tskaas    | tskara     | tskaras    |
 | 対格 | tskao     | tskaos    | tskaro     | tskaros    |
-| 与格 | tskan̩     | tskan̩s    | tskarn̩     | tskarn̩s    |
+| 与格 | tskañ     | tskañs    | tskarñ     | tskarñs    |
 | 所格 | tskad     | tskads    | tskaad     | tskaads    |
 | 属格 | tskano    | tskanos   | tskaano    | tskaanos   |
-| 出格 | tskakr̩    | tskakr̩s   | tskaakr̩    | tskaakr̩s   |
+| 出格 | tskakr̃    | tskakr̃s   | tskaakr̃    | tskaakr̃s   |
 | 向格 | tskah     | tskahs    | tskaah     | tskaahs    |
 | 共格 | tskato    | tskatos   | tskaato    | tskaatos   |
 
 ## 例文
-1. korske, tr̩o tersi taijo to tska tsukrtrta. (こうして、地を照らす太陽と月ができました。)
+1. korske, tr̃o tersi taijo to tska tsukrtrta. (こうして、地を照らす太陽と月ができました。)
 2. taijoa ɔkkrs çirukarakadak çiruo, tska joro ɔsamrta. (太陽は大きく明るいので昼を、月は夜を治めました。)
 3. tskaa jornad kagajkta. (月は夜中に輝いた。)
 4. tskano akarsa æno çkanae hirta. (月の明かりは家の窓から入った。)

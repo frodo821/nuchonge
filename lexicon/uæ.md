@@ -19,22 +19,22 @@
 | ---- | --------- | --------- | ---------- | ---------- |
 | 主格 | uæi       | uæis      | uæri       | uæris      |
 | 対格 | uæe       | uæes      | uære       | uæres      |
-| 与格 | uæn̩       | uæn̩s      | uærn̩       | uærn̩s      |
+| 与格 | uæñ       | uæñs      | uærñ       | uærñs      |
 | 所格 | uæd       | uæds      | uæid       | uæids      |
 | 属格 | uæne      | uænes     | uæine      | uæines     |
-| 出格 | uækr̩      | uækr̩s     | uæikr̩      | uæikr̩s     |
+| 出格 | uækr̃      | uækr̃s     | uæikr̃      | uæikr̃s     |
 | 向格 | uæhe      | uæhes     | uæihe      | uæihes     |
 | 共格 | uæt       | uæts      | uæit       | uæits      |
 
 ## 例文
-1. kamno reii m̩zno uæo ɔirtrta. (神の霊が水の上を覆っていました。)
+1. kamno reii m̃zno uæo ɔirtrta. (神の霊が水の上を覆っていました。)
 2. uæi soran taro. (上は空と太陽。)
 3. uæhe iko, jamno uæhe. (上へ行こう、山の上へ。)
 
 ## 関連語
 - uæʃ (上下) - 名詞
 - sora (空) - 名詞
-- m̩z (水) - 名詞
+- m̃z (水) - 名詞
 - jami (闇) - 名詞
 
 ## 備考

@@ -21,21 +21,21 @@
 | ---- | --------- | -------- | --------- | -------- |
 | 主格 | ʃehri    | ʃehris  | ʃehrri    | ʃehrris  |
 | 対格 | ʃehre    | ʃehres  | ʃehrre    | ʃehrres  |
-| 与格 | ʃehrn̩    | ʃehrn̩s  | ʃehrrn̩    | ʃehrrn̩s  |
+| 与格 | ʃehrñ    | ʃehrñs  | ʃehrrñ    | ʃehrrñs  |
 | 所格 | ʃehrd    | ʃehrds  | ʃehrid    | ʃehrids  |
 | 属格 | ʃehrne   | ʃehrnes | ʃehrrne   | ʃehrrnes |
-| 出格 | ʃehrkr̩   | ʃehrkr̩s | ʃehrikr̩   | ʃehrikr̩s |
+| 出格 | ʃehrkr̃   | ʃehrkr̃s | ʃehrikr̃   | ʃehrikr̃s |
 | 向格 | ʃehrhe   | ʃehrhes | ʃehrihe   | ʃehrihes |
 | 共格 | ʃehrt    | ʃehrts  | ʃehrit    | ʃehrits  |
 
 ## 例文
 1. ɔki çitis vtʃne çisi æe miren dak, vtʃi karlne ʃehrs ikrotaw. (大きな人たちが私の小さな家を見ているので、私は彼らの街に行くつもりでした。)
 2. kors ʃehri ɔki ara. (この街は大きいです。)
-3. vtʃi ʃehrkr̩ æhe ikew. (私は街から家へ行きます。)
+3. vtʃi ʃehrkr̃ æhe ikew. (私は街から家へ行きます。)
 4. ʃehrrid milkotbao kikep. (街々で様々な言葉を聞くことができます。)
 
 ## 関連語
-- ʃehrl̩: 都市圏、大都市域（「街」+「集団」）
+- ʃehrl̃: 都市圏、大都市域（「街」+「集団」）
 - ʃehrçit: 都市住民（「街」+「人」）
 - çisʃehr: 小都市（「小さい」+「街」）
 - ʃehrmç: 都市道路（「街」+「道」）

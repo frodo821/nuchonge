@@ -77,12 +77,12 @@
     </tr>
     <tr style="background-color: #f0fff0;">
       <th>過去</th>
-      <td>ierm̩taw</td>
-      <td>ierm̩tap</td>
-      <td>ierm̩ta</td>
-      <td>ierm̩tal</td>
-      <td>ierm̩tas</td>
-      <td>ierm̩tan</td>
+      <td>ierm̃taw</td>
+      <td>ierm̃tap</td>
+      <td>ierm̃ta</td>
+      <td>ierm̃tal</td>
+      <td>ierm̃tas</td>
+      <td>ierm̃tan</td>
     </tr>
     <tr style="background-color: #f0fff0;">
       <th>未来</th>
@@ -303,7 +303,7 @@
 
 ## 例文
 1. "çkari, kagajke." kama iertas, çkari sɔfto kagajktrta. (「光よ、輝き出よ。」神が言われると、光がさっとさしてきました。)
-2. kama mata ierta: "rkad, arjr spno kas, spno ari ʃitsr, mio tskr tr̩a haee." (神はまた言われました。「陸地には、あらゆる種類の草、種のある植物、実のなる木が生えよ。」)
+2. kama mata ierta: "rkad, arjr spno kas, spno ari ʃitsr, mio tskr tr̃a haee." (神はまた言われました。「陸地には、あらゆる種類の草、種のある植物、実のなる木が生えよ。」)
 3. vtʃi ierrow, ierta mani. (私が言うでしょう、言った通りに。)
 
 ## 関連語

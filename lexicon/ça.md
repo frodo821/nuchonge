@@ -20,10 +20,10 @@
 | ---- | --------- | -------- | --------- | -------- |
 | 主格 | çai       | çais     | çari      | çaris    |
 | 対格 | çae       | çaes     | çare      | çares    |
-| 与格 | çan̩       | çan̩s     | çarn̩      | çarn̩s    |
+| 与格 | çañ       | çañs     | çarñ      | çarñs    |
 | 所格 | çad       | çads     | çaid      | çaids    |
 | 属格 | çane      | çanes    | çaine     | çaines   |
-| 出格 | çakr̩      | çakr̩s    | çaikr̩     | çaikr̩s   |
+| 出格 | çakr̃      | çakr̃s    | çaikr̃     | çaikr̃s   |
 | 向格 | çahe      | çahes    | çaihe     | çaihes   |
 | 共格 | çat       | çats     | çait      | çaits    |
 

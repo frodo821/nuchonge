@@ -109,7 +109,7 @@
 ## 例文
 1. ama fala. (雨が降っています。)
 2. amr jukp falro. (明日雪が降るでしょう。)
-3. ama faltatoma vtʃi ikn̩. (雨が降っていたので私は行かなかった。)
+3. ama faltatoma vtʃi ikñ. (雨が降っていたので私は行かなかった。)
 
 ## 関連語
 - amafal: 雨降り（「雨」+「降る」の複合語）

@@ -119,20 +119,20 @@
 *注: アスペクト形式と複合形式の活用は原エントリには存在せず、形態素パターンから推測したものです。
 
 ## 例文
-1. kama ierta: "uma sakn̩o kar hkno ikm̩no afrte, soraa arjr spno tɔrn̩ mitʃe." (神は言われました。「海は魚やその他の生き物であふれ、空はあらゆる種類の鳥で満ちよ。」)
-2. uma ikm̩n to sakn̩dn̩ afrta. (海は生き物と魚であふれた。)
-3. çkari tenn̩ afrta. (光が天にあふれた。)
-4. korske uma afr-sm-ta ikm̩nd. (こうして海はあふれんばかりの生き物で。)
+1. kama ierta: "uma sakño kar hkno ikm̃no afrte, soraa arjr spno tɔrñ mitʃe." (神は言われました。「海は魚やその他の生き物であふれ、空はあらゆる種類の鳥で満ちよ。」)
+2. uma ikm̃n to sakñdñ afrta. (海は生き物と魚であふれた。)
+3. çkari tenñ afrta. (光が天にあふれた。)
+4. korske uma afr-sm-ta ikm̃nd. (こうして海はあふれんばかりの生き物で。)
 
 ## 関連語
 - mitʃ (満ちる) - 動詞
 - fue (増える) - 動詞
 - ɔir (覆う) - 動詞
-- ikm̩n (生き物) - 名詞
-- sakn̩ (魚) - 名詞
+- ikm̃n (生き物) - 名詞
+- sakñ (魚) - 名詞
 - um (海) - 名詞
 
 ## 備考
-「afr」は創造物語において、特に五日目の創造で生物の豊かさと繁栄を表現する重要な動詞である。命令「uma sakn̩o kar hkno ikm̩no afrte」（海は魚やその他の生き物であふれ）は神の創造的命令の一つとして、生命の繁栄を指示している。
+「afr」は創造物語において、特に五日目の創造で生物の豊かさと繁栄を表現する重要な動詞である。命令「uma sakño kar hkno ikm̃no afrte」（海は魚やその他の生き物であふれ）は神の創造的命令の一つとして、生命の繁栄を指示している。
 
 「afr」はしばしば「mitʃ」（満ちる）と対をなし、「afr」がより活動的で勢いのある状態を表すのに対し、「mitʃ」はより静的な充満状態を表す傾向がある。ともに神の創造の豊かさと完全さを表現する重要な語彙である。

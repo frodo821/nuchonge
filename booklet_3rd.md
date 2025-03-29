@@ -55,7 +55,7 @@
 
 一般的に有声音は聞こえ度が比較的高く、無声音は比較的低いです。vやjなどの聞こえ度の高い子音は、比較的大きな子音クラスタを形成する傾向にあります。
 
-また、/r̩/, /l̩/, /n̩/, /m̩/ の4つの子音は、音節主音としての機能を持ち、母音の代わりに音節核となることができます。つまり、これらの子音を音節核とする /kr̩s/ のような音節が許容されます。通常 /n̩/, /m̩/ は前舌母音、/r̩/, /l̩/ は後舌母音として扱われます。
+また、/r̃/, /l̃/, /ñ/, /m̃/ の4つの子音は、音節主音としての機能を持ち、母音の代わりに音節核となることができます。つまり、これらの子音を音節核とする /kr̃s/ のような音節が許容されます。通常 /ñ/, /m̃/ は前舌母音、/r̃/, /l̃/ は後舌母音として扱われます。
 
 ### 1.3 子音クラスタの対処戦略
 
@@ -69,11 +69,11 @@
   例：「山から」→ 「jam kr」→ 「jam akr」
 
 #### 1.3.2 共鳴音の音節主音化
-- **鼻音**：n, m → n̩, m̩
-  例：「本に」→ 「hon n」→ 「hn̩ n̩」
+- **鼻音**：n, m → ñ, m̃
+  例：「本に」→ 「hon n」→ 「hñ ñ」
 
-- **流音**：r, l → r̩, l̩
-  例：「山らから」→ 「jam r kr」→ 「jam r̩ kr̩」
+- **流音**：r, l → r̃, l̃
+  例：「山らから」→ 「jam r kr」→ 「jam r̃ kr̃」
 
 #### 1.3.3 子音の同化と簡略化
 - **調音点の同化**：
@@ -86,8 +86,8 @@
 ニンゴト語では、ほぼ綴りのとおりに発音しますが、一部の例外があります。
 特に子音クラスタでは、以下の綴りについて子音が発音困難ないしは発音不可能のため、黙字化することで発音が簡略化されました。
 
-- n̩n あるいは n̩m → n̩
-- m̩m あるいは m̩n → m̩
+- ñn あるいは ñm → ñ
+- m̃m あるいは m̃n → m̃
 
 単語によっては一見すると最大音節構造が許容する音素数を超える音節が存在するように見えますが、このような処理によって正当化されます。
 
@@ -112,12 +112,12 @@
 ### 2.2 屈折語化プロセス（第3-10世紀）
 
 #### 2.2.1 後置詞の接尾辞化
-* 「wat n」→「wat-n̩」（私に）
+* 「wat n」→「wat-ñ」（私に）
 * 「hon o」→「hon-o」（本を）
 
 #### 2.2.2 代名詞と後置詞の融合
 * 「wat」（私）：主格
-* 「wat-n̩」（私に）：与格
+* 「wat-ñ」（私に）：与格
 * 「wat-o」（私を）：対格
 
 #### 2.2.3 動詞と時制・相・法標識の融合
@@ -156,10 +156,10 @@
 | ---- | ---------------- | ----------------------- |
 | 主格 | 動作・状態の主体 | 「が」→「g」→「i/a」    |
 | 対格 | 動作の対象       | 「を」→「o」→「e/o」    |
-| 与格 | 間接目的語       | 「に」→「n」→「n̩」      |
+| 与格 | 間接目的語       | 「に」→「n」→「ñ」      |
 | 所格 | 場所・手段       | 「で」→「d」→「d」      |
 | 属格 | 所有・関係       | 「の」→「no」→「ne/no」 |
-| 出格 | 起点・比較       | 「から」→「kr」→「kr̩」  |
+| 出格 | 起点・比較       | 「から」→「kr」→「kr̃」  |
 | 向格 | 方向・目標       | 「へ」→「h」→「he/h」   |
 | 共格 | 共同・相互関係   | 「と」→「t」→「t/to」   |
 
@@ -202,10 +202,10 @@
 | ---- | -------- | ------- | -------- | -------- |
 | 主格 | çit-i    | çit-is  | çit-ri   | çit-ris  |
 | 対格 | çit-e    | çit-es  | çit-re   | çit-res  |
-| 与格 | çit-n̩    | çit-n̩s  | çit-rn̩   | çit-rn̩s  |
+| 与格 | çit-ñ    | çit-ñs  | çit-rñ   | çit-rñs  |
 | 所格 | çit-d    | çit-ds  | çit-id   | çit-ids  |
 | 属格 | çit-ne   | çit-nes | çit-ine  | çit-ines |
-| 出格 | çit-kr̩   | çit-kr̩s | çit-ikr̩  | çit-ikr̩s |
+| 出格 | çit-kr̃   | çit-kr̃s | çit-ikr̃  | çit-ikr̃s |
 | 向格 | çit-he   | çit-hes | çit-ihe  | çit-ihes |
 | 共格 | çit-t    | çit-ts  | çit-it   | çit-its  |
 
@@ -215,10 +215,10 @@
 | ---- | -------- | ------- | -------- | --------- |
 | 主格 | hin-i    | hin-is  | hin-ri   | hin-ris   |
 | 対格 | hin-e    | hin-es  | hin-re   | hin-res   |
-| 与格 | hin-n̩    | hin-n̩s  | hin-rn̩   | hin-rn̩s   |
+| 与格 | hin-ñ    | hin-ñs  | hin-rñ   | hin-rñs   |
 | 所格 | hin-d    | hin-ds  | hin-id   | hin-ids   |
 | 属格 | hin-ne   | hin-nes | hin-rne | hin-rnes |
-| 出格 | hin-kr̩   | hin-kr̩s | hin-ikr̩  | hin-ikr̩s  |
+| 出格 | hin-kr̃   | hin-kr̃s | hin-ikr̃  | hin-ikr̃s  |
 | 向格 | hin-he   | hin-hes | hin-ihe  | hin-ihes  |
 | 共格 | hin-t    | hin-ts  | hin-it   | hin-its   |
 
@@ -230,25 +230,25 @@
 | ---- | -------- | ------- | -------- | -------- |
 | 主格 | kat-a    | kat-as  | kat-ra   | kat-ras  |
 | 対格 | kat-o    | kat-os  | kat-ro   | kat-ros  |
-| 与格 | kat-n̩    | kat-n̩s  | kat-rn̩   | kat-rn̩s  |
+| 与格 | kat-ñ    | kat-ñs  | kat-rñ   | kat-rñs  |
 | 所格 | kat-d    | kat-ds  | kat-ad   | kat-ads  |
 | 属格 | kat-no   | kat-nos | kat-ano  | kat-anos |
-| 出格 | kat-kr̩   | kat-kr̩s | kat-akr̩  | kat-akr̩s |
+| 出格 | kat-kr̃   | kat-kr̃s | kat-akr̃  | kat-akr̃s |
 | 向格 | kat-h    | kat-hs  | kat-ah   | kat-ahs  |
 | 共格 | kat-to   | kat-tos | kat-ato  | kat-atos |
 
-**無生名詞「hn̩」（本）の曲用**
+**無生名詞「hñ」（本）の曲用**
 
 | 格   | 単数不定 | 単数定 | 複数不定 | 複数定  |
 | ---- | -------- | ------ | -------- | ------- |
-| 主格 | hn̩-a     | hn̩-as  | hn̩-ra    | hn̩-ras  |
-| 対格 | hn̩-o     | hn̩-os  | hn̩-ro    | hn̩-ros  |
-| 与格 | hn̩-n̩     | hn̩-n̩s  | hn̩-rn̩    | hn̩-rn̩s  |
-| 所格 | hn̩-d     | hn̩-ds  | hn̩-ad    | hn̩-ads  |
-| 属格 | hn̩-no    | hn̩-nos | hn̩-ano   | hn̩-anos |
-| 出格 | hn̩-kr̩    | hn̩-kr̩s | hn̩-akr̩   | hn̩-akr̩s |
-| 向格 | hn̩-h     | hn̩-hs  | hn̩-ah    | hn̩-ahs  |
-| 共格 | hn̩-to    | hn̩-tos | hn̩-ato   | hn̩-atos |
+| 主格 | hñ-a     | hñ-as  | hñ-ra    | hñ-ras  |
+| 対格 | hñ-o     | hñ-os  | hñ-ro    | hñ-ros  |
+| 与格 | hñ-ñ     | hñ-ñs  | hñ-rñ    | hñ-rñs  |
+| 所格 | hñ-d     | hñ-ds  | hñ-ad    | hñ-ads  |
+| 属格 | hñ-no    | hñ-nos | hñ-ano   | hñ-anos |
+| 出格 | hñ-kr̃    | hñ-kr̃s | hñ-akr̃   | hñ-akr̃s |
+| 向格 | hñ-h     | hñ-hs  | hñ-ah    | hñ-ahs  |
+| 共格 | hñ-to    | hñ-tos | hñ-ato   | hñ-atos |
 
 ---
 
@@ -264,10 +264,10 @@
 | ---- | -------- | ------- | -------- | -------- |
 | 主格 | çis-i    | çis-is  | çis-ri   | çis-ris  |
 | 対格 | çis-e    | çis-es  | çis-re   | çis-res  |
-| 与格 | çis-n̩    | çis-n̩s  | çis-rn̩   | çis-rn̩s  |
+| 与格 | çis-ñ    | çis-ñs  | çis-rñ   | çis-rñs  |
 | 所格 | çis-d    | çis-ds  | çis-id   | çis-ids  |
 | 属格 | çis-ne   | çis-nes | çis-ine  | çis-ines |
-| 出格 | çis-kr̩   | çis-kr̩s | çis-ikr̩  | çis-ikr̩s |
+| 出格 | çis-kr̃   | çis-kr̃s | çis-ikr̃  | çis-ikr̃s |
 | 向格 | çis-he   | çis-hes | çis-ihe  | çis-ihes |
 | 共格 | çis-t    | çis-ts  | çis-it   | çis-its  |
 
@@ -277,10 +277,10 @@
 | ---- | -------- | ------- | -------- | --------- |
 | 主格 | çis-i    | çis-is  | çis-ri   | çis-ris   |
 | 対格 | çis-e    | çis-es  | çis-re   | çis-res   |
-| 与格 | çis-n̩    | çis-n̩s  | çis-rn̩   | çis-rn̩s   |
+| 与格 | çis-ñ    | çis-ñs  | çis-rñ   | çis-rñs   |
 | 所格 | çis-d    | çis-ds  | çis-id   | çis-ids   |
 | 属格 | çis-ne   | çis-nes | çis-rine | çis-rines |
-| 出格 | çis-kr̩   | çis-kr̩s | çis-ikr̩  | çis-ikr̩s  |
+| 出格 | çis-kr̃   | çis-kr̃s | çis-ikr̃  | çis-ikr̃s  |
 | 向格 | çis-he   | çis-hes | çis-ihe  | çis-ihes  |
 | 共格 | çis-t    | çis-ts  | çis-it   | çis-its   |
 
@@ -293,10 +293,10 @@
 | ---- | -------- | -------- | -------- | --------- |
 | 主格 | furæ-a   | furæ-as  | furæ-ra  | furæ-ras  |
 | 対格 | furæ-o   | furæ-os  | furæ-ro  | furæ-ros  |
-| 与格 | furæ-n̩   | furæ-n̩s  | furæ-rn̩  | furæ-rn̩s  |
+| 与格 | furæ-ñ   | furæ-ñs  | furæ-rñ  | furæ-rñs  |
 | 所格 | furæ-d   | furæ-ds  | furæ-ad  | furæ-ads  |
 | 属格 | furæ-no  | furæ-nos | furæ-ano | furæ-anos |
-| 出格 | furæ-kr̩  | furæ-kr̩s | furæ-akr̩ | furæ-akr̩s |
+| 出格 | furæ-kr̃  | furæ-kr̃s | furæ-akr̃ | furæ-akr̃s |
 | 向格 | furæ-h   | furæ-hs  | furæ-ah  | furæ-ahs  |
 | 共格 | furæ-to  | furæ-tos | furæ-ato | furæ-atos |
 
@@ -306,10 +306,10 @@
 | ---- | -------- | -------- | -------- | --------- |
 | 主格 | furæ-a   | furæ-as  | furæ-ra  | furæ-ras  |
 | 対格 | furæ-o   | furæ-os  | furæ-ro  | furæ-ros  |
-| 与格 | furæ-n̩   | furæ-n̩s  | furæ-rn̩  | furæ-rn̩s  |
+| 与格 | furæ-ñ   | furæ-ñs  | furæ-rñ  | furæ-rñs  |
 | 所格 | furæ-d   | furæ-ds  | furæ-ad  | furæ-ads  |
 | 属格 | furæ-no  | furæ-nos | furæ-ano | furæ-anos |
-| 出格 | furæ-kr̩  | furæ-kr̩s | furæ-akr̩ | furæ-akr̩s |
+| 出格 | furæ-kr̃  | furæ-kr̃s | furæ-akr̃ | furæ-akr̃s |
 | 向格 | furæ-h   | furæ-hs  | furæ-ah  | furæ-ahs  |
 | 共格 | furæ-to  | furæ-tos | furæ-ato | furæ-atos |
 
@@ -322,21 +322,21 @@
 
 | 人称      | 主格    | 対格     | 与格    | 属格     | 出格 |  向格 | 共格 |
 | --------- | ------- | -------- | ------- | -------- | ---- | ----- | ---- |
-| 1人称単数 | vtʃi    | vtʃe    | vtʃn̩   | vtʃne   | vtʃer | vtʃen̩ | vtʃet |
-| 2人称単数 | antp    | ante    | antn̩   | antne   | anter | anten̩ | antet |
-| 3人称単数 | kar     | kare    | karn̩   | karne   | karr | karn̩ | kart |
-| 1人称複数 | vtʃisl | vtʃisel | vtʃisn̩ | vtʃisne | vtʃisr | vtʃisn̩ | vtʃist |
-| 2人称複数 | antes  | antes  | antesn̩ | antesne | antesr | antesn̩ | antest |
-| 3人称複数 | karl   | karel   | karelr̩  | karlne  | karekr | karn̩ | kart |
+| 1人称単数 | vtʃi    | vtʃe    | vtʃñ   | vtʃne   | vtʃer | vtʃeñ | vtʃet |
+| 2人称単数 | antp    | ante    | antñ   | antne   | anter | anteñ | antet |
+| 3人称単数 | kar     | kare    | karñ   | karne   | karr | karñ | kart |
+| 1人称複数 | vtʃisl | vtʃisel | vtʃisñ | vtʃisne | vtʃisr | vtʃisñ | vtʃist |
+| 2人称複数 | antes  | antes  | antesñ | antesne | antesr | antesñ | antest |
+| 3人称複数 | karl   | karel   | karelr̃  | karlne  | karekr | karñ | kart |
 
 ### 5.2 指示詞
 
 | 種類 | 主格  | 対格  | 与格  | 属格   | 所格 |  出格 |  向格 | 共格 |
 | ---- | ----- | ----- | ----- | ------ | ---- | ----- | ----- | ---- |
-| 近称 | kori | kore | korn̩ | korne | kok | kokr | kokn̩ | kort |
-| 中称 | sori | sore | sorn̩ | sorne | sok | sokr | sokn̩ | sork |
-| 遠称 | ari  | are  | arn̩  | arne  | akr | akr | akn̩ | akt |
-| 疑問 | dori | dore | dorn̩ | dorne | dok | dokr | dokn̩ | dort |
+| 近称 | kori | kore | korñ | korne | kok | kokr | kokñ | kort |
+| 中称 | sori | sore | sorñ | sorne | sok | sokr | sokñ | sork |
+| 遠称 | ari  | are  | arñ  | arne  | akr | akr | akñ | akt |
+| 疑問 | dori | dore | dorñ | dorne | dok | dokr | dokñ | dort |
 
 ---
 
@@ -543,7 +543,7 @@
    - 例: jam(山) + no + mç(道) → jamn-mç (山の道)
 
 3. **動詞語幹型**: V-幹 + N → VN
-   - 例: jom(読む) + hn̩(本) → jom-hn̩ (読書)
+   - 例: jom(読む) + hñ(本) → jom-hñ (読書)
 
 ### 8.2 複合時の母音調和規則
 
@@ -590,7 +590,7 @@
 - 親密関係: -tn (ちゃん)
 
 例:
-- çit-i-sam-n̩ (貴族の方に)
+- çit-i-sam-ñ (貴族の方に)
 - sensi-sen-ne (先生の先生の)
 - antp-tn-t (あなたちゃんと)
 
@@ -602,19 +602,19 @@
 
 | 音節主音 | 文法機能                         | 例                                          |
 | -------- | -------------------------------- | ------------------------------------------- |
-| /n̩/      | 1. 属格・与格標識<br>2. 否定接辞 | 1. çit-n̩ (人に)<br>2. mir-n̩-ta (見なかった) |
-| /r̩/      | 1. 複数標識<br>2. 継続相標識     | 1. çit-r̩ (人々)<br>2. jom-r̩-a (読んでいる)  |
-| /m̩/      | 条件・仮定標識                   | ik-m̩-ta (行けば)                            |
-| /l̩/      | 集合・群標識                     | çit-l̩ (人々の集団)                          |
+| /ñ/      | 1. 属格・与格標識<br>2. 否定接辞 | 1. çit-ñ (人に)<br>2. mir-ñ-ta (見なかった) |
+| /r̃/      | 1. 複数標識<br>2. 継続相標識     | 1. çit-r̃ (人々)<br>2. jom-r̃-a (読んでいる)  |
+| /m̃/      | 条件・仮定標識                   | ik-m̃-ta (行けば)                            |
+| /l̃/      | 集合・群標識                     | çit-l̃ (人々の集団)                          |
 
 ### 10.2 音節主音の位置による意味変化
 
 - 語頭位置: 強調・焦点化
-  - 例: r̩-jom (まさに読む)
+  - 例: r̃-jom (まさに読む)
 - 語中位置: 文法標識
-  - 例: jom-r̩-a (読んでいる)
+  - 例: jom-r̃-a (読んでいる)
 - 語末位置: 語彙的意味
-  - 例: jam-r̩ (山々)
+  - 例: jam-r̃ (山々)
 
 ---
 
@@ -627,7 +627,7 @@
 | vtʃi araw | vtʃraw  | 私です   |
 | dori ara | dora   | どれです |
 | joks ara | joksa  | いいです |
-| nan̩ ara-  | nanra-  | 何です   |
+| nañ ara-  | nanra-  | 何です   |
 
 ### 11.2 助動詞縮約
 
@@ -636,7 +636,7 @@
 | -ro ara-  | -rara-  | 未来確定 |
 | -ta ara-  | -tara-  | 過去確定 |
 | -re ik   | -rek   | 可能継続 |
-| -n̩ næ    | -n̩æ    | 否定強調 |
+| -ñ næ    | -ñæ    | 否定強調 |
 
 ### 11.3 常用動詞の不規則縮約
 
@@ -662,8 +662,8 @@
 
 | 機能             | 標識            | 由来       | 用法                                            |
 | ---------------- | --------------- | ---------- | ----------------------------------------------- |
-| **トピック**     | **-va/-ve**     | 「は」(wa) | çit-i**-ve** tosn̩-he ik-ta (人は図書館へ行った) |
-| **対比トピック** | **-vasa/-vese** | 「はさえ」 | vtʃi**-vese** mir-a-w-n̩ (私は見なかった)        |
+| **トピック**     | **-va/-ve**     | 「は」(wa) | çit-i**-ve** tosñ-he ik-ta (人は図書館へ行った) |
+| **対比トピック** | **-vasa/-vese** | 「はさえ」 | vtʃi**-vese** mir-a-w-ñ (私は見なかった)        |
 | **フォーカス**   | **-zo/-ze**     | 「ぞ」     | kar**-zo** kur-ta (彼が来た)                    |
 | **強調対比**     | **-kos/-kes**   | 「こそ」   | ama**-kes** fal-ro (雨こそ降るだろう)           |
 | **添加**         | **-mo/-me**     | 「も」     | vtʃi**-mo** ik-a-w (私も行く)                   |
@@ -739,9 +739,9 @@
 
 | 文体レベル | 特徴                                                                                       | 例                                                                                          |
 | ---------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- |
-| 公式文体   | 1. 敬語接辞必須<br>2. 定形文末<br>3. 一人称複数形「vtʃi-sl」<br>4. 文体標識「-arat/-aret」 | vtʃi-sl sensi-sn̩ ʒɔsɔ-o teʃut**-arat**-amas-a-l<br>(私どもは先生に報告を提出させて頂きます) |
-| 標準文体   | 1. 敬語接辞選択的<br>2. 全人称標識使用<br>3. 文体標識なし                                  | vtʃi hn̩-o jom-ta-w<br>(私は本を読みました)                                                  |
-| 口語文体   | 1. 敬語接辞なし<br>2. 人称標識省略<br>3. 縮約形多用<br>4. 文体標識「-kdak/-kdek」          | hn̩ jom**-kdak**<br>(本、読んだよ)                                                          |
+| 公式文体   | 1. 敬語接辞必須<br>2. 定形文末<br>3. 一人称複数形「vtʃi-sl」<br>4. 文体標識「-arat/-aret」 | vtʃi-sl sensi-sñ ʒɔsɔ-o teʃut**-arat**-amas-a-l<br>(私どもは先生に報告を提出させて頂きます) |
+| 標準文体   | 1. 敬語接辞選択的<br>2. 全人称標識使用<br>3. 文体標識なし                                  | vtʃi hñ-o jom-ta-w<br>(私は本を読みました)                                                  |
+| 口語文体   | 1. 敬語接辞なし<br>2. 人称標識省略<br>3. 縮約形多用<br>4. 文体標識「-kdak/-kdek」          | hñ jom**-kdak**<br>(本、読んだよ)                                                          |
 
 ### 12.2 文体切り替え標識
 
@@ -762,7 +762,7 @@
 | **to/te**     | 「と」     | 直接引用 | "joks ara" **to** ier-ta (「いいです」と言った) |
 | **-tju/-tjo** | 「という」 | 概念言及 | "nihoŋgo" **-tju** kotba (「日本語」という言葉) |
 | **-tva/-tve** | 「とは」   | 定義     | "çit" **-tve** nan-zo (「人」とは何か)          |
-| **-nad/-ned** | 「など」   | 例示     | çit, hn̩ **-nad** (人、本など)                   |
+| **-nad/-ned** | 「など」   | 例示     | çit, hñ **-nad** (人、本など)                   |
 
 #### 12.3.2 引用と思考の融合形式
 
@@ -847,7 +847,7 @@
 | 一般有生名詞     | 属格+主格の一致      | çit (主格: çit-i, 属格: çit-ne)                 |
 | 低位有生名詞     | 属格の一致のみ       | doɔbutsu (主格: doɔbutsu-a, 属格: doɔbutsu-no)  |
 | 高位無生名詞     | ゼロ接辞での特別標示 | kotba (主格: kotba-Ø, 複数: kotba-r-Ø)          |
-| 一般無生名詞     | 通常の無生曲用       | hn̩ (主格: hn̩-a, 複数主格: hn̩-ra)                |
+| 一般無生名詞     | 通常の無生曲用       | hñ (主格: hñ-a, 複数主格: hñ-ra)                |
 
 ---
 
@@ -859,7 +859,7 @@
 
 **主語＋目的語＋動詞**
 
-- vtʃi hn̩o jomaw (私は本を読む)
+- vtʃi hño jomaw (私は本を読む)
 - kar çito mirta (彼は人を見た)
 
 ### 15.2 関係節構造
@@ -874,9 +874,9 @@
 
 #### 15.2.2 関係節の例
 
-- vtʃi jom-ta**-do** hn̩-a (私が読んだ本は)
-- jam-no çhoi-kr̩ mir-e**-de** kesi-ka (山の頂上から見える景色は)
-- kino vtʃi tosn̩-d æta**-do** çit-a (昨日私が図書館で会った人は)
+- vtʃi jom-ta**-do** hñ-a (私が読んだ本は)
+- jam-no çhoi-kr̃ mir-e**-de** kesi-ka (山の頂上から見える景色は)
+- kino vtʃi tosñ-d æta**-do** çit-a (昨日私が図書館で会った人は)
 
 ### 15.3 疑問文の形成
 
@@ -884,7 +884,7 @@
 
 疑問詞を使った疑問文は、疑問詞を通常の位置に置き、文末に疑問マーカー「ka」を付加します：
 
-- tr ant-n̩ hn̩-o kurre-ta ka? (誰があなたに本をくれましたか？)
+- tr ant-ñ hñ-o kurre-ta ka? (誰があなたに本をくれましたか？)
 - antp dok ik-o-p ka? (あなたはどこへ行きますか？)
 
 #### 15.3.2 極性疑問文（Yes/No疑問文）
@@ -892,7 +892,7 @@
 Yes/No疑問文も文末に「ka」を付加します：
 
 - antp amr kur-o-p ka? (あなたは明日来ますか？)
-- kors hn̩-a ant-n̩-o ka? (この本はあなたのですか？)
+- kors hñ-a ant-ñ-o ka? (この本はあなたのですか？)
 
 ### 15.4 接続詞と複文構造
 
@@ -900,10 +900,10 @@ Yes/No疑問文も文末に「ka」を付加します：
 
 | 接続詞 | 意味           | 例                                                                      |
 | ------ | -------------- | ----------------------------------------------------------------------- |
-| dak    | 〜だから、理由 | ama fal-ta **dak**, vtʃi ik-a-ra-w-n̩ (雨が降ったから、私は行かなかった) |
+| dak    | 〜だから、理由 | ama fal-ta **dak**, vtʃi ik-a-ra-w-ñ (雨が降ったから、私は行かなかった) |
 | kas    | しかし、逆接   | ama fal-ra **kas**, vtʃi ik-a-w (雨が降っているが、私は行く)            |
-| nod    | 〜ので、原因   | hn̩-a omosruk-ta **nod**, jom-ta-l (本が面白かったので、読んだ)          |
-| soʃ    | そして、並列   | vtʃi hn̩-o jom-a-w **soʃ** kar-e kak-a-w (私は本を読む、そして彼は書く)  |
+| nod    | 〜ので、原因   | hñ-a omosruk-ta **nod**, jom-ta-l (本が面白かったので、読んだ)          |
+| soʃ    | そして、並列   | vtʃi hñ-o jom-a-w **soʃ** kar-e kak-a-w (私は本を読む、そして彼は書く)  |
 
 ---
 
@@ -925,10 +925,10 @@ Yes/No疑問文も文末に「ka」を付加します：
 **B**: vtʃne namas Taro ara. antne namas nanra?  
 (私の名前はタロウです。あなたの名前は？)
 
-**A**: vtʃne namas Hanako ara. kors ʃehrn̩ atra çiti arap ka?  
+**A**: vtʃne namas Hanako ara. kors ʃehrñ atra çiti arap ka?  
 (私の名前はハナコです。〘あなたは〙この町に新しい人〘この街に新しく来た人〙ですか？)
 
-**B**: hai, vtʃi sanju kino kors ʃehrn̩ kurataw.  
+**B**: hai, vtʃi sanju kino kors ʃehrñ kurataw.  
 (はい、私は三週間前にこの町に来ました。)
 
 #### 16.1.2 日常会話
@@ -936,13 +936,13 @@ Yes/No疑問文も文末に「ka」を付加します：
 **A**: antp doko ikrap ka?  
 (あなたはどこへ行きますか？)
 
-**B**: vtʃi tosn̩he ikraw. antpo?  
+**B**: vtʃi tosñhe ikraw. antpo?  
 (私は図書館へ行きます。あなたは？)
 
-**A**: vtʃi kæfen̩ ikraw. antp hn̩ro jomrop ka?  
+**A**: vtʃi kæfeñ ikraw. antp hñro jomrop ka?  
 (私はカフェへ行きます。あなたは本を読みますか？)
 
-**B**: hai, vtʃi niŋoto benkjotap hn̩ro jomrop.  
+**B**: hai, vtʃi niŋoto benkjotap hñro jomrop.  
 (はい、私は日本語を勉強するために本を読みます。)
 
 ---
@@ -954,9 +954,9 @@ Yes/No疑問文も文末に「ka」を付加します：
 | 現代日本語 | 1000年後 | 文法情報   |
 | ---------- | -------- | ---------- |
 | 人         | çit      | 有生・前舌 |
-| 本         | hn̩       | 無生・後舌 |
+| 本         | hñ       | 無生・後舌 |
 | 山         | jam      | 無生・後舌 |
-| 水         | m̩z       | 無生・後舌 |
+| 水         | m̃z       | 無生・後舌 |
 | 家         | æ        | 無生・前舌 |
 | 木         | k        | 無生・前舌 |
 | 先生       | sensi    | 有生・前舌 |

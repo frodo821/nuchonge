@@ -21,10 +21,10 @@
 | ---- | -------- | ------- | -------- | -------- |
 | 主格 | ɔka     | ɔkas    | ɔkra    | ɔkras    |
 | 対格 | ɔko     | ɔkos    | ɔkro    | ɔkros    |
-| 与格 | ɔkn̩     | ɔkn̩s    | ɔkrn̩    | ɔkrn̩s    |
+| 与格 | ɔkñ     | ɔkñs    | ɔkrñ    | ɔkrñs    |
 | 所格 | ɔkd     | ɔkds    | ɔkad    | ɔkads    |
 | 属格 | ɔkno    | ɔknos   | ɔkano   | ɔkanos   |
-| 出格 | ɔkkr̩    | ɔkkr̩s   | ɔkakr̩   | ɔkakr̩s   |
+| 出格 | ɔkkr̃    | ɔkkr̃s   | ɔkakr̃   | ɔkakr̃s   |
 | 向格 | ɔkh     | ɔkhs    | ɔkah    | ɔkahs    |
 | 共格 | ɔkto    | ɔktos   | ɔkato   | ɔkatos   |
 
@@ -34,8 +34,8 @@
 ## 例文
 1. ɔki çitis vtʃne çisi æe miren. (大きな人が私の小さな家を見ています。)
 2. ɔka jama deba ara. (大きな山は美しいです。)
-3. kors hn̩a tvɔka ara. (この本はとても大きいです。)
-4. vtʃi ɔko m̩zo nomtaw. (私は大きな水を飲みました。)
+3. kors hña tvɔka ara. (この本はとても大きいです。)
+4. vtʃi ɔko m̃zo nomtaw. (私は大きな水を飲みました。)
 
 ## 関連語
 - ɔkæ: 大邸宅（「大きい」+「家」の複合語）

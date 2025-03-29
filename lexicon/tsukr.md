@@ -207,7 +207,7 @@
 </table>
 
 ## 例文
-1. kama tene tr̩o tsukrta (神は天と地を創造した)
+1. kama tene tr̃o tsukrta (神は天と地を創造した)
 2. vtʃi æo tsukrtaw (私は家を作った)
 
 ## 関連語

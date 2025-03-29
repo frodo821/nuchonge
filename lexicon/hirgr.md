@@ -208,10 +208,10 @@
 </table>
 
 ## 例文
-1. tr̩n̩ fue hirgr-te (地に増え広がれ)
-2. ʃitsr-ri tr̩-d hirgr-ta-n (植物たちは地に広がった)
-3. kono koten-a tr̩-ne smkr̩smdn̩ hirgr-ta (この考え方は世界の隅々まで広がった)
-4. m̩za tr̩-ne uæ-d hirgr-e (水が地の上に広がっている)
+1. tr̃ñ fue hirgr-te (地に増え広がれ)
+2. ʃitsr-ri tr̃-d hirgr-ta-n (植物たちは地に広がった)
+3. kono koten-a tr̃-ne smkr̃smdñ hirgr-ta (この考え方は世界の隅々まで広がった)
+4. m̃za tr̃-ne uæ-d hirgr-e (水が地の上に広がっている)
 
 ## 関連語
 - **fue**: 増える

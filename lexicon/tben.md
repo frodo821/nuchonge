@@ -330,13 +330,13 @@
 </table>
 
 ## 例文
-1. vtʃi monn̩e tbene ka? (私は明日食べますか？)
+1. vtʃi monñe tbene ka? (私は明日食べますか？)
 2. çiti sane tbenew. (人はご飯を食べます。)
-3. atri hn̩os karaktrs vtʃe tbenta. (新しい本の文字が私を食べた［＝悩ませた］。)
+3. atri hños karaktrs vtʃe tbenta. (新しい本の文字が私を食べた［＝悩ませた］。)
 
 ## 関連語
 - tbenmn: 食事、食事時間（「食べる」+「もの」の複合語）
-- tbenn̩: 食事中、食べるとき（「食べる」+「時」の複合語）
+- tbenñ: 食事中、食べるとき（「食べる」+「時」の複合語）
 - tbenæ: 食堂、レストラン（「食べる」+「場所」の複合語）
 - tbenva: 食べ終わる（「食べる」+終結相「və」接尾辞）
 - tbendsm: 食べ始める（「食べる」+起動相「dsm」接尾辞）

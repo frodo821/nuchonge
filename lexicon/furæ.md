@@ -23,10 +23,10 @@
 | ---- | -------- | -------- | -------- | --------- |
 | 主格 | furæa   | furæas  | furæra  | furæras  |
 | 対格 | furæo   | furæos  | furæro  | furæros  |
-| 与格 | furæn̩   | furæn̩s  | furærn̩  | furærn̩s  |
+| 与格 | furæñ   | furæñs  | furærñ  | furærñs  |
 | 所格 | furæd   | furæds  | furæad  | furæads  |
 | 属格 | furæno  | furænos | furæano | furæanos |
-| 出格 | furækr̩  | furækr̩s | furæakr̩ | furæakr̩s |
+| 出格 | furækr̃  | furækr̃s | furæakr̃ | furæakr̃s |
 | 向格 | furæh   | furæhs  | furæah  | furæahs  |
 | 共格 | furæto  | furætos | furæato | furæatos |
 
@@ -36,10 +36,10 @@
 | ---- | -------- | -------- | -------- | --------- |
 | 主格 | furæa   | furæas  | furæra  | furæras  |
 | 対格 | furæo   | furæos  | furæro  | furæros  |
-| 与格 | furæn̩   | furæn̩s  | furærn̩  | furærn̩s  |
+| 与格 | furæñ   | furæñs  | furærñ  | furærñs  |
 | 所格 | furæd   | furæds  | furæad  | furæads  |
 | 属格 | furæno  | furænos | furæano | furæanos |
-| 出格 | furækr̩  | furækr̩s | furæakr̩ | furæakr̩s |
+| 出格 | furækr̃  | furækr̃s | furæakr̃ | furæakr̃s |
 | 向格 | furæh   | furæhs  | furæah  | furæahs  |
 | 共格 | furæto  | furætos | furæato | furæatos |
 
@@ -47,15 +47,15 @@
 前舌名詞を修飾する場合、形容詞は母音調和の規則に従って「furæi」のように前舌曲用形を取ることがあります。
 
 ## 例文
-1. furaa çiti ʃehrkr̩ kurta. (古い人が町から来ました。)
-2. furæo hn̩o jomtetaw. (古い本を読みたいです。)
+1. furaa çiti ʃehrkr̃ kurta. (古い人が町から来ました。)
+2. furæo hño jomtetaw. (古い本を読みたいです。)
 3. furæi æa çisa ara. (古い家は小さいです。)
 4. vtʃi furæd ʃehrid tbrtataw. (私は古い町で暮らしていました。)
 
 ## 関連語
 - furals: 古さ、古風（「古い」+抽象化接尾辞「ls」）
 - tvfuræ: とても古い（強意接頭辞「tv」+「古い」）
-- furæhn̩: 古書、古本（「古い」+「本」の複合語）
+- furæhñ: 古書、古本（「古い」+「本」の複合語）
 - furæçit: 古老、年配者（「古い」+「人」の複合語）
 - atr: 新しい（反義語）
 

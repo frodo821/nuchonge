@@ -18,16 +18,16 @@
 | ---- | --------- | --------- | ---------- | ---------- |
 | 主格 | uæʃi      | uæʃis     | uæʃri      | uæʃris     |
 | 対格 | uæʃe      | uæʃes     | uæʃre      | uæʃres     |
-| 与格 | uæʃn̩      | uæʃn̩s     | uæʃrn̩      | uæʃrn̩s     |
+| 与格 | uæʃñ      | uæʃñs     | uæʃrñ      | uæʃrñs     |
 | 所格 | uæʃd      | uæʃds     | uæʃid      | uæʃids     |
 | 属格 | uæʃne     | uæʃnes    | uæʃrne     | uæʃrnes    |
-| 出格 | uæʃkr̩     | uæʃkr̩s    | uæʃikr̩     | uæʃikr̩s    |
+| 出格 | uæʃkr̃     | uæʃkr̃s    | uæʃikr̃     | uæʃikr̃s    |
 | 向格 | uæʃhe     | uæʃhes    | uæʃihe     | uæʃihes    |
 | 共格 | uæʃt      | uæʃts     | uæʃit      | uæʃits     |
 
 ## 例文
-1. maja-a uæʃ-tan̩ wakr-te (もやは上下に分かれて)
-2. tentr̩a uæʃ-ne gainen-i ara (天地は上下の概念です)
+1. maja-a uæʃ-tañ wakr-te (もやは上下に分かれて)
+2. tentr̃a uæʃ-ne gainen-i ara (天地は上下の概念です)
 3. çit-a æno uæʃ-d aruk-a (人は家の上下を歩く)
 4. kono gainen-ri-ne uæʃ-i ar-a (これらの概念には上下関係がある)
 

@@ -207,10 +207,10 @@
 </table>
 
 ## 例文
-1. sorano ʃta m̩za atsmar-te umn̩ nar-e (空の下の水は集まって海になれ)
-2. çit-ri tosn̩-d atsmar-ta-n (人々は図書館に集まった)
+1. sorano ʃta m̃za atsmar-te umñ nar-e (空の下の水は集まって海になれ)
+2. çit-ri tosñ-d atsmar-ta-n (人々は図書館に集まった)
 3. vtʃislno æ-d atsmar-ro-l (私たちの家に集まりましょう)
-4. m̩za kubɔm-d atsmar-a (水はくぼみに集まる)
+4. m̃za kubɔm-d atsmar-a (水はくぼみに集まる)
 
 ## 関連語
 - **hirgr**: 広がる (対義語)

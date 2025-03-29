@@ -147,20 +147,20 @@
 </table>
 
 ## 例文
-1. kamno reii m̩zno uæo ɔirtrta. (神の霊が水の上を覆っていました。)
-2. "tɔriraa tr̩o ɔirsmdn̩ fue" to ivæta. (「鳥たちは地を覆うまでに増えよ」と祝福しました。)
-3. jamia pakurtr̩ m̩zad arta, mata kamno reii m̩zno uæo ɔirtrta. (闇に包まれた水の上を、さらに神の霊が覆っていました。)
-4. kumo tenn̩ ɔirta. (雲が天を覆った。)
+1. kamno reii m̃zno uæo ɔirtrta. (神の霊が水の上を覆っていました。)
+2. "tɔriraa tr̃o ɔirsmdñ fue" to ivæta. (「鳥たちは地を覆うまでに増えよ」と祝福しました。)
+3. jamia pakurtr̃ m̃zad arta, mata kamno reii m̃zno uæo ɔirtrta. (闇に包まれた水の上を、さらに神の霊が覆っていました。)
+4. kumo tenñ ɔirta. (雲が天を覆った。)
 
 ## 関連語
 - kam (神) - 名詞
 - rei (霊) - 名詞
-- m̩z (水) - 名詞
+- m̃z (水) - 名詞
 - uæ (上) - 名詞
 - jami (闇) - 名詞
 - fue (増える) - 動詞
 
 ## 備考
-「ɔir」は創造物語において、特に重要な役割を持つ動詞である。冒頭で「kamno reii m̩zno uæo ɔirtrta」（神の霊が水の上を覆っていた）と使用され、創造前の原初的な状態を描写する。
+「ɔir」は創造物語において、特に重要な役割を持つ動詞である。冒頭で「kamno reii m̃zno uæo ɔirtrta」（神の霊が水の上を覆っていた）と使用され、創造前の原初的な状態を描写する。
 
-また、生物への祝福「tɔriraa tr̩o ɔirsmdn̩ fue」（鳥たちは地を覆うまでに増えよ）のように、生命の繁栄と広がりを表現する文脈でも使用される。物理的な覆いだけでなく、神の力や生命力が広がることを表現する精神的・象徴的な意味合いも持つ。
+また、生物への祝福「tɔriraa tr̃o ɔirsmdñ fue」（鳥たちは地を覆うまでに増えよ）のように、生命の繁栄と広がりを表現する文脈でも使用される。物理的な覆いだけでなく、神の力や生命力が広がることを表現する精神的・象徴的な意味合いも持つ。

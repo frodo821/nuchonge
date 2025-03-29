@@ -19,20 +19,20 @@
 | ---- | --------- | -------- | --------- | --------- |
 | 主格 | çiti      | çitis    | çitri     | çitris    |
 | 対格 | çite      | çites    | çitre     | çitres    |
-| 与格 | çitn̩      | çitn̩s    | çitrn̩     | çitrn̩s    |
+| 与格 | çitñ      | çitñs    | çitrñ     | çitrñs    |
 | 所格 | çitd      | çitds    | çitid     | çitids    |
 | 属格 | çitne     | çitnes   | çitine    | çitines   |
-| 出格 | çitkr̩     | çitkr̩s   | çitikr̩    | çitikr̩s   |
+| 出格 | çitkr̃     | çitkr̃s   | çitikr̃    | çitikr̃s   |
 | 向格 | çithe     | çithes   | çitihe    | çitihes   |
 | 共格 | çitt      | çitts    | çitit     | çitits    |
 
 ## 例文
 1. çiti mire vtʃne æe ka. (人は私の家を見ますか。)
-2. çitris kursn̩ ikta. (その人たちは講座に行った。)
+2. çitris kursñ ikta. (その人たちは講座に行った。)
 
 ## 関連語
 - çitsam: 貴人、尊敬される人（敬称接尾辞-samが付加）
-- çitl̩: 人々の集団、人間集団
+- çitl̃: 人々の集団、人間集団
 
 ## 備考
 「çit」は人間を表す最も基本的な語彙で、様々な複合語の構成要素となります。前舌母音系の有生名詞として、規則的な曲用パターンに従います。文化的に重要な概念を表すため、派生語や複合語が豊富です。

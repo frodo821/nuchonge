@@ -18,23 +18,23 @@
 | ---- | --------- | -------- | --------- | --------- |
 | 主格 | katça     | katças   | katçra    | katçras   |
 | 対格 | katço     | katços   | katçro    | katçros   |
-| 与格 | katçn̩     | katçn̩s   | katçrn̩    | katçrn̩s   |
+| 与格 | katçñ     | katçñs   | katçrñ    | katçrñs   |
 | 所格 | katçd     | katçds   | katçad    | katçads   |
 | 属格 | katçno    | katçnos  | katçano   | katçanos  |
-| 出格 | katçkr̩    | katçkr̩s  | katçakr̩   | katçakr̩s  |
+| 出格 | katçkr̃    | katçkr̃s  | katçakr̃   | katçakr̃s  |
 | 向格 | katçh     | katçhs   | katçah    | katçahs   |
 | 共格 | katçto    | katçtos  | katçato   | katçatos  |
 
 ## 例文
-1. tr̩a katçn̩ artan̩. (地は形も定まらず。)
+1. tr̃a katçñ artañ. (地は形も定まらず。)
 2. katça muikamo ntro. (形は無いものに似ている。)
 3. mon katçno dkaino. (物の形の多様性。)
 
 ## 関連語
 - uæ (上) - 名詞
-- kætr̩ (変化) - 名詞
+- kætr̃ (変化) - 名詞
 - nt (似る) - 動詞
 - toksei (特性) - 名詞
 
 ## 備考
-「katç」は物理的な形状だけでなく、抽象的な概念としての形式や型を表すためにも使用される。また、他の単語と組み合わせて複合語を形成することが多い。例えば「katç-kætr̩」（形態変化）など。
+「katç」は物理的な形状だけでなく、抽象的な概念としての形式や型を表すためにも使用される。また、他の単語と組み合わせて複合語を形成することが多い。例えば「katç-kætr̃」（形態変化）など。

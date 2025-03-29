@@ -18,10 +18,10 @@
 | ---- | -------- | ------- | -------- | -------- |
 | 主格 | jamia   | jamias  | jamira   | jamiras  |
 | 対格 | jamio   | jamios  | jamiro   | jamiros  |
-| 与格 | jamin̩   | jamin̩s  | jamirn̩   | jamirn̩s  |
+| 与格 | jamiñ   | jamiñs  | jamirñ   | jamirñs  |
 | 所格 | jamid   | jamids  | jamiad   | jamiads  |
 | 属格 | jamino  | jaminos | jamiano  | jamianos |
-| 出格 | jamikr̩  | jamikr̩s | jamiakr̩  | jamiakr̩s |
+| 出格 | jamikr̃  | jamikr̃s | jamiakr̃  | jamiakr̃s |
 | 向格 | jamih   | jamihs  | jamiah   | jamiahs  |
 | 共格 | jamito  | jamitos | jamiato  | jamiatos |
 

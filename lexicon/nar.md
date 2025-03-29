@@ -208,16 +208,16 @@
 </table>
 
 ## 例文
-1. "majaa uæʃtan̩ wakrte, sora to umn̩ nare" to kama iertas. (「もやは上下に分かれ、空と海になれ」と神が言われました。)
-2. sorano ʃta m̩za atsmarte umn̩ nare. (空の下の水は集まって海となり。)
+1. "majaa uæʃtañ wakrte, sora to umñ nare" to kama iertas. (「もやは上下に分かれ、空と海になれ」と神が言われました。)
+2. sorano ʃta m̃za atsmarte umñ nare. (空の下の水は集まって海となり。)
 3. tæmi çti çaa narta. (時は一日目になりました。)
-4. iedɔrn̩ natta. (そのとおりになりました。)
+4. iedɔrñ natta. (そのとおりになりました。)
 
 ## 関連語
 - ar (ある) - 動詞
 - owat (終わる) - 動詞
 - wakr (区別する) - 動詞
-- kætr̩ (変化) - 名詞
+- kætr̃ (変化) - 名詞
 
 ## 備考
 「nar」は状態変化を表す基本的な動詞であり、特に創造神話において重要な役割を果たす。神の言葉によって何かが別のものに「なる」という創造の過程を表現する際に頻繁に使用される。命令形「nare」は特に創造の命令として強い力を持つ。また助動詞的な用法もあり、「〜することになる」「〜になっていく」といった文法的な機能も担う。

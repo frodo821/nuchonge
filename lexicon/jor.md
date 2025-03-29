@@ -18,10 +18,10 @@
 | ---- | -------- | ------ | -------- | ------- |
 | 主格 | jora     | joras  | jorra    | jorras  |
 | 対格 | joro     | joros  | jorro    | jorros  |
-| 与格 | jorn̩     | jorn̩s  | jorrn̩    | jorrn̩s  |
+| 与格 | jorñ     | jorñs  | jorrñ    | jorrñs  |
 | 所格 | jord     | jords  | jorad    | jorads  |
 | 属格 | jorno    | jornos | jorano   | joranos |
-| 出格 | jorkr̩    | jorkr̩s | jorakr̩   | jorakr̩s |
+| 出格 | jorkr̃    | jorkr̃s | jorakr̃   | jorakr̃s |
 | 向格 | jorh     | jorhs  | jorah    | jorahs  |
 | 共格 | jorto    | jortos | jorato   | joratos |
 

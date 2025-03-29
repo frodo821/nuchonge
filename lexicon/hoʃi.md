@@ -20,16 +20,16 @@
 | ---- | --------- | --------- | --------- | ---------- |
 | 主格 | hoʃia     | hoʃias    | hoʃira    | hoʃiras    |
 | 対格 | hoʃio     | hoʃios    | hoʃiro    | hoʃiros    |
-| 与格 | hoʃin̩     | hoʃin̩s    | hoʃirn̩    | hoʃirn̩s    |
+| 与格 | hoʃiñ     | hoʃiñs    | hoʃirñ    | hoʃirñs    |
 | 所格 | hoʃid     | hoʃids    | hoʃiad    | hoʃiads    |
 | 属格 | hoʃino    | hoʃinos   | hoʃiano   | hoʃianos   |
-| 出格 | hoʃikr̩    | hoʃikr̩s   | hoʃiakr̩   | hoʃiakr̩s   |
+| 出格 | hoʃikr̃    | hoʃikr̃s   | hoʃiakr̃   | hoʃiakr̃s   |
 | 向格 | hoʃih     | hoʃihs    | hoʃiah    | hoʃiahs    |
 | 共格 | hoʃito    | hoʃitos   | hoʃiato   | hoʃiatos   |
 
 ## 例文
 1. mata, hoʃiri tsukrtrta. (このほかにも、星々が造られました。)
-2. kama karo soran̩ çirbmte, tr̩o tersijon̩ ʃta. (神はそれを[星々を]空にちりばめ、地を照らすようにしました。)
+2. kama karo sorañ çirbmte, tr̃o tersijoñ ʃta. (神はそれを[星々を]空にちりばめ、地を照らすようにしました。)
 3. jornad hoʃiri kagajkta. (夜中に星々が輝いた。)
 4. soran hoʃira çitno miçino tskrta. (空の星は人々の道を示した。)
 
@@ -43,4 +43,4 @@
 ## 備考
 「hoʃi」は創造物語において、四日目に創造された天体として描かれる。太陽や月と比べると小さく、数が多いのが特徴であり、集合体として「hoʃi-ri」（星々）という表現でよく登場する。
 
-空間的な広がりを表現する際に「kama karo soran̩ çirbmte」（神はそれを空にちりばめ）というように表現され、夜空を飾る装飾的な役割も担う。また方角や時間の目印としての機能も持ち、航海や季節の変化を知る手がかりとして古来より重要視されてきた。
+空間的な広がりを表現する際に「kama karo sorañ çirbmte」（神はそれを空にちりばめ）というように表現され、夜空を飾る装飾的な役割も担う。また方角や時間の目印としての機能も持ち、航海や季節の変化を知る手がかりとして古来より重要視されてきた。

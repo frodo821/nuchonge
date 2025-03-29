@@ -57,8 +57,8 @@
 
 ## 例文
 1. **arjr** çit kor sɔrd ara. (あらゆる人がこの世界にいる。)
-2. vtʃi **arj** ikm̩n mirataw. (私はあらゆる生き物を見た。)
-3. **arjə** tr̩ m̩z araw. (あらゆる土地に水があった。)
+2. vtʃi **arj** ikm̃n mirataw. (私はあらゆる生き物を見た。)
+3. **arjə** tr̃ m̃z araw. (あらゆる土地に水があった。)
 4. kam **arj** kotba ierataw. (神はあらゆる言葉を話した。)
 5. **arjrim** çit nəmtaw. (あらゆる人々が眠った。)
 6. **arjit** kotba hjærtaw. (あらゆる言葉が聞こえた。)

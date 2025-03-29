@@ -18,10 +18,10 @@
 | ---- | -------- | ------- | -------- | -------- |
 | 主格 | çirui    | çiruis  | çiruri   | çiruris  |
 | 対格 | çirue    | çirues  | çirure   | çirures  |
-| 与格 | çirun̩    | çirun̩s  | çirurn̩   | çirurn̩s  |
+| 与格 | çiruñ    | çiruñs  | çirurñ   | çirurñs  |
 | 所格 | çirud    | çiruds  | çiruid   | çiruids  |
 | 属格 | çirune   | çirunes | çirurne  | çirurnes |
-| 出格 | çirukr̩   | çirukr̩s | çiruikr̩  | çiruikr̩s |
+| 出格 | çirukr̃   | çirukr̃s | çiruikr̃  | çiruikr̃s |
 | 向格 | çiruhe   | çiruhes | çiruihe  | çiruihes |
 | 共格 | çirut    | çiruts  | çiruit   | çiruits  |
 

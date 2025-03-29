@@ -20,18 +20,18 @@
 | ---- | --------- | --------- | --------- | ---------- |
 | 主格 | kinoa     | kinoas    | kinora    | kinoras    |
 | 対格 | kinoo     | kinoos    | kinoro    | kinoros    |
-| 与格 | kinon̩     | kinon̩s    | kinorn̩    | kinorn̩s    |
+| 与格 | kinoñ     | kinoñs    | kinorñ    | kinorñs    |
 | 所格 | kinod     | kinods    | kinoad    | kinoads    |
 | 属格 | kinono    | kinonos   | kinoano   | kinoanos   |
-| 出格 | kinokr̩    | kinokr̩s   | kinoakr̩   | kinoakr̩s   |
+| 出格 | kinokr̃    | kinokr̃s   | kinoakr̃   | kinoakr̃s   |
 | 向格 | kinoh     | kinohs    | kinoah    | kinoahs    |
 | 共格 | kinoto    | kinotos   | kinoato   | kinoatos   |
 
 ## 例文
 1. kinoa joksas arata. (昨日は良い日でした。)
-2. vtʃi kinoo dasr̩testawta. (私は昨日を忘れていました。)
+2. vtʃi kinoo dasr̃testawta. (私は昨日を忘れていました。)
 3. kinono hins vtʃe fraka. (昨日の仕事が私を疲れさせる。)
-4. kinora vtʃne memorsan̩ ktra. (昨日たちが私の記憶に残る。)
+4. kinora vtʃne memorsañ ktra. (昨日たちが私の記憶に残る。)
 
 ## 関連語
 - kinomæ: 一昨日（「昨日」+「前」の複合語）

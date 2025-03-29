@@ -20,10 +20,10 @@
 | ---- | ------------ | ----------- | ------------ | ----------- |
 | 主格 | ʃbarʃii      | ʃbarʃiis    | ʃbarʃia      | ʃbarʃias    |
 | 対格 | ʃbarʃie      | ʃbarʃies    | ʃbarʃio      | ʃbarʃios    |
-| 与格 | ʃbarʃin̩      | ʃbarʃin̩s    | ʃbarʃin̩      | ʃbarʃin̩s    |
+| 与格 | ʃbarʃiñ      | ʃbarʃiñs    | ʃbarʃiñ      | ʃbarʃiñs    |
 | 所格 | ʃbarʃid      | ʃbarʃids    | ʃbarʃid      | ʃbarʃids    |
 | 属格 | ʃbarʃine     | ʃbarʃines   | ʃbarʃino     | ʃbarʃinos   |
-| 出格 | ʃbarʃikr̩     | ʃbarʃikr̩s   | ʃbarʃikr̩     | ʃbarʃikr̩s   |
+| 出格 | ʃbarʃikr̃     | ʃbarʃikr̃s   | ʃbarʃikr̃     | ʃbarʃikr̃s   |
 | 向格 | ʃbarʃihe     | ʃbarʃihes   | ʃbarʃih      | ʃbarʃihs    |
 | 共格 | ʃbarʃit      | ʃbarʃits    | ʃbarʃito     | ʃbarʃitos   |
 
@@ -32,12 +32,12 @@
 | 形式       | 意味           | 例                           |
 | ---------- | -------------- | ---------------------------- |
 | ʃbarʃimono | 素晴らしく     | ʃbarʃimono kagajka (素晴らしく輝く) |
-| tvʃbarʃi   | とても素晴らしい | tvʃbarʃia ikm̩n (とても素晴らしい生き物) |
+| tvʃbarʃi   | とても素晴らしい | tvʃbarʃia ikm̃n (とても素晴らしい生き物) |
 | ʃbarʃisuro | 素晴らしくする | ʃbarʃisuro tsukrta (素晴らしく作った) |
 
 ## 例文
-1. kama dekagartta sɔtro smkr̩smmd mirwatʃta. ttmo sbrʃi sɔtra hirgarttrta. (神はでき上がった世界を隅から隅まで見渡しました。とてもすばらしい世界が広がっていました。)
-32 ʃbarʃia taijod tr̩a tersta. (すばらしい太陽が地を照らした。)
+1. kama dekagartta sɔtro smkr̃smmd mirwatʃta. ttmo sbrʃi sɔtra hirgarttrta. (神はでき上がった世界を隅から隅まで見渡しました。とてもすばらしい世界が広がっていました。)
+32 ʃbarʃia taijod tr̃a tersta. (すばらしい太陽が地を照らした。)
 
 ## 関連語
 - joks (良い) - 形容詞

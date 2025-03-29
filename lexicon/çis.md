@@ -23,10 +23,10 @@
 | ---- | -------- | -------- | -------- | --------- |
 | 主格 | çisi    | çisis   | çisri   | çisris   |
 | 対格 | çise    | çises   | çisre   | çisres   |
-| 与格 | çisn̩    | çisn̩s   | çisrn̩   | çisrn̩s   |
+| 与格 | çisñ    | çisñs   | çisrñ   | çisrñs   |
 | 所格 | çisd    | çisds   | çisid   | çisids   |
 | 属格 | çisne   | çisnes  | çisine  | çisines  |
-| 出格 | çiskr̩   | çiskr̩s  | çisikr̩  | çisikr̩s  |
+| 出格 | çiskr̃   | çiskr̃s  | çisikr̃  | çisikr̃s  |
 | 向格 | çishe   | çishes  | çisihe  | çisihes  |
 | 共格 | çist    | çists   | çisit   | çisits   |
 
@@ -36,10 +36,10 @@
 | ---- | -------- | -------- | -------- | --------- |
 | 主格 | çisi    | çisis   | çisri   | çisris   |
 | 対格 | çise    | çises   | çisre   | çisres   |
-| 与格 | çisn̩    | çisn̩s   | çisrn̩   | çisrn̩s   |
+| 与格 | çisñ    | çisñs   | çisrñ   | çisrñs   |
 | 所格 | çisd    | çisds   | çisid   | çisids   |
 | 属格 | çisne   | çisnes  | çisrine | çisrines |
-| 出格 | çiskr̩   | çiskr̩s  | çisikr̩  | çisikr̩s  |
+| 出格 | çiskr̃   | çiskr̃s  | çisikr̃  | çisikr̃s  |
 | 向格 | çishe   | çishes  | çisihe  | çisihes  |
 | 共格 | çist    | çists   | çisit   | çisits   |
 
@@ -48,9 +48,9 @@
 
 ## 例文
 1. ɔki çitis vtʃne çisi æe miren. (大きな人が私の小さな家を見ています。)
-2. çisa m̩za aramd ara. (小さな水が地面にあります。)
+2. çisa m̃za aramd ara. (小さな水が地面にあります。)
 3. kors çiti çisi ara. (この人は小さいです。)
-4. vtʃi çise hn̩e jomtaw. (私は小さな本を読みました。)
+4. vtʃi çise hñe jomtaw. (私は小さな本を読みました。)
 
 ## 関連語
 - çisçit: 小人、小さな人（「小さい」+「人」の複合語）

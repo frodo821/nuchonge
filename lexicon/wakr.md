@@ -225,9 +225,9 @@
 </table>
 
 ## 例文
-1. karo mirte, kama tvjokso manskta, çkare jamikr̩ wakrta. (それを見て、神は大いに満足し、光と闇とを区別しました。)
-2. "majaa uæʃtan̩ wakrte, sora to umn̩ nare" to kama iertas. (「もやは上下に分かれ、空と海になれ」と神が言われました。)
-3. korske çiru to joro wakrtr̩owatte, kama jokso manskta. (こうして昼と夜を分け終えると、神は満足しました。)
+1. karo mirte, kama tvjokso manskta, çkare jamikr̃ wakrta. (それを見て、神は大いに満足し、光と闇とを区別しました。)
+2. "majaa uæʃtañ wakrte, sora to umñ nare" to kama iertas. (「もやは上下に分かれ、空と海になれ」と神が言われました。)
+3. korske çiru to joro wakrtr̃owatte, kama jokso manskta. (こうして昼と夜を分け終えると、神は満足しました。)
 
 ## 関連語
 - çiru (昼) - 名詞

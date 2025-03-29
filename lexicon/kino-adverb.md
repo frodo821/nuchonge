@@ -18,14 +18,14 @@
 ## 使用法
 「kino」は文中で時間の状況語として機能し、通常は文頭または動詞句の前に置かれます。格変化はしませんが、特定の後置詞と結合することがあります：
 
-- kinokr̩ (昨日から)
+- kinokr̃ (昨日から)
 - kinohe (昨日へ、昨日に向けて)
 - kinoto (昨日と、昨日とともに)
 
 ## 例文
 1. vtʃi kino ʃehrid ætataw. (私は昨日町で会いました。)
 2. kino ama falta. (昨日雨が降った。)
-3. kinos joma hn̩ korse ara. (昨日読んだ本はこれです。)
+3. kinos joma hñ korse ara. (昨日読んだ本はこれです。)
 4. antp kino doko iktap ka? (あなたは昨日どこへ行きましたか？)
 
 ## 関連語

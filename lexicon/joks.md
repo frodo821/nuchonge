@@ -25,10 +25,10 @@
 | ---- | --------- | --------- | --------- | ---------- |
 | 主格 | joksa     | joksas    | joksra    | joksras    |
 | 対格 | jokso     | joksos    | joksro    | joksros    |
-| 与格 | joksn̩     | joksn̩s    | joksrn̩    | joksrn̩s    |
+| 与格 | joksñ     | joksñs    | joksrñ    | joksrñs    |
 | 所格 | joksd     | joksds    | joksad    | joksads    |
 | 属格 | joksno    | joksnos   | joksano   | joksanos   |
-| 出格 | jokskr̩    | jokskr̩s   | joksakr̩   | joksakr̩s   |
+| 出格 | jokskr̃    | jokskr̃s   | joksakr̃   | joksakr̃s   |
 | 向格 | joksh     | jokshs    | joksah    | joksahs    |
 | 共格 | joksto    | jokstos   | joksato   | joksatos   |
 
@@ -37,7 +37,7 @@
 
 ## 例文
 1. joksa çiti kino kurta. (良い人が昨日来ました。)
-2. kora hn̩a joksas ara. (この本は良いです。)
+2. kora hña joksas ara. (この本は良いです。)
 3. antp jokso sano tbentap ka? (あなたは良い食事を食べましたか？)
 4. vtʃi joksd æd tbrtrtrawa. (私は良い家に住んでいます。)
 
@@ -51,7 +51,7 @@
 ## 備考
 「joks」は基本的な評価を表す形容詞で、物理的、道徳的、審美的など、様々な文脈で「良い」という評価を表現できます。あらゆる種類の対象（人、物、状況、行動など）に対して使用でき、最も頻繁に使用される形容詞の一つです。
 
-慣用表現として「joks araw」（よろしい、いいです）が肯定的応答として使用されるほか、「joksn̩ aret」（もしよろしければ）のような丁寧な依頼表現にも使われます。
+慣用表現として「joks araw」（よろしい、いいです）が肯定的応答として使用されるほか、「joksñ aret」（もしよろしければ）のような丁寧な依頼表現にも使われます。
 
 「joks」と「wrui」（悪い）は基本的な評価の対立軸を形成し、多くの文脈で対比的に使用されます。また、強意接頭辞「tv-」と結合して「tvjoks」（非常に良い、素晴らしい）という表現がよく使われます。
 

@@ -18,21 +18,21 @@
 | ---- | -------- | ------- | -------- | -------- |
 | 主格 | majaa   | majaas | majara  | majaras |
 | 対格 | majao   | majaos | majaro  | majaros |
-| 与格 | majan̩   | majan̩s | majarn̩  | majarn̩s |
+| 与格 | majañ   | majañs | majarñ  | majarñs |
 | 所格 | majad   | majads | majaad  | majaads |
 | 属格 | majano  | majanos| majaano | majaanos|
-| 出格 | majakr̩  | majakr̩s| majaakr̩ | majaakr̩s|
+| 出格 | majakr̃  | majakr̃s| majaakr̃ | majaakr̃s|
 | 向格 | majah   | majahs | majaah  | majaahs |
 | 共格 | majato  | majatos| majaato | majaatos|
 
 ## 例文
-1. maja-a uæʃtan̩ wakr-te, sora to um-n̩ nar-e (もやは上下に分かれ、空と海になれ)
-2. maja-a tentr̩-o pakur-tr-ta (もやは天地を包んでいた)
+1. maja-a uæʃtañ wakr-te, sora to um-ñ nar-e (もやは上下に分かれ、空と海になれ)
+2. maja-a tentr̃-o pakur-tr-ta (もやは天地を包んでいた)
 3. jor nar-ta-m, maja-a jama-o pakur-a (夜になると、もやが山を包む)
-4. vtʃi-ne çiz-a maja-kr̩s ar-tr-e (私の心はもやから解放されている)
+4. vtʃi-ne çiz-a maja-kr̃s ar-tr-e (私の心はもやから解放されている)
 
 ## 関連語
-- **m̩zkir**: 水蒸気
+- **m̃zkir**: 水蒸気
 - **jami**: 闇
 - **uæʃ**: 上下
 - **pakur**: 包む

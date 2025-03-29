@@ -19,19 +19,19 @@
 | ---- | --------- | -------- | --------- | -------- |
 | 主格  | ki      | kis     | kiri      | kiris     |
 | 対格  | kie      | kies     | kire      | kires     |
-| 与格  | kin̩      | kin̩s     | kirn̩      | kirn̩s     |
+| 与格  | kiñ      | kiñs     | kirñ      | kirñs     |
 | 所格  | kid      | kids     | kiid      | kiids     |
 | 属格  | kine     | kines    | kine     | kiines    |
-| 出格  | kikr̩     | kikr̩s    | kiikr̩     | kiikr̩s    |
+| 出格  | kikr̃     | kikr̃s    | kiikr̃     | kiikr̃s    |
 | 向格  | kihe     | kihes    | kiihe     | kiihes    |
 | 共格  | kit      | kits     | kiit      | kiits     |
 
 ## 例文
-1. ʃehrn̩ **ki** çisi ara. (町に木が小さい。)
+1. ʃehrñ **ki** çisi ara. (町に木が小さい。)
 2. vtʃi **kie** mirta. (私は木を見た。)
 3. çit **kiid** araw. (人が木の下にいる。)
-4. **kiri** arjrim æri narn̩ ætataw. (木々はすべての家の前に植えられた。)
-5. ʃitsr **kiikr̩** faltaw. (葉が木から落ちた。)
+4. **kiri** arjrim æri narñ ætataw. (木々はすべての家の前に植えられた。)
+5. ʃitsr **kiikr̃** faltaw. (葉が木から落ちた。)
 
 ## 関連語
 - **mi**: 実、果実

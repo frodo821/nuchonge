@@ -18,21 +18,21 @@
 | ---- | --------- | --------- | ---------- | --------- |
 | 主格 | tæmi      | tæmis     | tæmri      | tæmris    |
 | 対格 | tæme      | tæmes     | tæmre      | tæmres    |
-| 与格 | tæmn̩      | tæmn̩s     | tæmrn̩      | tæmrn̩s    |
+| 与格 | tæmñ      | tæmñs     | tæmrñ      | tæmrñs    |
 | 所格 | tæmd      | tæmds     | tæmid      | tæmids    |
 | 属格 | tæmne     | tæmnes    | tæmine     | tæmines   |
-| 出格 | tæmkr̩     | tæmkr̩s    | tæmikr̩     | tæmikr̩s   |
+| 出格 | tæmkr̃     | tæmkr̃s    | tæmikr̃     | tæmikr̃s   |
 | 向格 | tæmhe     | tæmhes    | tæmihe     | tæmihes   |
 | 共格 | tæmt      | tæmts     | tæmit      | tæmits    |
 
 ## 例文
-1. nanis nano artan̩ tæmd, kama tene tr̩o tsukrta. (まだ何もなかった時に、神は天と地を造りました。)
+1. nanis nano artañ tæmd, kama tene tr̃o tsukrta. (まだ何もなかった時に、神は天と地を造りました。)
 2. tæmi çti çaa narta. (時は一日目になりました。)
 3. tæmne wakro mirew. (時の区切りを見ます。)
 
 ## 関連語
 - skmino (季節の) - 名詞
-- kætr̩ (変化) - 名詞
+- kætr̃ (変化) - 名詞
 - çti (一日) - 名詞
 - tʃi (一年) - 名詞
 

@@ -22,7 +22,7 @@
 
 ## 現状の文書とリソース
 - booklet_3rd.md：基本的な音韻体系、形態変化、統語構造の情報
-- lexicon/：既存の辞書エントリー（çit.md, çis.md, dak.md, çit.md, hn̩.md, ik.md, jom.md, ka.md, kar.md, mir.md, ɔk.md, ʃehr.md, vtʃ.md など）
+- lexicon/：既存の辞書エントリー（çit.md, çis.md, dak.md, çit.md, hñ.md, ik.md, jom.md, ka.md, kar.md, mir.md, ɔk.md, ʃehr.md, vtʃ.md など）
 - sentences/：例文コレクション（これから作成予定）
 
 ## 開発の指針

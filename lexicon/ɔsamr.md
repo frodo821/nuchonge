@@ -209,8 +209,8 @@
 
 ## 例文
 1. taijoa ɔkkrs çirukarakadak çiruo, tska joro ɔsamrta. (太陽は大きく明るいので昼を、月は夜を治めました。)
-2. çiti ɔirsmdn̩ fue hirgarte, ɔkrko ɔsamre. (地に増え広がり、大地を治めよ。)
-3. vtʃi ʃehrne tr̩o ɔsamraw. (私は町の地を治めます。)
+2. çiti ɔirsmdñ fue hirgarte, ɔkrko ɔsamre. (地に増え広がり、大地を治めよ。)
+3. vtʃi ʃehrne tr̃o ɔsamraw. (私は町の地を治めます。)
 4. kamno tokseio moti monotʃte, rko ɔsamrta. (神の特性を持つ者として、陸地を治めた。)
 
 ## 関連語
@@ -218,7 +218,7 @@
 - jor (夜) - 名詞
 - taijo (太陽) - 名詞
 - tska (月) - 名詞
-- tr̩ (地) - 名詞
+- tr̃ (地) - 名詞
 - kam (神) - 名詞
 
 ## 備考

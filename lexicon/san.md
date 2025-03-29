@@ -22,10 +22,10 @@
 | ---- | --------- | -------- | ---------- | --------- |
 | 主格 | sana     | sanas    | sanra      | sanras    |
 | 対格 | sano     | sanos    | sanro      | sanros    |
-| 与格 | sann̩     | sann̩s    | sanrn̩      | sanrn̩s    |
+| 与格 | sanñ     | sanñs    | sanrñ      | sanrñs    |
 | 所格 | sand     | sands    | sanad      | sanads    |
 | 属格 | sanno    | sannos   | sanano     | sananos   |
-| 出格 | sankr̩    | sankr̩s   | sanakr̩     | sanakr̩s   |
+| 出格 | sankr̃    | sankr̃s   | sanakr̃     | sanakr̃s   |
 | 向格 | sanh     | sanhs    | sanah      | sanahs    |
 | 共格 | santo    | santos   | sanato     | sanatos   |
 
@@ -33,7 +33,7 @@
 1. vtʃi sano tbenaw. (私はご飯を食べます。)
 2. sana atras ara. (ご飯は新しいです。)
 3. amr ɔka sano tbenow. (明日大きなご飯を食べます。)
-4. sanna traban̩ çita joksa. (ご飯を作る人は良いです。)
+4. sanna trabañ çita joksa. (ご飯を作る人は良いです。)
 
 ## 関連語
 - sanæ: 食堂、レストラン（「ご飯」+「場所」の複合語）

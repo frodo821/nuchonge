@@ -113,7 +113,7 @@
 
 ## 例文
 1. vtʃi kare mataw. (私は彼を待ちます。)
-2. çitris ʃehrin̩ kuro matan. (人々は町に来るのを待っています。)
+2. çitris ʃehriñ kuro matan. (人々は町に来るのを待っています。)
 3. kino vtʃi çite matsmataw. (昨日私は人を待ち続けました。)
 
 ## 関連語

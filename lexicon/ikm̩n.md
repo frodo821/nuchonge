@@ -1,4 +1,4 @@
-# 見出し語: ikm̩n
+# 見出し語: ikm̃n
 
 ## 文法情報
 - **類別**: 名詞
@@ -6,7 +6,7 @@
 - **名詞分類**: 有生
 
 ## 語源情報
-現代日本語の「生き物(いきもの)」から変化。「いきもの」→「ikimono」→「ikm̩n」と音韻変化し、子音クラスタ化と音節主音の形成によって現在の形になった。特に、「生きる」(ikiru)の語幹部分「ik」と「物」(mono)の頭子音「m」が結合し、音節主音n̩が形成された。
+現代日本語の「生き物(いきもの)」から変化。「いきもの」→「ikimono」→「ikm̃n」と音韻変化し、子音クラスタ化と音節主音の形成によって現在の形になった。特に、「生きる」(ikiru)の語幹部分「ik」と「物」(mono)の頭子音「m」が結合し、音節主音ñが形成された。
 
 ## 定義
 1. 生き物、生物（生命を持つ存在全般）
@@ -18,22 +18,22 @@
 
 | 格   | 単数不定形 | 単数定形  | 複数不定形 | 複数定形   |
 | ---- | --------- | --------- | ---------- | ---------- |
-| 主格 | ikm̩ni     | ikm̩nis    | ikm̩nri     | ikm̩nris    |
-| 対格 | ikm̩ne     | ikm̩nes    | ikm̩nre     | ikm̩nres    |
-| 与格 | ikm̩nn̩     | ikm̩nn̩s    | ikm̩nrn̩     | ikm̩nrn̩s    |
-| 所格 | ikm̩nd     | ikm̩nds    | ikm̩nid     | ikm̩nids    |
-| 属格 | ikm̩nne    | ikm̩nnes   | ikm̩nine    | ikm̩nines   |
-| 出格 | ikm̩nkr̩    | ikm̩nkr̩s   | ikm̩nikr̩    | ikm̩nikr̩s   |
-| 向格 | ikm̩nhe    | ikm̩nhes   | ikm̩nihe    | ikm̩nihes   |
-| 共格 | ikm̩nt     | ikm̩nts    | ikm̩nit     | ikm̩nits    |
+| 主格 | ikm̃ni     | ikm̃nis    | ikm̃nri     | ikm̃nris    |
+| 対格 | ikm̃ne     | ikm̃nes    | ikm̃nre     | ikm̃nres    |
+| 与格 | ikm̃nñ     | ikm̃nñs    | ikm̃nrñ     | ikm̃nrñs    |
+| 所格 | ikm̃nd     | ikm̃nds    | ikm̃nid     | ikm̃nids    |
+| 属格 | ikm̃nne    | ikm̃nnes   | ikm̃nine    | ikm̃nines   |
+| 出格 | ikm̃nkr̃    | ikm̃nkr̃s   | ikm̃nikr̃    | ikm̃nikr̃s   |
+| 向格 | ikm̃nhe    | ikm̃nhes   | ikm̃nihe    | ikm̃nihes   |
+| 共格 | ikm̃nt     | ikm̃nts    | ikm̃nit     | ikm̃nits    |
 
 ## 例文
-1. kama umn̩ ari ɔki ikm̩no haʒm, arjr spno sakn̩ to tɔro tsukrta. (神は海に住む大きな生き物をはじめ、あらゆる種類の魚と鳥を造りました。)
-2. kama mata ierta: "tr̩a, kettæ ja tr̩o hai mono, janono ikm̩n nad, arjr spno ikm̩no ume." (神はまた言われました。「地は、家畜や地をはうもの、野の獣など、あらゆる種類の生き物を生み出せ。」)
-4. vtʃi ikm̩no miraw. (私は生き物を見ます。)
+1. kama umñ ari ɔki ikm̃no haʒm, arjr spno sakñ to tɔro tsukrta. (神は海に住む大きな生き物をはじめ、あらゆる種類の魚と鳥を造りました。)
+2. kama mata ierta: "tr̃a, kettæ ja tr̃o hai mono, janono ikm̃n nad, arjr spno ikm̃no ume." (神はまた言われました。「地は、家畜や地をはうもの、野の獣など、あらゆる種類の生き物を生み出せ。」)
+4. vtʃi ikm̃no miraw. (私は生き物を見ます。)
 
 ## 関連語
-- sakn̩ (魚) - 名詞
+- sakñ (魚) - 名詞
 - tɔr (鳥) - 名詞
 - kettæ (家畜) - 名詞
 - dɔbt (動物) - 名詞
@@ -41,6 +41,6 @@
 - um (生み出す) - 動詞
 
 ## 備考
-「ikm̩n」は創造物語において、神によって創造された生命を持つ存在全般を指す総称として使用される。特に五日目と六日目の創造において、海の生物、空の生物、地上の生物という順序で創造されることが描かれる。
+「ikm̃n」は創造物語において、神によって創造された生命を持つ存在全般を指す総称として使用される。特に五日目と六日目の創造において、海の生物、空の生物、地上の生物という順序で創造されることが描かれる。
 
-「ikm̩n」という語彙は「生きる」と「物」という概念の合成であり、生命を持つ物質的存在という意味合いを持つ。植物から動物まで幅広い生物を包括する概念であり、創造物語では特に神による祝福の対象として描かれる。
+「ikm̃n」という語彙は「生きる」と「物」という概念の合成であり、生命を持つ物質的存在という意味合いを持つ。植物から動物まで幅広い生物を包括する概念であり、創造物語では特に神による祝福の対象として描かれる。

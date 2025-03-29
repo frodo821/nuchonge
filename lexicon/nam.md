@@ -22,23 +22,23 @@
 | ---- | -------- | ------- | -------- | -------- |
 | 主格 | nama    | namas   | namra    | namras   |
 | 対格 | namo    | namos   | namro    | namros   |
-| 与格 | namn̩    | namn̩s   | namrn̩    | namrn̩s   |
+| 与格 | namñ    | namñs   | namrñ    | namrñs   |
 | 所格 | namd    | namds   | namad    | namads   |
 | 属格 | namno   | namnos  | namano   | namanos  |
-| 出格 | namkr̩   | namkr̩s  | namakr̩   | namakr̩s  |
+| 出格 | namkr̃   | namkr̃s  | namakr̃   | namakr̃s  |
 | 向格 | namh    | namhs   | namah    | namahs   |
 | 共格 | namto   | namtos  | namato   | namatos  |
 
 ## 例文
 1. vtʃne nama nanra? (私の名前は何ですか？)
 2. korçita namo joma. (この人の名前を読む。)
-3. vtʃi kare namn̩ jomtaw. (私は彼の名前で呼びました。)
-4. namas vtʃn̩ iktresjasa. (名前が私に届きませんでした。)
+3. vtʃi kare namñ jomtaw. (私は彼の名前で呼びました。)
+4. namas vtʃñ iktresjasa. (名前が私に届きませんでした。)
 
 ## 関連語
 - namta: 命名する（「名前」+「与える」の複合動詞）
 - namdak: 名づける（「名前」+「付ける」の複合動詞）
-- namhn̩: 名簿（「名前」+「本」の複合語）
+- namhñ: 名簿（「名前」+「本」の複合語）
 - namgak: 名札（「名前」+「板」の複合語）
 - namære: 有名な（「名前」+「ある」の複合形容詞）
 

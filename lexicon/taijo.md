@@ -20,18 +20,18 @@
 | ---- | --------- | --------- | ---------- | ---------- |
 | 主格 | taijoi    | taijois   | taijori    | taijoris   |
 | 対格 | taijoe    | taijoes   | taijore    | taijores   |
-| 与格 | taijon̩    | taijon̩s   | taijorn̩    | taijorn̩s   |
+| 与格 | taijoñ    | taijoñs   | taijorñ    | taijorñs   |
 | 所格 | taijod    | taijods   | taijoid    | taijoids   |
 | 属格 | taijone   | taijones  | taijoine   | taijoines  |
-| 出格 | taijokr̩   | taijokr̩s  | taijoikr̩   | taijoikr̩s  |
+| 出格 | taijokr̃   | taijokr̃s  | taijoikr̃   | taijoikr̃s  |
 | 向格 | taijohe   | taijohes  | taijoihe   | taijoihes  |
 | 共格 | taijot    | taijots   | taijoit    | taijoits   |
 
 ## 例文
-1. korske, tr̩o tersi taijo to tska tsukrtrta. (こうして、地を照らす太陽と月ができました。)
+1. korske, tr̃o tersi taijo to tska tsukrtrta. (こうして、地を照らす太陽と月ができました。)
 2. taijoa ɔkkrs çirukarakadak çiruo, tska joro ɔsamrta. (太陽は大きく明るいので昼を、月は夜を治めました。)
 3. taijone çkari çito ɔirbmta. (太陽の光が人々を包みました。)
-4. tr̩ne taijohe tskre. (地は太陽に向かって回る。)
+4. tr̃ne taijohe tskre. (地は太陽に向かって回る。)
 
 ## 関連語
 - tska (月) - 名詞

@@ -18,15 +18,15 @@
 | ---- | -------- | ------- | -------- | -------- |
 | 主格 | çkari    | çkaris  | çkarri   | çkarris  |
 | 対格 | çkare    | çkares  | çkarre   | çkarres  |
-| 与格 | çkarn̩    | çkarn̩s  | çkarrn̩   | çkarrn̩s  |
+| 与格 | çkarñ    | çkarñs  | çkarrñ   | çkarrñs  |
 | 所格 | çkard    | çkards  | çkarid   | çkarids  |
 | 属格 | çkarne   | çkarnes | çkarrne  | çkarrnes |
-| 出格 | çkarkr̩   | çkarkr̩s | çkarikr̩  | çkarikr̩s |
+| 出格 | çkarkr̃   | çkarkr̃s | çkarikr̃  | çkarikr̃s |
 | 向格 | çkarhe   | çkarhes | çkarihe  | çkarihes |
 | 共格 | çkart    | çkarts  | çkarit   | çkarits  |
 
 ## 例文
-1. çkari jamitr̩o tersa (光は暗闇を照らす)
+1. çkari jamitr̃o tersa (光は暗闇を照らす)
 2. jomsa çkare mirtaw (強い光を見た)
 
 ## 関連語

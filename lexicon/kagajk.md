@@ -104,8 +104,8 @@
 ## 例文
 1. "çkari, kagajke." kama iertas, çkari sɔfto kagajktrta. (「光よ、輝き出よ。」神が言われると、光がさっとさしてきました。)
 2. hoʃira soran kagajkta. (星々が空に輝いた。)
-3. taijone çkari tr̩o kagajkta. (太陽の光が地を輝かせた。)
-4. tskano akarsa sbitn̩ kagajkta. (月の明かりがしばらく輝いた。)
+3. taijone çkari tr̃o kagajkta. (太陽の光が地を輝かせた。)
+4. tskano akarsa sbitñ kagajkta. (月の明かりがしばらく輝いた。)
 
 ## 関連語
 - çkar (光) - 名詞

@@ -18,16 +18,16 @@
 | ---- | -------- | ------- | -------- | -------- |
 | 主格 | reii    | reiis  | reiri   | reiris  |
 | 対格 | reie    | reies  | reire   | reires  |
-| 与格 | rein̩    | rein̩s  | reirn̩   | reirn̩s  |
+| 与格 | reiñ    | reiñs  | reirñ   | reirñs  |
 | 所格 | reid    | reids  | reiid   | reiids  |
 | 属格 | reine   | reines | reiine  | reiines |
-| 出格 | reikr̩   | reikr̩s | reiikr̩  | reiikr̩s |
+| 出格 | reikr̃   | reikr̃s | reiikr̃  | reiikr̃s |
 | 向格 | reihe   | reihes | reiihe  | reiihes |
 | 共格 | reit    | reits  | reiit   | reiits  |
 
 ## 例文
-1. kamno reii m̩zad urwa (神の霊が水の上を動いている)
-2. reii çitn̩ ikra (霊が人に宿る)
+1. kamno reii m̃zad urwa (神の霊が水の上を動いている)
+2. reii çitñ ikra (霊が人に宿る)
 
 ## 関連語
 - **kam** (神) - 名詞

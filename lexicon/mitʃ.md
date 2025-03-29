@@ -122,18 +122,18 @@
 </table>
 
 ## 例文
-1. kama ierta: "uma sakn̩o kar hkno ikm̩no afrte, soraa arjr spno tɔrn̩ mitʃe." (神は言われました。「海は魚やその他の生き物であふれ、空はあらゆる種類の鳥で満ちよ。」)
-2. "umippæn̩ mitʃe. tɔriraa tr̩o ɔirsmdn̩ fue" to ivæta. (「海いっぱいに満ちよ。鳥たちは地を覆うまでに増えよ」と祝福しました。)
-3. rka ikm̩nppæn̩ mitʃta. (陸は生き物でいっぱいになった。)
-4. kama joksi sakn̩ to tɔro mitʃastan̩ ivæta. (神は良い魚と鳥が増えるように祝福した。)
+1. kama ierta: "uma sakño kar hkno ikm̃no afrte, soraa arjr spno tɔrñ mitʃe." (神は言われました。「海は魚やその他の生き物であふれ、空はあらゆる種類の鳥で満ちよ。」)
+2. "umippæñ mitʃe. tɔriraa tr̃o ɔirsmdñ fue" to ivæta. (「海いっぱいに満ちよ。鳥たちは地を覆うまでに増えよ」と祝福しました。)
+3. rka ikm̃nppæñ mitʃta. (陸は生き物でいっぱいになった。)
+4. kama joksi sakñ to tɔro mitʃastañ ivæta. (神は良い魚と鳥が増えるように祝福した。)
 
 ## 関連語
 - afr (あふれる) - 動詞
 - fue (増える) - 動詞
 - ɔir (覆う) - 動詞
-- sakn̩ (魚) - 名詞
+- sakñ (魚) - 名詞
 - tɔr (鳥) - 名詞
-- ikm̩n (生き物) - 名詞
+- ikm̃n (生き物) - 名詞
 
 ## 備考
 「mitʃ」は創造物語において、神が創造した生物に対して繁栄と増殖を命じる際に使用される重要な動詞である。特に「mitʃe」（満ちよ）という命令形は、創造の完成を意味する重要な祝福表現となっている。

@@ -18,25 +18,25 @@
 | ---- | --------- | -------- | --------- | --------- |
 | 主格 | dɔbta     | dɔbtas   | dɔbtra    | dɔbtras   |
 | 対格 | dɔbto     | dɔbtos   | dɔbtro    | dɔbtros   |
-| 与格 | dɔbtn̩     | dɔbtn̩s   | dɔbtrn̩    | dɔbtrn̩s   |
+| 与格 | dɔbtñ     | dɔbtñs   | dɔbtrñ    | dɔbtrñs   |
 | 所格 | dɔbtd     | dɔbtds   | dɔbtad    | dɔbtads   |
 | 属格 | dɔbtno    | dɔbtnos  | dɔbtano   | dɔbtanos  |
-| 出格 | dɔbtkr̩    | dɔbtkr̩s  | dɔbtakr̩   | dɔbtakr̩s  |
+| 出格 | dɔbtkr̃    | dɔbtkr̃s  | dɔbtakr̃   | dɔbtakr̃s  |
 | 向格 | dɔbth     | dɔbths   | dɔbtah    | dɔbtahs   |
 | 共格 | dɔbtto    | dɔbttos  | dɔbtato   | dɔbtatos  |
 
 ## 例文
-1. tr̩a arjr spno dɔbto umeta (地はあらゆる種類の動物を生み出した)
+1. tr̃a arjr spno dɔbto umeta (地はあらゆる種類の動物を生み出した)
 2. dɔbtra kætso tbena (動物たちは草を食べる)
 3. antpraa dɔbtano nʒʃ arap (あなたがたは動物の主人です)
-4. dɔbtra tr̩d hirgrta (動物たちは地上に広がった)
-5. kama çito ivæte ierta: "antes sakn̩ to tɔr to arjr dɔbto nʒʃ aras." (神は人間を祝福して言われました。「あなたがたは、魚と鳥とすべての動物の主人なのだ。)
+4. dɔbtra tr̃d hirgrta (動物たちは地上に広がった)
+5. kama çito ivæte ierta: "antes sakñ to tɔr to arjr dɔbto nʒʃ aras." (神は人間を祝福して言われました。「あなたがたは、魚と鳥とすべての動物の主人なのだ。)
 
 ## 関連語
-- **ikm̩n**: 生き物（上位概念）
+- **ikm̃n**: 生き物（上位概念）
 - **kettæ**: 家畜
 - **tɔr**: 鳥
-- **sakn̩**: 魚
+- **sakñ**: 魚
 - **ʃitsr**: 植物（対比概念）
 
 ## 備考

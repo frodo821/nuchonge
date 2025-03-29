@@ -19,19 +19,19 @@
 | ---- | --------- | -------- | --------- | -------- |
 | 主格 | kar       | kars     | karl      | karls    |
 | 対格 | kare      | kares    | karel     | karels   |
-| 与格 | karn̩      | karn̩s    | karlr̩     | karlr̩s   |
+| 与格 | karñ      | karñs    | karlr̃     | karlr̃s   |
 | 属格 | karne     | karnes   | karlne    | karlnes  |
 | 出格 | karr      | karrs    | karekr    | karekrs  |
-| 向格 | karn̩      | karn̩s    | kareln̩    | kareln̩s  |
+| 向格 | karñ      | karñs    | karelñ    | karelñs  |
 | 共格 | kart      | karts    | karelt    | karelts  |
 
 *注: 人称代名詞は人が場所たりえないため、所格形式を持ちません。
 
 ## 例文
-1. kar vtʃn̩ hn̩o kurta. (彼は私に本をくれました。)
+1. kar vtʃñ hño kurta. (彼は私に本をくれました。)
 2. vtʃi kare mirtaw. (私は彼を見ました。)
 3. ɔki çitis vtʃne çisi æe miren dak, vtʃi karlne ʃehrs ikrotaw. (大きな人たちが私の小さな家を見ているので、私は彼らの街に行くつもりでした。)
-4. karl ʃehrkr̩ kurtan. (彼らは街から来ました。)
+4. karl ʃehrkr̃ kurtan. (彼らは街から来ました。)
 
 ## 関連語
 - kars: 彼/彼女自身（再帰形）

@@ -16,7 +16,7 @@
 | [**-dak/-dek**](lexicon/dak-dek-suffix.md) | 〜だけ、〜のみ | 接尾辞 | 母音調和異形態 |
 | [**fal**](lexicon/fal.md) | 降る | 動詞 | 後舌 |
 | [**furæ**](lexicon/furæ.md) | 古い | 形容詞 | 後舌 |
-| [**hn̩**](lexicon/hn̩.md) | 本 | 名詞 | 後舌無生 |
+| [**hñ**](lexicon/hñ.md) | 本 | 名詞 | 後舌無生 |
 | [**ik**](lexicon/ik.md) | 行く | 動詞 | 前舌 |
 | [**joks**](lexicon/joks.md) | 良い | 形容詞 | 後舌 |
 | [**jom**](lexicon/jom.md) | 読む | 動詞 | 後舌 |
@@ -46,7 +46,7 @@
 ### 名詞
 - [**æ**](lexicon/æ.md) - 家（前舌無生名詞）
 - [**çit**](lexicon/çit.md) - 人（前舌有生名詞）
-- [**hn̩**](lexicon/hn̩.md) - 本（後舌無生名詞）
+- [**hñ**](lexicon/hñ.md) - 本（後舌無生名詞）
 - [**ki**](lexicon/ki.md) - 木（前舌無生名詞）
 - [**mi**](lexicon/mi.md) - 実、果実（前舌無生名詞）
 - [**kino**](lexicon/kino-noun.md) - 昨日（混合無生名詞）
@@ -120,7 +120,7 @@
 - [**ataw**](lexicon/ataw.md) - 与える（後舌動詞）
 - [**fal**](lexicon/fal.md) - 降る（後舌動詞）
 - [**furæ**](lexicon/furæ.md) - 古い（後舌形容詞）
-- [**hn̩**](lexicon/hn̩.md) - 本（後舌無生名詞）
+- [**hñ**](lexicon/hñ.md) - 本（後舌無生名詞）
 - [**joks**](lexicon/joks.md) - 良い（後舌形容詞）
 - [**jom**](lexicon/jom.md) - 読む（後舌動詞）
 - [**kjo**](lexicon/kjo-adverb.md) - 今日（時間副詞）
@@ -150,7 +150,7 @@
 
 ### 物・場所
 - [**æ**](lexicon/æ.md) - 家（前舌無生名詞）
-- [**hn̩**](lexicon/hn̩.md) - 本（後舌無生名詞）
+- [**hñ**](lexicon/hñ.md) - 本（後舌無生名詞）
 - [**ki**](lexicon/ki.md) - 木（前舌無生名詞）
 - [**mi**](lexicon/mi.md) - 実、果実（前舌無生名詞）
 - [**nam**](lexicon/nam.md) - 名前（後舌無生名詞）

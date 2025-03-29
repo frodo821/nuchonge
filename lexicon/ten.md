@@ -18,10 +18,10 @@
 | ---- | --------- | --------- | ---------- | --------- |
 | 主格 | teni    | tenis  | tenri   | tenris  |
 | 対格 | tene    | tenes  | tenre   | tenres  |
-| 与格 | tenn̩    | tenn̩s  | tenrn̩   | tenrn̩s  |
+| 与格 | tenñ    | tenñs  | tenrñ   | tenrñs  |
 | 所格 | tend    | tends  | tenid   | tenids  |
 | 属格 | tenne   | tennes | tenrne  | tenrnes |
-| 出格 | tenkr̩   | tenkr̩s | tenikr̩  | tenikr̩s |
+| 出格 | tenkr̃   | tenkr̃s | tenikr̃  | tenikr̃s |
 | 向格 | tenhe   | tenhes | tenihe  | tenihes |
 | 共格 | tent    | tents  | tenit   | tenits  |
 
@@ -30,8 +30,8 @@
 2. kama tend ara (神は天にいる)
 
 ## 関連語
-- **tr̩** (地) - 名詞
-- **tenitr̩** (天地) - 複合名詞
+- **tr̃** (地) - 名詞
+- **tenitr̃** (天地) - 複合名詞
 
 ## 備考
 宗教的・宇宙論的文脈で使用される重要な概念。形而上学的表現や詩的表現でも頻出する。

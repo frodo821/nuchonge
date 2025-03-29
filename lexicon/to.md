@@ -32,7 +32,7 @@
 
 ## 例文
 1. kama çkare "çiru" **to**, jamio "jor" **to** namta. (神は光を「昼」と、闇を「夜」と名づけました。)
-2. "majaa uæʃtan̩ wakrte, sora **to** umn̩ nare" **to** kama iertas. (「もやは上下に分かれ、空と海になれ」と神が言われました。)
+2. "majaa uæʃtañ wakrte, sora **to** umñ nare" **to** kama iertas. (「もやは上下に分かれ、空と海になれ」と神が言われました。)
 3. çiru **to** jora arte, çti çaa owatta. (昼と夜ができて、一日目が終わりました。)
 
 ## 関連語

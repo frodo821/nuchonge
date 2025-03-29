@@ -165,18 +165,18 @@
   </tr>
   <tr style="background-color: #fffff0;">
     <th style="background-color: #f2f2d9;">現在</th>
-    <td>ara-n̩</td>
-    <td>ara-n̩-n</td>
+    <td>ara-ñ</td>
+    <td>ara-ñ-n</td>
   </tr>
   <tr style="background-color: #fffff0;">
     <th style="background-color: #f2f2d9;">過去</th>
-    <td>arta-n̩</td>
-    <td>arta-n̩-n</td>
+    <td>arta-ñ</td>
+    <td>arta-ñ-n</td>
   </tr>
   <tr style="background-color: #fffff0;">
     <th style="background-color: #f2f2d9;">未来</th>
-    <td>arro-n̩</td>
-    <td>arro-n̩-n</td>
+    <td>arro-ñ</td>
+    <td>arro-ñ-n</td>
   </tr>
 </table>
 
@@ -250,7 +250,7 @@
 </table>
 
 ## 例文
-1. tr̩a katçn̩ artan̩, jamia pakurtr̩ m̩zad arta. (地は形も定まらず、闇に包まれた水の上を覆っていました。)
+1. tr̃a katçñ artañ, jamia pakurtr̃ m̃zad arta. (地は形も定まらず、闇に包まれた水の上を覆っていました。)
 2. korsa itsi ça arta. (これが五日目です。)
 3. çiru to jora arte, çti çaa owatta. (昼と夜ができて、一日目が終わりました。)
 

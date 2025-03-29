@@ -31,9 +31,9 @@
 
 ## 例文
 1. çiti mire vtʃne æe ka. (人は私の家を見ますか。)
-2. antp dokn̩ ikop ka. (あなたはどこに行きますか。)
-3. vtʃi hn̩o jomtaw ka ʃirtgep. (私が本を読んだか知りたいですか。)
-4. kara kuro ka kuraron̩ ka vtʃi ʃiraraw. (彼が来るか来ないか私は知りません。)
+2. antp dokñ ikop ka. (あなたはどこに行きますか。)
+3. vtʃi hño jomtaw ka ʃirtgep. (私が本を読んだか知りたいですか。)
+4. kara kuro ka kuraroñ ka vtʃi ʃiraraw. (彼が来るか来ないか私は知りません。)
 
 ## 関連語
 - kana: 疑念を表す終助詞（「かな」由来）

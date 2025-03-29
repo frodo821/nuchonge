@@ -17,16 +17,16 @@
 | ---- | -------- | ------- | -------- | -------- |
 | 主格 | kama    | kamas  | kamra   | kamras  |
 | 対格 | kamo    | kamos  | kamro   | kamros  |
-| 与格 | kamn̩    | kamn̩s  | kamrn̩   | kamrn̩s  |
+| 与格 | kamñ    | kamñs  | kamrñ   | kamrñs  |
 | 所格 | kamd    | kamds  | kamad   | kamads  |
 | 属格 | kamno   | kamnos | kamano  | kamanos |
-| 出格 | kamkr̩   | kamkr̩s | kamakr̩  | kamakr̩s |
+| 出格 | kamkr̃   | kamkr̃s | kamakr̃  | kamakr̃s |
 | 向格 | kamh    | kamhs  | kamah   | kamahs  |
 | 共格 | kamto   | kamtos | kamato  | kamatos |
 
 ## 例文
 1. kama sɔtro tsukrta (神は世界を創った)
-2. çiti kamn̩ inerro (人は神に祈るだろう)
+2. çiti kamñ inerro (人は神に祈るだろう)
 
 ## 関連語
 - **tsukr** (創る) - 動詞

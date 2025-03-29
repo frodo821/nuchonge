@@ -18,10 +18,10 @@
 | ---- | -------- | ------- | --------- | --------- |
 | 主格 | kotba    | kotbas   | kotbara   | kotbaras  |
 | 対格 | kotbo    | kotbos   | kotbaro   | kotbaros  |
-| 与格 | kotban̩   | kotban̩s  | kotbarn̩   | kotbarn̩s  |
+| 与格 | kotbañ   | kotbañs  | kotbarñ   | kotbarñs  |
 | 所格 | kotbad   | kotbads  | kotban    | kotbans   |
 | 属格 | kotbano  | kotbanos | kotbanor  | kotbanors |
-| 出格 | kotbakr̩  | kotbakr̩s | kotbakor  | kotbakors |
+| 出格 | kotbakr̃  | kotbakr̃s | kotbakor  | kotbakors |
 | 向格 | kotbah   | kotbahs  | kotbar    | kotbars   |
 | 共格 | kotbato  | kotbatos | kotbator  | kotbators |
 

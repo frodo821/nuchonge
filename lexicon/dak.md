@@ -31,8 +31,8 @@
 
 ## 例文
 1. ɔki çitis vtʃne çisi æe miren **dak**, vtʃi karlne ʃehrs ikrotaw. (大きな人たちが私の小さな家を見ているので、私は彼らの街に行くつもりでした。)
-2. ama falta **dak**, vtʃi ikarawn̩. (雨が降ったから、私は行かなかった。)
-3. çiti joksi aran̩ **dak**, tomono namzo. (人が良いので、友達と呼ぶ。)
+2. ama falta **dak**, vtʃi ikarawñ. (雨が降ったから、私は行かなかった。)
+3. çiti joksi arañ **dak**, tomono namzo. (人が良いので、友達と呼ぶ。)
 4. **dak**, vtʃi ikow. (だから、私は行きます。)
 
 ## 関連語

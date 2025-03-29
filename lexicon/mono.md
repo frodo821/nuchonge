@@ -20,16 +20,16 @@
 | ---- | -------- | ------ | -------- | ------- |
 | 主格 | monoə    | monoəs  | monora   | monoras  |
 | 対格 | mono     | monos   | monoro   | monoros  |
-| 与格 | monon̩    | monon̩s  | monorn̩   | monorn̩s  |
+| 与格 | monoñ    | monoñs  | monorñ   | monorñs  |
 | 所格 | monod    | monods  | monoəd   | monoəds  |
 | 属格 | monono   | mononos | monoəno  | monoənos |
-| 出格 | monokr̩   | monokr̩s | monoəkr̩  | monoəkr̩s |
+| 出格 | monokr̃   | monokr̃s | monoəkr̃  | monoəkr̃s |
 | 向格 | monoh    | monohs  | monoəh   | monoəhs  |
 | 共格 | monoto   | monotos | monoəto  | monoətos |
 
 ## 例文
 1. kis **mono** vtʃne ara. (この物は私のものです。)
-2. ʃehrn̩ nogim **monora** artran. (町にたくさんの物がありました。)
+2. ʃehrñ nogim **monora** artran. (町にたくさんの物がありました。)
 3. vtʃi joksi **monoo** mirraw. (私は良い物を見ます。)
 4. kam arjr **monoo** tsukrta. (神はすべての物を創造した。)
 5. **monoəno** æi ara? (物の価値は何ですか？)
@@ -39,7 +39,7 @@
 - **tsukr**: 作る、創造する
 - **mot**: 持つ、所有する
 - **hin**: 品、品物
-- **ikm̩n**: 生き物（対比的に「生きていないもの」と区別される）
+- **ikm̃n**: 生き物（対比的に「生きていないもの」と区別される）
 
 ## 備考
 「mono」は基本的な名詞として日常会話から哲学的議論まで幅広く使用される。所有関係を示す「antesne mono」（あなたがたのもの）のような表現は特に頻繁に見られる。また、創世記などの創造物語では、神によって創られた「もの」を指す文脈で重要な概念となる。

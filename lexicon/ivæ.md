@@ -210,7 +210,7 @@
 1. kama çit-o ivæ-ta (神は人を祝福した)
 2. sensi-sam vtʃi-o ivæ-e (先生が私を祝福する)
 3. hæ-ne çit-ri manka-o ivæ-ta-n (村の人々は収穫を祝福した)
-4. taijo-a tr̩-o ivæ-tr-e (太陽は大地を祝福している)
+4. taijo-a tr̃-o ivæ-tr-e (太陽は大地を祝福している)
 
 ## 関連語
 - **mansk**: 満足する

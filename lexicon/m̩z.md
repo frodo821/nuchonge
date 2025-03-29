@@ -1,4 +1,4 @@
-# 見出し語: m̩z
+# 見出し語: m̃z
 
 ## 文法情報
 - **類別**: 名詞
@@ -6,7 +6,7 @@
 - **名詞分類**: 無生
 
 ## 語源情報
-現代日本語「水（みず）」から。「mizu」→「m̩z」と変化した。母音の脱落と音節主音化により現在の形になった。
+現代日本語「水（みず）」から。「mizu」→「m̃z」と変化した。母音の脱落と音節主音化により現在の形になった。
 
 ## 定義
 1. 水、H₂O
@@ -16,18 +16,18 @@
 ## 曲用表
 | 格   | 単数不定形 | 単数定形 | 複数不定形 | 複数定形  |
 | ---- | -------- | ------ | -------- | ------- |
-| 主格 | m̩za     | m̩zas  | m̩zra    | m̩zras  |
-| 対格 | m̩zo     | m̩zos  | m̩zro    | m̩zros  |
-| 与格 | m̩zn̩     | m̩zn̩s  | m̩zrn̩    | m̩zrn̩s  |
-| 所格 | m̩zd     | m̩zds  | m̩zad    | m̩zads  |
-| 属格 | m̩zno    | m̩znos | m̩zano   | m̩zanos |
-| 出格 | m̩zkr̩    | m̩zkr̩s | m̩zakr̩   | m̩zakr̩s |
-| 向格 | m̩zh     | m̩zhs  | m̩zah    | m̩zahs  |
-| 共格 | m̩zto    | m̩ztos | m̩zato   | m̩zatos |
+| 主格 | m̃za     | m̃zas  | m̃zra    | m̃zras  |
+| 対格 | m̃zo     | m̃zos  | m̃zro    | m̃zros  |
+| 与格 | m̃zñ     | m̃zñs  | m̃zrñ    | m̃zrñs  |
+| 所格 | m̃zd     | m̃zds  | m̃zad    | m̃zads  |
+| 属格 | m̃zno    | m̃znos | m̃zano   | m̃zanos |
+| 出格 | m̃zkr̃    | m̃zkr̃s | m̃zakr̃   | m̃zakr̃s |
+| 向格 | m̃zh     | m̃zhs  | m̃zah    | m̃zahs  |
+| 共格 | m̃zto    | m̃ztos | m̃zato   | m̃zatos |
 
 ## 例文
-1. m̩za kjo joksa ara (水は今日良い/きれいだ)
-2. m̩zo nomaw (水を飲む)
+1. m̃za kjo joksa ara (水は今日良い/きれいだ)
+2. m̃zo nomaw (水を飲む)
 
 ## 関連語
 - **nom** (飲む) - 動詞

@@ -118,10 +118,10 @@
 *注: アスペクト形式と複合形式の活用は原エントリにないため、推測に基づいています。
 
 ## 例文
-1. kama çit-n̩ tabemono-o ataw-ta (神は人に食べ物を与えた)
-2. vtʃi antp-n̩ hn̩-o ataw-a-w (私はあなたに本を与えます)
-3. tr̩a arjr sp-no ʃitsr-o ataw-a (地はあらゆる種類の植物を与える)
-4. sensi-sam vtʃi-n̩ çikan-o ataw-ta (先生が私に時間を与えてくれた)
+1. kama çit-ñ tabemono-o ataw-ta (神は人に食べ物を与えた)
+2. vtʃi antp-ñ hñ-o ataw-a-w (私はあなたに本を与えます)
+3. tr̃a arjr sp-no ʃitsr-o ataw-a (地はあらゆる種類の植物を与える)
+4. sensi-sam vtʃi-ñ çikan-o ataw-ta (先生が私に時間を与えてくれた)
 
 ## 関連語
 - **ivæ**: 祝福する

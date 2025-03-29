@@ -23,10 +23,10 @@
 | ---- | -------- | -------- | -------- | --------- |
 | 主格 | atri    | atris   | atrri   | atrris   |
 | 対格 | atre    | atres   | atrre   | atrres   |
-| 与格 | atrn̩    | atrn̩s   | atrrn̩   | atrrn̩s   |
+| 与格 | atrñ    | atrñs   | atrrñ   | atrrñs   |
 | 所格 | atrd    | atrds   | atrid   | atrids   |
 | 属格 | atrne   | atrnes  | atrine  | atrines  |
-| 出格 | atrkr̩   | atrkr̩s  | atrikr̩  | atrikr̩s  |
+| 出格 | atrkr̃   | atrkr̃s  | atrikr̃  | atrikr̃s  |
 | 向格 | atrhe   | atrhes  | atrihe  | atrihes  |
 | 共格 | atrt    | atrts   | atrit   | atrits   |
 
@@ -36,10 +36,10 @@
 | ---- | -------- | -------- | -------- | --------- |
 | 主格 | atri    | atris   | atrri   | atrris   |
 | 対格 | atre    | atres   | atrre   | atrres   |
-| 与格 | atrn̩    | atrn̩s   | atrrn̩   | atrrn̩s   |
+| 与格 | atrñ    | atrñs   | atrrñ   | atrrñs   |
 | 所格 | atrd    | atrds   | atrid   | atrids   |
 | 属格 | atrne   | atrnes  | atrrine | atrrines |
-| 出格 | atrkr̩   | atrkr̩s  | atrikr̩  | atrikr̩s  |
+| 出格 | atrkr̃   | atrkr̃s  | atrikr̃  | atrikr̃s  |
 | 向格 | atrhe   | atrhes  | atrihe  | atrihes  |
 | 共格 | atrt    | atrts   | atrit   | atrits   |
 
@@ -47,17 +47,17 @@
 後舌名詞を修飾する場合、形容詞は母音調和の規則に従って「atra」のように後舌曲用形を取ることがあります。
 
 ## 例文
-1. atri çiti ʃehrin̩ ikta. (新しい人が町に行きました。)
-2. vtʃi atre hn̩o jomaw. (私は新しい本を読みます。)
+1. atri çiti ʃehriñ ikta. (新しい人が町に行きました。)
+2. vtʃi atre hño jomaw. (私は新しい本を読みます。)
 3. karos atra æa ɔka. (彼の新しい家は大きいです。)
-4. vtʃne atrd kompitn̩ vtʃi ika. (私の新しいコンピュータに私は行きます［＝アクセスします］。)
+4. vtʃne atrd kompitñ vtʃi ika. (私の新しいコンピュータに私は行きます［＝アクセスします］。)
 
 ## 関連語
 - atrl: 新品、新製品（「新しい」+集合標識「l」）
 - atrsj: 新しそう（「新しい」+様態推量「sj」）
 - furæ: 古い（反義語）
 - atrçit: 新人、新参者（「新しい」+「人」の複合語）
-- atrhn̩: 新書、新刊（「新しい」+「本」の複合語）
+- atrhñ: 新書、新刊（「新しい」+「本」の複合語）
 
 ## 備考
 「atr」は状態や性質を表す基本的な形容詞で、物理的な新しさだけでなく、概念的・経験的な新しさも表現できます。時間的な「新旧」の対比を表す形容詞対「atr/furæ」（新しい/古い）の一方を構成します。前舌母音系の形容詞として、基本的には前舌曲用パターンに従いますが、後舌名詞を修飾する場合は母音調和に従って後舌曲用形を取ることもあります。

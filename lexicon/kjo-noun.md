@@ -20,10 +20,10 @@
 | ---- | --------- | -------- | --------- | --------- |
 | 主格 | kjoa      | kjoas    | kjora     | kjoras    |
 | 対格 | kjoo      | kjoos    | kjoro     | kjoros    |
-| 与格 | kjon̩      | kjon̩s    | kjorn̩     | kjorn̩s    |
+| 与格 | kjoñ      | kjoñs    | kjorñ     | kjorñs    |
 | 所格 | kjod      | kjods    | kjoad     | kjoads    |
 | 属格 | kjono     | kjonos   | kjoano    | kjoanos   |
-| 出格 | kjokr̩     | kjokr̩s   | kjoakr̩    | kjoakr̩s   |
+| 出格 | kjokr̃     | kjokr̃s   | kjoakr̃    | kjoakr̃s   |
 | 向格 | kjoh      | kjohs    | kjoah     | kjoahs    |
 | 共格 | kjoto     | kjotos   | kjoato    | kjoatos   |
 
@@ -31,7 +31,7 @@
 1. kjoa joksas ara. (今日はいい日です。)
 2. kjos hins traba. (今日は良い仕事をします。)
 3. vtʃi kjono kotbao jomaw. (私は今日の言葉を読みます。)
-4. kjono træto kinono trækor̩ çisa. (今日の長さは昨日の長さより短い。)
+4. kjono træto kinono trækor̃ çisa. (今日の長さは昨日の長さより短い。)
 
 ## 関連語
 - kjomæ: 今朝（「今日」+「朝」の複合語）
@@ -45,4 +45,4 @@
 
 副詞形式の「kjo」と異なり、名詞としての「kjo」は格変化し、他の名詞と同様に文中で主語や目的語として機能します。例えば「kjoa vtʃe starta」（今日が私を始めた＝今日が私の始まりだ）のように主語として、あるいは「vtʃi kjoo mirta」（私は今日を見た）のように目的語として使用されます。
 
-慣用表現として「kjono kjo」（今日の今日＝まさに今日）や「kjonokr̩」（今日から＝これから）といった表現もあります。
+慣用表現として「kjono kjo」（今日の今日＝まさに今日）や「kjonokr̃」（今日から＝これから）といった表現もあります。

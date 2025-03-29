@@ -19,7 +19,7 @@
 「sægis」は文中で順序や時間の副詞として機能し、通常は文頭または関連する動詞句の前に置かれます。
 
 ## 例文
-1. **sægis** kar tr̩sm ikataw. (最後に彼は家に帰りました。)
+1. **sægis** kar tr̃sm ikataw. (最後に彼は家に帰りました。)
 2. vtʃi ik, tben, **sægis** jomtaw. (私は行って、食べて、最後に読みました。)
 3. **sægis**, kor mansk iedɔr dekagrtaw. (最後に、この世界はこのようにできあがった。)
 

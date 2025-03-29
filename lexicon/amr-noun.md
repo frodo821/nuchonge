@@ -21,10 +21,10 @@
 | ---- | --------- | -------- | --------- | -------- |
 | 主格 | amra     | amras   | amrra     | amrras   |
 | 対格 | amro     | amros   | amrro     | amrros   |
-| 与格 | amrn̩     | amrn̩s   | amrrn̩     | amrrn̩s   |
+| 与格 | amrñ     | amrñs   | amrrñ     | amrrñs   |
 | 所格 | amrd     | amrds   | amrad     | amrads   |
 | 属格 | amrno    | amrnos  | amrano    | amranos  |
-| 出格 | amrkr̩    | amrkr̩s  | amrakr̩    | amrakr̩s  |
+| 出格 | amrkr̃    | amrkr̃s  | amrakr̃    | amrakr̃s  |
 | 向格 | amrh     | amrhs   | amrah     | amrahs   |
 | 共格 | amrto    | amrtos  | amrato    | amratos  |
 
@@ -44,6 +44,6 @@
 ## 備考
 「amr」の名詞形式は、未来を表す基本的な時間名詞です。「kjo」（今日）と「kino」（昨日）と共に三項対立をなし、時間の経過を表現する基本要素となっています。
 
-この単語は後舌母音「a」を含み、語末の音節主音「r̩」も後舌系として扱われるため、音韻的には後舌型となっています。このため、複合語形成時には後舌母音調和規則に従います。
+この単語は後舌母音「a」を含み、語末の音節主音「r̃」も後舌系として扱われるため、音韻的には後舌型となっています。このため、複合語形成時には後舌母音調和規則に従います。
 
 名詞としての「amr」は格変化し、「amrno」（明日の）のような属格形や「amrd」（明日に）のような所格形で時間的文脈を示すために使用されます。

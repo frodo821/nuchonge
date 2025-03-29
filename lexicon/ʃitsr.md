@@ -17,17 +17,17 @@
 | ---- | --------- | --------- | ---------- | ---------- |
 | 主格 | ʃitsri    | ʃitsris   | ʃitsrri    | ʃitsrris   |
 | 対格 | ʃitsre    | ʃitsres   | ʃitsrre    | ʃitsrres   |
-| 与格 | ʃitsrn̩    | ʃitsrn̩s   | ʃitsrrn̩    | ʃitsrrn̩s   |
+| 与格 | ʃitsrñ    | ʃitsrñs   | ʃitsrrñ    | ʃitsrrñs   |
 | 所格 | ʃitsrd    | ʃitsrds   | ʃitsrid    | ʃitsrids   |
 | 属格 | ʃitsrne   | ʃitsrnes  | ʃitsrrne   | ʃitsrrnes  |
-| 出格 | ʃitsrkr̩   | ʃitsrkr̩s  | ʃitsrikr̩   | ʃitsrikr̩s  |
+| 出格 | ʃitsrkr̃   | ʃitsrkr̃s  | ʃitsrikr̃   | ʃitsrikr̃s  |
 | 向格 | ʃitsrhe   | ʃitsrhes  | ʃitsrihe   | ʃitsrihes  |
 | 共格 | ʃitsrt    | ʃitsrts   | ʃitsrit    | ʃitsrits   |
 
 ## 例文
-1. tr̩ad arjr spno ʃitsri haea (地にはあらゆる種類の植物が生える)
+1. tr̃ad arjr spno ʃitsri haea (地にはあらゆる種類の植物が生える)
 2. ʃitsrne mio tbenaw (植物の実を食べます)
-3. ʃitsrri m̩zo suka (植物たちは水を好む)
+3. ʃitsrri m̃zo suka (植物たちは水を好む)
 
 ## 関連語
 - **kas**: 草

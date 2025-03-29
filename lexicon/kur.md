@@ -108,15 +108,15 @@
 </table>
 
 ## 例文
-1. kar amr æn̩ kuraw. (彼は明日家に来ます。)
-2. antp dokr̩ kurap? (あなたはどこから来ますか？)
+1. kar amr æñ kuraw. (彼は明日家に来ます。)
+2. antp dokr̃ kurap? (あなたはどこから来ますか？)
 3. furaa çiti ʃehrd kurta. (古い人が町に来た。)
-4. kors iden vtʃkr̩ kura. (この考えは私から来ている。)
+4. kors iden vtʃkr̃ kura. (この考えは私から来ている。)
 
 ## 関連語
 - kuramr: 来訪、訪問（「来る」+「時」の複合語）
 - kuræ: 来場所、集合場所（「来る」+「場所」の複合語）
-- kurkr̩: 出身、来所（「来る」+「から」の複合語）
+- kurkr̃: 出身、来所（「来る」+「から」の複合語）
 - kurçit: 来訪者、訪問者（「来る」+「人」の複合語）
 - ik: 行く（反義関連語）
 

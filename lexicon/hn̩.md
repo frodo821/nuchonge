@@ -1,4 +1,4 @@
-# 見出し語: hn̩
+# 見出し語: hñ
 
 ## 文法情報
 - **類別**: 名詞
@@ -7,7 +7,7 @@
 
 ## 語源情報
 現代日本語「ほん」(本)から変化
-* /hon/ → /hn̩/ と音韻変化
+* /hon/ → /hñ/ と音韻変化
 * 母音の脱落と子音の音節主音化が生じた
 
 ## 定義
@@ -20,26 +20,26 @@
 
 | 格   | 単数不定形 | 単数定形 | 複数不定形 | 複数定形  |
 | ---- | --------- | -------- | --------- | --------- |
-| 主格 | hn̩a      | hn̩as    | hn̩ra     | hn̩ras    |
-| 対格 | hn̩o      | hn̩os    | hn̩ro     | hn̩ros    |
-| 与格 | hn̩n̩      | hn̩n̩s    | hn̩rn̩     | hn̩rn̩s    |
-| 所格 | hn̩d      | hn̩ds    | hn̩ad     | hn̩ads    |
-| 属格 | hn̩no     | hn̩nos   | hn̩ano    | hn̩anos   |
-| 出格 | hn̩kr̩     | hn̩kr̩s   | hn̩akr̩    | hn̩akr̩s   |
-| 向格 | hn̩h      | hn̩hs    | hn̩ah     | hn̩ahs    |
-| 共格 | hn̩to     | hn̩tos   | hn̩ato    | hn̩atos   |
+| 主格 | hña      | hñas    | hñra     | hñras    |
+| 対格 | hño      | hños    | hñro     | hñros    |
+| 与格 | hññ      | hññs    | hñrñ     | hñrñs    |
+| 所格 | hñd      | hñds    | hñad     | hñads    |
+| 属格 | hñno     | hñnos   | hñano    | hñanos   |
+| 出格 | hñkr̃     | hñkr̃s   | hñakr̃    | hñakr̃s   |
+| 向格 | hñh      | hñhs    | hñah     | hñahs    |
+| 共格 | hñto     | hñtos   | hñato    | hñatos   |
 
 ## 例文
-1. vtʃi hn̩o jomaw. (私は本を読みます。)
-2. vtʃi jomtado hn̩a çitine karlto kuratado kɔrmra. (私が読んだ本は、人々が彼らと一緒に来た物語だ。)
-3. tosn̩d ɔka hn̩ra ara. (図書館に大きな本々がある。)
-4. kors hn̩no jomtra antpa trzo ka? (この本を読んでいるあなたは誰ですか？)
+1. vtʃi hño jomaw. (私は本を読みます。)
+2. vtʃi jomtado hña çitine karlto kuratado kɔrmra. (私が読んだ本は、人々が彼らと一緒に来た物語だ。)
+3. tosñd ɔka hñra ara. (図書館に大きな本々がある。)
+4. kors hñno jomtra antpa trzo ka? (この本を読んでいるあなたは誰ですか？)
 
 ## 関連語
-- hn̩jom: 読書（「本」+「読む」の複合語）
-- tosn̩: 図書館（「本」+「館」の複合語が変化）
-- hn̩çit: 著者（「本」+「人」の複合語）
-- deghn̩: 電子書籍（接頭辞deg-「電子」が付加）
+- hñjom: 読書（「本」+「読む」の複合語）
+- tosñ: 図書館（「本」+「館」の複合語が変化）
+- hñçit: 著者（「本」+「人」の複合語）
+- deghñ: 電子書籍（接頭辞deg-「電子」が付加）
 
 ## 備考
-「hn̩」は情報や知識を記録した媒体を表す基本的な名詞です。現代日本語の「本」から変化し、母音が脱落した後に子音/n/が音節主音化して/hn̩/となりました。後舌母音系の無生名詞として規則的な曲用パターンに従います。文化的に重要な概念を表すため、「jom」（読む）との結合頻度が高く、多くの複合語の構成要素となります。特に知的活動や学習に関する表現でよく使用されます。
+「hñ」は情報や知識を記録した媒体を表す基本的な名詞です。現代日本語の「本」から変化し、母音が脱落した後に子音/n/が音節主音化して/hñ/となりました。後舌母音系の無生名詞として規則的な曲用パターンに従います。文化的に重要な概念を表すため、「jom」（読む）との結合頻度が高く、多くの複合語の構成要素となります。特に知的活動や学習に関する表現でよく使用されます。

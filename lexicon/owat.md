@@ -141,7 +141,7 @@
   </tr>
   <tr style="background-color: #f5f5f5;">
     <th style="background-color: #e6e6e6;">連用複合形</th>
-    <td>wakrtr̩owatte</td>
+    <td>wakrtr̃owatte</td>
     <td style="font-style: italic;">分け終えて</td>
   </tr>
 </table>
@@ -149,7 +149,7 @@
 ## 例文
 1. çiru to jora arte, çti çaa owatta. (昼と夜ができて、一日目が終わりました。)
 2. korske fni çamo owatta. (こうして二日目も終わりました。)
-3. korske çiru to joro wakrtr̩owatte, kama jokso manskta. (こうして昼と夜を分け終えると、神は満足しました。)
+3. korske çiru to joro wakrtr̃owatte, kama jokso manskta. (こうして昼と夜を分け終えると、神は満足しました。)
 4. korske roki çaa owatta. (こうして六日目が終わりました。)
 
 ## 関連語
@@ -162,4 +162,4 @@
 ## 備考
 「owat」は創造物語において各創造段階の締めくくりを示す重要な動詞である。特に「ça owatta」（日が終わった）という表現は繰り返し使用され、創造の区切りを明示する定型句となっている。
 
-また、「wakrtr̩owatte」（分け終えて）のように、他の動詞の連用形に接続して複合動詞を形成することも多い。「owat」は物理的な終了だけでなく、完成や達成のような肯定的な完了も表す。
+また、「wakrtr̃owatte」（分け終えて）のように、他の動詞の連用形に接続して複合動詞を形成することも多い。「owat」は物理的な終了だけでなく、完成や達成のような肯定的な完了も表す。
