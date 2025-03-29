@@ -113,8 +113,7 @@
 ## 例文
 1. karo mirte, kama tvjokso manskta, çkare jamikr̩ wakrta. (それを見て、神は大いに満足し、光と闇とを区別しました。)
 2. karo mirte jokso manskte, kama mata ierta. (それを見て満足すると、神はまた言われました。)
-3. korske çiru to joro wakrtr̩owatte, kama jokso manskta. (こうして昼と夜を分け終えると、神は満足しました。)
-4. kama tsukrta ikimonoa, mn joksno mani monoɔnl arta. (神が造った生き物は、どれも満足のいくものばかりでした。)
+3. korske çiruo joro wakrtr̩ta arvəta, kama jokso manskta. (こうして昼と夜を分け終えると、神は満足しました。)
 
 ## 関連語
 - joks (良い) - 形容詞

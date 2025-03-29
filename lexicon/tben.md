@@ -64,6 +64,220 @@
       <td>tbenos</td>
       <td>tbenon</td>
     </tr>
+    <!-- 条件法 -->
+    <tr style="background-color: #fff0f0;">
+      <th rowspan="3" style="background-color: #ffd9d9;">条件法</th>
+      <th>現在</th>
+      <td>tbenrow</td>
+      <td>tbenrop</td>
+      <td>tbenro</td>
+      <td>tbenrol</td>
+      <td>tbenros</td>
+      <td>tbenron</td>
+    </tr>
+    <tr style="background-color: #fff0f0;">
+      <th>過去</th>
+      <td>tbenrotaw</td>
+      <td>tbenrotap</td>
+      <td>tbenrota</td>
+      <td>tbenrotal</td>
+      <td>tbenrotas</td>
+      <td>tbenrotan</td>
+    </tr>
+    <tr style="background-color: #fff0f0;">
+      <th>未来</th>
+      <td>tbenroow</td>
+      <td>tbenroop</td>
+      <td>tbenroo</td>
+      <td>tbenrool</td>
+      <td>tbenroos</td>
+      <td>tbenroon</td>
+    </tr>
+    <!-- 命令法 -->
+    <tr style="background-color: #f0fff0;">
+      <th rowspan="1" style="background-color: #d9ffd9;">命令法</th>
+      <th>現在</th>
+      <td>-</td>
+      <td>tbenjop</td>
+      <td>tbenjo</td>
+      <td>tbenjol</td>
+      <td>tbenjos</td>
+      <td>tbenjon</td>
+    </tr>
+    <!-- 義務法 -->
+    <tr style="background-color: #fff0ff;">
+      <th rowspan="3" style="background-color: #ffd9ff;">義務法</th>
+      <th>現在</th>
+      <td>tbenbkew</td>
+      <td>tbenbkep</td>
+      <td>tbenbke</td>
+      <td>tbenbkel</td>
+      <td>tbenbkes</td>
+      <td>tbenbken</td>
+    </tr>
+    <tr style="background-color: #fff0ff;">
+      <th>過去</th>
+      <td>tbenbktaw</td>
+      <td>tbenbktap</td>
+      <td>tbenbkta</td>
+      <td>tbenbktal</td>
+      <td>tbenbktas</td>
+      <td>tbenbktan</td>
+    </tr>
+    <tr style="background-color: #fff0ff;">
+      <th>未来</th>
+      <td>tbenbkow</td>
+      <td>tbenbkop</td>
+      <td>tbenbko</td>
+      <td>tbenbkol</td>
+      <td>tbenbkos</td>
+      <td>tbenbkon</td>
+    </tr>
+    <!-- 可能法 -->
+    <tr style="background-color: #f0f0f0;">
+      <th rowspan="3" style="background-color: #d9d9d9;">可能法</th>
+      <th>現在</th>
+      <td>tbenkmew</td>
+      <td>tbenkmep</td>
+      <td>tbenkme</td>
+      <td>tbenkmel</td>
+      <td>tbenkmes</td>
+      <td>tbenkmen</td>
+    </tr>
+    <tr style="background-color: #f0f0f0;">
+      <th>過去</th>
+      <td>tbenkmtaw</td>
+      <td>tbenkmtap</td>
+      <td>tbenkmta</td>
+      <td>tbenkmtal</td>
+      <td>tbenkmtas</td>
+      <td>tbenkmtan</td>
+    </tr>
+    <tr style="background-color: #f0f0f0;">
+      <th>未来</th>
+      <td>tbenkmow</td>
+      <td>tbenkmop</td>
+      <td>tbenkmo</td>
+      <td>tbenkmol</td>
+      <td>tbenkmos</td>
+      <td>tbenkmon</td>
+    </tr>
+    <!-- 推定法 -->
+    <tr style="background-color: #fffff0;">
+      <th rowspan="3" style="background-color: #ffffd9;">推定法</th>
+      <th>現在</th>
+      <td>tbenhzew</td>
+      <td>tbenhzep</td>
+      <td>tbenhze</td>
+      <td>tbenhzel</td>
+      <td>tbenhzes</td>
+      <td>tbenhzen</td>
+    </tr>
+    <tr style="background-color: #fffff0;">
+      <th>過去</th>
+      <td>tbenhztaw</td>
+      <td>tbenhztap</td>
+      <td>tbenhzta</td>
+      <td>tbenhztal</td>
+      <td>tbenhztas</td>
+      <td>tbenhztan</td>
+    </tr>
+    <tr style="background-color: #fffff0;">
+      <th>未来</th>
+      <td>tbenhzow</td>
+      <td>tbenhzop</td>
+      <td>tbenhzo</td>
+      <td>tbenhzol</td>
+      <td>tbenhzos</td>
+      <td>tbenhzon</td>
+    </tr>
+    <!-- 希求法 -->
+    <tr style="background-color: #f0ffff;">
+      <th rowspan="3" style="background-color: #d9ffff;">希求法</th>
+      <th>現在</th>
+      <td>tbentgew</td>
+      <td>tbentgep</td>
+      <td>tbentge</td>
+      <td>tbentgel</td>
+      <td>tbentges</td>
+      <td>tbentgen</td>
+    </tr>
+    <tr style="background-color: #f0ffff;">
+      <th>過去</th>
+      <td>tbentgtaw</td>
+      <td>tbentgtap</td>
+      <td>tbentgta</td>
+      <td>tbentgtal</td>
+      <td>tbentgtas</td>
+      <td>tbentgtan</td>
+    </tr>
+    <tr style="background-color: #f0ffff;">
+      <th>未来</th>
+      <td>tbentgow</td>
+      <td>tbentgop</td>
+      <td>tbentgo</td>
+      <td>tbentgol</td>
+      <td>tbentgos</td>
+      <td>tbentgon</td>
+    </tr>
+    <!-- 様態推量法 -->
+    <tr style="background-color: #f0ffe0;">
+      <th rowspan="3" style="background-color: #d9ffc0;">様態推量法</th>
+      <th>現在</th>
+      <td>tbensjew</td>
+      <td>tbensjep</td>
+      <td>tbensje</td>
+      <td>tbensjel</td>
+      <td>tbensjes</td>
+      <td>tbensjen</td>
+    </tr>
+    <tr style="background-color: #f0ffe0;">
+      <th>過去</th>
+      <td>tbensjtaw</td>
+      <td>tbensjtap</td>
+      <td>tbensjta</td>
+      <td>tbensjtal</td>
+      <td>tbensjtas</td>
+      <td>tbensjtan</td>
+    </tr>
+    <tr style="background-color: #f0ffe0;">
+      <th>未来</th>
+      <td>tbensjow</td>
+      <td>tbensjop</td>
+      <td>tbensjo</td>
+      <td>tbensjol</td>
+      <td>tbensjos</td>
+      <td>tbensjon</td>
+    </tr>
+    <!-- 伝聞法 -->
+    <tr style="background-color: #ffe0f0;">
+      <th rowspan="3" style="background-color: #ffc0d9;">伝聞法</th>
+      <th>現在</th>
+      <td>tbenskew</td>
+      <td>tbenskep</td>
+      <td>tbenske</td>
+      <td>tbenskel</td>
+      <td>tbenskes</td>
+      <td>tbensken</td>
+    </tr>
+    <tr style="background-color: #ffe0f0;">
+      <th>過去</th>
+      <td>tbensktaw</td>
+      <td>tbensktap</td>
+      <td>tbenskta</td>
+      <td>tbensktal</td>
+      <td>tbensktas</td>
+      <td>tbensktan</td>
+    </tr>
+    <tr style="background-color: #ffe0f0;">
+      <th>未来</th>
+      <td>tbenskow</td>
+      <td>tbenskop</td>
+      <td>tbensko</td>
+      <td>tbenskol</td>
+      <td>tbenskos</td>
+      <td>tbenskon</td>
+    </tr>
   </tbody>
 </table>
 

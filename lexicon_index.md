@@ -6,10 +6,14 @@
 |---------|------|------|-------|
 | [**amr**](lexicon/amr-adverb.md) | 明日 | 副詞 | 時間副詞 |
 | [**amr**](lexicon/amr-noun.md) | 明日 | 名詞 | 後舌無生 |
+| [**arj**](lexicon/arj.md) | すべての、あらゆる | 形容詞 | 前舌 |
+| [**arj-**](lexicon/arj-prefix.md) | すべての、あらゆる | 接頭辞 | 前舌 |
+| [**ataw**](lexicon/ataw.md) | 与える | 動詞 | 後舌 |
 | [**atr**](lexicon/atr.md) | 新しい | 形容詞 | 前舌 |
 | [**çis**](lexicon/çis.md) | 小さい | 形容詞 | 前舌 |
 | [**çit**](lexicon/çit.md) | 人 | 名詞 | 前舌有生 |
 | [**dak**](lexicon/dak.md) | 〜だから、理由 | 接続詞 | - |
+| [**-dak/-dek**](lexicon/dak-dek-suffix.md) | 〜だけ、〜のみ | 接尾辞 | 母音調和異形態 |
 | [**fal**](lexicon/fal.md) | 降る | 動詞 | 後舌 |
 | [**furæ**](lexicon/furæ.md) | 古い | 形容詞 | 後舌 |
 | [**hn̩**](lexicon/hn̩.md) | 本 | 名詞 | 後舌無生 |
@@ -18,6 +22,8 @@
 | [**jom**](lexicon/jom.md) | 読む | 動詞 | 後舌 |
 | [**ka**](lexicon/ka.md) | 疑問標識 | 小辞 | - |
 | [**kar**](lexicon/kar.md) | 彼 | 代名詞 | 3人称単数 |
+| [**ki**](lexicon/ki.md) | 木 | 名詞 | 前舌無生 |
+| [**mi**](lexicon/mi.md) | 実、果実 | 名詞 | 前舌無生 |
 | [**kino**](lexicon/kino-adverb.md) | 昨日 | 副詞 | 時間副詞 |
 | [**kino**](lexicon/kino-noun.md) | 昨日 | 名詞 | 混合無生 |
 | [**kjo**](lexicon/kjo-adverb.md) | 今日 | 副詞 | 時間副詞 |
@@ -41,6 +47,8 @@
 - [**æ**](lexicon/æ.md) - 家（前舌無生名詞）
 - [**çit**](lexicon/çit.md) - 人（前舌有生名詞）
 - [**hn̩**](lexicon/hn̩.md) - 本（後舌無生名詞）
+- [**ki**](lexicon/ki.md) - 木（前舌無生名詞）
+- [**mi**](lexicon/mi.md) - 実、果実（前舌無生名詞）
 - [**kino**](lexicon/kino-noun.md) - 昨日（混合無生名詞）
 - [**kjo**](lexicon/kjo-noun.md) - 今日（後舌無生名詞）
 - [**amr**](lexicon/amr-noun.md) - 明日（後舌無生名詞）
@@ -49,6 +57,7 @@
 - [**ʃehr**](lexicon/ʃehr.md) - 町（無生名詞）
 
 ### 動詞
+- [**ataw**](lexicon/ataw.md) - 与える（後舌動詞）
 - [**æta**](lexicon/æta.md) - 会う（前舌動詞）
 - [**fal**](lexicon/fal.md) - 降る（後舌動詞）
 - [**ik**](lexicon/ik.md) - 行く（前舌動詞）
@@ -60,6 +69,7 @@
 - [**tben**](lexicon/tben.md) - 食べる（前舌動詞）
 
 ### 形容詞
+- [**arj**](lexicon/arj.md) - すべての、あらゆる（前舌形容詞）
 - [**atr**](lexicon/atr.md) - 新しい（前舌形容詞）
 - [**çis**](lexicon/çis.md) - 小さい（前舌形容詞）
 - [**furæ**](lexicon/furæ.md) - 古い（後舌形容詞）
@@ -75,6 +85,12 @@
 - [**kino**](lexicon/kino-adverb.md) - 昨日（時間副詞）
 - [**kjo**](lexicon/kjo-adverb.md) - 今日（時間副詞）
 
+### 接頭辞
+- [**arj-**](lexicon/arj-prefix.md) - すべての、あらゆる（前舌接頭辞）
+
+### 接尾辞
+- [**-dak/-dek**](lexicon/dak-dek-suffix.md) - 〜だけ、〜のみ（母音調和による異形態接尾辞）
+
 ### 接続詞
 - [**dak**](lexicon/dak.md) - 〜だから、理由（接続詞）
 
@@ -84,10 +100,14 @@
 ## 音韻型別索引
 
 ### 前舌語彙
+- [**arj**](lexicon/arj.md) - すべての、あらゆる（前舌形容詞）
+- [**arj-**](lexicon/arj-prefix.md) - すべての、あらゆる（前舌接頭辞）
 - [**atr**](lexicon/atr.md) - 新しい（前舌形容詞）
 - [**çis**](lexicon/çis.md) - 小さい（前舌形容詞）
 - [**çit**](lexicon/çit.md) - 人（前舌有生名詞）
 - [**ik**](lexicon/ik.md) - 行く（前舌動詞）
+- [**ki**](lexicon/ki.md) - 木（前舌無生名詞）
+- [**mi**](lexicon/mi.md) - 実、果実（前舌無生名詞）
 - [**mir**](lexicon/mir.md) - 見る（前舌動詞）
 - [**tben**](lexicon/tben.md) - 食べる（前舌動詞）
 - [**vtʃ**](lexicon/vtʃ.md) - 私（1人称単数代名詞）
@@ -97,6 +117,7 @@
 ### 後舌語彙
 - [**amr**](lexicon/amr-adverb.md) - 明日（時間副詞）
 - [**amr**](lexicon/amr-noun.md) - 明日（後舌無生名詞）
+- [**ataw**](lexicon/ataw.md) - 与える（後舌動詞）
 - [**fal**](lexicon/fal.md) - 降る（後舌動詞）
 - [**furæ**](lexicon/furæ.md) - 古い（後舌形容詞）
 - [**hn̩**](lexicon/hn̩.md) - 本（後舌無生名詞）
@@ -112,6 +133,7 @@
 - [**ɔk**](lexicon/ɔk.md) - 大きい（後舌形容詞）
 
 ### 混合/未分類
+- [**-dak/-dek**](lexicon/dak-dek-suffix.md) - 〜だけ、〜のみ（母音調和による異形態接尾辞）
 - [**dak**](lexicon/dak.md) - 〜だから、理由（接続詞）
 - [**ka**](lexicon/ka.md) - 疑問標識（小辞）
 - [**kar**](lexicon/kar.md) - 彼（3人称単数代名詞）
@@ -129,11 +151,14 @@
 ### 物・場所
 - [**æ**](lexicon/æ.md) - 家（前舌無生名詞）
 - [**hn̩**](lexicon/hn̩.md) - 本（後舌無生名詞）
+- [**ki**](lexicon/ki.md) - 木（前舌無生名詞）
+- [**mi**](lexicon/mi.md) - 実、果実（前舌無生名詞）
 - [**nam**](lexicon/nam.md) - 名前（後舌無生名詞）
 - [**san**](lexicon/san.md) - ご飯（後舌無生名詞）
 - [**ʃehr**](lexicon/ʃehr.md) - 町（無生名詞）
 
 ### 動作・行為
+- [**ataw**](lexicon/ataw.md) - 与える（後舌動詞）
 - [**æta**](lexicon/æta.md) - 会う（前舌動詞）
 - [**fal**](lexicon/fal.md) - 降る（後舌動詞）
 - [**ik**](lexicon/ik.md) - 行く（前舌動詞）
@@ -145,6 +170,7 @@
 - [**tben**](lexicon/tben.md) - 食べる（前舌動詞）
 
 ### 性質・状態
+- [**arj**](lexicon/arj.md) - すべての、あらゆる（前舌形容詞）
 - [**atr**](lexicon/atr.md) - 新しい（前舌形容詞）
 - [**çis**](lexicon/çis.md) - 小さい（前舌形容詞）
 - [**furæ**](lexicon/furæ.md) - 古い（後舌形容詞）
@@ -160,10 +186,13 @@
 - [**kjo**](lexicon/kjo-noun.md) - 今日（名詞）
 
 ### 文法機能語
+- [**arj-**](lexicon/arj-prefix.md) - すべての、あらゆる（接頭辞）
+- [**-dak/-dek**](lexicon/dak-dek-suffix.md) - 〜だけ、〜のみ（接尾辞）
 - [**dak**](lexicon/dak.md) - 〜だから、理由（接続詞）
 - [**ka**](lexicon/ka.md) - 疑問標識（小辞）
 
 ## 基本反義語ペア
+- [**arj**](lexicon/arj.md) / [**çuʃts**](lexicon/çuʃts.md) - すべての / いくつかの
 - [**atr**](lexicon/atr.md) / [**furæ**](lexicon/furæ.md) - 新しい / 古い
 - [**çis**](lexicon/çis.md) / [**ɔk**](lexicon/ɔk.md) - 小さい / 大きい
 - [**ik**](lexicon/ik.md) / [**kur**](lexicon/kur.md) - 行く / 来る
@@ -172,4 +201,4 @@
 
 ---
 
-*このインデックスは2025/3/29時点での辞書エントリーを反映しています。今後の辞書整備に伴い拡充される予定です。*
+*このインデックスは2025/3/30時点での辞書エントリーを反映しています。今後の辞書整備に伴い拡充される予定です。*

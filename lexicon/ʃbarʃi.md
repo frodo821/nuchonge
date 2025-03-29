@@ -32,14 +32,12 @@
 | 形式       | 意味           | 例                           |
 | ---------- | -------------- | ---------------------------- |
 | ʃbarʃimono | 素晴らしく     | ʃbarʃimono kagajka (素晴らしく輝く) |
-| tvʃbarʃi   | とても素晴らしい | tvʃbarʃia ikimono (とても素晴らしい生き物) |
+| tvʃbarʃi   | とても素晴らしい | tvʃbarʃia ikm̩n (とても素晴らしい生き物) |
 | ʃbarʃisuro | 素晴らしくする | ʃbarʃisuro tsukrta (素晴らしく作った) |
 
 ## 例文
-1. mn ʃbarʃi mono ɔnl arta. (みなすばらしいものばかりです。)
-2. kama tsukrta ikimonoa, mn joksno mani monoɔnl arta. (神が造った生き物は、どれも満足のいくものばかりでした。)
-3. kama dekagartta søtro smkr̩smmd mirwatʃta. ttmo sbrʃi søtra hirgarttrta. (神はでき上がった世界を隅から隅まで見渡しました。とてもすばらしい世界が広がっていました。)
-4. ʃbarʃia taijod tr̩a tersta. (すばらしい太陽が地を照らした。)
+1. kama dekagartta sɔtro smkr̩smmd mirwatʃta. ttmo sbrʃi sɔtra hirgarttrta. (神はでき上がった世界を隅から隅まで見渡しました。とてもすばらしい世界が広がっていました。)
+32 ʃbarʃia taijod tr̩a tersta. (すばらしい太陽が地を照らした。)
 
 ## 関連語
 - joks (良い) - 形容詞

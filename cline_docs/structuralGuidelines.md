@@ -157,7 +157,220 @@
       <td>形式</td>
       <td>形式</td>
     </tr>
-    <!-- 条件法など、必要な法を追加 -->
+    <!-- 条件法 -->
+    <tr style="background-color: #fff0f0;">
+      <th rowspan="3" style="background-color: #ffd9d9;">条件法</th>
+      <th>現在</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <tr style="background-color: #fff0f0;">
+      <th>過去</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <tr style="background-color: #fff0f0;">
+      <th>未来</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <!-- 命令法 -->
+    <tr style="background-color: #f0fff0;">
+      <th rowspan="1" style="background-color: #d9ffd9;">命令法</th>
+      <th>現在</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <!-- 義務法 -->
+    <tr style="background-color: #fff0ff;">
+      <th rowspan="3" style="background-color: #ffd9ff;">義務法</th>
+      <th>現在</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <tr style="background-color: #fff0ff;">
+      <th>過去</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <tr style="background-color: #fff0ff;">
+      <th>未来</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <!-- 可能法 -->
+    <tr style="background-color: #f0f0f0;">
+      <th rowspan="3" style="background-color: #d9d9d9;">可能法</th>
+      <th>現在</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <tr style="background-color: #f0f0f0;">
+      <th>過去</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <tr style="background-color: #f0f0f0;">
+      <th>未来</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <!-- 推定法 -->
+    <tr style="background-color: #fffff0;">
+      <th rowspan="3" style="background-color: #ffffd9;">推定法</th>
+      <th>現在</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <tr style="background-color: #fffff0;">
+      <th>過去</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <tr style="background-color: #fffff0;">
+      <th>未来</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <!-- 希求法 -->
+    <tr style="background-color: #f0ffff;">
+      <th rowspan="3" style="background-color: #d9ffff;">希求法</th>
+      <th>現在</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <tr style="background-color: #f0ffff;">
+      <th>過去</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <tr style="background-color: #f0ffff;">
+      <th>未来</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <!-- 様態推量法 -->
+    <tr style="background-color: #f0ffe0;">
+      <th rowspan="3" style="background-color: #d9ffc0;">様態推量法</th>
+      <th>現在</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <tr style="background-color: #f0ffe0;">
+      <th>過去</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <tr style="background-color: #f0ffe0;">
+      <th>未来</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <!-- 伝聞法 -->
+    <tr style="background-color: #ffe0f0;">
+      <th rowspan="3" style="background-color: #ffc0d9;">伝聞法</th>
+      <th>現在</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <tr style="background-color: #ffe0f0;">
+      <th>過去</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
+    <tr style="background-color: #ffe0f0;">
+      <th>未来</th>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+      <td>形式</td>
+    </tr>
   </tbody>
 </table>
 

@@ -85,3 +85,12 @@ When user says "update memory bank":
 4. Complete current dictionary entry
 
 Remember: After every memory reset, you begin completely fresh. Your only link to previous lexicographic work is the Memory Bank. Maintain it as if your ability to create consistent, high-quality dictionary entries depends on it - because it does.
+
+# ディレクトリ構造
+
+- booklet_3rd.md - 文法の概要を説明する文書
+- lexicon_index.md - 辞書エントリの索引
+- lexicon/ - 辞書のエントリを含むディレクトリ
+  - arj.md - 単語「arj」のエントリ
+  - tben.md - 単語「tben」のエントリ
+- sentence/ - 例文を含むディレクトリ
