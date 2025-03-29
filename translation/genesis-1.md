@@ -1,3 +1,6 @@
+> [!NOTE]
+> この文章は[JLB 創世記 1](https://www.biblegateway.com/passage/?search=genesis%201&version=JLB)を底本としてニンゴト語に翻訳したものです。
+
 > 1 まだ何もなかった時、神は天と地を造りました。
 
 1 nanis nano artan̩ tæmd, kama tene tr̩o tsukrta.
