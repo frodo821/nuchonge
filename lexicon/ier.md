@@ -64,10 +64,190 @@
       <td>ieros</td>
       <td>ieron</td>
     </tr>
-    <!-- その他の法 -->
+    <!-- 仮定法 -->
+    <tr style="background-color: #f0fff0;">
+      <th rowspan="3" style="background-color: #d9ffd9;">仮定法</th>
+      <th>現在</th>
+      <td>ierimw</td>
+      <td>ierimp</td>
+      <td>ierim</td>
+      <td>ieriml</td>
+      <td>ierims</td>
+      <td>ierimn</td>
+    </tr>
+    <tr style="background-color: #f0fff0;">
+      <th>過去</th>
+      <td>ierm̩taw</td>
+      <td>ierm̩tap</td>
+      <td>ierm̩ta</td>
+      <td>ierm̩tal</td>
+      <td>ierm̩tas</td>
+      <td>ierm̩tan</td>
+    </tr>
+    <tr style="background-color: #f0fff0;">
+      <th>未来</th>
+      <td>iermow</td>
+      <td>iermop</td>
+      <td>iermo</td>
+      <td>iermol</td>
+      <td>iermos</td>
+      <td>iermon</td>
+    </tr>
+    <!-- 義務法 -->
+    <tr style="background-color: #ffedff;">
+      <th rowspan="2" style="background-color: #ffd9ff;">義務法</th>
+      <th>現在</th>
+      <td>ierbkew</td>
+      <td>ierbkep</td>
+      <td>ierbke</td>
+      <td>ierbkel</td>
+      <td>ierbkes</td>
+      <td>ierbken</td>
+    </tr>
+    <tr style="background-color: #ffedff;">
+      <th>過去</th>
+      <td>ierbktaw</td>
+      <td>ierbktap</td>
+      <td>ierbkta</td>
+      <td>ierbktal</td>
+      <td>ierbktas</td>
+      <td>ierbktan</td>
+    </tr>
+    <!-- 可能法 -->
+    <tr style="background-color: #e6ffff;">
+      <th rowspan="2" style="background-color: #c9f2f2;">可能法</th>
+      <th>現在</th>
+      <td>ierkmew</td>
+      <td>ierkmep</td>
+      <td>ierkme</td>
+      <td>ierkmel</td>
+      <td>ierkmes</td>
+      <td>ierkmen</td>
+    </tr>
+    <tr style="background-color: #e6ffff;">
+      <th>過去</th>
+      <td>ierkmtaw</td>
+      <td>ierkmtap</td>
+      <td>ierkmta</td>
+      <td>ierkmtal</td>
+      <td>ierkmtas</td>
+      <td>ierkmtan</td>
+    </tr>
+    <!-- 推定法 -->
+    <tr style="background-color: #fff2e6;">
+      <th rowspan="2" style="background-color: #ffe6c2;">推定法</th>
+      <th>現在</th>
+      <td>ierhzew</td>
+      <td>ierhzep</td>
+      <td>ierhze</td>
+      <td>ierhzel</td>
+      <td>ierhzes</td>
+      <td>ierhzen</td>
+    </tr>
+    <tr style="background-color: #fff2e6;">
+      <th>過去</th>
+      <td>ierhztaw</td>
+      <td>ierhztap</td>
+      <td>ierhzta</td>
+      <td>ierhztal</td>
+      <td>ierhztas</td>
+      <td>ierhztan</td>
+    </tr>
+    <!-- 希求法 -->
+    <tr style="background-color: #f9e6ff;">
+      <th rowspan="2" style="background-color: #f0c2ff;">希求法</th>
+      <th>現在</th>
+      <td>iertgew</td>
+      <td>iertgep</td>
+      <td>iertge</td>
+      <td>iertgel</td>
+      <td>iertges</td>
+      <td>iertgen</td>
+    </tr>
+    <tr style="background-color: #f9e6ff;">
+      <th>過去</th>
+      <td>iertgtaw</td>
+      <td>iertgtap</td>
+      <td>iertgta</td>
+      <td>iertgtal</td>
+      <td>iertgtas</td>
+      <td>iertgtan</td>
+    </tr>
+    <!-- 様態推量法 -->
+    <tr style="background-color: #e6f9ff;">
+      <th rowspan="2" style="background-color: #c2f0ff;">様態推量法</th>
+      <th>現在</th>
+      <td>iersjew</td>
+      <td>iersjep</td>
+      <td>iersje</td>
+      <td>iersjel</td>
+      <td>iersjes</td>
+      <td>iersjen</td>
+    </tr>
+    <tr style="background-color: #e6f9ff;">
+      <th>過去</th>
+      <td>iersjtaw</td>
+      <td>iersjtap</td>
+      <td>iersjta</td>
+      <td>iersjtal</td>
+      <td>iersjtas</td>
+      <td>iersjtan</td>
+    </tr>
+    <!-- 伝聞法 -->
+    <tr style="background-color: #e6ffe6;">
+      <th rowspan="2" style="background-color: #c2ffc2;">伝聞法</th>
+      <th>現在</th>
+      <td>ierskew</td>
+      <td>ierskep</td>
+      <td>ierske</td>
+      <td>ierskel</td>
+      <td>ierskes</td>
+      <td>iersken</td>
+    </tr>
+    <tr style="background-color: #e6ffe6;">
+      <th>過去</th>
+      <td>iersktaw</td>
+      <td>iersktap</td>
+      <td>ierskta</td>
+      <td>iersktal</td>
+      <td>iersktas</td>
+      <td>iersktan</td>
+    </tr>
+    <!-- 命令法 -->
+    <tr style="background-color: #fff0f0;">
+      <th rowspan="1" style="background-color: #ffd9d9;">命令法</th>
+      <th>命令</th>
+      <td>-</td>
+      <td>iera</td>
+      <td>ieræ</td>
+      <td>ierat</td>
+      <td>ieras</td>
+      <td>ierær</td>
+    </tr>
+    <!-- 条件法 -->
+    <tr style="background-color: #fffff0;">
+      <th rowspan="2" style="background-color: #ffffd9;">条件法</th>
+      <th>現在</th>
+      <td>ierrew</td>
+      <td>ierrep</td>
+      <td>ierre</td>
+      <td>ierrel</td>
+      <td>ierres</td>
+      <td>ierren</td>
+    </tr>
+    <tr style="background-color: #fffff0;">
+      <th>過去</th>
+      <td>ierretaw</td>
+      <td>ierretap</td>
+      <td>ierreta</td>
+      <td>ierreal</td>
+      <td>ierretas</td>
+      <td>ierretan</td>
+    </tr>
+    <!-- 受動形 -->
     <tr style="background-color: #fff2ff;">
-      <th rowspan="3" style="background-color: #f2d9f2;">その他の形式</th>
-      <th>受動形現在</th>
+      <th rowspan="3" style="background-color: #f2d9f2;">受動形</th>
+      <th>現在</th>
       <td>-</td>
       <td>-</td>
       <td>iertre</td>
@@ -76,7 +256,7 @@
       <td>-</td>
     </tr>
     <tr style="background-color: #fff2ff;">
-      <th>受動形過去</th>
+      <th>過去</th>
       <td>-</td>
       <td>-</td>
       <td>iertrta</td>
@@ -85,7 +265,7 @@
       <td>-</td>
     </tr>
     <tr style="background-color: #fff2ff;">
-      <th>受動形未来</th>
+      <th>未来</th>
       <td>-</td>
       <td>-</td>
       <td>iertro</td>
