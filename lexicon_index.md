@@ -23,6 +23,7 @@
 | [**ka**](lexicon/ka.md) | 疑問標識 | 小辞 | - |
 | [**kar**](lexicon/kar.md) | 彼 | 代名詞 | 3人称単数 |
 | [**ki**](lexicon/ki.md) | 木 | 名詞 | 前舌無生 |
+| [**-kot/-ket/-əkot/-əket**](lexicon/kot-ket-suffix.md) | 〜すること、〜する | 接尾辞 | 母音調和異形態 |
 | [**mi**](lexicon/mi.md) | 実、果実 | 名詞 | 前舌無生 |
 | [**kino**](lexicon/kino-adverb.md) | 昨日 | 副詞 | 時間副詞 |
 | [**kino**](lexicon/kino-noun.md) | 昨日 | 名詞 | 混合無生 |
@@ -90,6 +91,7 @@
 
 ### 接尾辞
 - [**-dak/-dek**](lexicon/dak-dek-suffix.md) - 〜だけ、〜のみ（母音調和による異形態接尾辞）
+- [**-kot/-ket/-əkot/-əket**](lexicon/kot-ket-suffix.md) - 〜すること、〜する（母音調和による異形態接尾辞）
 
 ### 接続詞
 - [**dak**](lexicon/dak.md) - 〜だから、理由（接続詞）
@@ -134,6 +136,7 @@
 
 ### 混合/未分類
 - [**-dak/-dek**](lexicon/dak-dek-suffix.md) - 〜だけ、〜のみ（母音調和による異形態接尾辞）
+- [**-kot/-ket/-əkot/-əket**](lexicon/kot-ket-suffix.md) - 〜すること、〜する（母音調和による異形態接尾辞）
 - [**dak**](lexicon/dak.md) - 〜だから、理由（接続詞）
 - [**ka**](lexicon/ka.md) - 疑問標識（小辞）
 - [**kar**](lexicon/kar.md) - 彼（3人称単数代名詞）
@@ -188,6 +191,7 @@
 ### 文法機能語
 - [**arj-**](lexicon/arj-prefix.md) - すべての、あらゆる（接頭辞）
 - [**-dak/-dek**](lexicon/dak-dek-suffix.md) - 〜だけ、〜のみ（接尾辞）
+- [**-kot/-ket/-əkot/-əket**](lexicon/kot-ket-suffix.md) - 〜すること、〜する（接尾辞）
 - [**dak**](lexicon/dak.md) - 〜だから、理由（接続詞）
 - [**ka**](lexicon/ka.md) - 疑問標識（小辞）
 

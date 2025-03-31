@@ -164,7 +164,7 @@
     <td>nartra</td>
   </tr>
   <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">先行準備相（-tk-）</th>
+    <th style="background-color: #f2f2d9;">準備相（-tk-）</th>
     <td>nartka</td>
     <th style="background-color: #f2f2d9;">起動相（-ds-）</th>
     <td>nardsa</td>
