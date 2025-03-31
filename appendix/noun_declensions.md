@@ -17,16 +17,16 @@
 
 ### 活用表
 
-| 格   | 有生単数 | 無生単数 | 有生複数 | 無生複数 |
-| ---- | -------- | -------- | -------- | -------- |
-| 主格 | -i       | -i       | -iri      | -eri      |
-| 対格 | -e       | -e       | -ire      | -ere      |
-| 与格 | -iñ      | -iñ      | -iriñ     | -eriñ     |
-| 所格 | -id      | -id      | -irid     | -erid     |
-| 属格 | -ne      | -me      | -irne     | -erme     |
-| 出格 | -ikr̃     | -ikr̃     | -irikr̃    | -erikr̃    |
-| 向格 | -he      | -he      | -irhe     | -erhe     |
-| 共格 | -it      | -it      | -irit     | -erit     |
+| 格   | 有生単数定 | 有生単数不定 | 無生単数定 | 無生単数不定 | 有生複数定 | 有生複数不定 | 無生複数定 | 無生複数不定 |
+| ---- | ---------- | ------------ | ---------- | ------------ | ---------- | ------------ | ---------- | ------------ |
+| 主格 | -is        | -i           | -is        | -i           | -iris      | -iri         | -eris      | -eri         |
+| 対格 | -es        | -e           | -es        | -e           | -ires      | -ire         | -eres      | -ere         |
+| 与格 | -iñs       | -iñ          | -iñs       | -iñ          | -iriñs     | -iriñ        | -eriñs     | -eriñ        |
+| 所格 | -ids       | -id          | -ids       | -id          | -irids     | -irid        | -erids     | -erid        |
+| 属格 | -nes       | -ne          | -mes       | -me          | -irnes     | -irne        | -ermes     | -erme        |
+| 出格 | -ikr̃s      | -ikr̃         | -ikr̃s      | -ikr̃         | -irikr̃s    | -irikr̃       | -erikr̃s    | -erikr̃       |
+| 向格 | -hes       | -he          | -hes       | -he          | -irhes     | -irhe        | -erhes     | -erhe        |
+| 共格 | -its       | -it          | -its       | -it          | -irits     | -irit        | -erits     | -erit        |
 
 ## 2. 子音語幹後舌調和名詞
 
@@ -36,16 +36,16 @@
 
 ### 活用表
 
-| 格   | 有生単数 | 無生単数 | 有生複数 | 無生複数 |
-| ---- | -------- | -------- | -------- | -------- |
-| 主格 | -a       | -a       | -ara      | -ora      |
-| 対格 | -o       | -o       | -aro      | -oro      |
-| 与格 | -uñ      | -uñ      | -aruñ     | -oruñ     |
-| 所格 | -ud      | -ud      | -arud     | -orud     |
-| 属格 | -no      | -mo      | -arno     | -ormo     |
-| 出格 | -ukr̃     | -ukr̃     | -arukr̃    | -orukr̃    |
-| 向格 | -h       | -h       | -arh      | -orh      |
-| 共格 | -ut      | -ut      | -arut     | -orut     |
+| 格   | 有生単数定 | 有生単数不定 | 無生単数定 | 無生単数不定 | 有生複数定 | 有生複数不定 | 無生複数定 | 無生複数不定 |
+| ---- | ---------- | ------------ | ---------- | ------------ | ---------- | ------------ | ---------- | ------------ |
+| 主格 | -as        | -a           | -as        | -a           | -aras      | -ara         | -oras      | -ora         |
+| 対格 | -os        | -o           | -os        | -o           | -aros      | -aro         | -oros      | -oro         |
+| 与格 | -uñs       | -uñ          | -uñs       | -uñ          | -aruñs     | -aruñ        | -oruñs     | -oruñ        |
+| 所格 | -uds       | -ud          | -uds       | -ud          | -aruds     | -arud        | -oruds     | -orud        |
+| 属格 | -nos       | -no          | -mos       | -mo          | -arnos     | -arno        | -ormos     | -ormo        |
+| 出格 | -ukr̃s      | -ukr̃         | -ukr̃s      | -ukr̃         | -arukr̃s    | -arukr̃       | -orukr̃s    | -orukr̃       |
+| 向格 | -hos       | -h           | -hos       | -h           | -arhos     | -arh         | -orhos     | -orh         |
+| 共格 | -uts       | -ut          | -uts       | -ut          | -aruts     | -arut        | -oruts     | -orut        |
 
 ## 3. 前舌母音語幹前舌調和名詞
 
@@ -55,16 +55,16 @@
 
 ### 活用表
 
-| 格   | 有生単数 | 無生単数 | 有生複数 | 無生複数 |
-| ---- | -------- | -------- | -------- | -------- |
-| 主格 | -ji      | -ji      | -ji      | -ri      |
-| 対格 | -je      | -je      | -je      | -re      |
-| 与格 | -ñ       | -ñ       | -iñ      | -riñ     |
-| 所格 | -d       | -d       | -id      | -rid     |
-| 属格 | -ne      | -me      | -ine     | -rme     |
-| 出格 | -kr̃      | -kr̃      | -ikr̃     | -rikr̃    |
-| 向格 | -he      | -he      | -ihe     | -rhe     |
-| 共格 | -t       | -t       | -it      | -rit     |
+| 格   | 有生単数定 | 有生単数不定 | 無生単数定 | 無生単数不定 | 有生複数定 | 有生複数不定 | 無生複数定 | 無生複数不定 |
+| ---- | ---------- | ------------ | ---------- | ------------ | ---------- | ------------ | ---------- | ------------ |
+| 主格 | -jis       | -ji          | -jis       | -ji          | -jis       | -ji          | -ris       | -ri          |
+| 対格 | -jes       | -je          | -jes       | -je          | -jes       | -je          | -res       | -re          |
+| 与格 | -ñes       | -ñ           | -ñes       | -ñ           | -iñs       | -iñ          | -riñs      | -riñ         |
+| 所格 | -des       | -d           | -des       | -d           | -ids       | -id          | -rids      | -rid         |
+| 属格 | -nes       | -ne          | -mes       | -me          | -ines      | -ine         | -rmes      | -rme         |
+| 出格 | -kr̃es      | -kr̃          | -kr̃es      | -kr̃          | -ikr̃s      | -ikr̃         | -rikr̃s     | -rikr̃        |
+| 向格 | -hes       | -he          | -hes       | -he          | -ihes      | -ihe         | -rhes      | -rhe         |
+| 共格 | -tes       | -t           | -tes       | -t           | -its       | -it          | -rits      | -rit         |
 
 ## 4. 後舌母音語幹後舌調和名詞
 
@@ -74,16 +74,16 @@
 
 ### 活用表
 
-| 格   | 有生単数 | 無生単数 | 有生複数 | 無生複数 |
-| ---- | -------- | -------- | -------- | -------- |
-| 主格 | -wa      | -wa      | -wa      | -ra      |
-| 対格 | -wo      | -wo      | -wo      | -ro      |
-| 与格 | -ñ       | -ñ       | -uñ      | -ruñ     |
-| 所格 | -d       | -d       | -ud      | -rud     |
-| 属格 | -no      | -mo      | -uno     | -rmo     |
-| 出格 | -kr̃      | -kr̃      | -ukr̃     | -rukr̃    |
-| 向格 | -h       | -h       | -uh      | -ruh     |
-| 共格 | -to      | -to      | -uto     | -rut     |
+| 格   | 有生単数定 | 有生単数不定 | 無生単数定 | 無生単数不定 | 有生複数定 | 有生複数不定 | 無生複数定 | 無生複数不定 |
+| ---- | ---------- | ------------ | ---------- | ------------ | ---------- | ------------ | ---------- | ------------ |
+| 主格 | -was       | -wa          | -was       | -wa          | -was       | -wa          | -ras       | -ra          |
+| 対格 | -wos       | -wo          | -wos       | -wo          | -wos       | -wo          | -ros       | -ro          |
+| 与格 | -ños       | -ñ           | -ños       | -ñ           | -uñs       | -uñ          | -ruñs      | -ruñ         |
+| 所格 | -dos       | -d           | -dos       | -d           | -uds       | -ud          | -ruds      | -rud         |
+| 属格 | -nos       | -no          | -mos       | -mo          | -unos      | -uno         | -rmos      | -rmo         |
+| 出格 | -kr̃os      | -kr̃          | -kr̃os      | -kr̃          | -ukr̃s      | -ukr̃         | -rukr̃s     | -rukr̃        |
+| 向格 | -hos       | -h           | -hos       | -h           | -uhs       | -uh          | -ruhs      | -ruh         |
+| 共格 | -tos       | -to          | -tos       | -to          | -utos      | -uto         | -ruts      | -rut         |
 
 ## 5. ə語幹前舌調和名詞
 
@@ -93,16 +93,16 @@
 
 ### 活用表
 
-| 格   | 有生単数 | 無生単数 | 有生複数 | 無生複数 |
-| ---- | -------- | -------- | -------- | -------- |
-| 主格 | -ji      | -ji      | -ji      | -ri      |
-| 対格 | -je      | -je      | -je      | -re      |
-| 与格 | -ñ       | -ñ       | -iñ      | -riñ     |
-| 所格 | -d       | -d       | -id      | -rid     |
-| 属格 | -ne      | -me      | -ine     | -rme     |
-| 出格 | -kr̃      | -kr̃      | -ikr̃     | -rikr̃    |
-| 向格 | -he      | -he      | -ihe     | -rhe     |
-| 共格 | -t       | -t       | -it      | -rit     |
+| 格   | 有生単数定 | 有生単数不定 | 無生単数定 | 無生単数不定 | 有生複数定 | 有生複数不定 | 無生複数定 | 無生複数不定 |
+| ---- | ---------- | ------------ | ---------- | ------------ | ---------- | ------------ | ---------- | ------------ |
+| 主格 | -jis       | -ji          | -jis       | -ji          | -jis       | -ji          | -ris       | -ri          |
+| 対格 | -jes       | -je          | -jes       | -je          | -jes       | -je          | -res       | -re          |
+| 与格 | -ñes       | -ñ           | -ñes       | -ñ           | -iñs       | -iñ          | -riñs      | -riñ         |
+| 所格 | -des       | -d           | -des       | -d           | -ids       | -id          | -rids      | -rid         |
+| 属格 | -nes       | -ne          | -mes       | -me          | -ines      | -ine         | -rmes      | -rme         |
+| 出格 | -kr̃es      | -kr̃          | -kr̃es      | -kr̃          | -ikr̃s      | -ikr̃         | -rikr̃s     | -rikr̃        |
+| 向格 | -hes       | -he          | -hes       | -he          | -ihes      | -ihe         | -rhes      | -rhe         |
+| 共格 | -tes       | -t           | -tes       | -t           | -its       | -it          | -rits      | -rit         |
 
 ## 6. a語幹後舌調和名詞
 
@@ -112,13 +112,13 @@
 
 ### 活用表
 
-| 格   | 有生単数 | 無生単数 | 有生複数 | 無生複数 |
-| ---- | -------- | -------- | -------- | -------- |
-| 主格 | -ja      | -ja      | -ja      | -ra      |
-| 対格 | -jo      | -jo      | -jo      | -ro      |
-| 与格 | -ñ       | -ñ       | -uñ      | -ruñ     |
-| 所格 | -d       | -d       | -ud      | -rud     |
-| 属格 | -no      | -mo      | -uno     | -rmo     |
-| 出格 | -kr̃      | -kr̃      | -ukr̃     | -rukr̃    |
-| 向格 | -h       | -h       | -uh      | -ruh     |
-| 共格 | -to      | -to      | -uto     | -rut     |
+| 格   | 有生単数定 | 有生単数不定 | 無生単数定 | 無生単数不定 | 有生複数定 | 有生複数不定 | 無生複数定 | 無生複数不定 |
+| ---- | ---------- | ------------ | ---------- | ------------ | ---------- | ------------ | ---------- | ------------ |
+| 主格 | -jas       | -ja          | -jas       | -ja          | -jas       | -ja          | -ras       | -ra          |
+| 対格 | -jos       | -jo          | -jos       | -jo          | -jos       | -jo          | -ros       | -ro          |
+| 与格 | -ños       | -ñ           | -ños       | -ñ           | -uñs       | -uñ          | -ruñs      | -ruñ         |
+| 所格 | -dos       | -d           | -dos       | -d           | -uds       | -ud          | -ruds      | -rud         |
+| 属格 | -nos       | -no          | -mos       | -mo          | -unos      | -uno         | -rmos      | -rmo         |
+| 出格 | -kr̃os      | -kr̃          | -kr̃os      | -kr̃          | -ukr̃s      | -ukr̃         | -rukr̃s     | -rukr̃        |
+| 向格 | -hos       | -h           | -hos       | -h           | -uhs       | -uh          | -ruhs      | -ruh         |
+| 共格 | -tos       | -to          | -tos       | -to          | -utos      | -uto         | -ruts      | -rut         |

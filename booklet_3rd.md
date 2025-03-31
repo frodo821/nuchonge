@@ -331,12 +331,16 @@
 
 ### 5.2 指示詞
 
-| 種類 | 主格  | 対格  | 与格  | 属格   | 所格 |  出格 |  向格 | 共格 |
-| ---- | ----- | ----- | ----- | ------ | ---- | ----- | ----- | ---- |
-| 近称 | kori | kore | korñ | korne | kok | kokr | kokñ | kort |
-| 中称 | sori | sore | sorñ | sorne | sok | sokr | sokñ | sork |
-| 遠称 | ari  | are  | arñ  | arne  | akr | akr | akñ | akt |
-| 疑問 | dori | dore | dorñ | dorne | dok | dokr | dokñ | dort |
+| 種類           | 主格  | 対格  | 与格  | 属格   | 所格  | 出格   | 向格  | 共格  |
+| -------------- | ----- | ----- | ----- | ------ | ----- | ------ | ----- | ----- |
+| 近称単数       | kori  | kore  | korñ  | korne  | kok   | kokr   | kokñ  | kort  |
+| 近称複数       | korir | korer | korñr | korner | kokid | kokikr̃ | kokiñ | korit |
+| 中称単数       | sori  | sore  | sorñ  | sorne  | sok   | sokr   | sokñ  | sork  |
+| 中称複数       | sorir | sorer | sorñr | sorner | sokid | sokikr̃ | sokiñ | sorit |
+| 遠称単数       | ari   | are   | arñ   | arne   | akr   | akr    | akñ   | akt   |
+| 遠称複数       | arir  | arer  | arñr  | arner  | akrad | akrakr̃ | akñiñ | aktit |
+| 疑問・不定単数 | dori  | dore  | dorñ  | dorne  | dok   | dokr   | dokñ  | dort  |
+| 疑問・不定複数 | dorir | dorer | dorñr | dorner | dokid | dokikr̃ | dokiñ | dorit |
 
 ---
 

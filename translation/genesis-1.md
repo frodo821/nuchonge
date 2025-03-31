@@ -16,7 +16,7 @@
 
 > 4-5 それを見て、神は大いに満足し、光と闇とを区別しました。しばらくの間、光は輝き続け、やがて、もう一度闇に覆われました。神は光を「昼」、闇を「夜」と名づけました。こうして昼と夜ができて、一日目が終わりました。
 
-4-5 karo mirtə, kama tvjokso mansktə, çkare jamio wakrta. sbitide tæmd, çkari kagajkatra, mata çtid, jamiñ ɔiratra. kama çkare "çiru" to, jamio "jor" to namta. çiruis to joras aradte, çti çaa owatta.
+4-5 sore mirtə, kama tvjokso mansktə, çkare jamio wakrta. sbitide tæmd, çkari kagajkatra, mata çtid, jamiñ ɔiratra. kama çkare "çiru" to, jamio "jor" to namta. çiruis to joras aradte, çti çaa owatta.
 
 
 > 6 「もやは上下に分かれ、空と海になれ」と神が言われると、
@@ -25,7 +25,7 @@
 
 > 7-8 そのとおり水蒸気が二つに分かれ、空ができました。こうして二日目も終わりました。
 
-7-8 iedɔr m̃zkira fnñ wakrtə, soræ tsukratra. korskr̃, fni çamo owatta.
+7-8 iedɔr m̃zkira fnñ wakrtə, soræ tsukratra. korskr̃, fni çaism̃ owatta.
 
 
 > 9-10 「空の下の水は集まって海となり、乾いた地が現れ出よ。」こう神が言われると、そのとおりになりました。神は乾いた地を「陸地」、水の部分を「海」と名づけました。それを見て満足すると、

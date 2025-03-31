@@ -5,5 +5,6 @@ exclude:
   - .clinerules
   - cline_docs/
   - instruction.md
+  - tools/
 github:
   is_project_page: false
