@@ -9,16 +9,16 @@
 <tr style="background-color:#f0ff;"><th>準備相</th><td>*-tkrow</td><td>*-tkrop</td><td>*-tkro</td><td>*-tkrol</td><td>*-tkros</td><td>*-tkron</td></tr>
 <tr style="background-color:#f0ff;"><th>起動相</th><td>*-dsrow</td><td>*-dsrop</td><td>*-dsro</td><td>*-dsrol</td><td>*-dsros</td><td>*-dsron</td></tr>
 <tr style="background-color:#f0ff;"><th>終結相</th><td>*-vrow</td><td>*-vrop</td><td>*-vro</td><td>*-vrol</td><td>*-vros</td><td>*-vron</td></tr>
-<tr style="background-color:#d9df;"><th rowspan="6">過去時制</th><th>非完了相</th><td>*-taw</td><td>*-tap</td><td>*-ta</td><td>*-tal</td><td>*-tas</td><td>*-tan</td></tr>
-<tr style="background-color:#f0ff;"><th>完遂相</th><td>*-smtaw</td><td>*-smtap</td><td>*-smta</td><td>*-smtal</td><td>*-smtas</td><td>*-smtan</td></tr>
-<tr style="background-color:#f0ff;"><th>結果状態相</th><td>*-traw</td><td>*-trap</td><td>*-tra</td><td>*-tral</td><td>*-tras</td><td>*-tran</td></tr>
-<tr style="background-color:#f0ff;"><th>準備相</th><td>*-ktaw</td><td>*-ktap</td><td>*-kta</td><td>*-ktal</td><td>*-ktas</td><td>*-ktan</td></tr>
-<tr style="background-color:#f0ff;"><th>起動相</th><td>*-staw</td><td>*-stap</td><td>*-sta</td><td>*-stal</td><td>*-stas</td><td>*-stan</td></tr>
-<tr style="background-color:#f0ff;"><th>終結相</th><td>*-vtaw</td><td>*-vtap</td><td>*-vta</td><td>*-vtal</td><td>*-vtas</td><td>*-vtan</td></tr>
-<tr style="background-color:#d9df;"><th rowspan="6">現在時制</th><th>非完了相</th><td>*-aw</td><td>*-ap</td><td>*-a</td><td>*-al</td><td>*-as</td><td>*-an</td></tr>
-<tr style="background-color:#f0ff;"><th>完遂相</th><td>*-smaw</td><td>*-smap</td><td>*-sma</td><td>*-smal</td><td>*-smas</td><td>*-sman</td></tr>
-<tr style="background-color:#f0ff;"><th>結果状態相</th><td>*-traw</td><td>*-trap</td><td>*-tra</td><td>*-tral</td><td>*-tras</td><td>*-tran</td></tr>
-<tr style="background-color:#f0ff;"><th>準備相</th><td>*-tkaw</td><td>*-tkap</td><td>*-tka</td><td>*-tkal</td><td>*-tkas</td><td>*-tkan</td></tr>
-<tr style="background-color:#f0ff;"><th>起動相</th><td>*-saw</td><td>*-sap</td><td>*-sa</td><td>*-sal</td><td>*-sas</td><td>*-san</td></tr>
-<tr style="background-color:#f0ff;"><th>終結相</th><td>*-vaw</td><td>*-vap</td><td>*-va</td><td>*-val</td><td>*-vas</td><td>*-van</td></tr>
+<tr style="background-color:#d9df;"><th rowspan="6">過去時制</th><th>非完了相</th><td>*-tɔw</td><td>*-tɔp</td><td>*-tɔ</td><td>*-tɔl</td><td>*-tɔs</td><td>*-tɔn</td></tr>
+<tr style="background-color:#f0ff;"><th>完遂相</th><td>*-smtɔw</td><td>*-smtɔp</td><td>*-smtɔ</td><td>*-smtɔl</td><td>*-smtɔs</td><td>*-smtɔn</td></tr>
+<tr style="background-color:#f0ff;"><th>結果状態相</th><td>*-trɔw</td><td>*-trɔp</td><td>*-trɔ</td><td>*-trɔl</td><td>*-trɔs</td><td>*-trɔn</td></tr>
+<tr style="background-color:#f0ff;"><th>準備相</th><td>*-ktɔw</td><td>*-ktɔp</td><td>*-ktɔ</td><td>*-ktɔl</td><td>*-ktɔs</td><td>*-ktɔn</td></tr>
+<tr style="background-color:#f0ff;"><th>起動相</th><td>*-stɔw</td><td>*-stɔp</td><td>*-stɔ</td><td>*-stɔl</td><td>*-stɔs</td><td>*-stɔn</td></tr>
+<tr style="background-color:#f0ff;"><th>終結相</th><td>*-vtɔw</td><td>*-vtɔp</td><td>*-vtɔ</td><td>*-vtɔl</td><td>*-vtɔs</td><td>*-vtɔn</td></tr>
+<tr style="background-color:#d9df;"><th rowspan="6">現在時制</th><th>非完了相</th><td>*-uw</td><td>*-up</td><td>*-u</td><td>*-ul</td><td>*-us</td><td>*-un</td></tr>
+<tr style="background-color:#f0ff;"><th>完遂相</th><td>*-smuw</td><td>*-smup</td><td>*-smu</td><td>*-smul</td><td>*-smus</td><td>*-smun</td></tr>
+<tr style="background-color:#f0ff;"><th>結果状態相</th><td>*-truw</td><td>*-trup</td><td>*-tru</td><td>*-trul</td><td>*-trus</td><td>*-trun</td></tr>
+<tr style="background-color:#f0ff;"><th>準備相</th><td>*-tkuw</td><td>*-tkup</td><td>*-tku</td><td>*-tkul</td><td>*-tkus</td><td>*-tkun</td></tr>
+<tr style="background-color:#f0ff;"><th>起動相</th><td>*-suw</td><td>*-sup</td><td>*-su</td><td>*-sul</td><td>*-sus</td><td>*-sun</td></tr>
+<tr style="background-color:#f0ff;"><th>終結相</th><td>*-vuw</td><td>*-vup</td><td>*-vu</td><td>*-vul</td><td>*-vus</td><td>*-vun</td></tr>
 </table>

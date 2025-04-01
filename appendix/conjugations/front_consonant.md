@@ -1,14 +1,14 @@
-# 子音で終わる動詞語幹の活用表
+# 子音で終わる前舌調和型の動詞語幹の活用表
 
 <table border="1">
 <tr style="background-color:#e6ef;"><th colspan="2" rowspan="2"></th><th colspan="3" style="text-align:center;">単数</th><th colspan="3" style="text-align:center;">複数</th></tr>
 <tr style="background-color:#e6ef;"><th>1人称</th><th>2人称</th><th>3人称</th><th>1人称</th><th>2人称</th><th>3人称</th></tr>
-<tr style="background-color:#d9df;"><th rowspan="6">未来時制</th><th>非完了相</th><td>*-ow</td><td>*-op</td><td>*-o</td><td>*-ol</td><td>*-os</td><td>*-on</td></tr>
-<tr style="background-color:#f0ff;"><th>完遂相</th><td>*-asmow</td><td>*-asmop</td><td>*-asmo</td><td>*-asmol</td><td>*-asmos</td><td>*-asmon</td></tr>
-<tr style="background-color:#f0ff;"><th>結果状態相</th><td>*-atrow</td><td>*-atrop</td><td>*-atro</td><td>*-atrol</td><td>*-atros</td><td>*-atron</td></tr>
-<tr style="background-color:#f0ff;"><th>準備相</th><td>*-atkow</td><td>*-atkop</td><td>*-atko</td><td>*-atkol</td><td>*-atkos</td><td>*-atkon</td></tr>
-<tr style="background-color:#f0ff;"><th>起動相</th><td>*-adsow</td><td>*-adsop</td><td>*-adso</td><td>*-adsol</td><td>*-adsos</td><td>*-adson</td></tr>
-<tr style="background-color:#f0ff;"><th>終結相</th><td>*-avow</td><td>*-avop</td><td>*-avo</td><td>*-avol</td><td>*-avos</td><td>*-avon</td></tr>
+<tr style="background-color:#d9df;"><th rowspan="6">未来時制</th><th>非完了相</th><td>*-æw</td><td>*-æp</td><td>*-æ</td><td>*-æl</td><td>*-æs</td><td>*-æn</td></tr>
+<tr style="background-color:#f0ff;"><th>完遂相</th><td>*-asmæw</td><td>*-asmæp</td><td>*-asmæ</td><td>*-asmæl</td><td>*-asmæs</td><td>*-asmæn</td></tr>
+<tr style="background-color:#f0ff;"><th>結果状態相</th><td>*-atræw</td><td>*-atræp</td><td>*-atræ</td><td>*-atræl</td><td>*-atræs</td><td>*-atræn</td></tr>
+<tr style="background-color:#f0ff;"><th>準備相</th><td>*-atkæw</td><td>*-atkæp</td><td>*-atkæ</td><td>*-atkæl</td><td>*-atkæs</td><td>*-atkæn</td></tr>
+<tr style="background-color:#f0ff;"><th>起動相</th><td>*-adsæw</td><td>*-adsæp</td><td>*-adsæ</td><td>*-adsæl</td><td>*-adsæs</td><td>*-adsæn</td></tr>
+<tr style="background-color:#f0ff;"><th>終結相</th><td>*-avæw</td><td>*-avæp</td><td>*-avæ</td><td>*-avæl</td><td>*-avæs</td><td>*-avæn</td></tr>
 <tr style="background-color:#d9df;"><th rowspan="6">過去時制</th><th>非完了相</th><td>*-ataw</td><td>*-atap</td><td>*-ata</td><td>*-atal</td><td>*-atas</td><td>*-atan</td></tr>
 <tr style="background-color:#f0ff;"><th>完遂相</th><td>*-asmtaw</td><td>*-asmtap</td><td>*-asmta</td><td>*-asmtal</td><td>*-asmtas</td><td>*-asmtan</td></tr>
 <tr style="background-color:#f0ff;"><th>結果状態相</th><td>*-atraw</td><td>*-atrap</td><td>*-atra</td><td>*-atral</td><td>*-atras</td><td>*-atran</td></tr>

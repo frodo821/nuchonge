@@ -3,7 +3,7 @@
 <table border="1">
 <tr style="background-color:#e6ef;"><th colspan="2" rowspan="2"></th><th colspan="3" style="text-align:center;">単数</th><th colspan="3" style="text-align:center;">複数</th></tr>
 <tr style="background-color:#e6ef;"><th>1人称</th><th>2人称</th><th>3人称</th><th>1人称</th><th>2人称</th><th>3人称</th></tr>
-<tr style="background-color:#d9df;"><th rowspan="6">未来時制</th><th>非完了相</th><td>*-ow</td><td>*-op</td><td>*-o</td><td>*-ol</td><td>*-os</td><td>*-on</td></tr>
+<tr style="background-color:#d9df;"><th rowspan="6">未来時制</th><th>非完了相</th><td>*-æw</td><td>*-æp</td><td>*-æ</td><td>*-æl</td><td>*-æs</td><td>*-æn</td></tr>
 <tr style="background-color:#f0ff;"><th>完遂相</th><td>*-smæw</td><td>*-smæp</td><td>*-smæ</td><td>*-smæl</td><td>*-smæs</td><td>*-smæn</td></tr>
 <tr style="background-color:#f0ff;"><th>結果状態相</th><td>*-træw</td><td>*-træp</td><td>*-træ</td><td>*-træl</td><td>*-træs</td><td>*-træn</td></tr>
 <tr style="background-color:#f0ff;"><th>準備相</th><td>*-tkæw</td><td>*-tkæp</td><td>*-tkæ</td><td>*-tkæl</td><td>*-tkæs</td><td>*-tkæn</td></tr>

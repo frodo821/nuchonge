@@ -1,5 +1,7 @@
 # əで終わる動詞語幹の活用表
 
+əで終わる動詞語幹は、中立的な母音で終わるために活用語尾が中立化します。
+
 <table border="1">
 <tr style="background-color:#e6ef;"><th colspan="2" rowspan="2"></th><th colspan="3" style="text-align:center;">単数</th><th colspan="3" style="text-align:center;">複数</th></tr>
 <tr style="background-color:#e6ef;"><th>1人称</th><th>2人称</th><th>3人称</th><th>1人称</th><th>2人称</th><th>3人称</th></tr>
