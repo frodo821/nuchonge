@@ -18,14 +18,14 @@
 
 | 格   | 単数不定形 | 単数定形 | 複数不定形 | 複数定形  |
 | ---- | --------- | -------- | --------- | --------- |
-| 主格 | sakña     | sakñas   | sakñra    | sakñras   |
-| 対格 | sakño     | sakños   | sakñro    | sakñros   |
-| 与格 | sakññ     | sakññs   | sakñrñ    | sakñrñs   |
-| 所格 | sakñd     | sakñds   | sakñad    | sakñads   |
-| 属格 | sakñno    | sakñnos  | sakñano   | sakñanos  |
-| 出格 | sakñkr̃    | sakñkr̃s  | sakñakr̃   | sakñakr̃s  |
-| 向格 | sakñh     | sakñhs   | sakñah    | sakñahs   |
-| 共格 | sakñto    | sakñtos  | sakñato   | sakñatos  |
+| 主格 | sakña     | sakñas   | sakñəra   | sakñəras  |
+| 対格 | sakño     | sakños   | sakñəro   | sakñəros  |
+| 与格 | sakñañ    | sakñañs  | sakñərañ  | sakñərañs |
+| 所格 | sakñd     | sakñds   | sakñəd    | sakñəds   |
+| 属格 | sakñə     | sakñəs   | sakñano   | sakñanos  |
+| 出格 | sakñukr̃   | sakñukr̃s | sakñɔkr̃   | sakñɔkr̃s  |
+| 向格 | sakñah    | sakñahs  | sakñəh    | sakñəhs   |
+| 共格 | sakñato   | sakñatos | sakñəto   | sakñətos  |
 
 ## 例文
 1. kama umñ ari ɔki ikm̃no haʒm, arjr spno sakñ to tɔro tsukrta. (神は海に住む大きな生き物をはじめ、あらゆる種類の魚と鳥を造りました。)

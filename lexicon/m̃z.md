@@ -18,12 +18,12 @@
 | ---- | -------- | ------ | -------- | ------- |
 | 主格 | m̃za     | m̃zas  | m̃zra    | m̃zras  |
 | 対格 | m̃zo     | m̃zos  | m̃zro    | m̃zros  |
-| 与格 | m̃zñ     | m̃zñs  | m̃zrñ    | m̃zrñs  |
-| 所格 | m̃zd     | m̃zds  | m̃zad    | m̃zads  |
-| 属格 | m̃zno    | m̃znos | m̃zano   | m̃zanos |
-| 出格 | m̃zkr̃    | m̃zkr̃s | m̃zakr̃   | m̃zakr̃s |
-| 向格 | m̃zh     | m̃zhs  | m̃zah    | m̃zahs  |
-| 共格 | m̃zto    | m̃ztos | m̃zato   | m̃zatos |
+| 与格 | m̃zañ     | m̃zañs  | m̃zərñ    | m̃zərñs  |
+| 所格 | m̃zad     | m̃zads  | m̃zəd    | m̃zəds  |
+| 属格 | m̃zano    | m̃znos | m̃zəno   | m̃zənos |
+| 出格 | m̃zakr̃    | m̃zkr̃s | m̃zəkr̃   | m̃zəkr̃s |
+| 向格 | m̃zah     | m̃zahs  | m̃zəh    | m̃zəhs  |
+| 共格 | m̃zato    | m̃zatos | m̃zəto   | m̃zətos |
 
 ## 例文
 1. m̃za kjo joksa ara (水は今日良い/きれいだ)

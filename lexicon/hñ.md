@@ -19,15 +19,15 @@
 ## 曲用表
 
 | 格   | 単数不定形 | 単数定形 | 複数不定形 | 複数定形  |
-| ---- | --------- | -------- | --------- | --------- |
+| --- | -------- | ------- | -------- | -------- |
 | 主格 | hña      | hñas    | hñra     | hñras    |
 | 対格 | hño      | hños    | hñro     | hñros    |
-| 与格 | hññ      | hññs    | hñrñ     | hñrñs    |
-| 所格 | hñd      | hñds    | hñad     | hñads    |
-| 属格 | hñno     | hñnos   | hñano    | hñanos   |
-| 出格 | hñkr̃     | hñkr̃s   | hñakr̃    | hñakr̃s   |
-| 向格 | hñh      | hñhs    | hñah     | hñahs    |
-| 共格 | hñto     | hñtos   | hñato    | hñatos   |
+| 与格 | hñañ     | hñañs   | hñrañ    | hñrañs   |
+| 所格 | hñud     | hñuds   | hñad     | hñads    |
+| 属格 | hñon     | hñons   | hñano    | hñanos   |
+| 出格 | hñkur̃    | hñkur̃s  | hñkar̃    | hñkar̃s   |
+| 向格 | hñuh     | hñhus   | hñah     | hñahs    |
+| 共格 | hñot     | hñots   | hñato    | hñatos   |
 
 ## 例文
 1. vtʃi hño jomaw. (私は本を読みます。)

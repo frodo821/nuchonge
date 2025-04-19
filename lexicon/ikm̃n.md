@@ -20,17 +20,17 @@
 | ---- | --------- | --------- | ---------- | ---------- |
 | 主格 | ikm̃ni     | ikm̃nis    | ikm̃nri     | ikm̃nris    |
 | 対格 | ikm̃ne     | ikm̃nes    | ikm̃nre     | ikm̃nres    |
-| 与格 | ikm̃nñ     | ikm̃nñs    | ikm̃nrñ     | ikm̃nrñs    |
-| 所格 | ikm̃nd     | ikm̃nds    | ikm̃nid     | ikm̃nids    |
+| 与格 | ikm̃nañ    | ikm̃nañs   | ikm̃narñ    | ikm̃narñs   |
+| 所格 | ikm̃nda    | ikm̃ndas   | ikm̃nid     | ikm̃nids    |
 | 属格 | ikm̃nne    | ikm̃nnes   | ikm̃nine    | ikm̃nines   |
-| 出格 | ikm̃nkr̃    | ikm̃nkr̃s   | ikm̃nikr̃    | ikm̃nikr̃s   |
+| 出格 | ikm̃nkar̃   | ikm̃nkar̃s  | ikm̃nikr̃    | ikm̃nikr̃s   |
 | 向格 | ikm̃nhe    | ikm̃nhes   | ikm̃nihe    | ikm̃nihes   |
-| 共格 | ikm̃nt     | ikm̃nts    | ikm̃nit     | ikm̃nits    |
+| 共格 | ikm̃nta    | ikm̃ntas   | ikm̃nit     | ikm̃nits    |
 
 ## 例文
-1. kama umñ ari ɔki ikm̃no haʒm, arjr spno sakñ to tɔro tsukrta. (神は海に住む大きな生き物をはじめ、あらゆる種類の魚と鳥を造りました。)
-2. kama mata ierta: "tr̃a, kettæ ja tr̃o hai mono, janono ikm̃n nad, arjr spno ikm̃no ume." (神はまた言われました。「地は、家畜や地をはうもの、野の獣など、あらゆる種類の生き物を生み出せ。」)
-4. vtʃi ikm̃no miraw. (私は生き物を見ます。)
+1. kama umñ ari ɔki ikm̃nre haʒm, arjr spno sakñ to tɔro tsukrta. (神は海に住む大きな生き物をはじめ、あらゆる種類の魚と鳥を造りました。)
+2. kama mata ierta: "tr̃a, kettæ ja tr̃o hai mono, janono ikm̃nre nad, arjr spno ikm̃nre ume." (神はまた言われました。「地は、家畜や地をはうもの、野の獣など、あらゆる種類の生き物を生み出せ。」)
+4. vtʃi ikm̃nre miraw. (私は生き物を見ます。)
 
 ## 関連語
 - sakñ (魚) - 名詞
