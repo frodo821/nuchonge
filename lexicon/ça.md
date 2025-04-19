@@ -2,7 +2,7 @@
 
 ## 文法情報
 - **類別**: 名詞
-- **音韻型**: 前舌
+- **音韻型**: 前舌子音
 - **名詞分類**: 無生
 
 ## 語源情報
@@ -16,32 +16,13 @@
 
 ## 曲用表
 
-| 格   | 単数不定形 | 単数定形 | 複数不定形 | 複数定形 |
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
 | ---- | --------- | -------- | --------- | -------- |
-| 主格 | çai       | çais     | çari      | çaris    |
-| 対格 | çae       | çaes     | çare      | çares    |
-| 与格 | çañ       | çañs     | çarñ      | çarñs    |
-| 所格 | çad       | çads     | çaid      | çaids    |
-| 属格 | çane      | çanes    | çaine     | çaines   |
-| 出格 | çakr̃      | çakr̃s    | çaikr̃     | çaikr̃s   |
-| 向格 | çahe      | çahes    | çaihe     | çaihes   |
-| 共格 | çat       | çats     | çait      | çaits    |
-
-## 例文
-1. çiru to jora arte, çti çaa owatta. (昼と夜ができて、一日目が終わりました。)
-2. korske fni çamo owatta. (こうして二日目も終わりました。)
-3. korsa sni ça arta. (これが三日目です。)
-4. korsa itsi ça arta. (これが五日目です。)
-5. korske roki çaa owatta. (こうして六日目が終わりました。)
-
-## 関連語
-- çti (一) - 数詞
-- çiru (昼) - 名詞
-- jor (夜) - 名詞
-- taijo (太陽) - 名詞
-- tæm (時) - 名詞
-
-## 備考
-「ça」は創造物語において時間の区切りを示す基本単位として重要な役割を果たす。特に「çti ça」（一日目）、「fni ça」（二日目）のように序数と組み合わせて創造の各段階を表す表現がよく用いられる。
-
-また、「ça owatta」（日が終わった）という表現は創造の各段階の締めくくりを示す定型表現として繰り返し使用される。太陽そのものを指す用法もあるが、この場合は特に「taijo」との使い分けがある。
+| 主格  | çai      | çais     | çairi    | çairis   |
+| 対格  | çae      | çaes     | çaire    | çaires   |
+| 与格  | çaiñ      | çaiñs     | çairiñ    | çairiñs   |
+| 所格  | çaid      | çaids     | çairid    | çairids   |
+| 属格  | çane      | çanes     | çairne    | çairnes   |
+| 出格  | çaikr̃      | çaikr̃s     | çairikr̃    | çairikr̃s   |
+| 向格  | çahe      | çahes     | çairhe    | çairhes   |
+| 共格  | çait      | çaits     | çairit    | çairits   |

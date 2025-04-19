@@ -2,8 +2,8 @@
 
 ## 文法情報
 - **類別**: 形容詞
-- **音韻型**: 前舌
-- **変化型**: 一般形容詞
+- **音韻型**: 前舌子音
+- **活用**: 規則変化
 
 ## 語源情報
 現代日本語の「素晴らしい(すばらしい)」から変化。「すばらしい」→「subarashii」→「ʃbarʃi」と音韻変化した。「su」が「ʃ」に、「ra」が「r」に、「ii」が「i」に変化し、複数の母音が脱落して子音クラスタが形成された。
@@ -16,36 +16,28 @@
 
 ## 曲用表
 
-| 格   | 有生単数不定形 | 有生単数定形 | 無生単数不定形 | 無生単数定形 |
-| ---- | ------------ | ----------- | ------------ | ----------- |
-| 主格 | ʃbarʃii      | ʃbarʃiis    | ʃbarʃia      | ʃbarʃias    |
-| 対格 | ʃbarʃie      | ʃbarʃies    | ʃbarʃio      | ʃbarʃios    |
-| 与格 | ʃbarʃiñ      | ʃbarʃiñs    | ʃbarʃiñ      | ʃbarʃiñs    |
-| 所格 | ʃbarʃid      | ʃbarʃids    | ʃbarʃid      | ʃbarʃids    |
-| 属格 | ʃbarʃine     | ʃbarʃines   | ʃbarʃino     | ʃbarʃinos   |
-| 出格 | ʃbarʃikr̃     | ʃbarʃikr̃s   | ʃbarʃikr̃     | ʃbarʃikr̃s   |
-| 向格 | ʃbarʃihe     | ʃbarʃihes   | ʃbarʃih      | ʃbarʃihs    |
-| 共格 | ʃbarʃit      | ʃbarʃits    | ʃbarʃito     | ʃbarʃitos   |
+### 有生名詞修飾
 
-### 副詞的用法
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | ʃbarʃii      | ʃbarʃiis     | ʃbarʃiri    | ʃbarʃiris   |
+| 対格  | ʃbarʃie      | ʃbarʃies     | ʃbarʃire    | ʃbarʃires   |
+| 与格  | ʃbarʃiiñe      | ʃbarʃiiñes     | ʃbarʃiriñe    | ʃbarʃiriñes   |
+| 所格  | ʃbarʃiide      | ʃbarʃiides     | ʃbarʃiride    | ʃbarʃirides   |
+| 属格  | ʃbarʃinei      | ʃbarʃineis     | ʃbarʃirnei    | ʃbarʃirneis   |
+| 出格  | ʃbarʃiikr̃      | ʃbarʃiikr̃s     | ʃbarʃirekr̃    | ʃbarʃirekr̃s   |
+| 向格  | ʃbarʃihei      | ʃbarʃiheis     | ʃbarʃirhei    | ʃbarʃirheis   |
+| 共格  | ʃbarʃiite      | ʃbarʃiites     | ʃbarʃirite    | ʃbarʃirites   |
 
-| 形式       | 意味           | 例                           |
-| ---------- | -------------- | ---------------------------- |
-| ʃbarʃimono | 素晴らしく     | ʃbarʃimono kagajka (素晴らしく輝く) |
-| tvʃbarʃi   | とても素晴らしい | tvʃbarʃia ikm̃n (とても素晴らしい生き物) |
-| ʃbarʃisuro | 素晴らしくする | ʃbarʃisuro tsukrta (素晴らしく作った) |
+### 無生名詞修飾
 
-## 例文
-1. kama dekagartta sɔtro smkr̃smmd mirwatʃta. ttmo sbrʃi sɔtra hirgarttrta. (神はでき上がった世界を隅から隅まで見渡しました。とてもすばらしい世界が広がっていました。)
-32 ʃbarʃia taijod tr̃a tersta. (すばらしい太陽が地を照らした。)
-
-## 関連語
-- joks (良い) - 形容詞
-- ɔk (大きい) - 形容詞
-- mansk (満足する) - 動詞
-- mirwatʃ (見渡す) - 動詞
-
-## 備考
-「ʃbarʃi」は創造物語において、神による創造の質を評価する重要な形容詞である。「mn ʃbarʃi mono」（みなすばらしいもの）という表現で、創造物の優れた性質を強調し、創造の完成度の高さを示す。
-
-特に六日目の創造の締めくくりで使用される「ttmo sbrʃi søtra hirgarttrta」（とてもすばらしい世界が広がっていました）という表現は、創造全体の総括的な評価となっている。この形容詞は神の目から見た創造の完璧さを表現する最も重要な修飾語の一つであり、創造物の本質的な良さを表現している。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | ʃbarʃii      | ʃbarʃiis     | ʃbarʃiri    | ʃbarʃiris   |
+| 対格  | ʃbarʃie      | ʃbarʃies     | ʃbarʃire    | ʃbarʃires   |
+| 与格  | ʃbarʃiiñe      | ʃbarʃiiñes     | ʃbarʃiriñe    | ʃbarʃiriñes   |
+| 所格  | ʃbarʃiide      | ʃbarʃiides     | ʃbarʃiride    | ʃbarʃirides   |
+| 属格  | ʃbarʃimei      | ʃbarʃimeis     | ʃbarʃirmei    | ʃbarʃirmeis   |
+| 出格  | ʃbarʃiikr̃      | ʃbarʃiikr̃s     | ʃbarʃirekr̃    | ʃbarʃirekr̃s   |
+| 向格  | ʃbarʃihei      | ʃbarʃiheis     | ʃbarʃirhei    | ʃbarʃirheis   |
+| 共格  | ʃbarʃiite      | ʃbarʃiites     | ʃbarʃirite    | ʃbarʃirites   |

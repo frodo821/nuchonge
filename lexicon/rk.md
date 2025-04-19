@@ -15,29 +15,13 @@
 
 ## 曲用表
 
-| 格   | 単数不定形 | 単数定形 | 複数不定形 | 複数定形 |
-| ---- | -------- | ------- | -------- | ------- |
-| 主格 | rka      | rkas    | rkra     | rkras   |
-| 対格 | rko      | rkos    | rkro     | rkros   |
-| 与格 | rkñ      | rkñs    | rkrñ     | rkrñs   |
-| 所格 | rkd      | rkds    | rkad     | rkads   |
-| 属格 | rkno     | rknos   | rkano    | rkanos  |
-| 出格 | rkkr̃     | rkkr̃s   | rkakr̃    | rkakr̃s  |
-| 向格 | rkh      | rkhs    | rkah     | rkahs   |
-| 共格 | rkto     | rktos   | rkato    | rkatos  |
-
-## 例文
-1. "sorano ʃta m̃za atsmarte umñ nare, kartr̃a arwre." (「空の下の水は集まって海となり、乾いた地が現れ出よ。」)
-2. kama kartr̃o "rk" to, m̃zno hæo "um" to namta. (神は乾いた地を「陸地」と、水の部分を「海」と名づけました。)
-3. "rkad, arjr spno kas, spno ari ʃitsr, mio tskr tr̃a haee." (「陸地には、あらゆる種類の草、種のある植物、実のなる木が生えよ。」)
-
-## 関連語
-- tr̃ (地) - 名詞
-- um (海) - 名詞
-- sora (空) - 名詞
-- kartr̃ (乾いた) - 形容詞
-- kas (草) - 名詞
-- ʃitsr (植物) - 名詞
-
-## 備考
-「rk」は創造神話において、海から分離される重要な要素として描かれる。生物の住処としての意味も持ち、特に植物や陸上生物の生息地として重要な役割を果たす。「rk」は「tr̃」(地)よりも限定的で、特に海に対比される乾いた地面を指す。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | rkwa      | rkwas     | rkra    | rkras   |
+| 対格  | rkwo      | rkwos     | rkro    | rkros   |
+| 与格  | rkñ      | rkños     | rkruñ    | rkruñs   |
+| 所格  | rkd      | rkdos     | rkrud    | rkruds   |
+| 属格  | rkmo      | rkmos     | rkrmo    | rkrmos   |
+| 出格  | rkkr̃      | rkkr̃os     | rkrukr̃    | rkrukr̃s   |
+| 向格  | rkh      | rkhos     | rkruh    | rkruhs   |
+| 共格  | rkto      | rktos     | rkrut    | rkruts   |

@@ -2,7 +2,7 @@
 
 ## 文法情報
 - **類別**: 名詞
-- **音韻型**: 前舌
+- **音韻型**: 前舌子音
 - **名詞分類**: 無生
 
 ## 語源情報
@@ -13,28 +13,14 @@
 2. 大地に根を張り、葉や茎を持つ生命体
 
 ## 曲用表
-| 格   | 単数不定形 | 単数定形  | 複数不定形 | 複数定形   |
-| ---- | --------- | --------- | ---------- | ---------- |
-| 主格 | ʃitsri    | ʃitsris   | ʃitsrri    | ʃitsrris   |
-| 対格 | ʃitsre    | ʃitsres   | ʃitsrre    | ʃitsrres   |
-| 与格 | ʃitsrñ    | ʃitsrñs   | ʃitsrrñ    | ʃitsrrñs   |
-| 所格 | ʃitsrd    | ʃitsrds   | ʃitsrid    | ʃitsrids   |
-| 属格 | ʃitsrne   | ʃitsrnes  | ʃitsrrne   | ʃitsrrnes  |
-| 出格 | ʃitsrkr̃   | ʃitsrkr̃s  | ʃitsrikr̃   | ʃitsrikr̃s  |
-| 向格 | ʃitsrhe   | ʃitsrhes  | ʃitsrihe   | ʃitsrihes  |
-| 共格 | ʃitsrt    | ʃitsrts   | ʃitsrit    | ʃitsrits   |
 
-## 例文
-1. tr̃ad arjr spno ʃitsri haea (地にはあらゆる種類の植物が生える)
-2. ʃitsrne mio tbenaw (植物の実を食べます)
-3. ʃitsrri m̃zo suka (植物たちは水を好む)
-
-## 関連語
-- **kas**: 草
-- **k**: 木
-- **mi**: 実
-- **ari**: 実、果実
-- **sp**: 種類
-
-## 備考
-創造物語において、ʃitsr（植物）は陸地の創造後、最初に生み出された生命形態として重要な位置を占める。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | ʃitsri      | ʃitsris     | ʃitsreri    | ʃitsreris   |
+| 対格  | ʃitsre      | ʃitsres     | ʃitsrere    | ʃitsreres   |
+| 与格  | ʃitsriñ      | ʃitsriñs     | ʃitsreriñ    | ʃitsreriñs   |
+| 所格  | ʃitsrid      | ʃitsrids     | ʃitsrerid    | ʃitsrerids   |
+| 属格  | ʃitsrme      | ʃitsrmes     | ʃitsrerme    | ʃitsrermes   |
+| 出格  | ʃitsrikr̃      | ʃitsrikr̃s     | ʃitsrerikr̃    | ʃitsrerikr̃s   |
+| 向格  | ʃitsrhe      | ʃitsrhes     | ʃitsrerhe    | ʃitsrerhes   |
+| 共格  | ʃitsrit      | ʃitsrits     | ʃitsrerit    | ʃitsrerits   |

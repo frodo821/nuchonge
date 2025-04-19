@@ -2,7 +2,7 @@
 
 ## 文法情報
 - **類別**: 名詞
-- **音韻型**: 前舌
+- **音韻型**: 前舌子音
 - **名詞分類**: 無生
 
 ## 語源情報
@@ -17,25 +17,11 @@
 
 | 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
 | ---- | --------- | -------- | --------- | -------- |
-| 主格  | ki      | kis     | kiri      | kiris     |
-| 対格  | kie      | kies     | kire      | kires     |
-| 与格  | kiñ      | kiñs     | kirñ      | kirñs     |
-| 所格  | kid      | kids     | kiid      | kiids     |
-| 属格  | kine     | kines    | kine     | kiines    |
-| 出格  | kikr̃     | kikr̃s    | kiikr̃     | kiikr̃s    |
-| 向格  | kihe     | kihes    | kiihe     | kiihes    |
-| 共格  | kit      | kits     | kiit      | kiits     |
-
-## 例文
-1. ʃehrñ **ki** çisi ara. (町に木が小さい。)
-2. vtʃi **kie** mirta. (私は木を見た。)
-3. çit **kiid** araw. (人が木の下にいる。)
-4. **kiri** arjrim æri narñ ætataw. (木々はすべての家の前に植えられた。)
-5. ʃitsr **kiikr̃** faltaw. (葉が木から落ちた。)
-
-## 関連語
-- **mi**: 実、果実
-- **kæda**: 枝
-- **ʃitsr**: 葉
-- **negi**: 根
-- **mori**: 森
+| 主格  | kii      | kiis     | kiiri    | kiiris   |
+| 対格  | kie      | kies     | kiire    | kiires   |
+| 与格  | kiiñ      | kiiñs     | kiiriñ    | kiiriñs   |
+| 所格  | kiid      | kiids     | kiirid    | kiirids   |
+| 属格  | kine      | kines     | kiirne    | kiirnes   |
+| 出格  | kiikr̃      | kiikr̃s     | kiirikr̃    | kiirikr̃s   |
+| 向格  | kihe      | kihes     | kiirhe    | kiirhes   |
+| 共格  | kiit      | kiits     | kiirit    | kiirits   |

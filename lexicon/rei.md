@@ -2,8 +2,8 @@
 
 ## 文法情報
 - **類別**: 名詞
-- **音韻型**: 前舌
-- **名詞分類**: 有生
+- **音韻型**: 前舌子音
+- **名詞分類**: 無生
 
 ## 語源情報
 現代日本語「霊（れい）」から。「rei」の形で音韻的に継承された。
@@ -14,24 +14,14 @@
 3. （宗教的に）神聖な力、超自然的存在
 
 ## 曲用表
-| 格   | 単数不定形 | 単数定形 | 複数不定形 | 複数定形  |
-| ---- | -------- | ------- | -------- | -------- |
-| 主格 | reii    | reiis  | reiri   | reiris  |
-| 対格 | reie    | reies  | reire   | reires  |
-| 与格 | reiñ    | reiñs  | reirñ   | reirñs  |
-| 所格 | reid    | reids  | reiid   | reiids  |
-| 属格 | reine   | reines | reiine  | reiines |
-| 出格 | reikr̃   | reikr̃s | reiikr̃  | reiikr̃s |
-| 向格 | reihe   | reihes | reiihe  | reiihes |
-| 共格 | reit    | reits  | reiit   | reiits  |
 
-## 例文
-1. kamno reii m̃zad urwa (神の霊が水の上を動いている)
-2. reii çitñ ikra (霊が人に宿る)
-
-## 関連語
-- **kam** (神) - 名詞
-- **tam** (魂) - 名詞
-
-## 備考
-宗教的・哲学的文脈で重要な概念。生命力や神の力を表す際にも使用される。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | reii      | reiis     | reiiri    | reiiris   |
+| 対格  | reie      | reies     | reiire    | reiires   |
+| 与格  | reiiñ      | reiiñs     | reiiriñ    | reiiriñs   |
+| 所格  | reiid      | reiids     | reiirid    | reiirids   |
+| 属格  | reine      | reines     | reiirne    | reiirnes   |
+| 出格  | reiikr̃      | reiikr̃s     | reiirikr̃    | reiirikr̃s   |
+| 向格  | reihe      | reihes     | reiirhe    | reiirhes   |
+| 共格  | reiit      | reiits     | reiirit    | reiirits   |

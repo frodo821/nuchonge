@@ -2,7 +2,7 @@
 
 ## 文法情報
 - **類別**: 名詞
-- **音韻型**: 前舌
+- **音韻型**: 前舌子音
 - **名詞分類**: 無生
 
 ## 語源情報
@@ -14,27 +14,14 @@
 3. 階層構造における上位と下位の関係
 
 ## 曲用表
-| 格   | 単数不定形 | 単数定形  | 複数不定形 | 複数定形   |
-| ---- | --------- | --------- | ---------- | ---------- |
-| 主格 | uæʃi      | uæʃis     | uæʃri      | uæʃris     |
-| 対格 | uæʃe      | uæʃes     | uæʃre      | uæʃres     |
-| 与格 | uæʃñ      | uæʃñs     | uæʃrñ      | uæʃrñs     |
-| 所格 | uæʃd      | uæʃds     | uæʃid      | uæʃids     |
-| 属格 | uæʃne     | uæʃnes    | uæʃrne     | uæʃrnes    |
-| 出格 | uæʃkr̃     | uæʃkr̃s    | uæʃikr̃     | uæʃikr̃s    |
-| 向格 | uæʃhe     | uæʃhes    | uæʃihe     | uæʃihes    |
-| 共格 | uæʃt      | uæʃts     | uæʃit      | uæʃits     |
 
-## 例文
-1. maja-a uæʃ-tañ wakr-te (もやは上下に分かれて)
-2. tentr̃a uæʃ-ne gainen-i ara (天地は上下の概念です)
-3. çit-a æno uæʃ-d aruk-a (人は家の上下を歩く)
-4. kono gainen-ri-ne uæʃ-i ar-a (これらの概念には上下関係がある)
-
-## 関連語
-- **uæ**: 上
-- **ʃta**: 下
-- **wakr**: 区別する
-- **maja**: もや
-
-## 備考
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | uæʃi      | uæʃis     | uæʃiri    | uæʃiris   |
+| 対格  | uæʃe      | uæʃes     | uæʃire    | uæʃires   |
+| 与格  | uæʃiñ      | uæʃiñs     | uæʃiriñ    | uæʃiriñs   |
+| 所格  | uæʃid      | uæʃids     | uæʃirid    | uæʃirids   |
+| 属格  | uæʃne      | uæʃnes     | uæʃirne    | uæʃirnes   |
+| 出格  | uæʃikr̃      | uæʃikr̃s     | uæʃirikr̃    | uæʃirikr̃s   |
+| 向格  | uæʃhe      | uæʃhes     | uæʃirhe    | uæʃirhes   |
+| 共格  | uæʃit      | uæʃits     | uæʃirit    | uæʃirits   |

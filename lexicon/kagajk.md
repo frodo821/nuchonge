@@ -2,8 +2,9 @@
 
 ## 文法情報
 - **類別**: 動詞
-- **音韻型**: 後舌
-- **動詞分類**: 状態動詞
+- **音韻型**: 後舌子音
+- **動詞分類**: 自動詞
+- **活用**: 規則変化
 
 ## 語源情報
 現代日本語の「輝く(かがやく)」から変化。「かがやく」→「kagayak」→「kagajk」と音韻変化した。「y」が「j」に変化し、語末母音が脱落して子音クラスタが形成された。
@@ -16,349 +17,29 @@
 
 ## 活用表
 
-### 動詞「輝く」の活用表
 
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <thead>
-    <tr style="background-color: #e6e6ff;">
-      <th colspan="2" rowspan="2"></th>
-      <th colspan="3" style="text-align: center;">単数</th>
-      <th colspan="3" style="text-align: center;">複数</th>
-    </tr>
-    <tr style="background-color: #e6e6ff;">
-      <th>1人称</th>
-      <th>2人称</th>
-      <th>3人称</th>
-      <th>1人称</th>
-      <th>2人称</th>
-      <th>3人称</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- 直説法 -->
-    <tr style="background-color: #f0f0ff;">
-      <th rowspan="3" style="background-color: #d9d9ff;">直説法</th>
-      <th>現在</th>
-      <td>kagajkaw</td>
-      <td>kagajkap</td>
-      <td>kagajka</td>
-      <td>kagajkal</td>
-      <td>kagajkas</td>
-      <td>kagajkan</td>
-    </tr>
-    <tr style="background-color: #f0f0ff;">
-      <th>過去</th>
-      <td>kagajktaw</td>
-      <td>kagajktap</td>
-      <td>kagajkta</td>
-      <td>kagajktal</td>
-      <td>kagajktas</td>
-      <td>kagajktan</td>
-    </tr>
-    <tr style="background-color: #f0f0ff;">
-      <th>未来</th>
-      <td>kagajkrow</td>
-      <td>kagajkrop</td>
-      <td>kagajkro</td>
-      <td>kagajkrol</td>
-      <td>kagajkros</td>
-      <td>kagajkron</td>
-    </tr>
-    <!-- 条件法 -->
-    <tr style="background-color: #fff0f0;">
-      <th rowspan="3" style="background-color: #ffd9d9;">条件法</th>
-      <th>現在</th>
-      <td>kagajkfaw</td>
-      <td>kagajkfap</td>
-      <td>kagajkfa</td>
-      <td>kagajkfal</td>
-      <td>kagajkfas</td>
-      <td>kagajkfan</td>
-    </tr>
-    <tr style="background-color: #fff0f0;">
-      <th>過去</th>
-      <td>kagajkftaw</td>
-      <td>kagajkftap</td>
-      <td>kagajkfta</td>
-      <td>kagajkftal</td>
-      <td>kagajkftas</td>
-      <td>kagajkftan</td>
-    </tr>
-    <tr style="background-color: #fff0f0;">
-      <th>未来</th>
-      <td>kagajkfrow</td>
-      <td>kagajkfrop</td>
-      <td>kagajkfro</td>
-      <td>kagajkfrol</td>
-      <td>kagajkfros</td>
-      <td>kagajkfron</td>
-    </tr>
-    <!-- 命令法 -->
-    <tr style="background-color: #f0fff0;">
-      <th rowspan="1" style="background-color: #d9ffd9;">命令法</th>
-      <th>現在</th>
-      <td>-</td>
-      <td>kagajke</td>
-      <td>kagajke</td>
-      <td>kagajkal</td>
-      <td>kagajken</td>
-      <td>kagajken</td>
-    </tr>
-    <!-- 義務法 -->
-    <tr style="background-color: #fff0ff;">
-      <th rowspan="3" style="background-color: #ffd9ff;">義務法</th>
-      <th>現在</th>
-      <td>kagajknaw</td>
-      <td>kagajknap</td>
-      <td>kagajkna</td>
-      <td>kagajknal</td>
-      <td>kagajknas</td>
-      <td>kagajknan</td>
-    </tr>
-    <tr style="background-color: #fff0ff;">
-      <th>過去</th>
-      <td>kagajkntaw</td>
-      <td>kagajkntap</td>
-      <td>kagajknta</td>
-      <td>kagajkntal</td>
-      <td>kagajkntas</td>
-      <td>kagajkntan</td>
-    </tr>
-    <tr style="background-color: #fff0ff;">
-      <th>未来</th>
-      <td>kagajknrow</td>
-      <td>kagajknrop</td>
-      <td>kagajknro</td>
-      <td>kagajknrol</td>
-      <td>kagajknros</td>
-      <td>kagajknron</td>
-    </tr>
-    <!-- 可能法 -->
-    <tr style="background-color: #f0f0f0;">
-      <th rowspan="3" style="background-color: #d9d9d9;">可能法</th>
-      <th>現在</th>
-      <td>kagajkvaw</td>
-      <td>kagajkvap</td>
-      <td>kagajkva</td>
-      <td>kagajkval</td>
-      <td>kagajkvas</td>
-      <td>kagajkvan</td>
-    </tr>
-    <tr style="background-color: #f0f0f0;">
-      <th>過去</th>
-      <td>kagajkvtaw</td>
-      <td>kagajkvtap</td>
-      <td>kagajkvta</td>
-      <td>kagajkvtal</td>
-      <td>kagajkvtas</td>
-      <td>kagajkvtan</td>
-    </tr>
-    <tr style="background-color: #f0f0f0;">
-      <th>未来</th>
-      <td>kagajkvrow</td>
-      <td>kagajkvrop</td>
-      <td>kagajkvro</td>
-      <td>kagajkvrol</td>
-      <td>kagajkvros</td>
-      <td>kagajkvron</td>
-    </tr>
-    <!-- 推定法 -->
-    <tr style="background-color: #fffff0;">
-      <th rowspan="3" style="background-color: #ffffd9;">推定法</th>
-      <th>現在</th>
-      <td>kagajkmaw</td>
-      <td>kagajkmap</td>
-      <td>kagajkma</td>
-      <td>kagajkmal</td>
-      <td>kagajkmas</td>
-      <td>kagajkman</td>
-    </tr>
-    <tr style="background-color: #fffff0;">
-      <th>過去</th>
-      <td>kagajkmtaw</td>
-      <td>kagajkmtap</td>
-      <td>kagajkmta</td>
-      <td>kagajkmtal</td>
-      <td>kagajkmtas</td>
-      <td>kagajkmtan</td>
-    </tr>
-    <tr style="background-color: #fffff0;">
-      <th>未来</th>
-      <td>kagajkmrow</td>
-      <td>kagajkmrop</td>
-      <td>kagajkmro</td>
-      <td>kagajkmrol</td>
-      <td>kagajkmros</td>
-      <td>kagajkmron</td>
-    </tr>
-    <!-- 希求法 -->
-    <tr style="background-color: #f0ffff;">
-      <th rowspan="3" style="background-color: #d9ffff;">希求法</th>
-      <th>現在</th>
-      <td>kagajkdaw</td>
-      <td>kagajkdap</td>
-      <td>kagajkda</td>
-      <td>kagajkdal</td>
-      <td>kagajkdas</td>
-      <td>kagajkdan</td>
-    </tr>
-    <tr style="background-color: #f0ffff;">
-      <th>過去</th>
-      <td>kagajkdtaw</td>
-      <td>kagajkdtap</td>
-      <td>kagajkdta</td>
-      <td>kagajkdtal</td>
-      <td>kagajkdtas</td>
-      <td>kagajkdtan</td>
-    </tr>
-    <tr style="background-color: #f0ffff;">
-      <th>未来</th>
-      <td>kagajkdrow</td>
-      <td>kagajkdrop</td>
-      <td>kagajkdro</td>
-      <td>kagajkdrol</td>
-      <td>kagajkdros</td>
-      <td>kagajkdron</td>
-    </tr>
-    <!-- 様態推量法 -->
-    <tr style="background-color: #f0ffe0;">
-      <th rowspan="3" style="background-color: #d9ffc0;">様態推量法</th>
-      <th>現在</th>
-      <td>kagajksaw</td>
-      <td>kagajksap</td>
-      <td>kagajksa</td>
-      <td>kagajksal</td>
-      <td>kagajksas</td>
-      <td>kagajksan</td>
-    </tr>
-    <tr style="background-color: #f0ffe0;">
-      <th>過去</th>
-      <td>kagajkstaw</td>
-      <td>kagajkstap</td>
-      <td>kagajksta</td>
-      <td>kagajkstal</td>
-      <td>kagajkstas</td>
-      <td>kagajkstan</td>
-    </tr>
-    <tr style="background-color: #f0ffe0;">
-      <th>未来</th>
-      <td>kagajksrow</td>
-      <td>kagajksrop</td>
-      <td>kagajksro</td>
-      <td>kagajksrol</td>
-      <td>kagajksros</td>
-      <td>kagajksron</td>
-    </tr>
-    <!-- 伝聞法 -->
-    <tr style="background-color: #ffe0f0;">
-      <th rowspan="3" style="background-color: #ffc0d9;">伝聞法</th>
-      <th>現在</th>
-      <td>kagajkhaw</td>
-      <td>kagajkhap</td>
-      <td>kagajkha</td>
-      <td>kagajkhal</td>
-      <td>kagajkhas</td>
-      <td>kagajkhan</td>
-    </tr>
-    <tr style="background-color: #ffe0f0;">
-      <th>過去</th>
-      <td>kagajkhtaw</td>
-      <td>kagajkhtap</td>
-      <td>kagajkhta</td>
-      <td>kagajkhtal</td>
-      <td>kagajkhtas</td>
-      <td>kagajkhtan</td>
-    </tr>
-    <tr style="background-color: #ffe0f0;">
-      <th>未来</th>
-      <td>kagajkhrow</td>
-      <td>kagajkhrop</td>
-      <td>kagajkhro</td>
-      <td>kagajkhrol</td>
-      <td>kagajkhros</td>
-      <td>kagajkhron</td>
-    </tr>
-  </tbody>
+<h3>kagajk（動詞）の直説法活用表</h3>
+
+<table border="1">
+<tr style="background-color: #e6ef"><th colspan="2" rowspan="2"></th><th colspan="3" style="text-align: center">単数</th><th colspan="3" style="text-align: center">複数</th></tr>
+<tr style="background-color: #e6ef"><th>1人称</th><th>2人称</th><th>3人称</th><th>1人称</th><th>2人称</th><th>3人称</th></tr>
+<tr style="background-color: #d9df"><th rowspan="6">現在時制</th><th>非完了相</th><td>kagajkuw</td><td>kagajkup</td><td>kagajku</td><td>kagajkul</td><td>kagajkus</td><td>kagajkun</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>kagajkɔsmuw</td><td>kagajkɔsmup</td><td>kagajkɔsmu</td><td>kagajkɔsmul</td><td>kagajkɔsmus</td><td>kagajkɔsmun</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>kagajkɔtruw</td><td>kagajkɔtrup</td><td>kagajkɔtru</td><td>kagajkɔtrul</td><td>kagajkɔtrus</td><td>kagajkɔtrun</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>kagajkɔtkuw</td><td>kagajkɔtkup</td><td>kagajkɔtku</td><td>kagajkɔtkul</td><td>kagajkɔtkus</td><td>kagajkɔtkun</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>kagajkɔdsuw</td><td>kagajkɔdsup</td><td>kagajkɔdsu</td><td>kagajkɔdsul</td><td>kagajkɔdsus</td><td>kagajkɔdsun</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>kagajkɔvuw</td><td>kagajkɔvup</td><td>kagajkɔvu</td><td>kagajkɔvul</td><td>kagajkɔvus</td><td>kagajkɔvun</td></tr>
+<tr style="background-color: #d9df"><th rowspan="6">過去時制</th><th>非完了相</th><td>kagajkɔtɔw</td><td>kagajkɔtɔp</td><td>kagajkɔtɔ</td><td>kagajkɔtɔl</td><td>kagajkɔtɔs</td><td>kagajkɔtɔn</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>kagajkɔsmtɔw</td><td>kagajkɔsmtɔp</td><td>kagajkɔsmtɔ</td><td>kagajkɔsmtɔl</td><td>kagajkɔsmtɔs</td><td>kagajkɔsmtɔn</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>kagajkɔtrɔw</td><td>kagajkɔtrɔp</td><td>kagajkɔtrɔ</td><td>kagajkɔtrɔl</td><td>kagajkɔtrɔs</td><td>kagajkɔtrɔn</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>kagajkɔktɔw</td><td>kagajkɔktɔp</td><td>kagajkɔktɔ</td><td>kagajkɔktɔl</td><td>kagajkɔktɔs</td><td>kagajkɔktɔn</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>kagajkɔstɔw</td><td>kagajkɔstɔp</td><td>kagajkɔstɔ</td><td>kagajkɔstɔl</td><td>kagajkɔstɔs</td><td>kagajkɔstɔn</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>kagajkɔvtɔw</td><td>kagajkɔvtɔp</td><td>kagajkɔvtɔ</td><td>kagajkɔvtɔl</td><td>kagajkɔvtɔs</td><td>kagajkɔvtɔn</td></tr>
+<tr style="background-color: #d9df"><th rowspan="6">未来時制</th><th>非完了相</th><td>kagajkow</td><td>kagajkop</td><td>kagajko</td><td>kagajkol</td><td>kagajkos</td><td>kagajkon</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>kagajkɔsmow</td><td>kagajkɔsmop</td><td>kagajkɔsmo</td><td>kagajkɔsmol</td><td>kagajkɔsmos</td><td>kagajkɔsmon</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>kagajkɔtrow</td><td>kagajkɔtrop</td><td>kagajkɔtro</td><td>kagajkɔtrol</td><td>kagajkɔtros</td><td>kagajkɔtron</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>kagajkɔtkow</td><td>kagajkɔtkop</td><td>kagajkɔtko</td><td>kagajkɔtkol</td><td>kagajkɔtkos</td><td>kagajkɔtkon</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>kagajkɔdsow</td><td>kagajkɔdsop</td><td>kagajkɔdso</td><td>kagajkɔdsol</td><td>kagajkɔdsos</td><td>kagajkɔdson</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>kagajkɔvow</td><td>kagajkɔvop</td><td>kagajkɔvo</td><td>kagajkɔvol</td><td>kagajkɔvos</td><td>kagajkɔvon</td></tr>
 </table>
 
-### 相（アスペクト）形式（3人称単数現在形）
-
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">完遂相（-sm-）</th>
-    <td>kagajksma</td>
-    <th style="background-color: #f2f2d9;">結果状態相（-tr-）</th>
-    <td>kagajktra</td>
-  </tr>
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">準備相（-tk-）</th>
-    <td>kagajktka</td>
-    <th style="background-color: #f2f2d9;">起動相（-ds-）</th>
-    <td>kagajkdsa</td>
-  </tr>
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">終結相（-və-/-v-）</th>
-    <td>kagajkva</td>
-    <th style="background-color: #f2f2d9;"></th>
-    <td></td>
-  </tr>
-</table>
-
-### 代表的複合形式
-
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6; width: 200px;">過去完遂相</th>
-    <td>kagajksmta</td>
-    <td style="font-style: italic;">完全に輝きを終えた状態</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6;">未来結果状態相</th>
-    <td>kagajktrro</td>
-    <td style="font-style: italic;">将来において輝いた結果の状態になる</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6;">条件完遂相</th>
-    <td>kagajkfsma</td>
-    <td style="font-style: italic;">もし完全に輝くならば</td>
-  </tr>
-</table>
-
-### 受動形
-
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6; width: 150px;">時制</th>
-    <th style="background-color: #e6e6e6;">3人称単数</th>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <td>現在</td>
-    <td>kagajktra</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <td>過去</td>
-    <td>kagajktrta</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <td>未来</td>
-    <td>kagajktrro</td>
-  </tr>
-</table>
-
-## 例文
-1. "çkari, kagajke." kama iertas, çkari sɔfto kagajktrta. (「光よ、輝き出よ。」神が言われると、光がさっとさしてきました。)
-2. hoʃira soran kagajkta. (星々が空に輝いた。)
-3. taijone çkari tr̃o kagajkta. (太陽の光が地を輝かせた。)
-4. tskano akarsa sbitñ kagajkta. (月の明かりがしばらく輝いた。)
-
-## 関連語
-- çkar (光) - 名詞
-- taijo (太陽) - 名詞
-- tska (月) - 名詞
-- hoʃi (星) - 名詞
-- sɔft (さっと) - 副詞
-
-## 備考
-「kagajk」は光を発する・反射する行為や状態を表す基本的な動詞であり、特に創造物語では最初の創造行為「çkari, kagajke」（光よ、輝け）において重要な役割を果たす。
-
-「kagajk」は物理的な光の状態だけでなく、比喩的な意味での輝きや栄え、卓越した状態も表す。命令形「kagajke」は特に創造的・生成的な文脈で使用され、新たな始まりや活性化を促す力強い言葉として用いられる。

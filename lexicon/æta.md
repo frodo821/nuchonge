@@ -2,13 +2,16 @@
 
 ## 文法情報
 - **類別**: 動詞
-- **音韻型**: 前舌
-- **動詞分類**: 他動詞
+- **音韻型**: a
+- **動詞分類**: 自動詞
+- **活用**: 規則変化
 
 ## 語源情報
 現代日本語「あう」(会う)から変化
-* /au/ → /a:/ → /æ:/ → /æta/ と音韻変化
-* 長母音/æ:/が/æta/に変化し、語幹が強化された
+
+- /au/ → /a:/ → /æ:/ → /æta/ と音韻変化
+
+- 長母音/æ:/が/æta/に変化し、語幹が強化された
 
 ## 定義
 1. 人と出会う、対面する
@@ -18,107 +21,29 @@
 
 ## 活用表
 
-### 動詞（会う）の活用表
 
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <thead>
-    <tr style="background-color: #e6e6ff;">
-      <th colspan="2" rowspan="2"></th>
-      <th colspan="3" style="text-align: center;">単数</th>
-      <th colspan="3" style="text-align: center;">複数</th>
-    </tr>
-    <tr style="background-color: #e6e6ff;">
-      <th>1人称</th>
-      <th>2人称</th>
-      <th>3人称</th>
-      <th>1人称</th>
-      <th>2人称</th>
-      <th>3人称</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- 直説法 -->
-    <tr style="background-color: #f0f0ff;">
-      <th rowspan="3" style="background-color: #d9d9ff;">直説法</th>
-      <th>現在</th>
-      <td>ætaew</td>
-      <td>ætaep</td>
-      <td>ætae</td>
-      <td>ætael</td>
-      <td>ætaes</td>
-      <td>ætaen</td>
-    </tr>
-    <tr style="background-color: #f0f0ff;">
-      <th>過去</th>
-      <td>ætataw</td>
-      <td>ætatap</td>
-      <td>ætata</td>
-      <td>ætatal</td>
-      <td>ætatas</td>
-      <td>ætatan</td>
-    </tr>
-    <tr style="background-color: #f0f0ff;">
-      <th>未来</th>
-      <td>ætaow</td>
-      <td>ætaop</td>
-      <td>ætao</td>
-      <td>ætaol</td>
-      <td>ætaos</td>
-      <td>ætaon</td>
-    </tr>
-  </tbody>
+<h3>æta（動詞）の直説法活用表</h3>
+
+<table border="1">
+<tr style="background-color: #e6ef"><th colspan="2" rowspan="2"></th><th colspan="3" style="text-align: center">単数</th><th colspan="3" style="text-align: center">複数</th></tr>
+<tr style="background-color: #e6ef"><th>1人称</th><th>2人称</th><th>3人称</th><th>1人称</th><th>2人称</th><th>3人称</th></tr>
+<tr style="background-color: #d9df"><th rowspan="6">現在時制</th><th>非完了相</th><td>ætaaw</td><td>ætaap</td><td>ætaa</td><td>ætaal</td><td>ætaas</td><td>ætaan</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>ætasmaw</td><td>ætasmap</td><td>ætasma</td><td>ætasmal</td><td>ætasmas</td><td>ætasman</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>ætatraw</td><td>ætatrap</td><td>ætatra</td><td>ætatral</td><td>ætatras</td><td>ætatran</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>ætatkaw</td><td>ætatkap</td><td>ætatka</td><td>ætatkal</td><td>ætatkas</td><td>ætatkan</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>ætasaw</td><td>ætasap</td><td>ætasa</td><td>ætasal</td><td>ætasas</td><td>ætasan</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>ætavaw</td><td>ætavap</td><td>ætava</td><td>ætaval</td><td>ætavas</td><td>ætavan</td></tr>
+<tr style="background-color: #d9df"><th rowspan="6">過去時制</th><th>非完了相</th><td>ætataw</td><td>ætatap</td><td>ætata</td><td>ætatal</td><td>ætatas</td><td>ætatan</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>ætasmtaw</td><td>ætasmtap</td><td>ætasmta</td><td>ætasmtal</td><td>ætasmtas</td><td>ætasmtan</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>ætatraw</td><td>ætatrap</td><td>ætatra</td><td>ætatral</td><td>ætatras</td><td>ætatran</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>ætaktaw</td><td>ætaktap</td><td>ætakta</td><td>ætaktal</td><td>ætaktas</td><td>ætaktan</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>ætastaw</td><td>ætastap</td><td>ætasta</td><td>ætastal</td><td>ætastas</td><td>ætastan</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>ætavtaw</td><td>ætavtap</td><td>ætavta</td><td>ætavtal</td><td>ætavtas</td><td>ætavtan</td></tr>
+<tr style="background-color: #d9df"><th rowspan="6">未来時制</th><th>非完了相</th><td>ætaow</td><td>ætaop</td><td>ætao</td><td>ætaol</td><td>ætaos</td><td>ætaon</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>ætasmow</td><td>ætasmop</td><td>ætasmo</td><td>ætasmol</td><td>ætasmos</td><td>ætasmon</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>ætatrow</td><td>ætatrop</td><td>ætatro</td><td>ætatrol</td><td>ætatros</td><td>ætatron</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>ætatkow</td><td>ætatkop</td><td>ætatko</td><td>ætatkol</td><td>ætatkos</td><td>ætatkon</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>ætadsow</td><td>ætadsop</td><td>ætadso</td><td>ætadsol</td><td>ætadsos</td><td>ætadson</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>ætavow</td><td>ætavop</td><td>ætavo</td><td>ætavol</td><td>ætavos</td><td>ætavon</td></tr>
 </table>
 
-### 相（アスペクト）形式（3人称単数現在形）
-
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">完遂相（-sm-）</th>
-    <td>ætasmae</td>
-    <th style="background-color: #f2f2d9;">結果状態相（-tr-）</th>
-    <td>ætatrae</td>
-  </tr>
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">準備相（-tk-）</th>
-    <td>ætatkae</td>
-    <th style="background-color: #f2f2d9;">起動相（-ds-）</th>
-    <td>ætadsae</td>
-  </tr>
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">終結相（-və-/-v-）</th>
-    <td>ætavae</td>
-    <th style="background-color: #f2f2d9;"></th>
-    <td></td>
-  </tr>
-</table>
-
-### 代表的複合形式
-
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6; width: 200px;">過去完遂相</th>
-    <td>ætasmata</td>
-    <td style="font-style: italic;">完全に会い終えた</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6;">未来結果状態相</th>
-    <td>ætatrao</td>
-    <td style="font-style: italic;">会った状態になるだろう</td>
-  </tr>
-</table>
-
-*注: アスペクト形式と複合形式の活用は推測に基づくもので、実際の用法と異なる可能性があります。
-
-## 例文
-1. vtʃi kino çitñ ætataw. (私は昨日人に会いました。)
-2. antp karñ ætaep ka? (あなたは彼に会いますか？)
-3. vtʃisl amr ʃehrid ætaol. (私たちは明日町で会うでしょう。)
-
-## 関連語
-- ætamr: 出会い（「会う」+「時」の複合語）
-- matæta: 待ち合わせ（「待つ」+「会う」の複合語）
-- ætaæ: 会合、ミーティング（「会う」+「場所」の複合語）
-- ætaçit: 知人、面識のある人（「会う」+「人」の複合語）
-
-## 備考
-「æta」は社会的交流を表す基本的な動詞で、与格を取って「〜に会う」という形で使われます。また、複合語の形成にも積極的に参加し、社会的関係や約束に関する多くの派生語が存在します。敬語表現では「ætahon」（お会いになる）や「ætates」（お目にかかる）などの形式が用いられます。前舌母音系動詞として、前舌母音が活用に現れることにも注目してください。

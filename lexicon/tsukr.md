@@ -2,8 +2,9 @@
 
 ## 文法情報
 - **類別**: 動詞
-- **音韻型**: 後舌
-- **動詞分類**: 後舌動詞
+- **音韻型**: 後舌子音
+- **動詞分類**: 自動詞
+- **活用**: 規則変化
 
 ## 語源情報
 現代日本語「作る・創る（つくる）」から。「tsukuru」→「tsukr」と変化した。語末母音の脱落により現在の形になった。
@@ -15,204 +16,29 @@
 
 ## 活用表
 
-<h3>tsukr（創る）の活用表</h3>
 
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <thead>
-    <tr style="background-color: #e6e6ff;">
-      <th colspan="2" rowspan="2"></th>
-      <th colspan="3" style="text-align: center;">単数</th>
-      <th colspan="3" style="text-align: center;">複数</th>
-    </tr>
-    <tr style="background-color: #e6e6ff;">
-      <th>1人称</th>
-      <th>2人称</th>
-      <th>3人称</th>
-      <th>1人称</th>
-      <th>2人称</th>
-      <th>3人称</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- 直説法 -->
-    <tr style="background-color: #f0f0ff;">
-      <th rowspan="3" style="background-color: #d9d9ff;">直説法</th>
-      <th>現在</th>
-      <td>tsukraw</td>
-      <td>tsukrap</td>
-      <td>tsukra</td>
-      <td>tsukral</td>
-      <td>tsukras</td>
-      <td>tsukran</td>
-    </tr>
-    <tr style="background-color: #f0f0ff;">
-      <th>過去</th>
-      <td>tsukrtaw</td>
-      <td>tsukrtap</td>
-      <td>tsukrta</td>
-      <td>tsukrtal</td>
-      <td>tsukrtas</td>
-      <td>tsukrtan</td>
-    </tr>
-    <tr style="background-color: #f0f0ff;">
-      <th>未来</th>
-      <td>tsukrrow</td>
-      <td>tsukrrop</td>
-      <td>tsukrro</td>
-      <td>tsukrrol</td>
-      <td>tsukrros</td>
-      <td>tsukrron</td>
-    </tr>
-    <!-- 条件法 -->
-    <tr style="background-color: #f2fff2;">
-      <th rowspan="2" style="background-color: #d9f2d9;">条件法<br>（-ro-）</th>
-      <th>条件現在</th>
-      <td>tsukrrow</td>
-      <td>tsukrrop</td>
-      <td>tsukrro</td>
-      <td>tsukrrol</td>
-      <td>tsukrros</td>
-      <td>tsukrron</td>
-    </tr>
-    <tr style="background-color: #f2fff2;">
-      <th>条件過去</th>
-      <td>tsukrrotaw</td>
-      <td>tsukrrotap</td>
-      <td>tsukrrota</td>
-      <td>tsukrrotal</td>
-      <td>tsukrrotas</td>
-      <td>tsukrrotan</td>
-    </tr>
-    <!-- 命令法 -->
-    <tr style="background-color: #fff2f2;">
-      <th rowspan="1" style="background-color: #f2d9d9;">命令法<br>（-jo-）</th>
-      <th>命令形</th>
-      <td>—</td>
-      <td>tsukrjop</td>
-      <td>tsukrjo</td>
-      <td>—</td>
-      <td>tsukrjos</td>
-      <td>tsukrjon</td>
-    </tr>
-    <!-- その他の法 -->
-    <tr style="background-color: #fff2ff;">
-      <th rowspan="6" style="background-color: #f2d9f2;">その他の法</th>
-      <th>義務法（-bk-）</th>
-      <td>tsukrbkaw</td>
-      <td>tsukrbkap</td>
-      <td>tsukrbka</td>
-      <td>tsukrbkal</td>
-      <td>tsukrbkas</td>
-      <td>tsukrbkan</td>
-    </tr>
-    <tr style="background-color: #fff2ff;">
-      <th>可能法（-km-）</th>
-      <td>tsukrkmaw</td>
-      <td>tsukrkmap</td>
-      <td>tsukrkma</td>
-      <td>tsukrkmal</td>
-      <td>tsukrkmas</td>
-      <td>tsukrkman</td>
-    </tr>
-    <tr style="background-color: #fff2ff;">
-      <th>推定（-hz-）</th>
-      <td>tsukrhzaw</td>
-      <td>tsukrhzap</td>
-      <td>tsukrhza</td>
-      <td>tsukrhzal</td>
-      <td>tsukrhzas</td>
-      <td>tsukrhzan</td>
-    </tr>
-    <tr style="background-color: #fff2ff;">
-      <th>希求法（-tg-）</th>
-      <td>tsukrtgaw</td>
-      <td>tsukrtgap</td>
-      <td>tsukrtga</td>
-      <td>tsukrtgal</td>
-      <td>tsukrtgas</td>
-      <td>tsukrtgan</td>
-    </tr>
-    <tr style="background-color: #fff2ff;">
-      <th>様態推量（-sj-）</th>
-      <td>tsukrsjaw</td>
-      <td>tsukrsjap</td>
-      <td>tsukrsja</td>
-      <td>tsukrsjal</td>
-      <td>tsukrsjas</td>
-      <td>tsukrsjan</td>
-    </tr>
-    <tr style="background-color: #fff2ff;">
-      <th>伝聞（-sk-）</th>
-      <td>tsukrskaw</td>
-      <td>tsukrskap</td>
-      <td>tsukrska</td>
-      <td>tsukrskal</td>
-      <td>tsukrskas</td>
-      <td>tsukrskan</td>
-    </tr>
-  </tbody>
+<h3>tsukr（動詞）の直説法活用表</h3>
+
+<table border="1">
+<tr style="background-color: #e6ef"><th colspan="2" rowspan="2"></th><th colspan="3" style="text-align: center">単数</th><th colspan="3" style="text-align: center">複数</th></tr>
+<tr style="background-color: #e6ef"><th>1人称</th><th>2人称</th><th>3人称</th><th>1人称</th><th>2人称</th><th>3人称</th></tr>
+<tr style="background-color: #d9df"><th rowspan="6">現在時制</th><th>非完了相</th><td>tsukruw</td><td>tsukrup</td><td>tsukru</td><td>tsukrul</td><td>tsukrus</td><td>tsukrun</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>tsukrɔsmuw</td><td>tsukrɔsmup</td><td>tsukrɔsmu</td><td>tsukrɔsmul</td><td>tsukrɔsmus</td><td>tsukrɔsmun</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>tsukrɔtruw</td><td>tsukrɔtrup</td><td>tsukrɔtru</td><td>tsukrɔtrul</td><td>tsukrɔtrus</td><td>tsukrɔtrun</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>tsukrɔtkuw</td><td>tsukrɔtkup</td><td>tsukrɔtku</td><td>tsukrɔtkul</td><td>tsukrɔtkus</td><td>tsukrɔtkun</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>tsukrɔdsuw</td><td>tsukrɔdsup</td><td>tsukrɔdsu</td><td>tsukrɔdsul</td><td>tsukrɔdsus</td><td>tsukrɔdsun</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>tsukrɔvuw</td><td>tsukrɔvup</td><td>tsukrɔvu</td><td>tsukrɔvul</td><td>tsukrɔvus</td><td>tsukrɔvun</td></tr>
+<tr style="background-color: #d9df"><th rowspan="6">過去時制</th><th>非完了相</th><td>tsukrɔtɔw</td><td>tsukrɔtɔp</td><td>tsukrɔtɔ</td><td>tsukrɔtɔl</td><td>tsukrɔtɔs</td><td>tsukrɔtɔn</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>tsukrɔsmtɔw</td><td>tsukrɔsmtɔp</td><td>tsukrɔsmtɔ</td><td>tsukrɔsmtɔl</td><td>tsukrɔsmtɔs</td><td>tsukrɔsmtɔn</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>tsukrɔtrɔw</td><td>tsukrɔtrɔp</td><td>tsukrɔtrɔ</td><td>tsukrɔtrɔl</td><td>tsukrɔtrɔs</td><td>tsukrɔtrɔn</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>tsukrɔktɔw</td><td>tsukrɔktɔp</td><td>tsukrɔktɔ</td><td>tsukrɔktɔl</td><td>tsukrɔktɔs</td><td>tsukrɔktɔn</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>tsukrɔstɔw</td><td>tsukrɔstɔp</td><td>tsukrɔstɔ</td><td>tsukrɔstɔl</td><td>tsukrɔstɔs</td><td>tsukrɔstɔn</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>tsukrɔvtɔw</td><td>tsukrɔvtɔp</td><td>tsukrɔvtɔ</td><td>tsukrɔvtɔl</td><td>tsukrɔvtɔs</td><td>tsukrɔvtɔn</td></tr>
+<tr style="background-color: #d9df"><th rowspan="6">未来時制</th><th>非完了相</th><td>tsukrow</td><td>tsukrop</td><td>tsukro</td><td>tsukrol</td><td>tsukros</td><td>tsukron</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>tsukrɔsmow</td><td>tsukrɔsmop</td><td>tsukrɔsmo</td><td>tsukrɔsmol</td><td>tsukrɔsmos</td><td>tsukrɔsmon</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>tsukrɔtrow</td><td>tsukrɔtrop</td><td>tsukrɔtro</td><td>tsukrɔtrol</td><td>tsukrɔtros</td><td>tsukrɔtron</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>tsukrɔtkow</td><td>tsukrɔtkop</td><td>tsukrɔtko</td><td>tsukrɔtkol</td><td>tsukrɔtkos</td><td>tsukrɔtkon</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>tsukrɔdsow</td><td>tsukrɔdsop</td><td>tsukrɔdso</td><td>tsukrɔdsol</td><td>tsukrɔdsos</td><td>tsukrɔdson</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>tsukrɔvow</td><td>tsukrɔvop</td><td>tsukrɔvo</td><td>tsukrɔvol</td><td>tsukrɔvos</td><td>tsukrɔvon</td></tr>
 </table>
 
-<h3>相（アスペクト）形式（3人称単数現在形）</h3>
-
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">完遂相（-sm-）</th>
-    <td>tsukrsma</td>
-    <th style="background-color: #f2f2d9;">結果状態相（-tr-）</th>
-    <td>tsukrtra</td>
-  </tr>
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">準備相（-tk-）</th>
-    <td>tsukrtka</td>
-    <th style="background-color: #f2f2d9;">起動相（-ds-）</th>
-    <td>tsukrdsa</td>
-  </tr>
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">終結相（-və-/-v-）</th>
-    <td>tsukrva</td>
-    <th style="background-color: #f2f2d9;"></th>
-    <td></td>
-  </tr>
-</table>
-
-<h3>代表的複合形式</h3>
-
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6; width: 200px;">過去完遂相</th>
-    <td>tsukrsmta</td>
-    <td style="font-style: italic;">創ってしまった</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6;">未来結果状態相</th>
-    <td>tsukrtro</td>
-    <td style="font-style: italic;">創られているだろう</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6;">過去起動相</th>
-    <td>tsukrdsta</td>
-    <td style="font-style: italic;">創り始めた</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6;">義務完遂相</th>
-    <td>tsukrsmbka</td>
-    <td style="font-style: italic;">創ってしまわなければならない</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6;">条件完遂相</th>
-    <td>tsukrsmro</td>
-    <td style="font-style: italic;">創ってしまえば</td>
-  </tr>
-</table>
-
-## 例文
-1. kama tene tr̃o tsukrta (神は天と地を創造した)
-2. vtʃi æo tsukrtaw (私は家を作った)
-
-## 関連語
-- **tsukrmono** (作物) - 複合名詞
-- **tsukrkat** (作り方) - 複合名詞
-
-## 備考
-物理的な物の製作から抽象的な概念の創造まで幅広く使用される基本動詞。創世神話などの宗教的文脈でも重要。

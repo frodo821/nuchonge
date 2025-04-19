@@ -2,8 +2,9 @@
 
 ## 文法情報
 - **類別**: 動詞
-- **音韻型**: 後舌
-- **動詞分類**: 支配動詞
+- **音韻型**: 後舌子音
+- **動詞分類**: 自動詞
+- **活用**: 規則変化
 
 ## 語源情報
 現代日本語の「治める(おさめる)」から変化。「おさめる」→「osameru」→「ɔsamr」と音韻変化した。母音「o」が「ɔ」に変化し、語中および語末の母音が脱落して子音クラスタが形成された。
@@ -16,212 +17,29 @@
 
 ## 活用表
 
-<h3>ɔsamr（治める）の活用表</h3>
 
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <thead>
-    <tr style="background-color: #e6e6ff;">
-      <th colspan="2" rowspan="2"></th>
-      <th colspan="3" style="text-align: center;">単数</th>
-      <th colspan="3" style="text-align: center;">複数</th>
-    </tr>
-    <tr style="background-color: #e6e6ff;">
-      <th>1人称</th>
-      <th>2人称</th>
-      <th>3人称</th>
-      <th>1人称</th>
-      <th>2人称</th>
-      <th>3人称</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- 直説法 -->
-    <tr style="background-color: #f0f0ff;">
-      <th rowspan="3" style="background-color: #d9d9ff;">直説法</th>
-      <th>現在</th>
-      <td>ɔsamraw</td>
-      <td>ɔsamrap</td>
-      <td>ɔsamra</td>
-      <td>ɔsamral</td>
-      <td>ɔsamras</td>
-      <td>ɔsamran</td>
-    </tr>
-    <tr style="background-color: #f0f0ff;">
-      <th>過去</th>
-      <td>ɔsamrtaw</td>
-      <td>ɔsamrtap</td>
-      <td>ɔsamrta</td>
-      <td>ɔsamrtal</td>
-      <td>ɔsamrtas</td>
-      <td>ɔsamrtan</td>
-    </tr>
-    <tr style="background-color: #f0f0ff;">
-      <th>未来</th>
-      <td>ɔsamrrow</td>
-      <td>ɔsamrrop</td>
-      <td>ɔsamrro</td>
-      <td>ɔsamrrol</td>
-      <td>ɔsamrros</td>
-      <td>ɔsamrron</td>
-    </tr>
-    <!-- 条件法 -->
-    <tr style="background-color: #f2fff2;">
-      <th rowspan="2" style="background-color: #d9f2d9;">条件法<br>（-ro-）</th>
-      <th>条件現在</th>
-      <td>ɔsamrrow</td>
-      <td>ɔsamrrop</td>
-      <td>ɔsamrro</td>
-      <td>ɔsamrrol</td>
-      <td>ɔsamrros</td>
-      <td>ɔsamrron</td>
-    </tr>
-    <tr style="background-color: #f2fff2;">
-      <th>条件過去</th>
-      <td>ɔsamrrotaw</td>
-      <td>ɔsamrrotap</td>
-      <td>ɔsamrrota</td>
-      <td>ɔsamrrotal</td>
-      <td>ɔsamrrotas</td>
-      <td>ɔsamrrotan</td>
-    </tr>
-    <!-- 命令法 -->
-    <tr style="background-color: #fff2f2;">
-      <th rowspan="1" style="background-color: #f2d9d9;">命令法<br>（特殊形）</th>
-      <th>命令形</th>
-      <td>—</td>
-      <td>ɔsamre</td>
-      <td>ɔsamre</td>
-      <td>—</td>
-      <td>ɔsamren</td>
-      <td>ɔsamren</td>
-    </tr>
-    <!-- その他の法 -->
-    <tr style="background-color: #fff2ff;">
-      <th rowspan="6" style="background-color: #f2d9f2;">その他の法</th>
-      <th>義務法（-bk-）</th>
-      <td>ɔsamrbkaw</td>
-      <td>ɔsamrbkap</td>
-      <td>ɔsamrbka</td>
-      <td>ɔsamrbkal</td>
-      <td>ɔsamrbkas</td>
-      <td>ɔsamrbkan</td>
-    </tr>
-    <tr style="background-color: #fff2ff;">
-      <th>可能法（-km-）</th>
-      <td>ɔsamrkmaw</td>
-      <td>ɔsamrkmap</td>
-      <td>ɔsamrkma</td>
-      <td>ɔsamrkmal</td>
-      <td>ɔsamrkmas</td>
-      <td>ɔsamrkman</td>
-    </tr>
-    <tr style="background-color: #fff2ff;">
-      <th>推定（-hz-）</th>
-      <td>ɔsamrhzaw</td>
-      <td>ɔsamrhzap</td>
-      <td>ɔsamrhza</td>
-      <td>ɔsamrhzal</td>
-      <td>ɔsamrhzas</td>
-      <td>ɔsamrhzan</td>
-    </tr>
-    <tr style="background-color: #fff2ff;">
-      <th>希求法（-tg-）</th>
-      <td>ɔsamrtgaw</td>
-      <td>ɔsamrtgap</td>
-      <td>ɔsamrtga</td>
-      <td>ɔsamrtgal</td>
-      <td>ɔsamrtgas</td>
-      <td>ɔsamrtgan</td>
-    </tr>
-    <tr style="background-color: #fff2ff;">
-      <th>様態推量（-sj-）</th>
-      <td>ɔsamrsjaw</td>
-      <td>ɔsamrsjap</td>
-      <td>ɔsamrsja</td>
-      <td>ɔsamrsjal</td>
-      <td>ɔsamrsjas</td>
-      <td>ɔsamrsjan</td>
-    </tr>
-    <tr style="background-color: #fff2ff;">
-      <th>伝聞（-sk-）</th>
-      <td>ɔsamrskaw</td>
-      <td>ɔsamrskap</td>
-      <td>ɔsamrska</td>
-      <td>ɔsamrskal</td>
-      <td>ɔsamrskas</td>
-      <td>ɔsamrskan</td>
-    </tr>
-  </tbody>
+<h3>ɔsamr（動詞）の直説法活用表</h3>
+
+<table border="1">
+<tr style="background-color: #e6ef"><th colspan="2" rowspan="2"></th><th colspan="3" style="text-align: center">単数</th><th colspan="3" style="text-align: center">複数</th></tr>
+<tr style="background-color: #e6ef"><th>1人称</th><th>2人称</th><th>3人称</th><th>1人称</th><th>2人称</th><th>3人称</th></tr>
+<tr style="background-color: #d9df"><th rowspan="6">現在時制</th><th>非完了相</th><td>ɔsamruw</td><td>ɔsamrup</td><td>ɔsamru</td><td>ɔsamrul</td><td>ɔsamrus</td><td>ɔsamrun</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>ɔsamrɔsmuw</td><td>ɔsamrɔsmup</td><td>ɔsamrɔsmu</td><td>ɔsamrɔsmul</td><td>ɔsamrɔsmus</td><td>ɔsamrɔsmun</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>ɔsamrɔtruw</td><td>ɔsamrɔtrup</td><td>ɔsamrɔtru</td><td>ɔsamrɔtrul</td><td>ɔsamrɔtrus</td><td>ɔsamrɔtrun</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>ɔsamrɔtkuw</td><td>ɔsamrɔtkup</td><td>ɔsamrɔtku</td><td>ɔsamrɔtkul</td><td>ɔsamrɔtkus</td><td>ɔsamrɔtkun</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>ɔsamrɔdsuw</td><td>ɔsamrɔdsup</td><td>ɔsamrɔdsu</td><td>ɔsamrɔdsul</td><td>ɔsamrɔdsus</td><td>ɔsamrɔdsun</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>ɔsamrɔvuw</td><td>ɔsamrɔvup</td><td>ɔsamrɔvu</td><td>ɔsamrɔvul</td><td>ɔsamrɔvus</td><td>ɔsamrɔvun</td></tr>
+<tr style="background-color: #d9df"><th rowspan="6">過去時制</th><th>非完了相</th><td>ɔsamrɔtɔw</td><td>ɔsamrɔtɔp</td><td>ɔsamrɔtɔ</td><td>ɔsamrɔtɔl</td><td>ɔsamrɔtɔs</td><td>ɔsamrɔtɔn</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>ɔsamrɔsmtɔw</td><td>ɔsamrɔsmtɔp</td><td>ɔsamrɔsmtɔ</td><td>ɔsamrɔsmtɔl</td><td>ɔsamrɔsmtɔs</td><td>ɔsamrɔsmtɔn</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>ɔsamrɔtrɔw</td><td>ɔsamrɔtrɔp</td><td>ɔsamrɔtrɔ</td><td>ɔsamrɔtrɔl</td><td>ɔsamrɔtrɔs</td><td>ɔsamrɔtrɔn</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>ɔsamrɔktɔw</td><td>ɔsamrɔktɔp</td><td>ɔsamrɔktɔ</td><td>ɔsamrɔktɔl</td><td>ɔsamrɔktɔs</td><td>ɔsamrɔktɔn</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>ɔsamrɔstɔw</td><td>ɔsamrɔstɔp</td><td>ɔsamrɔstɔ</td><td>ɔsamrɔstɔl</td><td>ɔsamrɔstɔs</td><td>ɔsamrɔstɔn</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>ɔsamrɔvtɔw</td><td>ɔsamrɔvtɔp</td><td>ɔsamrɔvtɔ</td><td>ɔsamrɔvtɔl</td><td>ɔsamrɔvtɔs</td><td>ɔsamrɔvtɔn</td></tr>
+<tr style="background-color: #d9df"><th rowspan="6">未来時制</th><th>非完了相</th><td>ɔsamrow</td><td>ɔsamrop</td><td>ɔsamro</td><td>ɔsamrol</td><td>ɔsamros</td><td>ɔsamron</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>ɔsamrɔsmow</td><td>ɔsamrɔsmop</td><td>ɔsamrɔsmo</td><td>ɔsamrɔsmol</td><td>ɔsamrɔsmos</td><td>ɔsamrɔsmon</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>ɔsamrɔtrow</td><td>ɔsamrɔtrop</td><td>ɔsamrɔtro</td><td>ɔsamrɔtrol</td><td>ɔsamrɔtros</td><td>ɔsamrɔtron</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>ɔsamrɔtkow</td><td>ɔsamrɔtkop</td><td>ɔsamrɔtko</td><td>ɔsamrɔtkol</td><td>ɔsamrɔtkos</td><td>ɔsamrɔtkon</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>ɔsamrɔdsow</td><td>ɔsamrɔdsop</td><td>ɔsamrɔdso</td><td>ɔsamrɔdsol</td><td>ɔsamrɔdsos</td><td>ɔsamrɔdson</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>ɔsamrɔvow</td><td>ɔsamrɔvop</td><td>ɔsamrɔvo</td><td>ɔsamrɔvol</td><td>ɔsamrɔvos</td><td>ɔsamrɔvon</td></tr>
 </table>
 
-<h3>相（アスペクト）形式（3人称単数現在形）</h3>
-
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">完遂相（-sm-）</th>
-    <td>ɔsamrsma</td>
-    <th style="background-color: #f2f2d9;">結果状態相（-tr-）</th>
-    <td>ɔsamrtra</td>
-  </tr>
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">準備相（-tk-）</th>
-    <td>ɔsamrtka</td>
-    <th style="background-color: #f2f2d9;">起動相（-ds-）</th>
-    <td>ɔsamrdsa</td>
-  </tr>
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">終結相（-və-/-v-）</th>
-    <td>ɔsamrva</td>
-    <th style="background-color: #f2f2d9;"></th>
-    <td></td>
-  </tr>
-</table>
-
-<h3>代表的複合形式</h3>
-
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6; width: 200px;">過去完遂相</th>
-    <td>ɔsamrsmta</td>
-    <td style="font-style: italic;">治めてしまった</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6;">未来結果状態相</th>
-    <td>ɔsamrtro</td>
-    <td style="font-style: italic;">治めているだろう</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6;">過去起動相</th>
-    <td>ɔsamrdsta</td>
-    <td style="font-style: italic;">治め始めた</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6;">義務完遂相</th>
-    <td>ɔsamrsmbka</td>
-    <td style="font-style: italic;">治めてしまわなければならない</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6;">条件完遂相</th>
-    <td>ɔsamrsmro</td>
-    <td style="font-style: italic;">治めてしまえば</td>
-  </tr>
-</table>
-
-## 例文
-1. taijoa ɔkkrs çirukarakadak çiruo, tska joro ɔsamrta. (太陽は大きく明るいので昼を、月は夜を治めました。)
-2. çiti ɔirsmdñ fue hirgarte, ɔkrko ɔsamre. (地に増え広がり、大地を治めよ。)
-3. vtʃi ʃehrne tr̃o ɔsamraw. (私は町の地を治めます。)
-4. kamno tokseio moti monotʃte, rko ɔsamrta. (神の特性を持つ者として、陸地を治めた。)
-
-## 関連語
-- çiru (昼) - 名詞
-- jor (夜) - 名詞
-- taijo (太陽) - 名詞
-- tska (月) - 名詞
-- tr̃ (地) - 名詞
-- kam (神) - 名詞
-
-## 備考
-「ɔsamr」は創造物語において、天体や人間の役割を説明する重要な動詞である。特に「taijoa çiruo ɔsamrta」（太陽は昼を治めた）、「tska joro ɔsamrta」（月は夜を治めた）という表現で、創造された秩序の中での天体の役割を示す。
-
-また、人間への命令「ɔkrko ɔsamre」（大地を治めよ）では、神に創造された世界に対する人間の管理者としての役割が強調されている。「ɔsamr」は単なる力による支配ではなく、秩序を保ち、調和を維持する責任を含意する統治概念を表す。

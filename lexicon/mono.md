@@ -16,32 +16,13 @@
 
 ## 曲用表
 
-| 格   | 単数不定 | 単数定 | 複数不定 | 複数定  |
-| ---- | -------- | ------ | -------- | ------- |
-| 主格 | monoə    | monoəs  | monora   | monoras  |
-| 対格 | mono     | monos   | monoro   | monoros  |
-| 与格 | monoñ    | monoñs  | monorñ   | monorñs  |
-| 所格 | monod    | monods  | monoəd   | monoəds  |
-| 属格 | monono   | mononos | monoəno  | monoənos |
-| 出格 | monokr̃   | monokr̃s | monoəkr̃  | monoəkr̃s |
-| 向格 | monoh    | monohs  | monoəh   | monoəhs  |
-| 共格 | monoto   | monotos | monoəto  | monoətos |
-
-## 例文
-1. kis **mono** vtʃne ara. (この物は私のものです。)
-2. ʃehrñ nogim **monora** artran. (町にたくさんの物がありました。)
-3. vtʃi joksi **monoo** mirraw. (私は良い物を見ます。)
-4. kam arjr **monoo** tsukrta. (神はすべての物を創造した。)
-5. **monoəno** æi ara? (物の価値は何ですか？)
-
-## 関連語
-- **ar**: ある、存在する
-- **tsukr**: 作る、創造する
-- **mot**: 持つ、所有する
-- **hin**: 品、品物
-- **ikm̃n**: 生き物（対比的に「生きていないもの」と区別される）
-
-## 備考
-「mono」は基本的な名詞として日常会話から哲学的議論まで幅広く使用される。所有関係を示す「antesne mono」（あなたがたのもの）のような表現は特に頻繁に見られる。また、創世記などの創造物語では、神によって創られた「もの」を指す文脈で重要な概念となる。
-
-「mono」と「hin」（品）は類義語だが、「mono」がより一般的・抽象的な物体や事柄を指すのに対し、「hin」はより具体的な商品や品物を指す傾向がある。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | monowa      | monowas     | monowa    | monowas   |
+| 対格  | monowo      | monowos     | monowo    | monowos   |
+| 与格  | monoñ      | monoños     | monouñ    | monouñs   |
+| 所格  | monod      | monodos     | monoud    | monouds   |
+| 属格  | monono      | mononos     | monouno    | monounos   |
+| 出格  | monokr̃      | monokr̃os     | monoukr̃    | monoukr̃s   |
+| 向格  | monoh      | monohos     | monouh    | monouhs   |
+| 共格  | monoto      | monotos     | monouto    | monoutos   |

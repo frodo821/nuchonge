@@ -56,7 +56,7 @@ def get_stem_details(conn, stem_id):
         SELECT s.*, pos.name as part_of_speech, pp.name as phonological_pattern
         FROM stems s
         JOIN parts_of_speech pos ON s.part_of_speech_id = pos.id
-        JOIN phonological_patterns pp ON s.phonological_pattern_id = pp.id
+        LEFT JOIN phonological_patterns pp ON s.phonological_pattern_id = pp.id
         WHERE s.id = ?
     """, (stem_id,))
     

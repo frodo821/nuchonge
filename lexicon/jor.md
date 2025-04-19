@@ -14,24 +14,14 @@
 3. （拡張的に）休息・睡眠の時間
 
 ## 曲用表
-| 格   | 単数不定形 | 単数定形 | 複数不定形 | 複数定形  |
-| ---- | -------- | ------ | -------- | ------- |
-| 主格 | jora     | joras  | jorra    | jorras  |
-| 対格 | joro     | joros  | jorro    | jorros  |
-| 与格 | jorñ     | jorñs  | jorrñ    | jorrñs  |
-| 所格 | jord     | jords  | jorad    | jorads  |
-| 属格 | jorno    | jornos | jorano   | joranos |
-| 出格 | jorkr̃    | jorkr̃s | jorakr̃   | jorakr̃s |
-| 向格 | jorh     | jorhs  | jorah    | jorahs  |
-| 共格 | jorto    | jortos | jorato   | joratos |
 
-## 例文
-1. jora kurta (夜が来た)
-2. jord çitri neman (夜に人々は眠る)
-
-## 関連語
-- **çiru** (昼) - 名詞
-- **jami** (闇) - 名詞
-
-## 備考
-時間表現として基本的な語彙。多くの文化的表現や慣用句で使用される。「昼」との対義語としても重要。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | jorwa      | jorwas     | jorwa    | jorwas   |
+| 対格  | jorwo      | jorwos     | jorwo    | jorwos   |
+| 与格  | jorñ      | jorños     | joruñ    | joruñs   |
+| 所格  | jord      | jordos     | jorud    | joruds   |
+| 属格  | jorno      | jornos     | joruno    | jorunos   |
+| 出格  | jorkr̃      | jorkr̃os     | jorukr̃    | jorukr̃s   |
+| 向格  | jorh      | jorhos     | joruh    | joruhs   |
+| 共格  | jorto      | jortos     | joruto    | jorutos   |

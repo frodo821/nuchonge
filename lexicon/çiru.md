@@ -2,7 +2,7 @@
 
 ## 文法情報
 - **類別**: 名詞
-- **音韻型**: 前舌
+- **音韻型**: 前舌子音
 - **名詞分類**: 無生
 
 ## 語源情報
@@ -14,24 +14,14 @@
 3. （拡張的に）活動時間、仕事の時間
 
 ## 曲用表
-| 格   | 単数不定形 | 単数定形  | 複数不定形 | 複数定形   |
-| ---- | -------- | ------- | -------- | -------- |
-| 主格 | çirui    | çiruis  | çiruri   | çiruris  |
-| 対格 | çirue    | çirues  | çirure   | çirures  |
-| 与格 | çiruñ    | çiruñs  | çirurñ   | çirurñs  |
-| 所格 | çirud    | çiruds  | çiruid   | çiruids  |
-| 属格 | çirune   | çirunes | çirurne  | çirurnes |
-| 出格 | çirukr̃   | çirukr̃s | çiruikr̃  | çiruikr̃s |
-| 向格 | çiruhe   | çiruhes | çiruihe  | çiruihes |
-| 共格 | çirut    | çiruts  | çiruit   | çiruits  |
 
-## 例文
-1. çirui akari ara (昼は明るい)
-2. çirud çitri hatrakan (昼に人々は働く)
-
-## 関連語
-- **jor** (夜) - 名詞
-- **çkar** (光) - 名詞
-
-## 備考
-基本的な時間表現の一つ。「夜」の対義語として日常会話でも頻繁に使用される。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | çirui      | çiruis     | çiruiri    | çiruiris   |
+| 対格  | çirue      | çirues     | çiruire    | çiruires   |
+| 与格  | çiruiñ      | çiruiñs     | çiruiriñ    | çiruiriñs   |
+| 所格  | çiruid      | çiruids     | çiruirid    | çiruirids   |
+| 属格  | çirune      | çirunes     | çiruirne    | çiruirnes   |
+| 出格  | çiruikr̃      | çiruikr̃s     | çiruirikr̃    | çiruirikr̃s   |
+| 向格  | çiruhe      | çiruhes     | çiruirhe    | çiruirhes   |
+| 共格  | çiruit      | çiruits     | çiruirit    | çiruirits   |

@@ -2,7 +2,7 @@
 
 ## 文法情報
 - **類別**: 名詞
-- **音韻型**: 前舌
+- **音韻型**: 前舌子音
 - **名詞分類**: 無生
 
 ## 語源情報
@@ -14,24 +14,14 @@
 3. （拡張的に）上界、天界
 
 ## 曲用表
-| 格   | 単数不定形 | 単数定形  | 複数不定形 | 複数定形  |
-| ---- | --------- | --------- | ---------- | --------- |
-| 主格 | teni    | tenis  | tenri   | tenris  |
-| 対格 | tene    | tenes  | tenre   | tenres  |
-| 与格 | tenñ    | tenñs  | tenrñ   | tenrñs  |
-| 所格 | tend    | tends  | tenid   | tenids  |
-| 属格 | tenne   | tennes | tenrne  | tenrnes |
-| 出格 | tenkr̃   | tenkr̃s | tenikr̃  | tenikr̃s |
-| 向格 | tenhe   | tenhes | tenihe  | tenihes |
-| 共格 | tent    | tents  | tenit   | tenits  |
 
-## 例文
-1. teni ɔkis hɔʃki ara (天は広く青い)
-2. kama tend ara (神は天にいる)
-
-## 関連語
-- **tr̃** (地) - 名詞
-- **tenitr̃** (天地) - 複合名詞
-
-## 備考
-宗教的・宇宙論的文脈で使用される重要な概念。形而上学的表現や詩的表現でも頻出する。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | teni      | tenis     | teniri    | teniris   |
+| 対格  | tene      | tenes     | tenire    | tenires   |
+| 与格  | teniñ      | teniñs     | teniriñ    | teniriñs   |
+| 所格  | tenid      | tenids     | tenirid    | tenirids   |
+| 属格  | tenne      | tennes     | tenirne    | tenirnes   |
+| 出格  | tenikr̃      | tenikr̃s     | tenirikr̃    | tenirikr̃s   |
+| 向格  | tenhe      | tenhes     | tenirhe    | tenirhes   |
+| 共格  | tenit      | tenits     | tenirit    | tenirits   |

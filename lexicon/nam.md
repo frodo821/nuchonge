@@ -7,8 +7,10 @@
 
 ## 語源情報
 現代日本語「なまえ」(名前)から変化
-* /namae/ → /nama/ → /nam/ と音韻変化
-* 語末の「-ae」の脱落と単純化
+
+- /namae/ → /nama/ → /nam/ と音韻変化
+
+- 語末の「-ae」の脱落と単純化
 
 ## 定義
 1. 人・物・場所などを特定し区別するための呼称
@@ -18,35 +20,13 @@
 
 ## 曲用表
 
-| 格   | 単数不定形 | 単数定形 | 複数不定形 | 複数定形  |
-| ---- | -------- | ------- | -------- | -------- |
-| 主格 | nama    | namas   | namra    | namras   |
-| 対格 | namo    | namos   | namro    | namros   |
-| 与格 | namñ    | namñs   | namrñ    | namrñs   |
-| 所格 | namd    | namds   | namad    | namads   |
-| 属格 | namno   | namnos  | namano   | namanos  |
-| 出格 | namkr̃   | namkr̃s  | namakr̃   | namakr̃s  |
-| 向格 | namh    | namhs   | namah    | namahs   |
-| 共格 | namto   | namtos  | namato   | namatos  |
-
-## 例文
-1. vtʃne nama nanra? (私の名前は何ですか？)
-2. korçita namo joma. (この人の名前を読む。)
-3. vtʃi kare namñ jomtaw. (私は彼の名前で呼びました。)
-4. namas vtʃñ iktresjasa. (名前が私に届きませんでした。)
-
-## 関連語
-- namta: 命名する（「名前」+「与える」の複合動詞）
-- namdak: 名づける（「名前」+「付ける」の複合動詞）
-- namhñ: 名簿（「名前」+「本」の複合語）
-- namgak: 名札（「名前」+「板」の複合語）
-- namære: 有名な（「名前」+「ある」の複合形容詞）
-
-## 備考
-「nam」は社会的関係を構築する上で基本的な名詞で、自己紹介や他者の特定に不可欠です。対人関係、公的文書、歴史的記録など様々な文脈で使用されます。
-
-敬意を表すために「namsen」（お名前）のような敬称付加形や、「namata」（姓名、フルネーム）のような複合形も一般的です。
-
-文化的には、名前を知ることは深い関係の始まりとされ、「namo mats」（名前を待つ＝関係を求める）のような慣用表現や、「namno tkta」（名前を取った＝名声を得た）といった表現も存在します。
-
-名前の請求に対する回答として「vtʃne nama X ara」（私の名前はXです）という定型句が使われます。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | namwa      | namwas     | namwa    | namwas   |
+| 対格  | namwo      | namwos     | namwo    | namwos   |
+| 与格  | namñ      | namños     | namuñ    | namuñs   |
+| 所格  | namd      | namdos     | namud    | namuds   |
+| 属格  | namno      | namnos     | namuno    | namunos   |
+| 出格  | namkr̃      | namkr̃os     | namukr̃    | namukr̃s   |
+| 向格  | namh      | namhos     | namuh    | namuhs   |
+| 共格  | namto      | namtos     | namuto    | namutos   |

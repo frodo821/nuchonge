@@ -15,28 +15,13 @@
 
 ## 曲用表
 
-| 格   | 単数不定形 | 単数定形 | 複数不定形 | 複数定形  |
-| ---- | --------- | -------- | ---------- | --------- |
-| 主格 | uma       | umas     | umra       | umras     |
-| 対格 | umo       | umos     | umro       | umros     |
-| 与格 | umñ       | umñs     | umrñ       | umrñs     |
-| 所格 | umd       | umds     | umad       | umads     |
-| 属格 | umno      | umnos    | umano      | umanos    |
-| 出格 | umkr̃      | umkr̃s    | umakr̃      | umakr̃s    |
-| 向格 | umh       | umhs     | umah       | umahs     |
-| 共格 | umto      | umtos    | umato      | umatos    |
-
-## 例文
-1. "majaa uæʃtañ wakrte, sora to umñ nare" to kama iertas. (「もやは上下に分かれ、空と海になれ」と神が言われました。)
-2. kama umñ ari ɔki ikimonoo haʒm, arjr spno sakana to torio tsukrta. (神は海に住む大きな生き物をはじめ、あらゆる種類の魚と鳥を造りました。)
-3. "umippæñ mitʃe. toriraa tr̃o ɔirsmdñ fue" to ivaəta. (「海いっぱいに満ちよ。鳥たちは地を覆うまでに増えよ」と祝福しました。)
-
-## 関連語
-- sora (空) - 名詞
-- m̃z (水) - 名詞
-- sakana (魚) - 名詞
-- ikimono (生き物) - 名詞
-- tr̃ (地) - 名詞
-
-## 備考
-「um」は生物の住処としての海を表すだけでなく、広大さや豊かさの象徴としても使われる。特に創造物語の中では宇宙構造の重要な要素として「sora」(空)と対比的に描かれ、生命の源としての役割も持つ。複合語「umippæ」（海いっぱい）のような表現も見られる。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | umwa      | umwas     | umwa    | umwas   |
+| 対格  | umwo      | umwos     | umwo    | umwos   |
+| 与格  | umñ      | umños     | umuñ    | umuñs   |
+| 所格  | umd      | umdos     | umud    | umuds   |
+| 属格  | umno      | umnos     | umuno    | umunos   |
+| 出格  | umkr̃      | umkr̃os     | umukr̃    | umukr̃s   |
+| 向格  | umh      | umhos     | umuh    | umuhs   |
+| 共格  | umto      | umtos     | umuto    | umutos   |

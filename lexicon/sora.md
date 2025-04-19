@@ -15,28 +15,13 @@
 
 ## 曲用表
 
-| 格   | 単数不定形 | 単数定形  | 複数不定形 | 複数定形   |
-| ---- | --------- | --------- | ---------- | ---------- |
-| 主格 | soræ      | soræs     | sorara     | soraras    |
-| 対格 | sorao     | soraos    | soraro     | soraros    |
-| 与格 | sorañ     | sorañs    | sorarñ     | sorarñs    |
-| 所格 | sorad     | sorads    | soræd     | soræds    |
-| 属格 | sorano    | soranos   | soræno    | sorænos   |
-| 出格 | sorakr̃    | sorakr̃s   | sorækr̃    | sorækr̃s   |
-| 向格 | sorah     | sorahs    | soræh     | soræhs    |
-| 共格 | sorato    | soratos   | soræto    | sorætos   |
-
-## 例文
-1. "majaa uæʃtañ wakrte, sora to umñ nare" to kama iertas. (「もやは上下に分かれ、空と海になれ」と神が言われました。)
-2. kama karo sorañ çirbmte, tr̃o tersijoñ ʃta. (神はそれを空にちりばめ、地を照らすようにしました。)
-3. soræ arjr spno tɔrñ mitʃe. (空はあらゆる種類の鳥で満ちよ。)
-
-## 関連語
-- ten (天) - 名詞
-- um (海) - 名詞
-- taijo (太陽) - 名詞
-- tɔr (鳥) - 名詞
-- hoʃi (星) - 名詞
-
-## 備考
-「sora」は物理的空間としての空だけでなく、天候や気象、さらには心理的な広がりや自由の象徴として使われることもある。多くの文学作品や詩で比喩的に用いられる重要な語彙である。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | sorawa      | sorawas     | sorawa    | sorawas   |
+| 対格  | sorawo      | sorawos     | sorawo    | sorawos   |
+| 与格  | sorañ      | soraños     | sorauñ    | sorauñs   |
+| 所格  | sorad      | sorados     | soraud    | sorauds   |
+| 属格  | sorano      | soranos     | sorauno    | soraunos   |
+| 出格  | sorakr̃      | sorakr̃os     | soraukr̃    | soraukr̃s   |
+| 向格  | sorah      | sorahos     | sorauh    | sorauhs   |
+| 共格  | sorato      | soratos     | sorauto    | sorautos   |

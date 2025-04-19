@@ -2,13 +2,15 @@
 
 ## 文法情報
 - **類別**: 名詞
-- **音韻型**: 前舌
+- **音韻型**: 前舌子音
 - **名詞分類**: 無生
 
 ## 語源情報
 ペルシャ語/トルコ語「şehir/şehr」(街)からの借用語
-* 音韻変化と適応を経て「ʃehr」として定着
-* 1000年後の日本語における都市文明の国際化を反映
+
+- 音韻変化と適応を経て「ʃehr」として定着
+
+- 1000年後の日本語における都市文明の国際化を反映
 
 ## 定義
 1. 人口が集中し、建物や施設が密集した居住地域、都市
@@ -17,28 +19,13 @@
 
 ## 曲用表
 
-| 格   | 単数不定形 | 単数定形  | 複数不定形 | 複数定形  |
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
 | ---- | --------- | -------- | --------- | -------- |
-| 主格 | ʃehri    | ʃehris  | ʃehrri    | ʃehrris  |
-| 対格 | ʃehre    | ʃehres  | ʃehrre    | ʃehrres  |
-| 与格 | ʃehrñ    | ʃehrñs  | ʃehrrñ    | ʃehrrñs  |
-| 所格 | ʃehrd    | ʃehrds  | ʃehrid    | ʃehrids  |
-| 属格 | ʃehrne   | ʃehrnes | ʃehrrne   | ʃehrrnes |
-| 出格 | ʃehrkr̃   | ʃehrkr̃s | ʃehrikr̃   | ʃehrikr̃s |
-| 向格 | ʃehrhe   | ʃehrhes | ʃehrihe   | ʃehrihes |
-| 共格 | ʃehrt    | ʃehrts  | ʃehrit    | ʃehrits  |
-
-## 例文
-1. ɔki çitis vtʃne çisi æe miren dak, vtʃi karlne ʃehrs ikrotaw. (大きな人たちが私の小さな家を見ているので、私は彼らの街に行くつもりでした。)
-2. kors ʃehri ɔki ara. (この街は大きいです。)
-3. vtʃi ʃehrkr̃ æhe ikew. (私は街から家へ行きます。)
-4. ʃehrrid milkotbao kikep. (街々で様々な言葉を聞くことができます。)
-
-## 関連語
-- ʃehrl̃: 都市圏、大都市域（「街」+「集団」）
-- ʃehrçit: 都市住民（「街」+「人」）
-- çisʃehr: 小都市（「小さい」+「街」）
-- ʃehrmç: 都市道路（「街」+「道」）
-
-## 備考
-「ʃehr」は人間の集住地域を表す重要な地理的概念です。古代の村落（「mur」）から発展した近代的な居住形態を指します。前舌母音系の無生名詞として規則的な曲用パターンに従います。都市化に関連する多くの複合語の基礎となり、社会組織や都市計画に関する語彙の中心的な要素です。また文化的な概念としても使用され、「ʃehr」と「inaka」（田舎）の対比は社会的・文化的な文脈でしばしば言及されます。
+| 主格  | ʃehri      | ʃehris     | ʃehreri    | ʃehreris   |
+| 対格  | ʃehre      | ʃehres     | ʃehrere    | ʃehreres   |
+| 与格  | ʃehriñ      | ʃehriñs     | ʃehreriñ    | ʃehreriñs   |
+| 所格  | ʃehrid      | ʃehrids     | ʃehrerid    | ʃehrerids   |
+| 属格  | ʃehrme      | ʃehrmes     | ʃehrerme    | ʃehrermes   |
+| 出格  | ʃehrikr̃      | ʃehrikr̃s     | ʃehrerikr̃    | ʃehrerikr̃s   |
+| 向格  | ʃehrhe      | ʃehrhes     | ʃehrerhe    | ʃehrerhes   |
+| 共格  | ʃehrit      | ʃehrits     | ʃehrerit    | ʃehrerits   |

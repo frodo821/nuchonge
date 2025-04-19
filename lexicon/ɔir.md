@@ -2,8 +2,9 @@
 
 ## 文法情報
 - **類別**: 動詞
-- **音韻型**: 後舌
-- **動詞分類**: 覆覆動詞
+- **音韻型**: 後舌子音
+- **動詞分類**: 自動詞
+- **活用**: 規則変化
 
 ## 語源情報
 現代日本語の「覆う(おおう)」から変化。「おおう」→「oou」→「ɔir」と音韻変化した。「oo」が「ɔi」に二重母音化し、語末に「r」が付加された。
@@ -16,151 +17,29 @@
 
 ## 活用表
 
-<h3>ɔir（覆う）の活用表</h3>
 
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <thead>
-    <tr style="background-color: #e6e6ff;">
-      <th colspan="2" rowspan="2"></th>
-      <th colspan="3" style="text-align: center;">単数</th>
-      <th colspan="3" style="text-align: center;">複数</th>
-    </tr>
-    <tr style="background-color: #e6e6ff;">
-      <th>1人称</th>
-      <th>2人称</th>
-      <th>3人称</th>
-      <th>1人称</th>
-      <th>2人称</th>
-      <th>3人称</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- 直説法 -->
-    <tr style="background-color: #f0f0ff;">
-      <th rowspan="3" style="background-color: #d9d9ff;">直説法</th>
-      <th>現在</th>
-      <td>ɔiraw</td>
-      <td>ɔirap</td>
-      <td>ɔira</td>
-      <td>ɔiral</td>
-      <td>ɔiras</td>
-      <td>ɔiran</td>
-    </tr>
-    <tr style="background-color: #f0f0ff;">
-      <th>過去</th>
-      <td>ɔirtaw</td>
-      <td>ɔirtap</td>
-      <td>ɔirta</td>
-      <td>ɔirtal</td>
-      <td>ɔirtas</td>
-      <td>ɔirtan</td>
-    </tr>
-    <tr style="background-color: #f0f0ff;">
-      <th>未来</th>
-      <td>ɔirrow</td>
-      <td>ɔirrop</td>
-      <td>ɔirro</td>
-      <td>ɔirrol</td>
-      <td>ɔirros</td>
-      <td>ɔirron</td>
-    </tr>
-    <!-- 条件法 -->
-    <tr style="background-color: #f2fff2;">
-      <th rowspan="2" style="background-color: #d9f2d9;">条件法<br>（-ro-）</th>
-      <th>条件現在</th>
-      <td>ɔirrow</td>
-      <td>ɔirrop</td>
-      <td>ɔirro</td>
-      <td>ɔirrol</td>
-      <td>ɔirros</td>
-      <td>ɔirron</td>
-    </tr>
-    <tr style="background-color: #f2fff2;">
-      <th>条件過去</th>
-      <td>ɔirrotaw</td>
-      <td>ɔirrotap</td>
-      <td>ɔirrota</td>
-      <td>ɔirrotal</td>
-      <td>ɔirrotas</td>
-      <td>ɔirrotan</td>
-    </tr>
-    <!-- 命令法 -->
-    <tr style="background-color: #fff2f2;">
-      <th rowspan="1" style="background-color: #f2d9d9;">命令法</th>
-      <th>命令形</th>
-      <td>—</td>
-      <td>ɔire</td>
-      <td>ɔire</td>
-      <td>—</td>
-      <td>ɔiren</td>
-      <td>ɔiren</td>
-    </tr>
-  </tbody>
+<h3>ɔir（動詞）の直説法活用表</h3>
+
+<table border="1">
+<tr style="background-color: #e6ef"><th colspan="2" rowspan="2"></th><th colspan="3" style="text-align: center">単数</th><th colspan="3" style="text-align: center">複数</th></tr>
+<tr style="background-color: #e6ef"><th>1人称</th><th>2人称</th><th>3人称</th><th>1人称</th><th>2人称</th><th>3人称</th></tr>
+<tr style="background-color: #d9df"><th rowspan="6">現在時制</th><th>非完了相</th><td>ɔiruw</td><td>ɔirup</td><td>ɔiru</td><td>ɔirul</td><td>ɔirus</td><td>ɔirun</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>ɔirɔsmuw</td><td>ɔirɔsmup</td><td>ɔirɔsmu</td><td>ɔirɔsmul</td><td>ɔirɔsmus</td><td>ɔirɔsmun</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>ɔirɔtruw</td><td>ɔirɔtrup</td><td>ɔirɔtru</td><td>ɔirɔtrul</td><td>ɔirɔtrus</td><td>ɔirɔtrun</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>ɔirɔtkuw</td><td>ɔirɔtkup</td><td>ɔirɔtku</td><td>ɔirɔtkul</td><td>ɔirɔtkus</td><td>ɔirɔtkun</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>ɔirɔdsuw</td><td>ɔirɔdsup</td><td>ɔirɔdsu</td><td>ɔirɔdsul</td><td>ɔirɔdsus</td><td>ɔirɔdsun</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>ɔirɔvuw</td><td>ɔirɔvup</td><td>ɔirɔvu</td><td>ɔirɔvul</td><td>ɔirɔvus</td><td>ɔirɔvun</td></tr>
+<tr style="background-color: #d9df"><th rowspan="6">過去時制</th><th>非完了相</th><td>ɔirɔtɔw</td><td>ɔirɔtɔp</td><td>ɔirɔtɔ</td><td>ɔirɔtɔl</td><td>ɔirɔtɔs</td><td>ɔirɔtɔn</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>ɔirɔsmtɔw</td><td>ɔirɔsmtɔp</td><td>ɔirɔsmtɔ</td><td>ɔirɔsmtɔl</td><td>ɔirɔsmtɔs</td><td>ɔirɔsmtɔn</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>ɔirɔtrɔw</td><td>ɔirɔtrɔp</td><td>ɔirɔtrɔ</td><td>ɔirɔtrɔl</td><td>ɔirɔtrɔs</td><td>ɔirɔtrɔn</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>ɔirɔktɔw</td><td>ɔirɔktɔp</td><td>ɔirɔktɔ</td><td>ɔirɔktɔl</td><td>ɔirɔktɔs</td><td>ɔirɔktɔn</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>ɔirɔstɔw</td><td>ɔirɔstɔp</td><td>ɔirɔstɔ</td><td>ɔirɔstɔl</td><td>ɔirɔstɔs</td><td>ɔirɔstɔn</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>ɔirɔvtɔw</td><td>ɔirɔvtɔp</td><td>ɔirɔvtɔ</td><td>ɔirɔvtɔl</td><td>ɔirɔvtɔs</td><td>ɔirɔvtɔn</td></tr>
+<tr style="background-color: #d9df"><th rowspan="6">未来時制</th><th>非完了相</th><td>ɔirow</td><td>ɔirop</td><td>ɔiro</td><td>ɔirol</td><td>ɔiros</td><td>ɔiron</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>ɔirɔsmow</td><td>ɔirɔsmop</td><td>ɔirɔsmo</td><td>ɔirɔsmol</td><td>ɔirɔsmos</td><td>ɔirɔsmon</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>ɔirɔtrow</td><td>ɔirɔtrop</td><td>ɔirɔtro</td><td>ɔirɔtrol</td><td>ɔirɔtros</td><td>ɔirɔtron</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>ɔirɔtkow</td><td>ɔirɔtkop</td><td>ɔirɔtko</td><td>ɔirɔtkol</td><td>ɔirɔtkos</td><td>ɔirɔtkon</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>ɔirɔdsow</td><td>ɔirɔdsop</td><td>ɔirɔdso</td><td>ɔirɔdsol</td><td>ɔirɔdsos</td><td>ɔirɔdson</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>ɔirɔvow</td><td>ɔirɔvop</td><td>ɔirɔvo</td><td>ɔirɔvol</td><td>ɔirɔvos</td><td>ɔirɔvon</td></tr>
 </table>
 
-<h3>相（アスペクト）形式（3人称単数現在形）</h3>
-
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">完遂相（-sm-）</th>
-    <td>ɔirsma</td>
-    <th style="background-color: #f2f2d9;">結果状態相（-tr-）</th>
-    <td>ɔirtra</td>
-  </tr>
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">準備相（-tk-）</th>
-    <td>ɔirtka</td>
-    <th style="background-color: #f2f2d9;">起動相（-ds-）</th>
-    <td>ɔirdsa</td>
-  </tr>
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">終結相（-və-/-v-）</th>
-    <td>ɔirva</td>
-    <th style="background-color: #f2f2d9;"></th>
-    <td></td>
-  </tr>
-</table>
-
-<h3>代表的複合形式</h3>
-
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6; width: 200px;">過去結果状態相</th>
-    <td>ɔirtrta</td>
-    <td style="font-style: italic;">覆っていた</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6;">未来結果状態相</th>
-    <td>ɔirtrro</td>
-    <td style="font-style: italic;">覆っているだろう</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6;">完遂到達限界</th>
-    <td>ɔirsmd</td>
-    <td style="font-style: italic;">覆い尽くすまで</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6;">起動過去形</th>
-    <td>ɔirdsta</td>
-    <td style="font-style: italic;">覆い始めた</td>
-  </tr>
-</table>
-
-## 例文
-1. kamno reii m̃zno uæo ɔirtrta. (神の霊が水の上を覆っていました。)
-2. "tɔriraa tr̃o ɔirsmdñ fue" to ivæta. (「鳥たちは地を覆うまでに増えよ」と祝福しました。)
-3. jamia pakurtr̃ m̃zad arta, mata kamno reii m̃zno uæo ɔirtrta. (闇に包まれた水の上を、さらに神の霊が覆っていました。)
-4. kumo tenñ ɔirta. (雲が天を覆った。)
-
-## 関連語
-- kam (神) - 名詞
-- rei (霊) - 名詞
-- m̃z (水) - 名詞
-- uæ (上) - 名詞
-- jami (闇) - 名詞
-- fue (増える) - 動詞
-
-## 備考
-「ɔir」は創造物語において、特に重要な役割を持つ動詞である。冒頭で「kamno reii m̃zno uæo ɔirtrta」（神の霊が水の上を覆っていた）と使用され、創造前の原初的な状態を描写する。
-
-また、生物への祝福「tɔriraa tr̃o ɔirsmdñ fue」（鳥たちは地を覆うまでに増えよ）のように、生命の繁栄と広がりを表現する文脈でも使用される。物理的な覆いだけでなく、神の力や生命力が広がることを表現する精神的・象徴的な意味合いも持つ。

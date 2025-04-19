@@ -2,7 +2,7 @@
 
 ## 文法情報
 - **類別**: 名詞
-- **音韻型**: 前舌
+- **音韻型**: 前舌子音
 - **名詞分類**: 無生
 
 ## 語源情報
@@ -14,27 +14,13 @@
 
 ## 曲用表
 
-| 格   | 単数不定形 | 単数定形  | 複数不定形 | 複数定形  |
-| ---- | --------- | --------- | ---------- | --------- |
-| 主格 | tæmi      | tæmis     | tæmri      | tæmris    |
-| 対格 | tæme      | tæmes     | tæmre      | tæmres    |
-| 与格 | tæmñ      | tæmñs     | tæmrñ      | tæmrñs    |
-| 所格 | tæmd      | tæmds     | tæmid      | tæmids    |
-| 属格 | tæmne     | tæmnes    | tæmine     | tæmines   |
-| 出格 | tæmkr̃     | tæmkr̃s    | tæmikr̃     | tæmikr̃s   |
-| 向格 | tæmhe     | tæmhes    | tæmihe     | tæmihes   |
-| 共格 | tæmt      | tæmts     | tæmit      | tæmits    |
-
-## 例文
-1. nanis nano artañ tæmd, kama tene tr̃o tsukrta. (まだ何もなかった時に、神は天と地を造りました。)
-2. tæmi çti çaa narta. (時は一日目になりました。)
-3. tæmne wakro mirew. (時の区切りを見ます。)
-
-## 関連語
-- skmino (季節の) - 名詞
-- kætr̃ (変化) - 名詞
-- çti (一) - 数詞
-- tʃi (一年) - 名詞
-
-## 備考
-時間にまつわる概念は多くの派生語や複合語を生み出している。特に「tæm」は他の時間関連語彙の基盤となる重要な語彙素である。文化的コンテキストでは、時の流れと変化を示す哲学的概念としても用いられる。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | tæmi      | tæmis     | tæmiri    | tæmiris   |
+| 対格  | tæme      | tæmes     | tæmire    | tæmires   |
+| 与格  | tæmiñ      | tæmiñs     | tæmiriñ    | tæmiriñs   |
+| 所格  | tæmid      | tæmids     | tæmirid    | tæmirids   |
+| 属格  | tæmne      | tæmnes     | tæmirne    | tæmirnes   |
+| 出格  | tæmikr̃      | tæmikr̃s     | tæmirikr̃    | tæmirikr̃s   |
+| 向格  | tæmhe      | tæmhes     | tæmirhe    | tæmirhes   |
+| 共格  | tæmit      | tæmits     | tæmirit    | tæmirits   |

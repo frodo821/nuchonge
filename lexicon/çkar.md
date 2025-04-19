@@ -2,7 +2,7 @@
 
 ## 文法情報
 - **類別**: 名詞
-- **音韻型**: 前舌
+- **音韻型**: 前舌子音
 - **名詞分類**: 無生
 
 ## 語源情報
@@ -14,24 +14,14 @@
 3. （比喩的に）知識、啓示、理解
 
 ## 曲用表
-| 格   | 単数不定形 | 単数定形  | 複数不定形 | 複数定形   |
-| ---- | -------- | ------- | -------- | -------- |
-| 主格 | çkari    | çkaris  | çkarri   | çkarris  |
-| 対格 | çkare    | çkares  | çkarre   | çkarres  |
-| 与格 | çkarñ    | çkarñs  | çkarrñ   | çkarrñs  |
-| 所格 | çkard    | çkards  | çkarid   | çkarids  |
-| 属格 | çkarne   | çkarnes | çkarrne  | çkarrnes |
-| 出格 | çkarkr̃   | çkarkr̃s | çkarikr̃  | çkarikr̃s |
-| 向格 | çkarhe   | çkarhes | çkarihe  | çkarihes |
-| 共格 | çkart    | çkarts  | çkarit   | çkarits  |
 
-## 例文
-1. çkari jamitr̃o tersa (光は暗闇を照らす)
-2. jomsa çkare mirtaw (強い光を見た)
-
-## 関連語
-- **jami** (闇) - 名詞
-- **ters** (照らす) - 動詞
-
-## 備考
-物理的な光を指すだけでなく、宗教的・哲学的文脈では啓示や知識の隠喩としても使用される。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | çkari      | çkaris     | çkareri    | çkareris   |
+| 対格  | çkare      | çkares     | çkarere    | çkareres   |
+| 与格  | çkariñ      | çkariñs     | çkareriñ    | çkareriñs   |
+| 所格  | çkarid      | çkarids     | çkarerid    | çkarerids   |
+| 属格  | çkarme      | çkarmes     | çkarerme    | çkarermes   |
+| 出格  | çkarikr̃      | çkarikr̃s     | çkarerikr̃    | çkarerikr̃s   |
+| 向格  | çkarhe      | çkarhes     | çkarerhe    | çkarerhes   |
+| 共格  | çkarit      | çkarits     | çkarerit    | çkarerits   |

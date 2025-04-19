@@ -14,27 +14,14 @@
 3. 状態、様子（ものごとの現れ方や状況）
 
 ## 曲用表
-| 格   | 単数不定形 | 単数定形 | 複数不定形 | 複数定形  |
-| ---- | --------- | -------- | --------- | --------- |
-| 主格 | katça     | katças   | katçra    | katçras   |
-| 対格 | katço     | katços   | katçro    | katçros   |
-| 与格 | katçñ     | katçñs   | katçrñ    | katçrñs   |
-| 所格 | katçd     | katçds   | katçad    | katçads   |
-| 属格 | katçno    | katçnos  | katçano   | katçanos  |
-| 出格 | katçkr̃    | katçkr̃s  | katçakr̃   | katçakr̃s  |
-| 向格 | katçh     | katçhs   | katçah    | katçahs   |
-| 共格 | katçto    | katçtos  | katçato   | katçatos  |
 
-## 例文
-1. tr̃a katçñ artañ. (地は形も定まらず。)
-2. katça muikamo ntro. (形は無いものに似ている。)
-3. mon katçno dkaino. (物の形の多様性。)
-
-## 関連語
-- uæ (上) - 名詞
-- kætr̃ (変化) - 名詞
-- nt (似る) - 動詞
-- toksei (特性) - 名詞
-
-## 備考
-「katç」は物理的な形状だけでなく、抽象的な概念としての形式や型を表すためにも使用される。また、他の単語と組み合わせて複合語を形成することが多い。例えば「katç-kætr̃」（形態変化）など。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | katçwa      | katçwas     | katçra    | katçras   |
+| 対格  | katçwo      | katçwos     | katçro    | katçros   |
+| 与格  | katçñ      | katçños     | katçruñ    | katçruñs   |
+| 所格  | katçd      | katçdos     | katçrud    | katçruds   |
+| 属格  | katçmo      | katçmos     | katçrmo    | katçrmos   |
+| 出格  | katçkr̃      | katçkr̃os     | katçrukr̃    | katçrukr̃s   |
+| 向格  | katçh      | katçhos     | katçruh    | katçruhs   |
+| 共格  | katçto      | katçtos     | katçrut    | katçruts   |

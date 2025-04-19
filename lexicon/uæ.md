@@ -2,7 +2,7 @@
 
 ## 文法情報
 - **類別**: 名詞
-- **音韻型**: 前舌
+- **音韻型**: 前舌子音
 - **名詞分類**: 無生
 
 ## 語源情報
@@ -15,27 +15,13 @@
 
 ## 曲用表
 
-| 格   | 単数不定形 | 単数定形  | 複数不定形 | 複数定形   |
-| ---- | --------- | --------- | ---------- | ---------- |
-| 主格 | uæi       | uæis      | uæri       | uæris      |
-| 対格 | uæe       | uæes      | uære       | uæres      |
-| 与格 | uæñ       | uæñs      | uærñ       | uærñs      |
-| 所格 | uæd       | uæds      | uæid       | uæids      |
-| 属格 | uæne      | uænes     | uæine      | uæines     |
-| 出格 | uækr̃      | uækr̃s     | uæikr̃      | uæikr̃s     |
-| 向格 | uæhe      | uæhes     | uæihe      | uæihes     |
-| 共格 | uæt       | uæts      | uæit       | uæits      |
-
-## 例文
-1. kamno reii m̃zno uæo ɔirtrta. (神の霊が水の上を覆っていました。)
-2. uæi soran taro. (上は空と太陽。)
-3. uæhe iko, jamno uæhe. (上へ行こう、山の上へ。)
-
-## 関連語
-- uæʃ (上下) - 名詞
-- sora (空) - 名詞
-- m̃z (水) - 名詞
-- jami (闇) - 名詞
-
-## 備考
-空間的位置関係を表す基本的な語彙として、多くの複合語や慣用表現に用いられる。「uæ」の対義語は「ʃta」（下）である。また、物理的な位置だけでなく、社会的な地位や序列を表す比喩的な用法も広く見られる。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | uæi      | uæis     | uæiri    | uæiris   |
+| 対格  | uæe      | uæes     | uæire    | uæires   |
+| 与格  | uæiñ      | uæiñs     | uæiriñ    | uæiriñs   |
+| 所格  | uæid      | uæids     | uæirid    | uæirids   |
+| 属格  | uæne      | uænes     | uæirne    | uæirnes   |
+| 出格  | uæikr̃      | uæikr̃s     | uæirikr̃    | uæirikr̃s   |
+| 向格  | uæhe      | uæhes     | uæirhe    | uæirhes   |
+| 共格  | uæit      | uæits     | uæirit    | uæirits   |

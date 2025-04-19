@@ -7,8 +7,10 @@
 
 ## 語源情報
 現代日本語「ごはん」(ご飯)から変化
-* /gohan/ → /gohan/ → /gan/ → /san/ と音韻変化
-* 敬称接頭辞「ご」との融合と子音変化
+
+- /gohan/ → /gohan/ → /gan/ → /san/ と音韻変化
+
+- 敬称接頭辞「ご」との融合と子音変化
 
 ## 定義
 1. 炊いた米、米飯
@@ -18,33 +20,13 @@
 
 ## 曲用表
 
-| 格   | 単数不定形 | 単数定形 | 複数不定形 | 複数定形  |
-| ---- | --------- | -------- | ---------- | --------- |
-| 主格 | sana     | sanas    | sanra      | sanras    |
-| 対格 | sano     | sanos    | sanro      | sanros    |
-| 与格 | sanñ     | sanñs    | sanrñ      | sanrñs    |
-| 所格 | sand     | sands    | sanad      | sanads    |
-| 属格 | sanno    | sannos   | sanano     | sananos   |
-| 出格 | sankr̃    | sankr̃s   | sanakr̃     | sanakr̃s   |
-| 向格 | sanh     | sanhs    | sanah      | sanahs    |
-| 共格 | santo    | santos   | sanato     | sanatos   |
-
-## 例文
-1. vtʃi sano tbenaw. (私はご飯を食べます。)
-2. sana atras ara. (ご飯は新しいです。)
-3. amr ɔka sano tbenow. (明日大きなご飯を食べます。)
-4. sanna trabañ çita joksa. (ご飯を作る人は良いです。)
-
-## 関連語
-- sanæ: 食堂、レストラン（「ご飯」+「場所」の複合語）
-- santben: 食事、食事すること（「ご飯」+「食べる」の複合語）
-- sandk: 食卓（「ご飯」+「台」の複合語）
-- kjosan: 朝食（「朝」+「ご飯」の複合語）
-- jursan: 夕食（「夕方」+「ご飯」の複合語）
-
-## 備考
-「san」は日常生活の基本的な名詞で、食事や炊いた米を指す言葉として頻繁に使用されます。もともとは米飯を指す言葉でしたが、意味が拡張され、一般的な「食事」を意味するようになりました。
-
-「san」は単独で使用されるだけでなく、「sano tben」（ご飯を食べる）のような基本的な表現や、「santben」（食事する）のような複合語の形成にも使用されます。時間帯と組み合わせて「kjosan」（朝食）、「næksan」（昼食）、「jursan」（夕食）などの表現を作ることもできます。
-
-文化的には「san」は単なる栄養摂取の手段ではなく、社会的交流や家族の結びつきを象徴する重要な概念として扱われます。「sanve kitala」（食事は大切だ）のような表現は、食事の文化的重要性を強調します。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | sanwa      | sanwas     | sanwa    | sanwas   |
+| 対格  | sanwo      | sanwos     | sanwo    | sanwos   |
+| 与格  | sanñ      | sanños     | sanuñ    | sanuñs   |
+| 所格  | sand      | sandos     | sanud    | sanuds   |
+| 属格  | sanno      | sannos     | sanuno    | sanunos   |
+| 出格  | sankr̃      | sankr̃os     | sanukr̃    | sanukr̃s   |
+| 向格  | sanh      | sanhos     | sanuh    | sanuhs   |
+| 共格  | santo      | santos     | sanuto    | sanutos   |

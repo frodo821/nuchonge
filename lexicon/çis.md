@@ -2,13 +2,15 @@
 
 ## 文法情報
 - **類別**: 形容詞
-- **音韻型**: 前舌
-- **形容詞分類**: 前舌形容詞
+- **音韻型**: 前舌子音
+- **活用**: 規則変化
 
 ## 語源情報
 現代日本語「ちいさい」(小さい)から変化
-* /tʃiisai/ → /tʃisa/ → /çis/ と音韻変化
-* /tʃ/ → /ç/ の音韻変化が生じた
+
+- /tʃiisai/ → /tʃisa/ → /çis/ と音韻変化
+
+- /tʃ/ → /ç/ の音韻変化が生じた
 
 ## 定義
 1. 物理的に小さな寸法または容積を持つ
@@ -17,46 +19,29 @@
 4. （年齢について）幼い、若い
 
 ## 曲用表
-### 有生名詞修飾（前舌形容詞曲用）
 
-| 格   | 単数不定形 | 単数定形   | 複数不定形 | 複数定形    |
-| ---- | -------- | -------- | -------- | --------- |
-| 主格 | çisi    | çisis   | çisri   | çisris   |
-| 対格 | çise    | çises   | çisre   | çisres   |
-| 与格 | çisñ    | çisñs   | çisrñ   | çisrñs   |
-| 所格 | çisd    | çisds   | çisid   | çisids   |
-| 属格 | çisne   | çisnes  | çisine  | çisines  |
-| 出格 | çiskr̃   | çiskr̃s  | çisikr̃  | çisikr̃s  |
-| 向格 | çishe   | çishes  | çisihe  | çisihes  |
-| 共格 | çist    | çists   | çisit   | çisits   |
+### 有生名詞修飾
 
-### 無生名詞修飾（前舌形容詞曲用）
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | çisi      | çisis     | çisri    | çisris   |
+| 対格  | çise      | çises     | çisre    | çisres   |
+| 与格  | çisiñe      | çisiñes     | çisriñe    | çisriñes   |
+| 所格  | çiside      | çisides     | çisride    | çisrides   |
+| 属格  | çisnei      | çisneis     | çisrnei    | çisrneis   |
+| 出格  | çisikr̃      | çisikr̃s     | çisrekr̃    | çisrekr̃s   |
+| 向格  | çishei      | çisheis     | çisrhei    | çisrheis   |
+| 共格  | çisite      | çisites     | çisrite    | çisrites   |
 
-| 格   | 単数不定形 | 単数定形   | 複数不定形 | 複数定形    |
-| ---- | -------- | -------- | -------- | --------- |
-| 主格 | çisi    | çisis   | çisri   | çisris   |
-| 対格 | çise    | çises   | çisre   | çisres   |
-| 与格 | çisñ    | çisñs   | çisrñ   | çisrñs   |
-| 所格 | çisd    | çisds   | çisid   | çisids   |
-| 属格 | çisne   | çisnes  | çisrine | çisrines |
-| 出格 | çiskr̃   | çiskr̃s  | çisikr̃  | çisikr̃s  |
-| 向格 | çishe   | çishes  | çisihe  | çisihes  |
-| 共格 | çist    | çists   | çisit   | çisits   |
+### 無生名詞修飾
 
-### 後舌名詞修飾時の非対称的曲用
-後舌名詞を修飾する場合、形容詞は母音調和の規則に従って「çisa」のように後舌曲用形を取ることがあります。
-
-## 例文
-1. ɔki çitis vtʃne çisi æe miren. (大きな人が私の小さな家を見ています。)
-2. çisa m̃za aramd ara. (小さな水が地面にあります。)
-3. kors çiti çisi ara. (この人は小さいです。)
-4. vtʃi çise hñe jomtaw. (私は小さな本を読みました。)
-
-## 関連語
-- çisçit: 小人、小さな人（「小さい」+「人」の複合語）
-- tvçis: とても小さい（接頭辞tv-「とても」が付加）
-- ɔk: 大きい（反義語）
-- çisls: 微小な（「小さい」+「少ない」の複合語）
-
-## 備考
-「çis」は大きさの欠如を表す基本的な形容詞です。前舌母音系の形容詞として、基本的には前舌曲用パターンに従いますが、後舌名詞を修飾する場合は母音調和に従って後舌曲用形を取ることもあります。物理的な小ささだけでなく、重要性の低さや若さなど抽象的な「小ささ」も表現できます。「çissje」（小さそうだ）のように様態推量を表現したり、「çisro」（小さくなるだろう）のように状態変化を予測したりすることもできます。比喩的に「心が小さい」（狭量）といった表現にも使用されます。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | çisi      | çisis     | çisri    | çisris   |
+| 対格  | çise      | çises     | çisre    | çisres   |
+| 与格  | çisiñe      | çisiñes     | çisriñe    | çisriñes   |
+| 所格  | çiside      | çisides     | çisride    | çisrides   |
+| 属格  | çismei      | çismeis     | çisrmei    | çisrmeis   |
+| 出格  | çisikr̃      | çisikr̃s     | çisrekr̃    | çisrekr̃s   |
+| 向格  | çishei      | çisheis     | çisrhei    | çisrheis   |
+| 共格  | çisite      | çisites     | çisrite    | çisrites   |

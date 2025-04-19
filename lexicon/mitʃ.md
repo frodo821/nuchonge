@@ -2,8 +2,9 @@
 
 ## 文法情報
 - **類別**: 動詞
-- **音韻型**: 前舌
-- **動詞分類**: 状態変化動詞
+- **音韻型**: 前舌子音
+- **動詞分類**: 自動詞
+- **活用**: 規則変化
 
 ## 語源情報
 現代日本語の「満ちる(みちる)」から変化。「みちる」→「michiru」→「mitʃ」と音韻変化した。「ch」が「tʃ」に変化し、語中および語末母音が脱落して子音終わりの形態になった。
@@ -16,126 +17,29 @@
 
 ## 活用表
 
-### 動詞（満ちる）の活用表
 
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <thead>
-    <tr style="background-color: #e6e6ff;">
-      <th colspan="2" rowspan="2"></th>
-      <th colspan="3" style="text-align: center;">単数</th>
-      <th colspan="3" style="text-align: center;">複数</th>
-    </tr>
-    <tr style="background-color: #e6e6ff;">
-      <th>1人称</th>
-      <th>2人称</th>
-      <th>3人称</th>
-      <th>1人称</th>
-      <th>2人称</th>
-      <th>3人称</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- 直説法 -->
-    <tr style="background-color: #f0f0ff;">
-      <th rowspan="3" style="background-color: #d9d9ff;">直説法</th>
-      <th>現在</th>
-      <td>mitʃew</td>
-      <td>mitʃep</td>
-      <td>mitʃe</td>
-      <td>mitʃel</td>
-      <td>mitʃes</td>
-      <td>mitʃen</td>
-    </tr>
-    <tr style="background-color: #f0f0ff;">
-      <th>過去</th>
-      <td>mitʃtaw</td>
-      <td>mitʃtap</td>
-      <td>mitʃta</td>
-      <td>mitʃtal</td>
-      <td>mitʃtas</td>
-      <td>mitʃtan</td>
-    </tr>
-    <tr style="background-color: #f0f0ff;">
-      <th>未来</th>
-      <td>mitʃow</td>
-      <td>mitʃop</td>
-      <td>mitʃo</td>
-      <td>mitʃol</td>
-      <td>mitʃos</td>
-      <td>mitʃon</td>
-    </tr>
-    <!-- 命令法 -->
-    <tr style="background-color: #fff2f2;">
-      <th rowspan="1" style="background-color: #f2d9d9;">命令法</th>
-      <th>命令形</th>
-      <td>—</td>
-      <td>mitʃe</td>
-      <td>mitʃe</td>
-      <td>—</td>
-      <td>mitʃen</td>
-      <td>mitʃen</td>
-    </tr>
-  </tbody>
+<h3>mitʃ（動詞）の直説法活用表</h3>
+
+<table border="1">
+<tr style="background-color: #e6ef"><th colspan="2" rowspan="2"></th><th colspan="3" style="text-align: center">単数</th><th colspan="3" style="text-align: center">複数</th></tr>
+<tr style="background-color: #e6ef"><th>1人称</th><th>2人称</th><th>3人称</th><th>1人称</th><th>2人称</th><th>3人称</th></tr>
+<tr style="background-color: #d9df"><th rowspan="6">現在時制</th><th>非完了相</th><td>mitʃew</td><td>mitʃep</td><td>mitʃe</td><td>mitʃel</td><td>mitʃes</td><td>mitʃen</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>mitʃasmew</td><td>mitʃasmep</td><td>mitʃasme</td><td>mitʃasmel</td><td>mitʃasmes</td><td>mitʃasmen</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>mitʃatrew</td><td>mitʃatrep</td><td>mitʃatre</td><td>mitʃatrel</td><td>mitʃatres</td><td>mitʃatren</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>mitʃatkew</td><td>mitʃatkep</td><td>mitʃatke</td><td>mitʃatkel</td><td>mitʃatkes</td><td>mitʃatken</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>mitʃadsew</td><td>mitʃadsep</td><td>mitʃadse</td><td>mitʃadsel</td><td>mitʃadses</td><td>mitʃadsen</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>mitʃavew</td><td>mitʃavep</td><td>mitʃave</td><td>mitʃavel</td><td>mitʃaves</td><td>mitʃaven</td></tr>
+<tr style="background-color: #d9df"><th rowspan="6">過去時制</th><th>非完了相</th><td>mitʃataw</td><td>mitʃatap</td><td>mitʃata</td><td>mitʃatal</td><td>mitʃatas</td><td>mitʃatan</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>mitʃasmtaw</td><td>mitʃasmtap</td><td>mitʃasmta</td><td>mitʃasmtal</td><td>mitʃasmtas</td><td>mitʃasmtan</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>mitʃatraw</td><td>mitʃatrap</td><td>mitʃatra</td><td>mitʃatral</td><td>mitʃatras</td><td>mitʃatran</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>mitʃaktaw</td><td>mitʃaktap</td><td>mitʃakta</td><td>mitʃaktal</td><td>mitʃaktas</td><td>mitʃaktan</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>mitʃastaw</td><td>mitʃastap</td><td>mitʃasta</td><td>mitʃastal</td><td>mitʃastas</td><td>mitʃastan</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>mitʃavtaw</td><td>mitʃavtap</td><td>mitʃavta</td><td>mitʃavtal</td><td>mitʃavtas</td><td>mitʃavtan</td></tr>
+<tr style="background-color: #d9df"><th rowspan="6">未来時制</th><th>非完了相</th><td>mitʃæw</td><td>mitʃæp</td><td>mitʃæ</td><td>mitʃæl</td><td>mitʃæs</td><td>mitʃæn</td></tr>
+<tr style="background-color: #f0ff"><th>完遂相</th><td>mitʃasmæw</td><td>mitʃasmæp</td><td>mitʃasmæ</td><td>mitʃasmæl</td><td>mitʃasmæs</td><td>mitʃasmæn</td></tr>
+<tr style="background-color: #f0ff"><th>結果状態相</th><td>mitʃatræw</td><td>mitʃatræp</td><td>mitʃatræ</td><td>mitʃatræl</td><td>mitʃatræs</td><td>mitʃatræn</td></tr>
+<tr style="background-color: #f0ff"><th>準備相</th><td>mitʃatkæw</td><td>mitʃatkæp</td><td>mitʃatkæ</td><td>mitʃatkæl</td><td>mitʃatkæs</td><td>mitʃatkæn</td></tr>
+<tr style="background-color: #f0ff"><th>起動相</th><td>mitʃadsæw</td><td>mitʃadsæp</td><td>mitʃadsæ</td><td>mitʃadsæl</td><td>mitʃadsæs</td><td>mitʃadsæn</td></tr>
+<tr style="background-color: #f0ff"><th>終結相</th><td>mitʃavæw</td><td>mitʃavæp</td><td>mitʃavæ</td><td>mitʃavæl</td><td>mitʃavæs</td><td>mitʃavæn</td></tr>
 </table>
 
-### 相（アスペクト）形式（3人称単数現在形）
-
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">完遂相（-sm-）</th>
-    <td>mitʃsme</td>
-    <th style="background-color: #f2f2d9;">結果状態相（-tr-）</th>
-    <td>mitʃtre</td>
-  </tr>
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">準備相（-tk-）</th>
-    <td>mitʃtke</td>
-    <th style="background-color: #f2f2d9;">起動相（-ds-）</th>
-    <td>mitʃdse</td>
-  </tr>
-  <tr style="background-color: #fffff0;">
-    <th style="background-color: #f2f2d9;">終結相（-və-/-v-）</th>
-    <td>mitʃve</td>
-    <th style="background-color: #f2f2d9;"></th>
-    <td></td>
-  </tr>
-</table>
-
-### 代表的複合形式
-
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6; width: 200px;">過去起動相</th>
-    <td>mitʃdsta</td>
-    <td style="font-style: italic;">満ち始めた</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6;">結果完了相</th>
-    <td>mitʃtrsma</td>
-    <td style="font-style: italic;">完全に満ちた状態になる</td>
-  </tr>
-  <tr style="background-color: #f5f5f5;">
-    <th style="background-color: #e6e6e6;">命令完遂相</th>
-    <td>mitʃsme</td>
-    <td style="font-style: italic;">完全に満ちよ</td>
-  </tr>
-</table>
-
-## 例文
-1. kama ierta: "uma sakño kar hkno ikm̃no afrte, soraa arjr spno tɔrñ mitʃe." (神は言われました。「海は魚やその他の生き物であふれ、空はあらゆる種類の鳥で満ちよ。」)
-2. "umippæñ mitʃe. tɔriraa tr̃o ɔirsmdñ fue" to ivæta. (「海いっぱいに満ちよ。鳥たちは地を覆うまでに増えよ」と祝福しました。)
-3. rka ikm̃nppæñ mitʃta. (陸は生き物でいっぱいになった。)
-4. kama joksi sakñ to tɔro mitʃastañ ivæta. (神は良い魚と鳥が増えるように祝福した。)
-
-## 関連語
-- afr (あふれる) - 動詞
-- fue (増える) - 動詞
-- ɔir (覆う) - 動詞
-- sakñ (魚) - 名詞
-- tɔr (鳥) - 名詞
-- ikm̃n (生き物) - 名詞
-
-## 備考
-「mitʃ」は創造物語において、神が創造した生物に対して繁栄と増殖を命じる際に使用される重要な動詞である。特に「mitʃe」（満ちよ）という命令形は、創造の完成を意味する重要な祝福表現となっている。
-
-この動詞は単に物理的に空間が埋まるという意味だけでなく、生命の繁栄や豊かさを含意し、創造物が本来の目的を達成するという神学的な意味合いも持つ。「afr」（あふれる）や「fue」（増える）といった関連動詞と共に使われることが多い。

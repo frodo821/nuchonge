@@ -3,7 +3,7 @@
 ## 文法情報
 - **類別**: 名詞
 - **音韻型**: 後舌
-- **名詞分類**: 有生
+- **名詞分類**: 無生
 
 ## 語源情報
 現代日本語「神（かみ）」から。語末母音の脱落により「kam」となった。
@@ -13,23 +13,14 @@
 2. 創造主、万物の支配者
 
 ## 曲用表
-| 格   | 単数不定形 | 単数定形  | 複数不定形 | 複数定形   |
-| ---- | -------- | ------- | -------- | -------- |
-| 主格 | kama    | kamas  | kamra   | kamras  |
-| 対格 | kamo    | kamos  | kamro   | kamros  |
-| 与格 | kamñ    | kamñs  | kamrñ   | kamrñs  |
-| 所格 | kamd    | kamds  | kamad   | kamads  |
-| 属格 | kamno   | kamnos | kamano  | kamanos |
-| 出格 | kamkr̃   | kamkr̃s | kamakr̃  | kamakr̃s |
-| 向格 | kamh    | kamhs  | kamah   | kamahs  |
-| 共格 | kamto   | kamtos | kamato  | kamatos |
 
-## 例文
-1. kama sɔtro tsukrta (神は世界を創った)
-2. çiti kamñ inerro (人は神に祈るだろう)
-
-## 関連語
-- **tsukr** (創る) - 動詞
-
-## 備考
-宗教的文脈では特に重要な語彙。敬意を示すために敬語接辞との共起が一般的。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | kamwa      | kamwas     | kamwa    | kamwas   |
+| 対格  | kamwo      | kamwos     | kamwo    | kamwos   |
+| 与格  | kamñ      | kamños     | kamuñ    | kamuñs   |
+| 所格  | kamd      | kamdos     | kamud    | kamuds   |
+| 属格  | kamno      | kamnos     | kamuno    | kamunos   |
+| 出格  | kamkr̃      | kamkr̃os     | kamukr̃    | kamukr̃s   |
+| 向格  | kamh      | kamhos     | kamuh    | kamuhs   |
+| 共格  | kamto      | kamtos     | kamuto    | kamutos   |

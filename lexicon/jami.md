@@ -14,25 +14,14 @@
 3. （比喩的に）無知、混乱、不明瞭さ
 
 ## 曲用表
-| 格   | 単数不定形 | 単数定形  | 複数不定形 | 複数定形   |
-| ---- | -------- | ------- | -------- | -------- |
-| 主格 | jamia   | jamias  | jamira   | jamiras  |
-| 対格 | jamio   | jamios  | jamiro   | jamiros  |
-| 与格 | jamiñ   | jamiñs  | jamirñ   | jamirñs  |
-| 所格 | jamid   | jamids  | jamiad   | jamiads  |
-| 属格 | jamino  | jaminos | jamiano  | jamianos |
-| 出格 | jamikr̃  | jamikr̃s | jamiakr̃  | jamiakr̃s |
-| 向格 | jamih   | jamihs  | jamiah   | jamiahs  |
-| 共格 | jamito  | jamitos | jamiato  | jamiatos |
 
-## 例文
-1. jamia çkare nomta (闇は光を飲み込んだ)
-2. jamid osoraw (闇を恐れる)
-
-## 関連語
-- **çkar** (光) - 名詞
-- **jor** (夜) - 名詞
-- **çiru** (昼) - 名詞
-
-## 備考
-光の対義語として重要な概念。文学的表現や哲学的文脈では、無知や不確実性の象徴としても使用される。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | jamiwa      | jamiwas     | jamiwa    | jamiwas   |
+| 対格  | jamiwo      | jamiwos     | jamiwo    | jamiwos   |
+| 与格  | jamiñ      | jamiños     | jamiuñ    | jamiuñs   |
+| 所格  | jamid      | jamidos     | jamiud    | jamiuds   |
+| 属格  | jamino      | jaminos     | jamiuno    | jamiunos   |
+| 出格  | jamikr̃      | jamikr̃os     | jamiukr̃    | jamiukr̃s   |
+| 向格  | jamih      | jamihos     | jamiuh    | jamiuhs   |
+| 共格  | jamito      | jamitos     | jamiuto    | jamiutos   |

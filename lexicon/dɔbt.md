@@ -3,7 +3,7 @@
 ## 文法情報
 - **類別**: 名詞
 - **音韻型**: 後舌
-- **名詞分類**: 有生
+- **名詞分類**: 無生
 
 ## 語源情報
 現代日本語の「動物」(どうぶつ)から音韻変化。「どうぶつ」→「dɔbutsu」→「dɔbt」となった。語末母音の脱落と子音クラスタの形成により、「butsu」が「bt」に簡略化された。
@@ -14,30 +14,14 @@
 3. 人間と区別して、その他の動く生物を指す場合もある
 
 ## 曲用表
-| 格   | 単数不定形 | 単数定形 | 複数不定形 | 複数定形  |
-| ---- | --------- | -------- | --------- | --------- |
-| 主格 | dɔbta     | dɔbtas   | dɔbtra    | dɔbtras   |
-| 対格 | dɔbto     | dɔbtos   | dɔbtro    | dɔbtros   |
-| 与格 | dɔbtñ     | dɔbtñs   | dɔbtrñ    | dɔbtrñs   |
-| 所格 | dɔbtd     | dɔbtds   | dɔbtad    | dɔbtads   |
-| 属格 | dɔbtno    | dɔbtnos  | dɔbtano   | dɔbtanos  |
-| 出格 | dɔbtkr̃    | dɔbtkr̃s  | dɔbtakr̃   | dɔbtakr̃s  |
-| 向格 | dɔbth     | dɔbths   | dɔbtah    | dɔbtahs   |
-| 共格 | dɔbtto    | dɔbttos  | dɔbtato   | dɔbtatos  |
 
-## 例文
-1. tr̃a arjr spno dɔbto umeta (地はあらゆる種類の動物を生み出した)
-2. dɔbtra kætso tbena (動物たちは草を食べる)
-3. antpraa dɔbtano nʒʃ arap (あなたがたは動物の主人です)
-4. dɔbtra tr̃d hirgrta (動物たちは地上に広がった)
-5. kama çito ivæte ierta: "antes sakñ to tɔr to arjr dɔbto nʒʃ aras." (神は人間を祝福して言われました。「あなたがたは、魚と鳥とすべての動物の主人なのだ。)
-
-## 関連語
-- **ikm̃n**: 生き物（上位概念）
-- **kettæ**: 家畜
-- **tɔr**: 鳥
-- **sakñ**: 魚
-- **ʃitsr**: 植物（対比概念）
-
-## 備考
-創造物語において、dɔbt（動物）は創造の第五日と第六日に作られた生き物のカテゴリーとして登場する。陸上に生息する動物は植物が作られた後、鳥や魚の後に創造された。神の創造において、動物は人間の下に置かれるが、同時に人間が世話をすべき存在として位置づけられている。
+| 格   | 単数不定形  | 単数定形  | 複数不定形  | 複数定形  |
+| ---- | --------- | -------- | --------- | -------- |
+| 主格  | dɔbtwa      | dɔbtwas     | dɔbtra    | dɔbtras   |
+| 対格  | dɔbtwo      | dɔbtwos     | dɔbtro    | dɔbtros   |
+| 与格  | dɔbtñ      | dɔbtños     | dɔbtruñ    | dɔbtruñs   |
+| 所格  | dɔbtd      | dɔbtdos     | dɔbtrud    | dɔbtruds   |
+| 属格  | dɔbtmo      | dɔbtmos     | dɔbtrmo    | dɔbtrmos   |
+| 出格  | dɔbtkr̃      | dɔbtkr̃os     | dɔbtrukr̃    | dɔbtrukr̃s   |
+| 向格  | dɔbth      | dɔbthos     | dɔbtruh    | dɔbtruhs   |
+| 共格  | dɔbtto      | dɔbttos     | dɔbtrut    | dɔbtruts   |
