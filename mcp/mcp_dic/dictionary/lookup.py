@@ -1,4 +1,4 @@
-from typing import Iterable
+from typing import Callable, Iterable
 from pydantic import BaseModel, Field
 
 from mcp_dic.database.sqlite import SQLiteDatabase
@@ -11,6 +11,14 @@ def first[T](iterable: Iterable[T], default: T | None = None) -> T | None:
     return next(iter(iterable))
   except StopIteration:
     return default
+
+
+def sort_to[T, V](iterable: Iterable[T], key: Callable[[T], V], sorted_keys: list[V]) -> list[T]:
+  """Sort the iterable by the keys in sorted_keys."""
+  return sorted(
+    iterable,
+    key=lambda x: sorted_keys.index(key(x)) if key(x) in sorted_keys else len(sorted_keys),
+  )
 
 
 class Inflection(BaseModel):
@@ -66,7 +74,7 @@ class Stem(BaseModel):
     title='phonological pattern id',
     description=('The unique identifier for the phonological pattern.'),
   )
-  etymology: str = Field(
+  etymology: str | None = Field(
     ...,
     title='etymology',
     description=(
@@ -74,7 +82,7 @@ class Stem(BaseModel):
       'For example, "from Old English" for the verb "run".'
     ),
   )
-  notes: str = Field(
+  notes: str | None = Field(
     ...,
     title='notes',
     description=(
@@ -137,7 +145,7 @@ class Stem(BaseModel):
 
   def format_inflections_human_readable(self) -> str:
     if self.part_of_speech_id in [1, 7]:
-      cases = {k.inflection_type.split('定')[1] for k in self.inflections}
+      cases = ['主格', '属格', '対格', '与格', '所格', '向格', '出格', '共格']
       numbers = ['単数定', '単数不定', '複数定', '複数不定']
 
       inflection = {
@@ -159,11 +167,11 @@ class Stem(BaseModel):
           } | {
             i.get('複数不定', '-')
           } |"
-          for case, i in inflection.items()
+          for case, i in sort_to(inflection.items(), lambda x: x[0], cases)
 )}
 """
     if self.part_of_speech_id in [3]:
-      cases = {k.inflection_type.split('定')[1] for k in self.inflections}
+      cases = ['主格', '属格', '対格', '与格', '所格', '向格', '出格', '共格']
       numbers = ['単数定', '単数不定', '複数定', '複数不定']
       animacy = ['有生', '無生']
 
@@ -190,7 +198,7 @@ class Stem(BaseModel):
           } | {
             i.get('複数不定', '-')
           } |"
-          for case, i in decl_adv['有生'].items()
+          for case, i in sort_to(decl_adv['有生'].items(), lambda x: x[0], cases)
 )}
 
 ### 無生名詞修飾
@@ -207,7 +215,7 @@ class Stem(BaseModel):
           } | {
             i.get('複数不定', '-')
           } |"
-          for case, i in decl_adv['無生'].items()
+          for case, i in sort_to(decl_adv['無生'].items(), lambda x: x[0], cases)
 )}
 """
     if self.part_of_speech_id in [2]:

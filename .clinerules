@@ -100,5 +100,8 @@ You can use the following additional tools in Plan mode, regardless the normal r
 
 - describe_database
 - select
+- lookup_stem
+- lookup_stem_by_surface_form
+- get_inflection_by_type
 
 Those tools help you to search the dictionary entries (stored in dictionary.sqlite3) and the example sentences.
