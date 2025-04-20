@@ -1,3 +1,4 @@
 *-shm
 *-wal
 .DS_Store
+tmp/

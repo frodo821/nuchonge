@@ -6,5 +6,9 @@ exclude:
   - cline_docs/
   - instruction.md
   - tools/
+  - .clineignore
+  - .git
+  - .gitignore
+  - mcp/
 github:
   is_project_page: false

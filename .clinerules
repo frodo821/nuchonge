@@ -94,3 +94,11 @@ Remember: After every memory reset, you begin completely fresh. Your only link t
   - arj.md - 単語「arj」のエントリ
   - tben.md - 単語「tben」のエントリ
 - sentence/ - 例文を含むディレクトリ
+
+# About Tools in Plan mode
+You can use the following additional tools in Plan mode, regardless the normal restrictions against tools:
+
+- describe_database
+- select
+
+Those tools help you to search the dictionary entries (stored in dictionary.sqlite3) and the example sentences.
