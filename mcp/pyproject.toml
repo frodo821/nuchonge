@@ -7,12 +7,17 @@ requires-python = ">=3.12"
 dependencies = [
     "mcp[cli]>=1.6.0",
     "pydantic>=2.11.3",
+    "pyside6>=6.9.0",
     "rich>=14.0.0",
     "typer>=0.15.2",
 ]
 
 [dependency-groups]
-dev = ["pytest>=8.3.5", "pytest-xdist>=3.6.1", "yapf>=0.43.0"]
+dev = [
+    "pytest>=8.3.5",
+ "pytest-xdist>=3.6.1",
+ "yapf>=0.43.0",
+]
 
 [build-system]
 requires = ["hatchling"]

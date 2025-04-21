@@ -108,6 +108,8 @@ CREATE INDEX IF NOT EXISTS idx_definitions_stem_id ON definitions(stem_id);
 
 CREATE UNIQUE INDEX IF NOT EXISTS idx_uniq_stems_stem_part_of_speech_id on stems(stem, part_of_speech_id);
 
+CREATE UNIQUE INDEX IF NOT EXISTS idx_uniq_inflections_stem_id_inflection_type_id on inflections(stem_id, inflection_type_id);
+
 INSERT INTO parts_of_speech (id, name, description) VALUES
   (1, '名詞', '人、場所、物、概念を表す品詞'),
   (2, '動詞', '動作や状態を表す品詞'),

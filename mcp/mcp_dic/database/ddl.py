@@ -186,10 +186,8 @@ class CreateTable(BaseModel):
   action: Literal['create_table'] = Field(
     'create_table',
     title='action',
-    description=(
-      'The action to perform. '
-      'For example, the action like "create_table".'
-    ),
+    description=('The action to perform. '
+                 'For example, the action like "create_table".'),
   )
 
   table_name: str = Field(
@@ -267,10 +265,8 @@ class DropTable(BaseModel):
   action: Literal['drop_table'] = Field(
     'drop_table',
     title='action',
-    description=(
-      'The action to perform. '
-      'For example, the action like "drop_table".'
-    ),
+    description=('The action to perform. '
+                 'For example, the action like "drop_table".'),
   )
 
   table_name: str = Field(
@@ -297,10 +293,8 @@ class RenameTable(BaseModel):
   action: Literal['rename_table'] = Field(
     'rename_table',
     title='action',
-    description=(
-      'The action to perform. '
-      'For example, the action like "rename_table".'
-    ),
+    description=('The action to perform. '
+                 'For example, the action like "rename_table".'),
   )
 
   old_name: str = Field(
@@ -336,10 +330,8 @@ class CreateIndex(BaseModel):
   action: Literal['create_index'] = Field(
     'create_index',
     title='action',
-    description=(
-      'The action to perform. '
-      'For example, the action like "create_index".'
-    ),
+    description=('The action to perform. '
+                 'For example, the action like "create_index".'),
   )
 
   index: Index = Field(
@@ -366,10 +358,8 @@ class DropIndex(BaseModel):
   action: Literal['drop_index'] = Field(
     'drop_index',
     title='action',
-    description=(
-      'The action to perform. '
-      'For example, the action like "drop_index".'
-    ),
+    description=('The action to perform. '
+                 'For example, the action like "drop_index".'),
   )
 
   index_name: str = Field(
@@ -396,10 +386,8 @@ class CreateView(BaseModel):
   action: Literal['create_view'] = Field(
     'create_view',
     title='action',
-    description=(
-      'The action to perform. '
-      'For example, the action like "create_view".'
-    ),
+    description=('The action to perform. '
+                 'For example, the action like "create_view".'),
   )
 
   view_name: str = Field(
@@ -440,10 +428,8 @@ class DropView(BaseModel):
   action: Literal['drop_view'] = Field(
     'drop_view',
     title='action',
-    description=(
-      'The action to perform. '
-      'For example, the action like "drop_view".'
-    ),
+    description=('The action to perform. '
+                 'For example, the action like "drop_view".'),
   )
 
   view_name: str = Field(
@@ -463,6 +449,7 @@ class DropView(BaseModel):
 
 
 type DDL = CreateTable | DropTable | RenameTable | CreateIndex | DropIndex | CreateView | DropView
+
 
 class SQLiteDDL(RootModel[list[DDL]]):
   pass
