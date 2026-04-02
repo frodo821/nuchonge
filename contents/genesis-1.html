@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>genesis-1</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #1a1a1a;
+  background: #fafafa;
+  display: flex;
+  min-height: 100vh;
+}
+nav {
+  width: 220px;
+  flex-shrink: 0;
+  background: #fff;
+  border-right: 1px solid #e0e0e0;
+  padding: 1.5rem 1rem;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+nav > a {
+  display: block;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+nav > a:hover { color: #0060df; }
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li { margin: 0.25rem 0; }
+nav li a {
+  color: #555;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+nav li a:hover { color: #0060df; }
+nav li.current {
+  font-weight: 600;
+  color: #0060df;
+  font-size: 0.95rem;
+}
+main {
+  flex: 1;
+  max-width: 52rem;
+  padding: 2rem 2.5rem;
+}
+h1 {
+  font-size: 1.6rem;
+  margin: 0 0 1.5rem;
+  color: #222;
+}
+.content p {
+  line-height: 1.7;
+  margin: 0.6rem 0;
+}
+.content a.word {
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+  cursor: help;
+  transition: border-color 0.15s, color 0.15s;
+}
+.content a.word:hover {
+  color: #0060df;
+  border-bottom-color: #0060df;
+}
+/* glossary page */
+.entry-card {
+  margin: 1.5rem 0;
+  padding: 1rem 1.2rem;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+}
+.entry-card h2 {
+  font-size: 1.15rem;
+  margin: 0 0 0.3rem;
+  color: #222;
+}
+.entry-card .meaning {
+  color: #555;
+  margin: 0 0 0.8rem;
+  font-style: italic;
+}
+.entry-card table {
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  width: 100%;
+  max-width: 100%;
+}
+.entry-card th, .entry-card td {
+  border: 1px solid #ddd;
+  padding: 0.3rem 0.6rem;
+  text-align: left;
+}
+.entry-card th {
+  background: #f5f5f5;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #444;
+}
+.entry-card td {
+  font-family: "Georgia", serif;
+}
+.entry-card h3 {
+  font-size: 0.95rem;
+  margin: 1rem 0 0.3rem;
+  color: #555;
+  font-weight: 600;
+}
+@media (max-width: 700px) {
+  body { flex-direction: column; }
+  nav {
+    width: 100%;
+    height: auto;
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  nav ul { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .entry-card { overflow-x: auto; }
+}
+</style>
+</head>
+<body>
+<nav>
+<a href="index.html">Index</a>
+<ul>
+<li><a href="glossary.html">Glossary</a></li>
+<li class="current">genesis-1</li>
+</ul>
+</nav>
+<main>
+<h1>genesis-1</h1>
+<div class="content">
+<p><a href="glossary.html#entry-dor" class="word" title="dor — どれ、どの（疑問・不定指示詞） [case=nom, number=sg]">dori</a> <a href="glossary.html#entry-mar" class="word" title="mar — まだ〜（継続・未完了）">mar</a><a href="glossary.html#entry-re" class="word" title="rə — 〜であれば（条件法） [sandhi=pre_v]">r</a><a href="glossary.html#entry-ar_verb" class="word" title="ar — 存在する、ある（物や事の存在を表す） [tense=past, aspect=impf, person=3, number=sg, polarity=neg, animacy=inanim]">ẽt</a> <a href="glossary.html#entry-taemd" class="word" title="tæm — 時間、時 [case=loc, number=sg]">tæmdo</a>, <a href="glossary.html#entry-sor" class="word" title="sor — それ、その（中称指示詞） [case=loc, number=sg]">sok</a> <a href="glossary.html#entry-kam" class="word" title="kam — 神、神性を持つ存在 [case=nom, number=sg]">kama</a> <a href="glossary.html#entry-ten" class="word" title="ten — 天、空、天空 [case=acc, number=sg]">tene</a><a href="glossary.html#entry-to" class="word" title="to — 引用標識（直接引用の前後に置く） [sandhi=pre_v]">t</a> <a href="glossary.html#entry-tir" class="word" title="tr̃ — 地、大地、土地 [case=acc, number=sg]">tr̃o</a> <a href="glossary.html#entry-tsukr" class="word" title="tsukr — 作る、創る、製作する [tense=past, aspect=impf, person=3, number=sg, polarity=pos]">tsukrɔtɔ</a>.</p>
+<p><a href="glossary.html#entry-tir" class="word" title="tr̃ — 地、大地、土地 [case=nom, number=sg]">tr̃a</a> <a href="glossary.html#entry-katch" class="word" title="katç — 形、形状、外見 [case=acc, number=sg]">katço</a><a href="glossary.html#entry-to" class="word" title="to — 引用標識（直接引用の前後に置く） [sandhi=pre_v]">t</a> <a href="glossary.html#entry-mitesh" class="word" title="mitəʃ — 満ちる、いっぱいになる [$=base]">mitəʃ</a><a href="glossary.html#entry-ral_ptcp" class="word" title="ral — 受動分詞標識（〜されている、〜された、〜される） [harmony=front, tense=past, case=acc, number=sg, animacy=inanim]">rale</a> <a href="glossary.html#entry-ar_verb" class="word" title="ar — 存在する、ある（物や事の存在を表す） [tense=past, aspect=impf, person=3, number=sg, polarity=neg, animacy=inanim]">ẽt</a>. <a href="glossary.html#entry-sosh" class="word" title="soʃ — そして、また（並列接続詞）">soʃ</a> <a href="glossary.html#entry-jam" class="word" title="jami — 闇、暗闇、光の欠如 [case=nom, number=sg]">jami</a> <a href="glossary.html#entry-fuch" class="word" title="fuç — 深淵、底知れぬ深い場所 [case=gen, number=sg]">fuçmo</a> <a href="glossary.html#entry-uae" class="word" title="uæ — 上、上部、表面 [case=acc, number=sg]">uæje</a> <a href="glossary.html#entry-oir" class="word" title="ɔir — 覆う、包む [tense=past, aspect=impf, person=3, number=sg, polarity=pos]">ɔirɔtɔ</a>. <a href="glossary.html#entry-sosh" class="word" title="soʃ — そして、また（並列接続詞）">soʃ</a> <a href="glossary.html#entry-kam" class="word" title="kam — 神、神性を持つ存在 [case=gen, number=sg]">kamno</a> <a href="glossary.html#entry-lej" class="word" title="lej — 霊、精神的存在 [case=nom, number=sg]">leji</a> <a href="glossary.html#entry-miz" class="word" title="m̃z — 水、H2O [case=gen, number=sg]">m̃zmo</a> <a href="glossary.html#entry-uae" class="word" title="uæ — 上、上部、表面 [case=acc, number=sg]">uæje</a> <a href="glossary.html#entry-tadaj" class="word" title="tadaj — 漂う、浮遊する [tense=past, aspect=impf, person=3, number=sg, polarity=pos]">tadajɔtɔ</a>.</p>
+<p>«<a href="glossary.html#entry-chikal" class="word" title="çikal — 光、光明 [case=nom, number=sg]">çikali</a> <a href="glossary.html#entry-bek" class="word" title="bək — 〜しなければならない（義務法）">bək</a><a href="glossary.html#entry-kagajk" class="word" title="kagajk — 輝く、光る [tense=pres, aspect=impf, person=3, number=sg, polarity=pos]">kagajku</a>» <a href="glossary.html#entry-to" class="word" title="to — 引用標識（直接引用の前後に置く）">to</a> <a href="glossary.html#entry-kam" class="word" title="kam — 神、神性を持つ存在 [case=nom, number=sg]">kama</a> <a href="glossary.html#entry-re" class="word" title="rə — 〜であれば（条件法） [sandhi=pre_v]">r</a><a href="glossary.html#entry-ier" class="word" title="ier — 言う、述べる [tense=past, aspect=impf, person=3, number=sg, polarity=pos]">ierata</a>, <a href="glossary.html#entry-chikal" class="word" title="çikal — 光、光明 [case=nom, number=sg]">çikali</a> <a href="glossary.html#entry-kagajk" class="word" title="kagajk — 輝く、光る [tense=past, aspect=incep, person=3, number=sg, polarity=pos]">kagajkɔstɔ</a>.</p>
+<p><a href="glossary.html#entry-kam" class="word" title="kam — 神、神性を持つ存在 [case=nom, number=sg]">kama</a> <a href="glossary.html#entry-sor" class="word" title="sor — それ、その（中称指示詞） [case=acc, number=sg]">sore</a> <a href="glossary.html#entry-mir" class="word" title="mir — 視覚で捉える、目で認識する [tense=past, aspect=result, person=3, number=sg, polarity=pos]">miratra</a>, <a href="glossary.html#entry-dak" class="word" title="dak — だから、ゆえに（理由・因果の接続詞）">dak</a> <a href="glossary.html#entry-tov" class="word" title="tov — とても〜（強意・程度）">tov</a><a href="glossary.html#entry-mitesh" class="word" title="mitəʃ — 満ちる、いっぱいになる [tense=past, aspect=result, person=3, number=sg, polarity=pos]">mitəʃatra</a>. <a href="glossary.html#entry-chikal" class="word" title="çikal — 光、光明 [case=acc, number=sg]">çikale</a><a href="glossary.html#entry-to" class="word" title="to — 引用標識（直接引用の前後に置く） [sandhi=pre_v]">t</a> <a href="glossary.html#entry-jam" class="word" title="jami — 闇、暗闇、光の欠如 [case=acc, number=sg]">jame</a> <a href="glossary.html#entry-wakr" class="word" title="wakr — 区別する、分ける [tense=past, aspect=term, person=3, number=sg, polarity=pos]">wakrɔvtɔ</a>. <a href="glossary.html#entry-chikal" class="word" title="çikal — 光、光明 [case=nom, number=sg]">çikali</a> <a href="glossary.html#entry-shibl" class="word" title="ʃiblə — しばらく〜（一定期間の継続） [sandhi=pre_c]">ʃiblə</a><a href="glossary.html#entry-kagajk" class="word" title="kagajk — 輝く、光る [tense=past, aspect=impf, person=3, number=sg, polarity=pos]">kagajkɔtɔ</a>, <a href="glossary.html#entry-chis" class="word" title="çis — 小さい、サイズが小さい [case=gen, number=sg, animacy=inanim, degree=pos]">çisme</a> <a href="glossary.html#entry-taemd" class="word" title="tæm — 時間、時 [case=gen, number=sg]">tæmmo</a> <a href="glossary.html#entry-noch" class="word" title="noç — 後、後方、以後 [case=loc, number=sg]">noçdo</a> <a href="glossary.html#entry-jam" class="word" title="jami — 闇、暗闇、光の欠如 [case=dat, number=sg]">jamiñ</a> <a href="glossary.html#entry-sae" class="word" title="sæ — 再び〜（再度・反復）">sæ</a><a href="glossary.html#entry-ral" class="word" title="ral — 受身標識（動詞に ~ で結合）">ral</a><a href="glossary.html#entry-oir" class="word" title="ɔir — 覆う、包む [tense=past, aspect=incep, person=3, number=sg, polarity=pos]">ɔirɔstɔ</a>. <a href="glossary.html#entry-kam" class="word" title="kam — 神、神性を持つ存在 [case=nom, number=sg]">kama</a> <a href="glossary.html#entry-chikal" class="word" title="çikal — 光、光明 [case=acc, number=sg]">çikale</a> «<a href="glossary.html#entry-chiru" class="word" title="çiru — 昼、日中">çiru</a>» <a href="glossary.html#entry-to" class="word" title="to — 引用標識（直接引用の前後に置く）">to</a> <a href="glossary.html#entry-jam" class="word" title="jami — 闇、暗闇、光の欠如 [case=acc, number=sg]">jame</a> «<a href="glossary.html#entry-jor" class="word" title="jor — 夜、夜間">jor</a>» <a href="glossary.html#entry-to" class="word" title="to — 引用標識（直接引用の前後に置く）">to</a> <a href="glossary.html#entry-ier" class="word" title="ier — 言う、述べる [tense=past, aspect=term, person=3, number=sg, polarity=pos]">ieravta</a>. <a href="glossary.html#entry-chti" class="word" title="çti — 一（1）">çti</a> <a href="glossary.html#entry-cha" class="word" title="ça — 日、一日（24時間） [case=nom, number=sg]">çai</a> <a href="glossary.html#entry-owat" class="word" title="owat — 終わる、完了する [tense=past, aspect=term, person=3, number=sg, polarity=pos]">owatɔvtɔ</a>.</p>
+<p>«<a href="glossary.html#entry-maj" class="word" title="maja — もや、霧、水蒸気の集まり [case=nom, number=sg]">maja</a> <a href="glossary.html#entry-uae" class="word" title="uæ — 上、上部、表面 [case=all, number=sg]">uæhe</a><a href="glossary.html#entry-to" class="word" title="to — 引用標識（直接引用の前後に置く） [sandhi=pre_v]">t</a> <a href="glossary.html#entry-shit" class="word" title="ʃit — 下、下方 [case=all, number=sg]">ʃithe</a> <a href="glossary.html#entry-bek" class="word" title="bək — 〜しなければならない（義務法）">bək</a><a href="glossary.html#entry-wakr" class="word" title="wakr — 区別する、分ける [tense=pres, aspect=impf, person=3, number=sg, polarity=pos]">wakru</a>, <a href="glossary.html#entry-sor_noun" class="word" title="sora — 空、大気 [case=acc, number=sg]">soro</a><a href="glossary.html#entry-to" class="word" title="to — 引用標識（直接引用の前後に置く） [sandhi=pre_v]">t</a> <a href="glossary.html#entry-um" class="word" title="um — 海、大洋 [case=acc, number=sg]">umo</a> <a href="glossary.html#entry-bek" class="word" title="bək — 〜しなければならない（義務法）">bək</a><a href="glossary.html#entry-ar_verb" class="word" title="ar — 存在する、ある（物や事の存在を表す） [tense=pres, aspect=result, person=3, number=sg, polarity=pos, animacy=inanim]">etre</a>» <a href="glossary.html#entry-to" class="word" title="to — 引用標識（直接引用の前後に置く）">to</a> <a href="glossary.html#entry-kam" class="word" title="kam — 神、神性を持つ存在 [case=nom, number=sg]">kama</a> <a href="glossary.html#entry-re" class="word" title="rə — 〜であれば（条件法） [sandhi=pre_v]">r</a><a href="glossary.html#entry-ier" class="word" title="ier — 言う、述べる [tense=past, aspect=impf, person=3, number=sg, polarity=pos]">ierata</a>, <a href="glossary.html#entry-maj" class="word" title="maja — もや、霧、水蒸気の集まり [case=nom, number=sg]">maja</a> <a href="glossary.html#entry-fn" class="word" title="fn — 二（2）">fn</a> <a href="glossary.html#entry-wakr" class="word" title="wakr — 区別する、分ける [tense=past, aspect=term, person=3, number=sg, polarity=pos]">wakrɔvtɔ</a>, <a href="glossary.html#entry-sor_noun" class="word" title="sora — 空、大気 [case=nom, number=sg]">sora</a> <a href="glossary.html#entry-nar" class="word" title="nar — なる、変化する [tense=past, aspect=term, person=3, number=sg, polarity=pos]">narɔvtɔ</a>. <a href="glossary.html#entry-fn" class="word" title="fn — 二（2）">fn</a> <a href="glossary.html#entry-cha" class="word" title="ça — 日、一日（24時間） [case=nom, number=sg]">çai</a> <a href="glossary.html#entry-owat" class="word" title="owat — 終わる、完了する [tense=past, aspect=term, person=3, number=sg, polarity=pos]">owatɔvtɔ</a>.</p>
+
+</div>
+</main>
+</body>
+</html>
