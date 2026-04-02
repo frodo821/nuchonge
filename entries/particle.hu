@@ -177,49 +177,49 @@ entry sa {
 
 entry ma {
   headword: "ma"
-  tags: [pos=part]
+  tags: [pos=adv]
   meaning: "もう〜（完了・既遂）"
   etymology { note: "現代日本語「もう」→ /mou/ → /ma/" }
 }
 
 entry mar {
   headword: "mar"
-  tags: [pos=part]
+  tags: [pos=adv]
   meaning: "まだ〜（継続・未完了）"
   etymology { note: "現代日本語「まだ」→ /mada/ → /mar/" }
 }
 
 entry sae {
   headword: "sæ"
-  tags: [pos=part]
+  tags: [pos=adv]
   meaning: "再び〜（再度・反復）"
   etymology { note: "現代日本語「再」→ /sai/ → /sæ/" }
 }
 
 entry jok {
   headword: "jok"
-  tags: [pos=part]
+  tags: [pos=adv]
   meaning: "よく〜（習慣・頻度）"
   etymology { note: "現代日本語「よく」→ /joku/ → /jok/" }
 }
 
 entry tov {
   headword: "tov"
-  tags: [pos=part]
+  tags: [pos=adv]
   meaning: "とても〜（強意・程度）"
   etymology { note: "現代日本語「とても」→ /totemo/ → /tov/" }
 }
 
 entry hob {
   headword: "hob"
-  tags: [pos=part]
+  tags: [pos=adv]
   meaning: "ほぼ〜（近似）"
   etymology { note: "現代日本語「ほぼ」→ /hobo/ → /hob/" }
 }
 
 entry shibl {
   headword: "ʃiblə"
-  tags: [pos=part]
+  tags: [pos=adv]
   inflect for {sandhi} {
     [sandhi=pre_c] -> `ʃiblə`
     [sandhi=pre_v] -> `ʃibl`
@@ -230,18 +230,102 @@ entry shibl {
 
 # ── 数詞 ──
 
-entry chti {
-  headword: "çti"
-  tags: [pos=part]
+entry chit_num {
+  headword: "çit"
+  tags: [pos=num]
   meaning: "一（1）"
-  etymology { note: "現代日本語「ひとつ」→ /hitotsu/ → /çtits/ → /çti/" }
+  etymology { note: "現代日本語「ひと」(一) → /hito/ → /çit/。名詞「人」çit と同源同形。" }
 }
 
-entry fn {
-  headword: "fn"
-  tags: [pos=part]
+entry fut {
+  headword: "fut"
+  tags: [pos=num]
   meaning: "二（2）"
-  etymology { note: "現代日本語「ふたつ」→ /futatsu/ → /fn/" }
+  etymology { note: "現代日本語「ふた」(二) → /futa/ → /fut/" }
+}
+
+entry mi_num {
+  headword: "mi"
+  tags: [pos=num]
+  meaning: "三（3）"
+  etymology { note: "現代日本語「み」(三) → /mi/" }
+}
+
+entry jo {
+  headword: "jo"
+  tags: [pos=num]
+  meaning: "四（4）"
+  etymology { note: "現代日本語「よ」(四) → /jo/" }
+}
+
+entry its {
+  headword: "its"
+  tags: [pos=num]
+  meaning: "五（5）"
+  etymology { note: "現代日本語「いつ」(五) → /itsu/ → /its/" }
+}
+
+entry mu {
+  headword: "mu"
+  tags: [pos=num]
+  meaning: "六（6）"
+  etymology { note: "現代日本語「む」(六) → /mu/" }
+}
+
+entry nang {
+  headword: "naŋ"
+  tags: [pos=num]
+  meaning: "七（7）"
+  etymology { note: "現代日本語「なな」(七) → /nana/ → /naŋ/（語末鼻音の軟口蓋化）" }
+}
+
+entry ja_num {
+  headword: "ja"
+  tags: [pos=num]
+  meaning: "八（8）"
+  etymology { note: "現代日本語「や」(八) → /ja/" }
+}
+
+entry kong {
+  headword: "koŋ"
+  tags: [pos=num]
+  meaning: "九（9）"
+  etymology { note: "現代日本語「ここの」(九) → /kokono/ → /kokoŋ/ → /koŋ/（同音反復の摩耗）" }
+}
+
+entry toch {
+  headword: "toç"
+  tags: [pos=num]
+  meaning: "十（10）"
+  etymology { note: "現代日本語「とお」(十) → /too/ → /toç/（末尾子音付加）" }
+}
+
+entry jak_num {
+  headword: "jak"
+  tags: [pos=num]
+  meaning: "百（100）"
+  etymology { note: "現代日本語「ひゃく」(百) → /hjaku/ → /jak/" }
+}
+
+entry tochak {
+  headword: "toçak"
+  tags: [pos=num]
+  meaning: "千（1000）"
+  etymology { note: "toç (十) + jak (百) の融合。j が脱落して toçak に。" }
+}
+
+entry mang {
+  headword: "maŋ"
+  tags: [pos=num]
+  meaning: "万（10000）"
+  etymology { note: "現代日本語「まん」(万) → /maŋ/" }
+}
+
+entry pemal {
+  headword: "pəmal̃"
+  tags: [pos=num]
+  meaning: "万の高次位（N pəmal̃ = 万^N。fut pəmal̃ = 億、mi pəmal̃ = 兆）"
+  etymology { note: "pən (序数) + mal̃ (万の位取り) の融合。" }
 }
 
 # ── 接続詞 ──

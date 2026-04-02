@@ -32,7 +32,7 @@ chis[case=gen, number=sg, animacy=inanim, degree=pos] taemd[case=gen, number=sg]
 # 神は光を「昼」、闘を「夜」と名づけた。
 kam[case=nom, number=sg] chikal[case=acc, number=sg] "«"~ chiru ~"»" to jam[case=acc, number=sg] "«"~ jor ~"»" to ier[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
 # こうして一日目が終わった。
-chti cha[case=nom, number=sg] owat[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
+chit_num cha[case=nom, number=sg] owat[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
 
 # > 6 「もやは上下に分かれ、空と海になれ」と神が言われると、
 # > 7-8 そのとおり水蒸気が二つに分かれ、空ができました。こうして二日目も終わりました。
@@ -40,9 +40,9 @@ chti cha[case=nom, number=sg] owat[tense=past, aspect=term, person=3, number=sg,
 "«"~ maj[case=nom, number=sg] uae[case=all, number=sg]~to[sandhi=pre_v] shit[case=all, number=sg] bek~wakr[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
 sor_noun[case=acc, number=sg]~to[sandhi=pre_v] um[case=acc, number=sg] bek~ar_verb[tense=pres, aspect=result, person=3, number=sg, polarity=pos, animacy=inanim] ~"»"
 to kam[case=nom, number=sg] re[sandhi=pre_v]~ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
-maj[case=nom, number=sg] fn wakr[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
+maj[case=nom, number=sg] fut wakr[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
 sor_noun[case=nom, number=sg] nar[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
-fn cha[case=nom, number=sg] owat[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
+fut cha[case=nom, number=sg] owat[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
 
 # > 9-10 「空の下の水は集まって海となり、乾いた地が現れ出よ。」こう神が言われると、そのとおりになりました。神は乾いた地を「陸地」、水の部分を「海」と名づけました。それを見て満足すると、
 

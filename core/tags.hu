@@ -82,6 +82,7 @@ tagaxis degree {
   adv    { display: { ja: "副詞" } }
   conj   { display: { ja: "接続詞" } }
   part   { display: { ja: "不変化詞" } }
+  num    { display: { ja: "数詞" } }
 }
 
 @extend harmony_values for tagaxis harmony {

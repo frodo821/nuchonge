@@ -248,6 +248,73 @@ entry uaesh {
   }
 }
 
+# ダミー名詞（汎用助数詞）
+# 数詞の格を担う極小名詞。数詞が属格無標なので、数詞 + tə で格変化可能に。
+entry te_dummy {
+  headword: "tə"
+  tags: [pos=noun, harmony=neutral, animacy=inanim]
+
+  inflect for {case, number} {
+    [case=nom, number=sg] -> `tə`
+    [case=acc, number=sg] -> `ta`
+    [case=gen, number=sg] -> `təmə`
+    [case=dat, number=sg] -> `təñ`
+    [case=loc, number=sg] -> `tədə`
+    [case=com, number=sg] -> `tətə`
+    [case=abl, number=sg] -> `təkr̃`
+    [case=all, number=sg] -> `təhə`
+    [case=nom, number=pl] -> `tərə`
+    [case=acc, number=pl] -> `təra`
+    [case=gen, number=pl] -> `təmə`
+    [case=dat, number=pl] -> `tərəñ`
+    [case=loc, number=pl] -> `tərdə`
+    [case=com, number=pl] -> `tərtə`
+    [case=abl, number=pl] -> `tərəkr̃`
+    [case=all, number=pl] -> `tərhə`
+  }
+
+  meaning: "汎用ダミー名詞（数詞の格担体、助数詞「つ」に相当）"
+  etymology {
+    note: "現代日本語「つ」(ひとつ、ふたつの助数詞) → /tsu/ → /tə/（弱化）"
+  }
+}
+
+# 序数詞名詞
+entry pen_ord {
+  headword: "pən"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "pən" }
+  inflection_class: noun_front_cons_inanim
+  meaning: "番、順序（序数を形成する助数詞名詞）"
+  etymology {
+    note: "現代日本語「ばんめ」(番目) → /banme/ → /pan/ → /pən/（文法語の無声化・弱母音化）"
+  }
+}
+
+# 倍数詞名詞
+entry pej_mult {
+  headword: "pəj"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "pəj" }
+  inflection_class: noun_front_cons_inanim
+  meaning: "倍（倍数を形成する助数詞名詞）"
+  etymology {
+    note: "現代日本語「ばい」(倍) → /bai/ → /pəj/（無声化・弱母音化）"
+  }
+}
+
+# 回数詞名詞
+entry kej_freq {
+  headword: "kəj"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "kəj" }
+  inflection_class: noun_front_cons_inanim
+  meaning: "回（回数を形成する助数詞名詞）"
+  etymology {
+    note: "現代日本語「かい」(回) → /kai/ → /kəj/（弱母音化）"
+  }
+}
+
 # 後（後舌子音語幹・無生）
 entry noch {
   headword: "noç"
