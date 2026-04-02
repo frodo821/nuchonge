@@ -1,0 +1,341 @@
+# @suppress next-line: glob-import
+@use * from "../profile.hu"
+
+# ============================================================
+# 規則動詞
+# ============================================================
+
+# 見る（前舌子音語幹）
+entry mir {
+  headword: "mir"
+  tags: [pos=verb, harmony=front, stem_final=cons]
+  stems { base: "mir", link: "a" }
+  inflection_class: verb_front_cons
+
+  meanings {
+    see { "視覚で捉える、目で認識する" }
+    observe { "観察する、注視する" }
+    understand { "理解する、認識する（比喩的用法）" }
+  }
+
+  etymology {
+    note: "現代日本語「みる」(見る) → /miru/ → /mir/"
+  }
+}
+
+# 読む（後舌子音語幹）
+entry jom {
+  headword: "jom"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "jom" }
+  inflection_class: verb_back_cons
+
+  meanings {
+    read { "文字や記号を見て、その意味を理解する" }
+    study { "書物などを読んで理解する" }
+    guess { "心や状況を推測して理解する" }
+    access { "データを読み取る、アクセスする" }
+  }
+
+  etymology {
+    note: "現代日本語「よむ」(読む) → /jomu/ → /jom/"
+  }
+}
+
+# 来る（後舌子音語幹・規則変化）
+entry kur {
+  headword: "kur"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "kur" }
+  inflection_class: verb_back_cons
+  meaning: "来る、到着する"
+  etymology {
+    note: "現代日本語「くる」(来る) → /kuru/ → /kur/。方向が話者向きで意味的独立性が高く、他の移動動詞との統合が起きなかった。"
+  }
+}
+
+# 書く（後舌子音語幹）
+entry kak {
+  headword: "kak"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "kak" }
+  inflection_class: verb_back_cons
+
+  meanings {
+    write { "文字や記号を記す" }
+    draw { "絵や図を描く" }
+  }
+
+  etymology {
+    note: "現代日本語「かく」(書く) → /kaku/ → /kak/"
+  }
+}
+
+# 食べる（後舌子音語幹）
+entry tben {
+  headword: "tben"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "tben" }
+  inflection_class: verb_back_cons
+  meaning: "食べる、摂取する"
+  etymology {
+    note: "現代日本語「たべる」(食べる) → /taberu/ → /taber/ → /tben/"
+  }
+}
+
+# 待つ（後舌子音語幹）
+entry mat {
+  headword: "mat"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "mat" }
+  inflection_class: verb_back_cons
+  meaning: "待つ、待機する"
+  etymology {
+    note: "現代日本語「まつ」(待つ) → /matsu/ → /mat/"
+  }
+}
+
+# 降る（後舌子音語幹）
+entry fal {
+  headword: "fal"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "fal" }
+  inflection_class: verb_back_cons
+  meaning: "降る（雨、雪などが）"
+  etymology {
+    note: "現代日本語「ふる」(降る) → /furu/ → /fal/"
+  }
+}
+
+# 終わる（後舌子音語幹）
+entry owat {
+  headword: "owat"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "owat" }
+  inflection_class: verb_back_cons
+  meaning: "終わる、完了する"
+  etymology {
+    note: "現代日本語「おわる」(終わる) → /owaru/ → /owat/"
+  }
+}
+
+# 増える（前舌母音語幹）
+entry fue {
+  headword: "fue"
+  tags: [pos=verb, harmony=front, stem_final=front_vowel]
+  stems { base: "fu" }
+  inflection_class: verb_front_v
+
+  meanings {
+    increase { "数量が多くなる、増加する" }
+    multiply { "繁殖する、繁栄する" }
+    expand { "範囲や規模が大きくなる" }
+  }
+
+  etymology {
+    note: "現代日本語「ふえる」(増える) → /fueru/ → /fuer/ → /fue/（語末 r 脱落）"
+  }
+}
+
+# 祝福する（前舌母音語幹）
+entry ivae {
+  headword: "ivæ"
+  tags: [pos=verb, harmony=front, stem_final=front_vowel]
+  stems { base: "iv" }
+  inflection_class: verb_front_v
+
+  meanings {
+    bless { "幸福や成功を願って言葉をかける" }
+    consecrate { "神聖さを授ける" }
+  }
+
+  etymology {
+    note: "現代日本語「祝う」(いわう) + 「福」(ふく) → /iwau/ + /fuku/ → /ivæ/（融合・前舌化）"
+  }
+}
+
+# 生える（前舌母音語幹）
+# a は中立母音なので前舌 e と共存可能（母音調和違反ではない）
+entry hae {
+  headword: "hae"
+  tags: [pos=verb, harmony=front, stem_final=front_vowel]
+  stems { base: "ha" }
+  inflection_class: verb_front_v
+
+  meanings {
+    sprout { "植物が地面から出て成長する" }
+    grow { "髪や毛、爪などが体から自然に出てくる" }
+    emerge { "何かが自然に出現する、発生する" }
+  }
+
+  etymology {
+    note: "現代日本語「はえる」(生える) → /haeru/ → /haer/ → /hae/。a は中立母音 /ä/ のため前舌調和と共存。"
+  }
+}
+
+# 思う（後舌母音語幹）
+entry omo {
+  headword: "omɔ"
+  tags: [pos=verb, harmony=back, stem_final=back_vowel]
+  stems { base: "om" }
+  inflection_class: verb_back_v
+
+  meanings {
+    think { "思考する、考える" }
+    feel { "感じる、思う（感情・印象）" }
+    believe { "信じる、〜と考える" }
+  }
+
+  etymology {
+    note: "現代日本語「おもう」(思う) → /omou/ → /omo/ → /omɔ/（後舌化）"
+  }
+}
+
+# 会う（中立母音語幹）
+entry aeta {
+  headword: "æta"
+  tags: [pos=verb, harmony=front, stem_final=a]
+  stems { base: "æt" }
+  inflection_class: verb_neutral
+
+  meanings {
+    meet { "人と顔を合わせる、会う" }
+    encounter { "偶然に出会う" }
+  }
+
+  etymology {
+    note: "現代日本語「あう」(会う) → /au/ → /a:/ → /æ:/ → /æta/（長母音の語幹強化）"
+  }
+}
+
+# なる（後舌子音語幹）
+entry nar {
+  headword: "nar"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "nar" }
+  inflection_class: verb_back_cons
+
+  meanings {
+    become { "なる、変化する" }
+    arise { "生じる、発生する" }
+  }
+
+  etymology {
+    note: "現代日本語「なる」→ /naru/ → /nar/"
+  }
+}
+
+# 区別する（後舌子音語幹）
+entry wakr {
+  headword: "wakr"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "wakr" }
+  inflection_class: verb_back_cons
+
+  meanings {
+    distinguish { "区別する、分ける" }
+    separate { "分離する、切り離す" }
+  }
+
+  etymology {
+    note: "現代日本語「わける」(分ける) → /wakeru/ → /wakr/"
+  }
+}
+
+# 漂う（後舌子音語幹）
+entry tadaj {
+  headword: "tadaj"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "tadaj" }
+  inflection_class: verb_back_cons
+  meaning: "漂う、浮遊する"
+  etymology {
+    note: "現代日本語「ただよう」(漂う) → /tadajou/ → /tadaj/"
+  }
+}
+
+# 満ちる（前舌子音語幹）
+entry mitesh {
+  headword: "mitəʃ"
+  tags: [pos=verb, harmony=front, stem_final=cons]
+  stems { base: "mitəʃ", link: "a" }
+  inflection_class: verb_front_cons
+
+  meanings {
+    fill { "満ちる、いっぱいになる" }
+    abound { "あふれる、豊富になる" }
+  }
+
+  etymology {
+    note: "現代日本語「みちる」(満ちる) → /mitʃiru/ → /mitʃ/ → /mitəʃ/（シュワー挿入で tʃ クラスタを分割。高頻度語 vəç では更に ç 弱化が進んだが、本語は中頻度のため挿入段階で停滞）"
+  }
+}
+
+# 造る（後舌子音語幹）
+entry tsukr {
+  headword: "tsukr"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "tsukr" }
+  inflection_class: verb_back_cons
+
+  meanings {
+    create { "作る、創る、製作する" }
+    make { "創造する、生み出す" }
+  }
+
+  etymology {
+    note: "現代日本語「つくる」(作る/創る) → /tsukuru/ → /tsukr/"
+  }
+}
+
+# 言う（前舌子音語幹）
+entry ier {
+  headword: "ier"
+  tags: [pos=verb, harmony=front, stem_final=cons]
+  stems { base: "ier", link: "a" }
+  inflection_class: verb_front_cons
+
+  meanings {
+    say { "言う、述べる" }
+    command { "命じる、宣言する" }
+    name { "名づける、呼ぶ" }
+  }
+
+  etymology {
+    note: "現代日本語「いう」(言う) → /iu/ → /ier/（語末に r 付加で子音語幹化）"
+  }
+}
+
+# 輝く（後舌子音語幹）
+entry kagajk {
+  headword: "kagajk"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "kagajk" }
+  inflection_class: verb_back_cons
+
+  meanings {
+    shine { "輝く、光る" }
+    glow { "煌めく、きらめく" }
+  }
+
+  etymology {
+    note: "現代日本語「かがやく」(輝く) → /kagajaku/ → /kagajk/"
+  }
+}
+
+# 覆う（後舌子音語幹）
+entry oir {
+  headword: "ɔir"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "ɔir" }
+  inflection_class: verb_back_cons
+
+  meanings {
+    cover { "覆う、包む" }
+    protect { "庇護する、保護する" }
+  }
+
+  etymology {
+    note: "現代日本語「おおう」(覆う) → /oou/ → /ɔir/（二重母音化 oo→ɔi、語末 r 付加）"
+  }
+}

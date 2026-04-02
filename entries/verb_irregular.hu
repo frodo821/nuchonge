@@ -1,0 +1,219 @@
+# @suppress next-line: glob-import
+@use * from "../profile.hu"
+
+# ============================================================
+# 不規則動詞
+# ============================================================
+
+# 存在する/〜である（補充形・コピュラ/存在動詞）
+# Lyons の4機能（存在・同定・所在・属性付与）を全てカバー
+# 3語幹: ar (←ある), ir (←いる), dər (←である/だろう)
+# 語幹分布: 1人称→dər, 3人称有生→ir, 未来全域→dər, それ以外→ar/er
+# 不規則性: 時制母音なし（語幹が時制を内包）、過去 r→t 交替、相は非完了・終結のみ
+# 新人称体系への適応:
+#   現在/過去: 2sg/3sg 衝突 → 3sg が ir との類推で a→e correction（ar→er, at→et）
+#              2sg は対面発話の高頻度で原形保持
+#   未来: 2sg/3sg 衝突 → 2sg が低頻度のため correction（ə→u: dəro→duro）
+#   3pl: -n → -r（新人称標識）
+#   否定: -ñ（鼻母音化規則適用）
+entry ar_verb {
+  headword: "ar"
+  tags: [pos=verb, harmony=front]
+
+  inflect for {tense, aspect, person, number, polarity, animacy} {
+    # ── 未来: dəro-（「だろう」の化石化）──
+    # 2sg: ə→u 置換（弱母音スロットに2sg標識が侵入。頻度が低く correction を受けた側）
+    # 3sg: 原形維持（高頻度の推量用法で安定）
+    # 3pl: -r（新人称体系）
+    [tense=fut, aspect=impf, polarity=pos, person=1, number=sg, _] -> `dərow`
+    [tense=fut, aspect=impf, polarity=pos, person=2, number=sg, _] -> `duro`
+    [tense=fut, aspect=impf, polarity=pos, person=3, number=sg, _] -> `dəro`
+    [tense=fut, aspect=impf, polarity=pos, person=1, number=pl, _] -> `dərol`
+    [tense=fut, aspect=impf, polarity=pos, person=2, number=pl, _] -> `dəros`
+    [tense=fut, aspect=impf, polarity=pos, person=3, number=pl, _] -> `dəror`
+    [tense=fut, aspect=impf, polarity=neg, person=1, number=sg, _] -> `dərõw`
+    [tense=fut, aspect=impf, polarity=neg, person=2, number=sg, _] -> `durõ`
+    [tense=fut, aspect=impf, polarity=neg, person=3, number=sg, _] -> `dərõ`
+    [tense=fut, aspect=impf, polarity=neg, person=1, number=pl, _] -> `dərõl`
+    [tense=fut, aspect=impf, polarity=neg, person=2, number=pl, _] -> `dərõs`
+    [tense=fut, aspect=impf, polarity=neg, person=3, number=pl, _] -> `dərõr`
+    [tense=fut, aspect=term, polarity=pos, person=1, number=sg, _] -> `dərovow`
+    [tense=fut, aspect=term, polarity=pos, person=2, number=sg, _] -> `durovo`
+    [tense=fut, aspect=term, polarity=pos, person=3, number=sg, _] -> `dərovo`
+    [tense=fut, aspect=term, polarity=pos, person=1, number=pl, _] -> `dərovol`
+    [tense=fut, aspect=term, polarity=pos, person=2, number=pl, _] -> `dərovos`
+    [tense=fut, aspect=term, polarity=pos, person=3, number=pl, _] -> `dərovor`
+    [tense=fut, aspect=term, polarity=neg, person=1, number=sg, _] -> `dərovõw`
+    [tense=fut, aspect=term, polarity=neg, person=2, number=sg, _] -> `durovõ`
+    [tense=fut, aspect=term, polarity=neg, person=3, number=sg, _] -> `dərovõ`
+    [tense=fut, aspect=term, polarity=neg, person=1, number=pl, _] -> `dərovõl`
+    [tense=fut, aspect=term, polarity=neg, person=2, number=pl, _] -> `dərovõs`
+    [tense=fut, aspect=term, polarity=neg, person=3, number=pl, _] -> `dərovõr`
+    # ── 現在: 1人称 dər-, 3人称有生 ir-, 2sg ar-, 3sg無生/3pl er- ──
+    # 2sg: 原形 ar を保持（対面発話での定着）
+    # 3sg inanim: ir との類推で a→e correction（ar→er）
+    # 3pl: er 語幹 + -r
+    [tense=pres, aspect=impf, polarity=pos, person=1, number=sg, _] -> `dərw`
+    [tense=pres, aspect=impf, polarity=pos, person=1, number=pl, _] -> `dərl`
+    [tense=pres, aspect=impf, polarity=neg, person=1, number=sg, _] -> `də̃rw`
+    [tense=pres, aspect=impf, polarity=neg, person=1, number=pl, _] -> `də̃rl`
+    [tense=pres, aspect=impf, polarity=pos, person=3, number=sg, animacy=anim, _] -> `ir`
+    [tense=pres, aspect=impf, polarity=pos, person=3, number=pl, animacy=anim, _] -> `irr`
+    [tense=pres, aspect=impf, polarity=neg, person=3, number=sg, animacy=anim, _] -> `ĩr`
+    [tense=pres, aspect=impf, polarity=neg, person=3, number=pl, animacy=anim, _] -> `ĩrr`
+    [tense=pres, aspect=impf, polarity=pos, person=2, number=sg, _] -> `ar`
+    [tense=pres, aspect=impf, polarity=pos, person=2, number=pl, _] -> `ars`
+    [tense=pres, aspect=impf, polarity=pos, person=3, number=sg, _] -> `er`
+    [tense=pres, aspect=impf, polarity=pos, person=3, number=pl, _] -> `err`
+    [tense=pres, aspect=impf, polarity=neg, person=2, number=sg, _] -> `ãr`
+    [tense=pres, aspect=impf, polarity=neg, person=2, number=pl, _] -> `ãrs`
+    [tense=pres, aspect=impf, polarity=neg, person=3, number=sg, _] -> `ẽr`
+    [tense=pres, aspect=impf, polarity=neg, person=3, number=pl, _] -> `ẽrr`
+    # ── 現在・終結: 時制母音 e が復活 ──
+    # 2sg: 時制母音あり → 通常の上昇 e→i（arvi）
+    # 3sg inanim: er 語幹 + ve（erve）
+    [tense=pres, aspect=term, polarity=pos, person=1, number=sg, _] -> `dərvew`
+    [tense=pres, aspect=term, polarity=pos, person=1, number=pl, _] -> `dərvel`
+    [tense=pres, aspect=term, polarity=pos, person=3, number=sg, animacy=anim, _] -> `irve`
+    [tense=pres, aspect=term, polarity=pos, person=3, number=pl, animacy=anim, _] -> `irver`
+    [tense=pres, aspect=term, polarity=pos, person=2, number=sg, _] -> `arvi`
+    [tense=pres, aspect=term, polarity=pos, person=2, number=pl, _] -> `arves`
+    [tense=pres, aspect=term, polarity=pos, person=3, number=sg, _] -> `erve`
+    [tense=pres, aspect=term, polarity=pos, person=3, number=pl, _] -> `erver`
+    [tense=pres, aspect=term, polarity=neg, person=1, number=sg, _] -> `dərvẽw`
+    [tense=pres, aspect=term, polarity=neg, person=1, number=pl, _] -> `dərvẽl`
+    [tense=pres, aspect=term, polarity=neg, person=3, number=sg, animacy=anim, _] -> `irvẽ`
+    [tense=pres, aspect=term, polarity=neg, person=3, number=pl, animacy=anim, _] -> `irvẽr`
+    [tense=pres, aspect=term, polarity=neg, person=2, number=sg, _] -> `arvĩ`
+    [tense=pres, aspect=term, polarity=neg, person=2, number=pl, _] -> `arvẽs`
+    [tense=pres, aspect=term, polarity=neg, person=3, number=sg, _] -> `ervẽ`
+    [tense=pres, aspect=term, polarity=neg, person=3, number=pl, _] -> `ervẽr`
+    # ── 現在・結果状態相: ertre→etre（r が tr に吸収）──
+    [tense=pres, aspect=result, polarity=pos, person=1, number=sg, _] -> `dətrew`
+    [tense=pres, aspect=result, polarity=pos, person=1, number=pl, _] -> `dətrel`
+    [tense=pres, aspect=result, polarity=pos, person=3, number=sg, animacy=anim, _] -> `itre`
+    [tense=pres, aspect=result, polarity=pos, person=3, number=pl, animacy=anim, _] -> `itrer`
+    [tense=pres, aspect=result, polarity=pos, person=2, number=sg, _] -> `atri`
+    [tense=pres, aspect=result, polarity=pos, person=2, number=pl, _] -> `atres`
+    [tense=pres, aspect=result, polarity=pos, person=3, number=sg, _] -> `etre`
+    [tense=pres, aspect=result, polarity=pos, person=3, number=pl, _] -> `etrer`
+    [tense=pres, aspect=result, polarity=neg, person=1, number=sg, _] -> `dətrẽw`
+    [tense=pres, aspect=result, polarity=neg, person=1, number=pl, _] -> `dətrẽl`
+    [tense=pres, aspect=result, polarity=neg, person=3, number=sg, animacy=anim, _] -> `itrẽ`
+    [tense=pres, aspect=result, polarity=neg, person=3, number=pl, animacy=anim, _] -> `itrẽr`
+    [tense=pres, aspect=result, polarity=neg, person=2, number=sg, _] -> `atrĩ`
+    [tense=pres, aspect=result, polarity=neg, person=2, number=pl, _] -> `atrẽs`
+    [tense=pres, aspect=result, polarity=neg, person=3, number=sg, _] -> `etrẽ`
+    [tense=pres, aspect=result, polarity=neg, person=3, number=pl, _] -> `etrẽr`
+    # ── 過去: r→t 交替。1人称 dət-, 3人称有生 it-, 2sg at-, 3sg無生/3pl et- ──
+    # 2sg: 原形 at を保持（現在と同じ動機）
+    # 3sg inanim: it との類推で a→e correction（at→et）
+    [tense=past, aspect=impf, polarity=pos, person=1, number=sg, _] -> `dətw`
+    [tense=past, aspect=impf, polarity=pos, person=1, number=pl, _] -> `dətl`
+    [tense=past, aspect=impf, polarity=neg, person=1, number=sg, _] -> `də̃tw`
+    [tense=past, aspect=impf, polarity=neg, person=1, number=pl, _] -> `də̃tl`
+    [tense=past, aspect=impf, polarity=pos, person=3, number=sg, animacy=anim, _] -> `it`
+    [tense=past, aspect=impf, polarity=pos, person=3, number=pl, animacy=anim, _] -> `itr`
+    [tense=past, aspect=impf, polarity=neg, person=3, number=sg, animacy=anim, _] -> `ĩt`
+    [tense=past, aspect=impf, polarity=neg, person=3, number=pl, animacy=anim, _] -> `ĩtr`
+    [tense=past, aspect=impf, polarity=pos, person=2, number=sg, _] -> `at`
+    [tense=past, aspect=impf, polarity=pos, person=2, number=pl, _] -> `ats`
+    [tense=past, aspect=impf, polarity=pos, person=3, number=sg, _] -> `et`
+    [tense=past, aspect=impf, polarity=pos, person=3, number=pl, _] -> `etr`
+    [tense=past, aspect=impf, polarity=neg, person=2, number=sg, _] -> `ãt`
+    [tense=past, aspect=impf, polarity=neg, person=2, number=pl, _] -> `ãts`
+    [tense=past, aspect=impf, polarity=neg, person=3, number=sg, _] -> `ẽt`
+    [tense=past, aspect=impf, polarity=neg, person=3, number=pl, _] -> `ẽtr`
+    # ── 過去・終結: 過去母音 a が復活 ──
+    # 2sg: 時制母音あり → 通常の上昇 a→e（atve）
+    # 3sg inanim: et 語幹 + va（etva）
+    [tense=past, aspect=term, polarity=pos, person=1, number=sg, _] -> `dətvaw`
+    [tense=past, aspect=term, polarity=pos, person=1, number=pl, _] -> `dətval`
+    [tense=past, aspect=term, polarity=pos, person=3, number=sg, animacy=anim, _] -> `itva`
+    [tense=past, aspect=term, polarity=pos, person=3, number=pl, animacy=anim, _] -> `itvar`
+    [tense=past, aspect=term, polarity=pos, person=2, number=sg, _] -> `atve`
+    [tense=past, aspect=term, polarity=pos, person=2, number=pl, _] -> `atvas`
+    [tense=past, aspect=term, polarity=pos, person=3, number=sg, _] -> `etva`
+    [tense=past, aspect=term, polarity=pos, person=3, number=pl, _] -> `etvar`
+    [tense=past, aspect=term, polarity=neg, person=1, number=sg, _] -> `dətvãw`
+    [tense=past, aspect=term, polarity=neg, person=1, number=pl, _] -> `dətvãl`
+    [tense=past, aspect=term, polarity=neg, person=3, number=sg, animacy=anim, _] -> `itvã`
+    [tense=past, aspect=term, polarity=neg, person=3, number=pl, animacy=anim, _] -> `itvãr`
+    [tense=past, aspect=term, polarity=neg, person=2, number=sg, _] -> `atvẽ`
+    [tense=past, aspect=term, polarity=neg, person=2, number=pl, _] -> `atvãs`
+    [tense=past, aspect=term, polarity=neg, person=3, number=sg, _] -> `etvã`
+    [tense=past, aspect=term, polarity=neg, person=3, number=pl, _] -> `etvãr`
+    # ── 過去・結果状態相: ettra→etra（tt 簡略化）──
+    [tense=past, aspect=result, polarity=pos, person=1, number=sg, _] -> `dətraw`
+    [tense=past, aspect=result, polarity=pos, person=1, number=pl, _] -> `dətral`
+    [tense=past, aspect=result, polarity=pos, person=3, number=sg, animacy=anim, _] -> `itra`
+    [tense=past, aspect=result, polarity=pos, person=3, number=pl, animacy=anim, _] -> `itrar`
+    [tense=past, aspect=result, polarity=pos, person=2, number=sg, _] -> `atre`
+    [tense=past, aspect=result, polarity=pos, person=2, number=pl, _] -> `atras`
+    [tense=past, aspect=result, polarity=pos, person=3, number=sg, _] -> `etra`
+    [tense=past, aspect=result, polarity=pos, person=3, number=pl, _] -> `etrar`
+    [tense=past, aspect=result, polarity=neg, person=1, number=sg, _] -> `dətrãw`
+    [tense=past, aspect=result, polarity=neg, person=1, number=pl, _] -> `dətrãl`
+    [tense=past, aspect=result, polarity=neg, person=3, number=sg, animacy=anim, _] -> `itrã`
+    [tense=past, aspect=result, polarity=neg, person=3, number=pl, animacy=anim, _] -> `itrãr`
+    [tense=past, aspect=result, polarity=neg, person=2, number=sg, _] -> `atrẽ`
+    [tense=past, aspect=result, polarity=neg, person=2, number=pl, _] -> `atrãs`
+    [tense=past, aspect=result, polarity=neg, person=3, number=sg, _] -> `etrã`
+    [tense=past, aspect=result, polarity=neg, person=3, number=pl, _] -> `etrãr`
+    # ── 未来・結果状態相: dəro + tre ──
+    [tense=fut, aspect=result, polarity=pos, person=1, number=sg, _] -> `dərotrew`
+    [tense=fut, aspect=result, polarity=pos, person=2, number=sg, _] -> `durotre`
+    [tense=fut, aspect=result, polarity=pos, person=3, number=sg, _] -> `dərotre`
+    [tense=fut, aspect=result, polarity=pos, person=1, number=pl, _] -> `dərotrel`
+    [tense=fut, aspect=result, polarity=pos, person=2, number=pl, _] -> `dərotres`
+    [tense=fut, aspect=result, polarity=pos, person=3, number=pl, _] -> `dərotrer`
+    [tense=fut, aspect=result, polarity=neg, person=1, number=sg, _] -> `dərotrẽw`
+    [tense=fut, aspect=result, polarity=neg, person=2, number=sg, _] -> `durotrẽ`
+    [tense=fut, aspect=result, polarity=neg, person=3, number=sg, _] -> `dərotrẽ`
+    [tense=fut, aspect=result, polarity=neg, person=1, number=pl, _] -> `dərotrẽl`
+    [tense=fut, aspect=result, polarity=neg, person=2, number=pl, _] -> `dərotrẽs`
+    [tense=fut, aspect=result, polarity=neg, person=3, number=pl, _] -> `dərotrẽr`
+    # キャッチオール: 上記以外は null（完遂/準備/起動相）
+    [_] -> null
+  }
+
+  meanings {
+    exist { "存在する、ある（物や事の存在を表す）" }
+    animate_exist { "いる（有生物の存在を表す）" }
+    copula { "〜である（同定・属性付与のコピュラ）" }
+    locate { "位置する、所在する" }
+    occur { "発生する、起こる（事象や状態について）" }
+  }
+
+  etymology {
+    note: "3語幹の統合。ar ← 現代日本語「ある」/aru/ → /ar/。ir ← 「いる」/iru/ → /ir/（有生存在、3人称に化石化）。dər ← 「である」/dearu/ → /dar/ → /dər/（コピュラ、1人称に定着）。未来形 dəro- は「だろう」/darou/ → /dəro/ の化石化。過去の r→t 交替は過去標識 -ta の語幹吸収。"
+  }
+}
+
+# 行く（補充形動詞・3語幹統合）
+# 1sg: ik (←行く), 2nd pres/past: dər (←出る), default: mek (←向かう)
+entry ik {
+  headword: "ik"
+  tags: [pos=verb, harmony=front, stem_final=cons]
+
+  inflect for {tense, aspect, person, number, polarity} {
+    # 1人称単数: ik 語幹
+    [person=1, number=sg, _] -> verb_front_cons[tense, aspect, person, number, polarity] with stems { base: "ik", link: "a" }
+    # 2人称・現在/過去: dər 語幹
+    [person=2, tense=pres, _] -> verb_front_cons[tense, aspect, person, number, polarity] with stems { base: "dər", link: "a" }
+    [person=2, tense=past, _] -> verb_front_cons[tense, aspect, person, number, polarity] with stems { base: "dər", link: "a" }
+    # それ以外: mek 語幹
+    [_] -> verb_front_cons[tense, aspect, person, number, polarity] with stems { base: "mek", link: "a" }
+  }
+
+  meanings {
+    move { "ある場所から別の場所へ移動する" }
+    progress { "時間の経過や事態の推移を表す" }
+    proceed { "物事が進行する、進む" }
+    function { "機能する、作動する（慣用的用法）" }
+  }
+
+  etymology {
+    note: "3語幹の統合による補充形動詞。ik ← 現代日本語「いく」(行く) /iku/ → /ik/。dər ← 「でる」(出る) /deru/ → /der/ → /dər/（2人称対面文脈で「出て行く」→「行く」に意味侵食）。mek ← 「むかう」(向かう) /mukau/ → /muka/ → /muk/ → /mek/（前舌調和への適応で汎用デフォルト化）。"
+  }
+}

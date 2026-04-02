@@ -1,0 +1,275 @@
+# @suppress next-line: glob-import
+@use * from "../profile.hu"
+
+# ============================================================
+# 不変化詞（法・態・副詞接頭辞）
+# ============================================================
+# 動詞に ~ で結合する語彙的標識。inflection には関与しない。
+
+# ── 法標識 ──
+
+entry bek {
+  headword: "bək"
+  tags: [pos=part]
+  meaning: "〜しなければならない（義務法）"
+  etymology { note: "現代日本語「べき」→ /beki/ → /bək/" }
+}
+
+entry kem {
+  headword: "kəm"
+  tags: [pos=part]
+  meaning: "〜かもしれない（可能法）"
+  etymology { note: "現代日本語「かもしれない」→ /kamo/ → /kəm/" }
+}
+
+entry hez {
+  headword: "həz"
+  tags: [pos=part]
+  meaning: "〜はずだ（推定法）"
+  etymology { note: "現代日本語「はず」→ /hazu/ → /həz/" }
+}
+
+entry tag {
+  headword: "tag"
+  tags: [pos=part]
+  meaning: "〜したがる（希求法）"
+  etymology { note: "現代日本語「たがる」→ /tagaru/ → /tag/" }
+}
+
+entry sej {
+  headword: "səj"
+  tags: [pos=part]
+  meaning: "〜そうだ（様態推量、見た目からの推測）"
+  etymology { note: "現代日本語「そう（様態）」→ /sou/ → /səj/" }
+}
+
+entry sak {
+  headword: "sak"
+  tags: [pos=part]
+  meaning: "〜そうだ（伝聞、聞いた情報）"
+  etymology { note: "現代日本語「そう（伝聞）」→ /souka/ → /sak/" }
+}
+
+entry re {
+  headword: "rə"
+  tags: [pos=part]
+  inflect for {sandhi} {
+    [sandhi=pre_c] -> `rə`
+    [sandhi=pre_v] -> `r`
+  }
+  meaning: "〜であれば（条件法）"
+  etymology { note: "現代日本語「れば」→ /reba/ → /rə/。母音前では ə が脱落。" }
+}
+
+entry ja {
+  headword: "ja"
+  tags: [pos=part]
+  meaning: "〜しろ（命令法）"
+  etymology { note: "現代日本語「やれ」→ /jare/ → /ja/" }
+}
+
+# ── 定冠詞 ──
+
+entry se_def {
+  headword: "sə"
+  tags: [pos=part]
+  inflect for {sandhi} {
+    [sandhi=pre_c] -> `sə`
+    [sandhi=pre_v] -> `s`
+  }
+  meaning: "定冠詞（名詞の前に置かれる不変化前接語）"
+  etymology { note: "中称指示詞属格 sorne（その）→ sorn → sən → sə に縮約。文法化により指示性が漂白され定性標識として定着。母音前では ə が脱落。" }
+}
+
+# ── 分詞標識 ──
+# 動詞語幹に ~ で接続し、形容詞として曲用。harmony は動詞の調和に合わせて指定。
+# 語源: ar ← 「ある」。能動分詞 = V+ar（〜している）、受動分詞 = V+ral（〜された）
+
+# 能動分詞: 接辞母音が時制で交替（前舌 er/ar/ær、後舌 ur/ɔr/or、中立 ər/at/ar）
+# 現在 ər は最も無標（ə の無標性）。中立過去 -at は verb_neutral からの類推で -t 保持。
+entry ar_ptcp {
+  headword: "ar"
+  tags: [pos=part]
+  inflect for {case, number, animacy, harmony, tense} {
+    # 前舌
+    [harmony=front, tense=pres, _] -> adj_comp_front[case, number, animacy] with stems { root: "er" }
+    [harmony=front, tense=past, _] -> adj_comp_front[case, number, animacy] with stems { root: "ar" }
+    [harmony=front, tense=fut, _] -> adj_comp_front[case, number, animacy] with stems { root: "ær" }
+    # 後舌
+    [harmony=back, tense=pres, _] -> adj_comp_back[case, number, animacy] with stems { root: "ur" }
+    [harmony=back, tense=past, _] -> adj_comp_back[case, number, animacy] with stems { root: "ɔr" }
+    [harmony=back, tense=fut, _] -> adj_comp_back[case, number, animacy] with stems { root: "or" }
+    # 中立
+    [harmony=neutral, tense=pres, _] -> adj_comp_neutral[case, number, animacy] with stems { root: "ər" }
+    [harmony=neutral, tense=past, _] -> adj_comp_neutral[case, number, animacy] with stems { root: "at" }
+    [harmony=neutral, tense=fut, _] -> adj_comp_neutral[case, number, animacy] with stems { root: "ar" }
+  }
+  meaning: "能動分詞標識（〜している、〜した、〜する）"
+  etymology { note: "コピュラ ar（ある）が動詞に後接して形容詞化。接辞母音が時制で交替。" }
+}
+
+# 受動分詞: 同上、ral/rel/ræl 等
+entry ral_ptcp {
+  headword: "ral"
+  tags: [pos=part]
+  inflect for {case, number, animacy, harmony, tense} {
+    # 前舌
+    [harmony=front, tense=pres, _] -> adj_comp_front[case, number, animacy] with stems { root: "rel" }
+    [harmony=front, tense=past, _] -> adj_comp_front[case, number, animacy] with stems { root: "ral" }
+    [harmony=front, tense=fut, _] -> adj_comp_front[case, number, animacy] with stems { root: "ræl" }
+    # 後舌
+    [harmony=back, tense=pres, _] -> adj_comp_back[case, number, animacy] with stems { root: "rul" }
+    [harmony=back, tense=past, _] -> adj_comp_back[case, number, animacy] with stems { root: "rɔl" }
+    [harmony=back, tense=fut, _] -> adj_comp_back[case, number, animacy] with stems { root: "rol" }
+    # 中立
+    [harmony=neutral, tense=pres, _] -> adj_comp_neutral[case, number, animacy] with stems { root: "rəl" }
+    [harmony=neutral, tense=past, _] -> adj_comp_neutral[case, number, animacy] with stems { root: "rat" }
+    [harmony=neutral, tense=fut, _] -> adj_comp_neutral[case, number, animacy] with stems { root: "ral" }
+  }
+  meaning: "受動分詞標識（〜されている、〜された、〜される）"
+  etymology { note: "受身標識 ral + コピュラ ar の融合。接辞母音が時制で交替。中立過去 -rat は verb_neutral からの類推で -t 保持。" }
+}
+
+# ── Gerund（動名詞）──
+# 動詞語幹に ~ で接続し、名詞として曲用。「〜すること」。
+# 語源: 「こと」/koto/ → -kot(後舌) / -ket(前舌) / -kat(中立)
+# 子音語幹の後は ə を挿入（sandhi=pre_c）
+
+entry ket_ger {
+  headword: "ket"
+  tags: [pos=part]
+  inflect for {case, number, harmony, sandhi} {
+    [harmony=front, sandhi=pre_c, _] -> noun_front_cons_inanim[case, number] with stems { root: "əket" }
+    [harmony=front, sandhi=pre_v, _] -> noun_front_cons_inanim[case, number] with stems { root: "ket" }
+    [harmony=back, sandhi=pre_c, _] -> noun_back_cons_inanim[case, number] with stems { root: "əkot" }
+    [harmony=back, sandhi=pre_v, _] -> noun_back_cons_inanim[case, number] with stems { root: "kot" }
+    [harmony=neutral, sandhi=pre_c, _] -> noun_neutral_cons_inanim[case, number] with stems { root: "əkat" }
+    [harmony=neutral, sandhi=pre_v, _] -> noun_neutral_cons_inanim[case, number] with stems { root: "kat" }
+  }
+  meaning: "動名詞標識（〜すること）"
+  etymology { note: "現代日本語「こと」→ /koto/ → -kot(後舌)/-ket(前舌)/-kat(中立)。子音語幹後は ə 挿入。" }
+}
+
+# ── 態標識 ──
+
+entry ral {
+  headword: "ral"
+  tags: [pos=part]
+  meaning: "受身標識（動詞に ~ で結合）"
+  etymology { note: "現代日本語 -(r)areru → /rareru/ → /rarer/ → /rar/ → /ral/（ら行→l）。条件法 rə との弁別を維持。能動分詞 -ar / 受動分詞 -ral として形容詞曲用にも参加。" }
+}
+
+entry re_pot {
+  headword: "re"
+  tags: [pos=part]
+  meaning: "可能標識（動詞に ~ で結合）"
+  etymology { note: "現代日本語 -(r)eru（ら抜き）→ /reru/ → /rer/ → /re/。受身 ra と母音のみで対立（同一形態素からの分裂の痕跡）。" }
+}
+
+entry sa {
+  headword: "sa"
+  tags: [pos=part]
+  meaning: "使役標識（動詞に ~ で結合）"
+  etymology { note: "現代日本語 -(s)aseru → /saseru/ → /sar/ → /sa/" }
+}
+
+# ── 副詞接頭辞 ──
+
+entry ma {
+  headword: "ma"
+  tags: [pos=part]
+  meaning: "もう〜（完了・既遂）"
+  etymology { note: "現代日本語「もう」→ /mou/ → /ma/" }
+}
+
+entry mar {
+  headword: "mar"
+  tags: [pos=part]
+  meaning: "まだ〜（継続・未完了）"
+  etymology { note: "現代日本語「まだ」→ /mada/ → /mar/" }
+}
+
+entry sae {
+  headword: "sæ"
+  tags: [pos=part]
+  meaning: "再び〜（再度・反復）"
+  etymology { note: "現代日本語「再」→ /sai/ → /sæ/" }
+}
+
+entry jok {
+  headword: "jok"
+  tags: [pos=part]
+  meaning: "よく〜（習慣・頻度）"
+  etymology { note: "現代日本語「よく」→ /joku/ → /jok/" }
+}
+
+entry tov {
+  headword: "tov"
+  tags: [pos=part]
+  meaning: "とても〜（強意・程度）"
+  etymology { note: "現代日本語「とても」→ /totemo/ → /tov/" }
+}
+
+entry hob {
+  headword: "hob"
+  tags: [pos=part]
+  meaning: "ほぼ〜（近似）"
+  etymology { note: "現代日本語「ほぼ」→ /hobo/ → /hob/" }
+}
+
+entry shibl {
+  headword: "ʃiblə"
+  tags: [pos=part]
+  inflect for {sandhi} {
+    [sandhi=pre_c] -> `ʃiblə`
+    [sandhi=pre_v] -> `ʃibl`
+  }
+  meaning: "しばらく〜（一定期間の継続）"
+  etymology { note: "現代日本語「しばらく」→ /ʃibaraku/ → /ʃibar/ → /ʃiblə/（r→l、末尾母音弱化）" }
+}
+
+# ── 数詞 ──
+
+entry chti {
+  headword: "çti"
+  tags: [pos=part]
+  meaning: "一（1）"
+  etymology { note: "現代日本語「ひとつ」→ /hitotsu/ → /çtits/ → /çti/" }
+}
+
+entry fn {
+  headword: "fn"
+  tags: [pos=part]
+  meaning: "二（2）"
+  etymology { note: "現代日本語「ふたつ」→ /futatsu/ → /fn/" }
+}
+
+# ── 接続詞 ──
+
+entry dak {
+  headword: "dak"
+  tags: [pos=conj]
+  meaning: "だから、ゆえに（理由・因果の接続詞）"
+  etymology { note: "現代日本語「だから」→ /dakara/ → /dak/" }
+}
+
+entry sosh {
+  headword: "soʃ"
+  tags: [pos=conj]
+  meaning: "そして、また（並列接続詞）"
+  etymology { note: "現代日本語「そして」→ /soʃite/ → /soʃ/" }
+}
+
+entry to {
+  headword: "to"
+  tags: [pos=conj]
+  inflect for {sandhi} {
+    [sandhi=pre_c] -> `to`
+    [sandhi=pre_v] -> `t`
+  }
+  meanings {
+    quote { "引用標識（直接引用の前後に置く）" }
+    listing { "列挙接語（格語尾に後接、母音環境で -t に縮約）" }
+  }
+  etymology { note: "現代日本語の引用助詞「と」をほぼ保持。列挙用法では格語尾に融合し -t に縮約。" }
+}

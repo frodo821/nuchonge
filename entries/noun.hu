@@ -1,0 +1,440 @@
+# @suppress next-line: glob-import
+@use * from "../profile.hu"
+
+# ============================================================
+# 名詞
+# ============================================================
+
+# 人（前舌子音・有生）
+# md では「無生」とラベルされていたが、意味上は有生が正しい
+entry chit {
+  headword: "çit"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=anim]
+  stems { root: "çit" }
+  inflection_class: noun_front_cons_anim
+
+  meanings {
+    human { "人間、人類の個体" }
+    other { "他者、自分以外の人物" }
+  }
+
+  etymology {
+    note: "現代日本語「ひと」(人) → /hito/ → /hit/ → /çit/"
+  }
+}
+
+# 本（後舌子音・無生）
+entry hn {
+  headword: "hñ"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "hñ" }
+  inflection_class: noun_back_cons_inanim
+
+  meanings {
+    book { "印刷または電子化された文字・画像からなる情報媒体" }
+    publication { "書籍、図書、出版物" }
+    source { "知識や情報の源泉（比喩的用法）" }
+    basis { "基本、根本、原理（複合語の中で）" }
+  }
+
+  etymology {
+    note: "現代日本語「ほん」(本) → /hon/ → /hñ/（母音脱落と子音の音節主音化）"
+  }
+}
+
+# 家（不規則名詞・無生）
+# 単母音語幹で高頻度のため規則クラスに乗らず、全形を直接列挙。
+# 不規則性の二重の化石:
+#   1. 語幹の化石: /ie/ → /æ/ 融合前の /i/ が格接辞に再分析（-de→-id, -te→-it 等）
+#   2. 接辞の化石: gen 古層 -ne は本来保存されるべきだが、dat -iñ との弁別圧力で
+#      -me への革新に追従（→ -im）。loc/com/abl は dat と衝突しないため古形保持。
+# nom/acc 合流: 単母音の超高頻度語で無標化。
+# pl æje: 融合前の /je/ が複数で保存。格接辞は sg と同じ再分析済み -iC を適用。
+entry ae {
+  headword: "æ"
+  tags: [pos=noun, harmony=front, animacy=inanim]
+
+  inflect for {case, number} {
+    # 単数
+    [case=nom, number=sg] -> `æ`
+    [case=acc, number=sg] -> `æ`
+    [case=gen, number=sg] -> `æim`
+    [case=dat, number=sg] -> `æiñ`
+    [case=loc, number=sg] -> `æid`
+    [case=com, number=sg] -> `æit`
+    [case=abl, number=sg] -> `æikr̃`
+    [case=all, number=sg] -> `æihə`
+    # 複数
+    [case=nom, number=pl] -> `æje`
+    [case=acc, number=pl] -> `æje`
+    [case=gen, number=pl] -> `æjim`
+    [case=dat, number=pl] -> `æjiñ`
+    [case=loc, number=pl] -> `æjid`
+    [case=com, number=pl] -> `æjit`
+    [case=abl, number=pl] -> `æjikr̃`
+    [case=all, number=pl] -> `æjihə`
+  }
+
+  meanings {
+    dwelling { "人が住むための建物、住居" }
+    family { "家族や家系を表す社会的単位" }
+    place { "慣れ親しんだ場所や環境（比喩的用法）" }
+  }
+
+  etymology {
+    note: "現代日本語「いえ」(家) → /ie/ → /je/ → /æ/（二重母音の融合）。格変化に二重の化石化: (1) /ie/ の /i/ が格接辞に再分析（ie-de → æ-id 等）、(2) gen 古層 -ne が dat -iñ との弁別圧力で -me に追従（→ æim）。pl æje は融合前の /je/ が複数形で保存。"
+  }
+}
+
+# 品（前舌子音・無生）
+entry hin {
+  headword: "hin"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "hin" }
+  inflection_class: noun_front_cons_inanim
+  meaning: "品物、物品"
+  etymology {
+    note: "現代日本語「ひん」(品) → /hin/"
+  }
+}
+
+# 実（前舌母音・無生）
+entry mi {
+  headword: "mi"
+  tags: [pos=noun, harmony=front, stem_final=front_vowel, animacy=inanim]
+  stems { root: "mi" }
+  inflection_class: noun_front_v_inanim
+  meaning: "実、果実、種子"
+  etymology {
+    note: "現代日本語「み」(実) → /mi/"
+  }
+}
+
+# 名前（後舌子音・無生）
+entry nam {
+  headword: "nam"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "nam" }
+  inflection_class: noun_back_cons_inanim
+  meaning: "名前、名称"
+  etymology {
+    note: "現代日本語「なまえ」(名前) → /namae/ → /nam/"
+  }
+}
+
+# 言葉（後舌・a語幹・無生）
+entry kotba {
+  headword: "kotba"
+  tags: [pos=noun, harmony=back, stem_final=a, animacy=inanim]
+  stems { root: "kotba" }
+  inflection_class: noun_back_av_inanim
+  meaning: "言葉、言語"
+  etymology {
+    note: "現代日本語「ことば」(言葉) → /kotoba/ → /kotba/"
+  }
+}
+
+# 時（後舌子音・無生）
+entry taemd {
+  headword: "tæm"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "tæm" }
+  inflection_class: noun_back_cons_inanim
+  meaning: "時間、時"
+  etymology {
+    note: "現代日本語「たいむ」(time借用) / 「とき」→ /tæm/"
+  }
+}
+
+# 形（後舌子音語幹・無生）
+entry katch {
+  headword: "katç"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "katç" }
+  inflection_class: noun_back_cons_inanim
+
+  meanings {
+    shape { "形、形状、外見" }
+    form { "様式、形式" }
+    state { "状態、様子" }
+  }
+
+  etymology {
+    note: "現代日本語「かたち」(形) → /katatʃi/ → /katç/"
+  }
+}
+
+# 上（前舌母音語幹・無生）
+entry uae {
+  headword: "uæ"
+  tags: [pos=noun, harmony=front, stem_final=front_vowel, animacy=inanim]
+  stems { root: "uæ" }
+  inflection_class: noun_front_v_inanim
+  meaning: "上、上部、表面"
+  etymology {
+    note: "現代日本語「うえ」(上) → /ue/ → /uæ/（前舌化）"
+  }
+}
+
+# もや（後舌子音語幹・無生）
+# headword maja の -a は主格語尾。語幹は maj
+entry maj {
+  headword: "maja"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "maj" }
+  inflection_class: noun_back_cons_inanim
+
+  meanings {
+    mist { "もや、霧、水蒸気の集まり" }
+    chaos { "原初の混沌状態（創造物語）" }
+  }
+
+  etymology {
+    note: "現代日本語「もや」→ /moja/ → /maja/"
+  }
+}
+
+# 空（後舌子音語幹・無生）
+# headword sora の -a は主格語尾。語幹は sor
+entry sor_noun {
+  headword: "sora"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "sor" }
+  inflection_class: noun_back_cons_inanim
+
+  meanings {
+    sky { "空、大気" }
+    heaven { "天空" }
+  }
+
+  etymology {
+    note: "現代日本語「そら」(空) → /sora/。語幹 sor は指示詞 sor（それ）と同形だが別語源。"
+  }
+}
+
+# 海（後舌子音語幹・無生）
+entry um {
+  headword: "um"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "um" }
+  inflection_class: noun_back_cons_inanim
+  meaning: "海、大洋"
+  etymology {
+    note: "現代日本語「うみ」(海) → /umi/ → /um/"
+  }
+}
+
+# 下（前舌子音語幹・無生）
+entry shit {
+  headword: "ʃit"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "ʃit" }
+  inflection_class: noun_front_cons_inanim
+  meaning: "下、下方"
+  etymology {
+    note: "現代日本語「した」(下) → /ʃita/ → /ʃit/"
+  }
+}
+
+# 上下（前舌子音語幹・無生）
+entry uaesh {
+  headword: "uæʃ"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "uæʃ" }
+  inflection_class: noun_front_cons_inanim
+  meaning: "上下、垂直方向"
+  etymology {
+    note: "現代日本語「うえした」(上下) → /ueʃita/ → /uæʃ/"
+  }
+}
+
+# 後（後舌子音語幹・無生）
+entry noch {
+  headword: "noç"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "noç" }
+  inflection_class: noun_back_cons_inanim
+  meaning: "後、後方、以後"
+  etymology {
+    note: "現代日本語「のち」(後) → /notʃi/ → /noç/"
+  }
+}
+
+# 昼（前舌子音語幹・無生）
+entry chiru {
+  headword: "çiru"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "çiru" }
+  inflection_class: noun_front_cons_inanim
+  meaning: "昼、日中"
+  etymology {
+    note: "現代日本語「ひる」(昼) → /hiru/ → /çiru/"
+  }
+}
+
+# 夜（後舌子音語幹・無生）
+entry jor {
+  headword: "jor"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "jor" }
+  inflection_class: noun_back_cons_inanim
+  meaning: "夜、夜間"
+  etymology {
+    note: "現代日本語「よる」(夜) → /joru/ → /jor/"
+  }
+}
+
+# 日（前舌子音語幹・無生）
+entry cha {
+  headword: "ça"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "ça" }
+  inflection_class: noun_front_cons_inanim
+
+  meanings {
+    day { "日、一日（24時間）" }
+    sun { "太陽" }
+    sunlight { "日光、日差し" }
+  }
+
+  etymology {
+    note: "現代日本語「ひ」(日) → /hi/ → /çi/ → /ça/（母音変化）"
+  }
+}
+
+# 深淵（後舌子音語幹・無生）
+entry fuch {
+  headword: "fuç"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "fuç" }
+  inflection_class: noun_back_cons_inanim
+  meaning: "深淵、底知れぬ深い場所"
+  etymology {
+    note: "現代日本語「ふち」(淵) → /futʃi/ → /fuç/"
+  }
+}
+
+# 神（後舌子音語幹・有生）
+entry kam {
+  headword: "kam"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=anim]
+  stems { root: "kam" }
+  inflection_class: noun_back_cons_anim
+
+  meanings {
+    god { "神、神性を持つ存在" }
+    creator { "創造主、万物の支配者" }
+  }
+
+  etymology {
+    note: "現代日本語「かみ」(神) → /kami/ → /kam/"
+  }
+}
+
+# 天（前舌子音語幹・無生）
+entry ten {
+  headword: "ten"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "ten" }
+  inflection_class: noun_front_cons_inanim
+
+  meanings {
+    sky { "天、空、天空" }
+    heaven { "天国、神の住まう場所" }
+  }
+
+  etymology {
+    note: "現代日本語「てん」(天) → /ten/"
+  }
+}
+
+# 地（後舌・無生）
+# 音節核は音節主音 r̃
+entry tir {
+  headword: "tr̃"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "tr̃" }
+  inflection_class: noun_back_cons_inanim
+
+  meanings {
+    earth { "地、大地、土地" }
+    world { "地球、世界" }
+  }
+
+  etymology {
+    note: "現代日本語「ち」(地) → /tʃi/ → /tr̃/（子音+音節主音化）"
+  }
+}
+
+# 光（前舌子音語幹・無生）
+entry chikal {
+  headword: "çikal"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "çikal" }
+  inflection_class: noun_front_cons_inanim
+
+  meanings {
+    light { "光、光明" }
+    radiance { "輝き、明るさ" }
+    enlightenment { "知識、啓示、理解（比喩的）" }
+  }
+
+  etymology {
+    note: "現代日本語「ひかり」(光) → /hikari/ → /çikari/ → /çikar/ → /çikal/（ら行 → l）"
+  }
+}
+
+# 闇（前舌子音語幹・無生）
+# jam は中立母音のみだが、歴史的に前舌接辞を引く
+entry jam {
+  headword: "jami"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "jam" }
+  inflection_class: noun_front_cons_inanim
+
+  meanings {
+    darkness { "闇、暗闇、光の欠如" }
+    night { "夜、夜間" }
+    ignorance { "無知、混乱（比喩的）" }
+  }
+
+  etymology {
+    note: "現代日本語「やみ」(闇) → /jami/。語幹 jam は中立母音のみだが、語末 -i の前舌性により前舌クラスに定着。"
+  }
+}
+
+# 水（後舌・無生）
+# 音節核は音節主音 m̃
+entry miz {
+  headword: "m̃z"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "m̃z" }
+  inflection_class: noun_back_cons_inanim
+
+  meanings {
+    water { "水、H2O" }
+    liquid { "液体、液状のもの" }
+  }
+
+  etymology {
+    note: "現代日本語「みず」(水) → /mizu/ → /m̃z/（母音脱落、音節主音化）"
+  }
+}
+
+# 霊（前舌子音語幹・無生）
+entry lej {
+  headword: "lej"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "lej" }
+  inflection_class: noun_front_cons_inanim
+
+  meanings {
+    spirit { "霊、精神的存在" }
+    soul { "魂、精神" }
+    divine_force { "神聖な力、超自然的存在" }
+  }
+
+  etymology {
+    note: "現代日本語「れい」(霊) → /reː/ → /rej/ → /lej/（ら行 → l、長母音 → 二重母音 → j コーダ）"
+  }
+}

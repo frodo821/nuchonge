@@ -1,0 +1,184 @@
+# @suppress next-line: glob-import
+@use * from "../profile.hu"
+
+# ============================================================
+# 人称代名詞
+# ============================================================
+
+# 一人称代名詞
+# 語幹: vəç ← /watashi/ → /watʃi/ → /vətʃi/ (シュワー挿入) → /vəçi/ (破擦音弱化) → /vəç/
+# 複数: vəçl ← /watashira/ → /vəçira/ → /vəçir/ → /vəçl/ (r→l)
+# 1pl 人称標識 -l の語源はこの代名詞の末尾 -l (← ら)
+entry vech {
+  headword: "vəç"
+  tags: [pos=pron, harmony=front]
+
+  inflect for {case, number} {
+    [case=nom, number=sg] -> `vəç`
+    [case=acc, number=sg] -> `vəçe`
+    [case=dat, number=sg] -> `vəçñ`
+    [case=gen, number=sg] -> `vəçne`
+    [case=loc, number=sg] -> null
+    [case=abl, number=sg] -> `vəçer`
+    [case=all, number=sg] -> `vəçeñ`
+    [case=com, number=sg] -> `vəçet`
+    [case=nom, number=pl] -> `vəçl`
+    [case=acc, number=pl] -> `vəçle`
+    [case=dat, number=pl] -> `vəçlñ`
+    [case=gen, number=pl] -> `vəçlne`
+    [case=loc, number=pl] -> null
+    [case=abl, number=pl] -> `vəçlr`
+    [case=all, number=pl] -> `vəçlñ`
+    [case=com, number=pl] -> `vəçlt`
+  }
+
+  meaning: "私、我々（一人称代名詞）"
+
+  etymology {
+    note: "sg: 現代日本語「わたし」→ /watashi/ → /watʃi/ → /vətʃi/（シュワー挿入）→ /vəçi/（破擦音弱化）→ /vəç/。pl: 「わたしら」→ /watashira/ → /vəçira/ → /vəçir/ → /vəçl/（日本語ら行は障害なき限り /l/ で実現）。1pl人称標識 -l はこの代名詞末尾に由来。"
+  }
+}
+
+# 二人称代名詞
+# 語幹: ant ← /anta/ → /ant/
+# 複数: antes ← /anatatʃi/ → /antatʃi/ → /antaʃi/ (t脱落) → /antasi/ (ʃ→s) → /antas/ → /antes/ (前舌調和)
+# 2pl 人称標識 -s の語源はこの代名詞末尾 -s (← たち → tʃi → s)
+entry ant {
+  headword: "ant"
+  tags: [pos=pron, harmony=front]
+
+  inflect for {case, number} {
+    [case=nom, number=sg] -> `ant`
+    [case=acc, number=sg] -> `ante`
+    [case=dat, number=sg] -> `antñ`
+    [case=gen, number=sg] -> `antne`
+    [case=loc, number=sg] -> null
+    [case=abl, number=sg] -> `anter`
+    [case=all, number=sg] -> `anteñ`
+    [case=com, number=sg] -> `antet`
+    [case=nom, number=pl] -> `antes`
+    [case=acc, number=pl] -> `antes`
+    [case=dat, number=pl] -> `antesñ`
+    [case=gen, number=pl] -> `antesne`
+    [case=loc, number=pl] -> null
+    [case=abl, number=pl] -> `antesr`
+    [case=all, number=pl] -> `antesñ`
+    [case=com, number=pl] -> `antest`
+  }
+
+  meaning: "あなた、あなたたち（二人称代名詞）"
+
+  etymology {
+    note: "sg: 現代日本語「あんた」→ /anta/ → /ant/。pl: 「あなたたち」→ /anatatʃi/ → /antatʃi/ → /antaʃi/（破裂成分脱落）→ /antasi/（ʃ→s、聞こえ度維持で前方移動）→ /antas/ → /antes/（前舌調和）。2pl人称標識 -s はこの代名詞末尾に由来。"
+  }
+}
+
+# 三人称代名詞
+# 語幹: kar ← /kare/ → /kar/
+# 本来 /r/ → /l/ (ら行のデフォルト実現) で /kal/ になるべきだが、
+# 3pl /karera/ → /kal/ + /l/ = /kall/ となり 1pl -l と衝突するため /r/ を保持
+# 複数: karl ← /karera/ → /karl/ (語幹 r は 3sg に引きずられて保持、/ra/ → /l/)
+# 3pl 人称標識 -r の語源はこの代名詞語幹の /r/
+entry kar {
+  headword: "kar"
+  tags: [pos=pron, harmony=back]
+
+  inflect for {case, number} {
+    [case=nom, number=sg] -> `kar`
+    [case=acc, number=sg] -> `kare`
+    [case=dat, number=sg] -> `karñ`
+    [case=gen, number=sg] -> `karne`
+    [case=loc, number=sg] -> null
+    [case=abl, number=sg] -> `karr`
+    [case=all, number=sg] -> `karñ`
+    [case=com, number=sg] -> `kart`
+    [case=nom, number=pl] -> `karl`
+    [case=acc, number=pl] -> `karel`
+    [case=dat, number=pl] -> `karelr̃`
+    [case=gen, number=pl] -> `karlne`
+    [case=loc, number=pl] -> null
+    [case=abl, number=pl] -> `karekr`
+    [case=all, number=pl] -> `karñ`
+    [case=com, number=pl] -> `kart`
+  }
+
+  meanings {
+    person { "話者と聞き手以外の人物を指す三人称代名詞" }
+    anaphoric { "文脈上で既に言及された人物を指し示す照応表現" }
+  }
+
+  etymology {
+    note: "sg: 現代日本語「かれ」(彼) → /kare/ → /kar/。本来 /r/ → /l/ だが、pl /karera/ → /kall/ とすると 1pl -l と衝突するため /r/ を保持。pl: 「かれら」→ /karera/ → /karl/（語幹 r は sg に引きずられて保持、末尾 /ra/ → /l/）。3pl人称標識 -r はこの代名詞語幹の /r/ に由来。"
+  }
+}
+
+# ============================================================
+# 指示詞
+# ============================================================
+
+# 近称指示詞
+entry kor {
+  headword: "kor"
+  tags: [pos=pron, harmony=front]
+  stems { light: "kor", heavy: "kok" }
+  inflection_class: demonstrative
+  meaning: "これ、この（近称指示詞）"
+  etymology {
+    note: "現代日本語「これ」→ /kore/ → /kor/"
+  }
+}
+
+# 中称指示詞
+entry sor {
+  headword: "sor"
+  tags: [pos=pron, harmony=front]
+  stems { light: "sor", heavy: "sok" }
+  inflection_class: demonstrative
+  meaning: "それ、その（中称指示詞）"
+  etymology {
+    note: "現代日本語「それ」→ /sore/ → /sor/"
+  }
+}
+
+# 疑問・不定指示詞
+entry dor {
+  headword: "dor"
+  tags: [pos=pron, harmony=front]
+  stems { light: "dor", heavy: "dok" }
+  inflection_class: demonstrative
+  meaning: "どれ、どの（疑問・不定指示詞）"
+  etymology {
+    note: "現代日本語「どれ」→ /dore/ → /dor/"
+  }
+}
+
+# 遠称指示詞（不規則: 所格=出格の合流、複数形が独自）
+entry ar {
+  headword: "ar"
+  tags: [pos=pron, harmony=front]
+
+  inflect for {case, number} {
+    [case=nom, number=sg] -> `ari`
+    [case=acc, number=sg] -> `are`
+    [case=dat, number=sg] -> `arñ`
+    [case=gen, number=sg] -> `arne`
+    [case=loc, number=sg] -> `akr`
+    [case=abl, number=sg] -> `akr`
+    [case=all, number=sg] -> `akñ`
+    [case=com, number=sg] -> `akt`
+    [case=nom, number=pl] -> `arir`
+    [case=acc, number=pl] -> `arer`
+    [case=dat, number=pl] -> `arñr`
+    [case=gen, number=pl] -> `arner`
+    [case=loc, number=pl] -> `akrad`
+    [case=abl, number=pl] -> `akrakr̃`
+    [case=all, number=pl] -> `akñiñ`
+    [case=com, number=pl] -> `aktit`
+  }
+
+  meaning: "あれ、あの（遠称指示詞）"
+
+  etymology {
+    note: "現代日本語「あれ」→ /are/ → /ar/"
+  }
+}

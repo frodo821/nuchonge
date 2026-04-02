@@ -1,0 +1,396 @@
+# ニンゴト語名詞・形容詞・指示詞曲用
+
+@use * from "tags.hu"
+
+# ============================================================
+# 名詞曲用
+# ============================================================
+# 有生/無生は別クラス（属格: 有生 -ne/-no, 無生 -me/-mo、複数標識も異なる）
+# 定性は曲用に含めず、指示詞属格（sorne 等）で分析的に表現
+# 軸: {case, number} のみ（8格 × 2数 = 16形）
+#
+# 格の歴史的地層:
+#   古層（融合的）: 主格・対格・属格 — 複数で数+格が融合
+#   中層（半融合）: 与格・所格・共格 — 所格 -de/-do, 共格 -te/-to に母音化石化
+#   新層（膠着的）: 出格・向格 — 子音骨格 + 挿入母音で透明
+
+# ── 前舌子音語幹・有生 ──
+# 例: çit (人)
+inflection noun_front_cons_anim for {case, number} {
+  requires stems: root
+  # 単数
+  [case=nom, number=sg] -> `{root}i`
+  [case=acc, number=sg] -> `{root}e`
+  [case=gen, number=sg] -> `{root}ne`
+  [case=dat, number=sg] -> `{root}iñ`
+  [case=loc, number=sg] -> `{root}de`
+  [case=com, number=sg] -> `{root}te`
+  [case=abl, number=sg] -> `{root}ikr̃`
+  [case=all, number=sg] -> `{root}he`
+  # 複数 — 古層は融合（ir+格 → 縮約）
+  [case=nom, number=pl] -> `{root}ri`
+  [case=acc, number=pl] -> `{root}re`
+  [case=gen, number=pl] -> `{root}ine`
+  [case=dat, number=pl] -> `{root}iriñ`
+  [case=loc, number=pl] -> `{root}irde`
+  [case=com, number=pl] -> `{root}irte`
+  [case=abl, number=pl] -> `{root}irikr̃`
+  [case=all, number=pl] -> `{root}irhe`
+}
+
+# ── 前舌子音語幹・無生 ──
+# 例: hin (品)
+inflection noun_front_cons_inanim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}i`
+  [case=acc, number=sg] -> `{root}e`
+  [case=gen, number=sg] -> `{root}me`
+  [case=dat, number=sg] -> `{root}iñ`
+  [case=loc, number=sg] -> `{root}de`
+  [case=com, number=sg] -> `{root}te`
+  [case=abl, number=sg] -> `{root}ikr̃`
+  [case=all, number=sg] -> `{root}he`
+  # 複数 — 無生複数 er-、古層は融合
+  [case=nom, number=pl] -> `{root}eri`
+  [case=acc, number=pl] -> `{root}ere`
+  [case=gen, number=pl] -> `{root}eme`
+  [case=dat, number=pl] -> `{root}eriñ`
+  [case=loc, number=pl] -> `{root}erde`
+  [case=com, number=pl] -> `{root}erte`
+  [case=abl, number=pl] -> `{root}erikr̃`
+  [case=all, number=pl] -> `{root}erhe`
+}
+
+# ── 後舌子音語幹・有生 ──
+inflection noun_back_cons_anim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}a`
+  [case=acc, number=sg] -> `{root}o`
+  [case=gen, number=sg] -> `{root}no`
+  [case=dat, number=sg] -> `{root}uñ`
+  [case=loc, number=sg] -> `{root}do`
+  [case=com, number=sg] -> `{root}to`
+  [case=abl, number=sg] -> `{root}ukr̃`
+  [case=all, number=sg] -> `{root}uh`
+  # 複数 — ar- 有生、古層融合
+  [case=nom, number=pl] -> `{root}ra`
+  [case=acc, number=pl] -> `{root}ro`
+  [case=gen, number=pl] -> `{root}ano`
+  [case=dat, number=pl] -> `{root}aruñ`
+  [case=loc, number=pl] -> `{root}ardo`
+  [case=com, number=pl] -> `{root}arto`
+  [case=abl, number=pl] -> `{root}arukr̃`
+  [case=all, number=pl] -> `{root}aruh`
+}
+
+# ── 後舌子音語幹・無生 ──
+# 例: hñ (本)
+inflection noun_back_cons_inanim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}a`
+  [case=acc, number=sg] -> `{root}o`
+  [case=gen, number=sg] -> `{root}mo`
+  [case=dat, number=sg] -> `{root}uñ`
+  [case=loc, number=sg] -> `{root}do`
+  [case=com, number=sg] -> `{root}to`
+  [case=abl, number=sg] -> `{root}ukr̃`
+  [case=all, number=sg] -> `{root}uh`
+  # 複数 — or- 無生、古層融合
+  [case=nom, number=pl] -> `{root}ora`
+  [case=acc, number=pl] -> `{root}oro`
+  [case=gen, number=pl] -> `{root}omo`
+  [case=dat, number=pl] -> `{root}oruñ`
+  [case=loc, number=pl] -> `{root}ordo`
+  [case=com, number=pl] -> `{root}orto`
+  [case=abl, number=pl] -> `{root}orukr̃`
+  [case=all, number=pl] -> `{root}oruh`
+}
+
+# ── 前舌母音語幹・有生（i/e/æ/ə 語幹、j 滑音）──
+inflection noun_front_v_anim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}ji`
+  [case=acc, number=sg] -> `{root}je`
+  [case=gen, number=sg] -> `{root}ne`
+  [case=dat, number=sg] -> `{root}ñ`
+  [case=loc, number=sg] -> `{root}de`
+  [case=com, number=sg] -> `{root}te`
+  [case=abl, number=sg] -> `{root}kr̃`
+  [case=all, number=sg] -> `{root}he`
+  # 複数 — 有生: 主格・対格は単数と同形
+  [case=nom, number=pl] -> `{root}ji`
+  [case=acc, number=pl] -> `{root}je`
+  [case=gen, number=pl] -> `{root}ine`
+  [case=dat, number=pl] -> `{root}iñ`
+  [case=loc, number=pl] -> `{root}ide`
+  [case=com, number=pl] -> `{root}ite`
+  [case=abl, number=pl] -> `{root}ikr̃`
+  [case=all, number=pl] -> `{root}ihe`
+}
+
+# ── 前舌母音語幹・無生 ──
+inflection noun_front_v_inanim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}ji`
+  [case=acc, number=sg] -> `{root}je`
+  [case=gen, number=sg] -> `{root}me`
+  [case=dat, number=sg] -> `{root}ñ`
+  [case=loc, number=sg] -> `{root}de`
+  [case=com, number=sg] -> `{root}te`
+  [case=abl, number=sg] -> `{root}kr̃`
+  [case=all, number=sg] -> `{root}he`
+  # 複数 — 無生 r-
+  [case=nom, number=pl] -> `{root}ri`
+  [case=acc, number=pl] -> `{root}re`
+  [case=gen, number=pl] -> `{root}rme`
+  [case=dat, number=pl] -> `{root}riñ`
+  [case=loc, number=pl] -> `{root}rde`
+  [case=com, number=pl] -> `{root}rte`
+  [case=abl, number=pl] -> `{root}rikr̃`
+  [case=all, number=pl] -> `{root}rhe`
+}
+
+# ── 後舌母音語幹 o/ɔ/u・有生（w 滑音）──
+inflection noun_back_ov_anim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}wa`
+  [case=acc, number=sg] -> `{root}wo`
+  [case=gen, number=sg] -> `{root}no`
+  [case=dat, number=sg] -> `{root}ñ`
+  [case=loc, number=sg] -> `{root}do`
+  [case=com, number=sg] -> `{root}to`
+  [case=abl, number=sg] -> `{root}kr̃`
+  [case=all, number=sg] -> `{root}h`
+  # 複数 — 有生: 主格・対格は単数と同形
+  [case=nom, number=pl] -> `{root}wa`
+  [case=acc, number=pl] -> `{root}wo`
+  [case=gen, number=pl] -> `{root}uno`
+  [case=dat, number=pl] -> `{root}uñ`
+  [case=loc, number=pl] -> `{root}udo`
+  [case=com, number=pl] -> `{root}uto`
+  [case=abl, number=pl] -> `{root}ukr̃`
+  [case=all, number=pl] -> `{root}uh`
+}
+
+# ── 後舌母音語幹 o/ɔ/u・無生 ──
+inflection noun_back_ov_inanim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}wa`
+  [case=acc, number=sg] -> `{root}wo`
+  [case=gen, number=sg] -> `{root}mo`
+  [case=dat, number=sg] -> `{root}ñ`
+  [case=loc, number=sg] -> `{root}do`
+  [case=com, number=sg] -> `{root}to`
+  [case=abl, number=sg] -> `{root}kr̃`
+  [case=all, number=sg] -> `{root}h`
+  # 複数 — 無生 r-
+  [case=nom, number=pl] -> `{root}ra`
+  [case=acc, number=pl] -> `{root}ro`
+  [case=gen, number=pl] -> `{root}rmo`
+  [case=dat, number=pl] -> `{root}ruñ`
+  [case=loc, number=pl] -> `{root}rdo`
+  [case=com, number=pl] -> `{root}rto`
+  [case=abl, number=pl] -> `{root}rukr̃`
+  [case=all, number=pl] -> `{root}ruh`
+}
+
+# ── 後舌 a 語幹・有生（j 滑音）──
+inflection noun_back_av_anim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}ja`
+  [case=acc, number=sg] -> `{root}jo`
+  [case=gen, number=sg] -> `{root}no`
+  [case=dat, number=sg] -> `{root}ñ`
+  [case=loc, number=sg] -> `{root}do`
+  [case=com, number=sg] -> `{root}to`
+  [case=abl, number=sg] -> `{root}kr̃`
+  [case=all, number=sg] -> `{root}h`
+  # 複数 — 有生: 主格・対格は単数と同形
+  [case=nom, number=pl] -> `{root}ja`
+  [case=acc, number=pl] -> `{root}jo`
+  [case=gen, number=pl] -> `{root}uno`
+  [case=dat, number=pl] -> `{root}uñ`
+  [case=loc, number=pl] -> `{root}udo`
+  [case=com, number=pl] -> `{root}uto`
+  [case=abl, number=pl] -> `{root}ukr̃`
+  [case=all, number=pl] -> `{root}uh`
+}
+
+# ── 後舌 a 語幹・無生 ──
+inflection noun_back_av_inanim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}ja`
+  [case=acc, number=sg] -> `{root}jo`
+  [case=gen, number=sg] -> `{root}mo`
+  [case=dat, number=sg] -> `{root}ñ`
+  [case=loc, number=sg] -> `{root}do`
+  [case=com, number=sg] -> `{root}to`
+  [case=abl, number=sg] -> `{root}kr̃`
+  [case=all, number=sg] -> `{root}h`
+  # 複数 — 無生 r-
+  [case=nom, number=pl] -> `{root}ra`
+  [case=acc, number=pl] -> `{root}ro`
+  [case=gen, number=pl] -> `{root}rmo`
+  [case=dat, number=pl] -> `{root}ruñ`
+  [case=loc, number=pl] -> `{root}rdo`
+  [case=com, number=pl] -> `{root}rto`
+  [case=abl, number=pl] -> `{root}rukr̃`
+  [case=all, number=pl] -> `{root}ruh`
+}
+
+# ── 中立子音語幹・有生 ──
+# 中立母音 ə/a を使用。格語尾は前舌/後舌と平行。
+# 複数標識: 有生 ər-（前舌 ir- / 後舌 ar- の中間）
+inflection noun_neutral_cons_anim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}ə`
+  [case=acc, number=sg] -> `{root}a`
+  [case=gen, number=sg] -> `{root}nə`
+  [case=dat, number=sg] -> `{root}əñ`
+  [case=loc, number=sg] -> `{root}də`
+  [case=com, number=sg] -> `{root}tə`
+  [case=abl, number=sg] -> `{root}əkr̃`
+  [case=all, number=sg] -> `{root}hə`
+  # 複数 — 有生 ər-
+  [case=nom, number=pl] -> `{root}rə`
+  [case=acc, number=pl] -> `{root}ra`
+  [case=gen, number=pl] -> `{root}ənə`
+  [case=dat, number=pl] -> `{root}ərəñ`
+  [case=loc, number=pl] -> `{root}ərdə`
+  [case=com, number=pl] -> `{root}ərtə`
+  [case=abl, number=pl] -> `{root}ərəkr̃`
+  [case=all, number=pl] -> `{root}ərhə`
+}
+
+# ── 中立子音語幹・無生 ──
+# 複数標識: 無生 ər-（前舌 er- / 後舌 or- の中間）
+inflection noun_neutral_cons_inanim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}ə`
+  [case=acc, number=sg] -> `{root}a`
+  [case=gen, number=sg] -> `{root}mə`
+  [case=dat, number=sg] -> `{root}əñ`
+  [case=loc, number=sg] -> `{root}də`
+  [case=com, number=sg] -> `{root}tə`
+  [case=abl, number=sg] -> `{root}əkr̃`
+  [case=all, number=sg] -> `{root}hə`
+  # 複数 — 無生 ər-
+  [case=nom, number=pl] -> `{root}ərə`
+  [case=acc, number=pl] -> `{root}əra`
+  [case=gen, number=pl] -> `{root}əmə`
+  [case=dat, number=pl] -> `{root}ərəñ`
+  [case=loc, number=pl] -> `{root}ərdə`
+  [case=com, number=pl] -> `{root}ərtə`
+  [case=abl, number=pl] -> `{root}ərəkr̃`
+  [case=all, number=pl] -> `{root}ərhə`
+}
+
+# ============================================================
+# 形容詞曲用
+# ============================================================
+# 形容詞は修飾する名詞の格・数・有生性に一致変化する。
+# 有生性は名詞では classificatory だが、形容詞では inflectional（一致対象による）。
+# 現時点では名詞と同一パターンへ delegation。
+
+# 比較級: -jər 接辞。子音語幹(r末)として曲用、調和は元の形容詞に従う
+# 語源: 「より」/jori/ → /jor/ → /jər/（弱化で中立母音に）
+# 最上級: sə + 比較級（分析的、統語レベルで処理）
+
+inflection adj_comp_front for {case, number, animacy} {
+  requires stems: root
+  [animacy=anim, _] -> noun_front_cons_anim[case, number] with stems { root: root }
+  [animacy=inanim, _] -> noun_front_cons_inanim[case, number] with stems { root: root }
+}
+
+inflection adj_comp_back for {case, number, animacy} {
+  requires stems: root
+  [animacy=anim, _] -> noun_back_cons_anim[case, number] with stems { root: root }
+  [animacy=inanim, _] -> noun_back_cons_inanim[case, number] with stems { root: root }
+}
+
+inflection adj_comp_neutral for {case, number, animacy} {
+  requires stems: root
+  [animacy=anim, _] -> noun_neutral_cons_anim[case, number] with stems { root: root }
+  [animacy=inanim, _] -> noun_neutral_cons_inanim[case, number] with stems { root: root }
+}
+
+inflection adj_front_cons for {case, number, animacy, degree} {
+  requires stems: root
+  [degree=pos, animacy=anim, _] -> noun_front_cons_anim[case, number] with stems { root: root }
+  [degree=pos, animacy=inanim, _] -> noun_front_cons_inanim[case, number] with stems { root: root }
+  [degree=comp, _] -> adj_comp_front[case, number, animacy] with stems { root: "{root}jər" }
+}
+
+inflection adj_back_cons for {case, number, animacy, degree} {
+  requires stems: root
+  [degree=pos, animacy=anim, _] -> noun_back_cons_anim[case, number] with stems { root: root }
+  [degree=pos, animacy=inanim, _] -> noun_back_cons_inanim[case, number] with stems { root: root }
+  [degree=comp, _] -> adj_comp_back[case, number, animacy] with stems { root: "{root}jər" }
+}
+
+inflection adj_front_v for {case, number, animacy, degree} {
+  requires stems: root
+  [degree=pos, animacy=anim, _] -> noun_front_v_anim[case, number] with stems { root: root }
+  [degree=pos, animacy=inanim, _] -> noun_front_v_inanim[case, number] with stems { root: root }
+  [degree=comp, _] -> adj_comp_front[case, number, animacy] with stems { root: "{root}jər" }
+}
+
+inflection adj_back_ov for {case, number, animacy, degree} {
+  requires stems: root
+  [degree=pos, animacy=anim, _] -> noun_back_ov_anim[case, number] with stems { root: root }
+  [degree=pos, animacy=inanim, _] -> noun_back_ov_inanim[case, number] with stems { root: root }
+  [degree=comp, _] -> adj_comp_back[case, number, animacy] with stems { root: "{root}jər" }
+}
+
+inflection adj_back_av for {case, number, animacy, degree} {
+  requires stems: root
+  [degree=pos, animacy=anim, _] -> noun_back_av_anim[case, number] with stems { root: root }
+  [degree=pos, animacy=inanim, _] -> noun_back_av_inanim[case, number] with stems { root: root }
+  [degree=comp, _] -> adj_comp_back[case, number, animacy] with stems { root: "{root}jər" }
+}
+
+inflection adj_neutral_cons for {case, number, animacy, degree} {
+  requires stems: root
+  [degree=pos, animacy=anim, _] -> noun_neutral_cons_anim[case, number] with stems { root: root }
+  [degree=pos, animacy=inanim, _] -> noun_neutral_cons_inanim[case, number] with stems { root: root }
+  [degree=comp, _] -> adj_comp_neutral[case, number, animacy] with stems { root: "{root}jər" }
+}
+
+# ============================================================
+# 代名詞・指示詞
+# ============================================================
+# 人称代名詞は不規則曲用が多く、各 entry で inline inflect を使用する。
+# 共通の特徴:
+#   - 人称代名詞は所格を持たない（人は場所たりえない → null）
+#   - 指示詞 kor/sor/dor は語幹交替あり（kor-/kok- の補充形）で規則的
+#   - 遠称 ar は不規則（所格=出格の合流など）
+#
+# 副詞接頭辞（ma-, mr-, sæ-, jk-, tv-, hb-）は動詞活用の一部ではなく
+# 独立した語彙項目として扱い、.hut ファイルでは ~ で動詞に結合する。
+# 例: ma~jomuw (もう読んでいる)
+
+# 規則的指示詞の曲用（kor, sor, dor 共通パターン）
+# 軽語幹（kor-）: 主・対・与・属・共  重語幹（kok-）: 所・出・向
+inflection demonstrative for {case, number} {
+  requires stems: light, heavy
+
+  # 単数
+  [case=nom, number=sg] -> `{light}i`
+  [case=acc, number=sg] -> `{light}e`
+  [case=dat, number=sg] -> `{light}ñ`
+  [case=gen, number=sg] -> `{light}ne`
+  [case=loc, number=sg] -> `{heavy}`
+  [case=abl, number=sg] -> `{heavy}r`
+  [case=all, number=sg] -> `{heavy}ñ`
+  [case=com, number=sg] -> `{light}t`
+
+  # 複数
+  [case=nom, number=pl] -> `{light}ir`
+  [case=acc, number=pl] -> `{light}er`
+  [case=dat, number=pl] -> `{light}ñr`
+  [case=gen, number=pl] -> `{light}ner`
+  [case=loc, number=pl] -> `{heavy}id`
+  [case=abl, number=pl] -> `{heavy}ikr̃`
+  [case=all, number=pl] -> `{heavy}iñ`
+  [case=com, number=pl] -> `{light}it`
+}

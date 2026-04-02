@@ -2,3 +2,6 @@
 *-wal
 .DS_Store
 tmp/
+.hubullu-cache/
+*.huc
+*.huc.cache

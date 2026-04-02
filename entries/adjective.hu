@@ -1,0 +1,23 @@
+# @suppress next-line: glob-import
+@use * from "../profile.hu"
+
+# ============================================================
+# 形容詞
+# ============================================================
+
+# 小さい（前舌子音語幹）
+entry chis {
+  headword: "çis"
+  tags: [pos=adj, harmony=front, stem_final=cons]
+  stems { root: "çis" }
+  inflection_class: adj_front_cons
+
+  meanings {
+    small { "小さい、サイズが小さい" }
+    few { "少ない、数量が少ない" }
+  }
+
+  etymology {
+    note: "現代日本語「ちいさい」(小さい) → /tʃiisai/ → /çis/"
+  }
+}

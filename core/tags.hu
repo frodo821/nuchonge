@@ -1,0 +1,161 @@
+# ニンゴト語文法軸定義
+
+# ============================================================
+# 文法軸の定義
+# ============================================================
+
+tagaxis pos {
+  role: classificatory
+  display: { ja: "品詞" }
+  index: exact
+}
+
+tagaxis harmony {
+  role: classificatory
+  display: { ja: "母音調和" }
+  index: exact
+}
+
+tagaxis animacy {
+  role: classificatory
+  display: { ja: "有生性" }
+  index: exact
+}
+
+tagaxis stem_final {
+  role: classificatory
+  display: { ja: "語幹末音素" }
+  index: exact
+}
+
+tagaxis case {
+  role: inflectional
+  display: { ja: "格" }
+  index: exact
+}
+
+tagaxis number {
+  role: inflectional
+  display: { ja: "数" }
+  index: exact
+}
+
+tagaxis tense {
+  role: inflectional
+  display: { ja: "時制" }
+  index: exact
+}
+
+tagaxis aspect {
+  role: inflectional
+  display: { ja: "相" }
+  index: exact
+}
+
+tagaxis person {
+  role: inflectional
+  display: { ja: "人称" }
+  index: exact
+}
+
+tagaxis polarity {
+  role: inflectional
+  display: { ja: "極性" }
+  index: exact
+}
+
+tagaxis degree {
+  role: inflectional
+  display: { ja: "程度" }
+  index: exact
+}
+
+# ============================================================
+# 文法軸の値
+# ============================================================
+
+@extend pos_values for tagaxis pos {
+  noun   { display: { ja: "名詞" } }
+  verb   { display: { ja: "動詞" } }
+  adj    { display: { ja: "形容詞" } }
+  pron   { display: { ja: "代名詞" } }
+  adv    { display: { ja: "副詞" } }
+  conj   { display: { ja: "接続詞" } }
+  part   { display: { ja: "不変化詞" } }
+}
+
+@extend harmony_values for tagaxis harmony {
+  front   { display: { ja: "前舌調和" } }
+  back    { display: { ja: "後舌調和" } }
+  neutral { display: { ja: "中立調和" } }
+}
+
+@extend animacy_values for tagaxis animacy {
+  anim   { display: { ja: "有生" } }
+  inanim { display: { ja: "無生" } }
+}
+
+@extend stem_final_values for tagaxis stem_final {
+  cons        { display: { ja: "子音" } }
+  front_vowel { display: { ja: "前舌母音" } }
+  back_vowel  { display: { ja: "後舌母音" } }
+  schwa       { display: { ja: "ə" } }
+  a           { display: { ja: "a" } }
+}
+
+@extend case_values for tagaxis case {
+  nom { display: { ja: "主格" } }
+  acc { display: { ja: "対格" } }
+  dat { display: { ja: "与格" } }
+  loc { display: { ja: "所格" } }
+  gen { display: { ja: "属格" } }
+  abl { display: { ja: "出格" } }
+  all { display: { ja: "向格" } }
+  com { display: { ja: "共格" } }
+}
+
+@extend number_values for tagaxis number {
+  sg { display: { ja: "単数" } }
+  pl { display: { ja: "複数" } }
+}
+
+@extend tense_values for tagaxis tense {
+  pres { display: { ja: "現在" } }
+  past { display: { ja: "過去" } }
+  fut  { display: { ja: "未来" } }
+}
+
+@extend aspect_values for tagaxis aspect {
+  impf   { display: { ja: "非完了" } }
+  perf   { display: { ja: "完遂" } }
+  result { display: { ja: "結果状態" } }
+  prep   { display: { ja: "準備" } }
+  incep  { display: { ja: "起動" } }
+  term   { display: { ja: "終結" } }
+}
+
+@extend person_values for tagaxis person {
+  1 { display: { ja: "1人称" } }
+  2 { display: { ja: "2人称" } }
+  3 { display: { ja: "3人称" } }
+}
+
+@extend polarity_values for tagaxis polarity {
+  pos { display: { ja: "肯定" } }
+  neg { display: { ja: "否定" } }
+}
+
+@extend degree_values for tagaxis degree {
+  pos  { display: { ja: "原級" } }
+  comp { display: { ja: "比較級" } }
+}
+
+tagaxis sandhi {
+  role: inflectional
+  display: { ja: "連接" }
+}
+
+@extend sandhi_values for tagaxis sandhi {
+  pre_c { display: { ja: "子音前" } }
+  pre_v { display: { ja: "母音前" } }
+}

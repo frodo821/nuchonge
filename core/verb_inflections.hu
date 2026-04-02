@@ -1,0 +1,379 @@
+# ニンゴト語動詞活用
+
+@use * from "tags.hu"
+@use * from "phonrules.hu"
+
+# ============================================================
+# 動詞活用
+# ============================================================
+# 構造: tense_stem（語幹+連結母音+相+時制を融合） + pn_neg（人称+否定）
+# 否定は nasalization phonrule で時制母音を鼻母音化
+#
+# 歴史的地層:
+#   最古層: 語幹+時制（融合的）
+#   古層:   相+時制（部分融合: sm+ta→sma, tr+ta→tra, tk+ta→kta, ds+ta→sta）
+#           相接辞の語源: sm←しまう, tr←ている, tk←ておく, ds←だす, v←おえる
+#           日本語の「〜して+補助動詞」構文から子音骨格のみ残存
+#   新層:   人称（膠着的: -w, -l, -s, -r）、2sg は時制母音の上昇で標示
+#   最新層: 法（語彙化、~ で動詞に結合）
+#
+# 人称標識:
+#   1sg -w (←vəç), 2sg 母音上昇 (対面発話の変異), 3sg ∅ (←kar 脱落),
+#   1pl -l (←vəçl, 「わたしら」の -ら → -l), 2pl -s (←antes, 「あなたたち」の -たち → -s), 3pl -r (←karl)
+#
+# 2sg 母音上昇:
+#   前舌: e→i, a→e, æ→e (※未来の上昇は過去と合流する場合あり)
+#   後舌: u→uj(音割れ), ɔ→o, o→u
+
+# ── 前舌子音語幹動詞 ──
+# 例: mir (見る) → stems { base: "mir", link: "a" }
+inflection verb_front_cons for {tense, aspect, person, number, polarity} {
+  requires stems: base, link
+
+  compose nasalization(tense_stem + pn_neg_sfx)
+
+  slot tense_stem {
+    # 非完了相
+    [aspect=impf, tense=pres, person=2, number=sg, _] -> `{base}i`
+    [aspect=impf, tense=pres, _] -> `{base}e`
+    [aspect=impf, tense=past, person=2, number=sg, _] -> `{base}{link}te`
+    [aspect=impf, tense=past, _] -> `{base}{link}ta`
+    [aspect=impf, tense=fut, person=2, number=sg, _] -> `{base}æt`
+    [aspect=impf, tense=fut, _] -> `{base}æ`
+    # 完遂相（sm + ta → sma: m が t を吸収）
+    [aspect=perf, tense=pres, person=2, number=sg, _] -> `{base}{link}smi`
+    [aspect=perf, tense=pres, _] -> `{base}{link}sme`
+    [aspect=perf, tense=past, person=2, number=sg, _] -> `{base}{link}sme`
+    [aspect=perf, tense=past, _] -> `{base}{link}sma`
+    [aspect=perf, tense=fut, person=2, number=sg, _] -> `{base}{link}smæt`
+    [aspect=perf, tense=fut, _] -> `{base}{link}smæ`
+    # 結果状態相（tr + ta → tra: 第2のtが融合）
+    [aspect=result, tense=pres, person=2, number=sg, _] -> `{base}{link}tri`
+    [aspect=result, tense=pres, _] -> `{base}{link}tre`
+    [aspect=result, tense=past, person=2, number=sg, _] -> `{base}{link}tre`
+    [aspect=result, tense=past, _] -> `{base}{link}tra`
+    [aspect=result, tense=fut, person=2, number=sg, _] -> `{base}{link}træt`
+    [aspect=result, tense=fut, _] -> `{base}{link}træ`
+    # 準備相（tk + ta → kta: 第1のtが脱落）
+    [aspect=prep, tense=pres, person=2, number=sg, _] -> `{base}{link}tki`
+    [aspect=prep, tense=pres, _] -> `{base}{link}tke`
+    [aspect=prep, tense=past, person=2, number=sg, _] -> `{base}{link}kte`
+    [aspect=prep, tense=past, _] -> `{base}{link}kta`
+    [aspect=prep, tense=fut, person=2, number=sg, _] -> `{base}{link}tkæt`
+    [aspect=prep, tense=fut, _] -> `{base}{link}tkæ`
+    # 起動相（ds + ta → sta: dが脱落）
+    [aspect=incep, tense=pres, person=2, number=sg, _] -> `{base}{link}dsi`
+    [aspect=incep, tense=pres, _] -> `{base}{link}dse`
+    [aspect=incep, tense=past, person=2, number=sg, _] -> `{base}{link}ste`
+    [aspect=incep, tense=past, _] -> `{base}{link}sta`
+    [aspect=incep, tense=fut, person=2, number=sg, _] -> `{base}{link}dsæt`
+    [aspect=incep, tense=fut, _] -> `{base}{link}dsæ`
+    # 終結相（v + ta = vta: 融合なし）
+    [aspect=term, tense=pres, person=2, number=sg, _] -> `{base}{link}vi`
+    [aspect=term, tense=pres, _] -> `{base}{link}ve`
+    [aspect=term, tense=past, person=2, number=sg, _] -> `{base}{link}vte`
+    [aspect=term, tense=past, _] -> `{base}{link}vta`
+    [aspect=term, tense=fut, person=2, number=sg, _] -> `{base}{link}væt`
+    [aspect=term, tense=fut, _] -> `{base}{link}væ`
+  }
+
+  slot pn_neg_sfx {
+    [person=1, number=sg, polarity=pos, _] -> `w`
+    [person=2, number=sg, polarity=pos, _] -> ``
+    [person=3, number=sg, polarity=pos, _] -> ``
+    [person=1, number=pl, polarity=pos, _] -> `l`
+    [person=2, number=pl, polarity=pos, _] -> `s`
+    [person=3, number=pl, polarity=pos, _] -> `r`
+    [person=1, number=sg, polarity=neg, _] -> `wñ`
+    [person=2, number=sg, polarity=neg, _] -> `ñ`
+    [person=3, number=sg, polarity=neg, _] -> `ñ`
+    [person=1, number=pl, polarity=neg, _] -> `lñ`
+    [person=2, number=pl, polarity=neg, _] -> `sñ`
+    [person=3, number=pl, polarity=neg, _] -> `rñ`
+  }
+}
+
+# ── 後舌子音語幹動詞 ──
+# 例: jom (読む) → stems { base: "jom" }
+inflection verb_back_cons for {tense, aspect, person, number, polarity} {
+  requires stems: base
+
+  compose nasalization(tense_stem + pn_neg_sfx)
+
+  slot tense_stem {
+    # 非完了相
+    [aspect=impf, tense=pres, person=2, number=sg, _] -> `{base}uj`
+    [aspect=impf, tense=pres, _] -> `{base}u`
+    [aspect=impf, tense=past, person=2, number=sg, _] -> `{base}ɔto`
+    [aspect=impf, tense=past, _] -> `{base}ɔtɔ`
+    [aspect=impf, tense=fut, person=2, number=sg, _] -> `{base}ot`
+    [aspect=impf, tense=fut, _] -> `{base}o`
+    # 完遂相（sm + tɔ → smɔ: m が t を吸収）
+    [aspect=perf, tense=pres, person=2, number=sg, _] -> `{base}ɔsmuj`
+    [aspect=perf, tense=pres, _] -> `{base}ɔsmu`
+    [aspect=perf, tense=past, person=2, number=sg, _] -> `{base}ɔsmo`
+    [aspect=perf, tense=past, _] -> `{base}ɔsmɔ`
+    [aspect=perf, tense=fut, person=2, number=sg, _] -> `{base}ɔsmot`
+    [aspect=perf, tense=fut, _] -> `{base}ɔsmo`
+    # 結果状態相（tr + tɔ → trɔ）
+    [aspect=result, tense=pres, person=2, number=sg, _] -> `{base}ɔtruj`
+    [aspect=result, tense=pres, _] -> `{base}ɔtru`
+    [aspect=result, tense=past, person=2, number=sg, _] -> `{base}ɔtro`
+    [aspect=result, tense=past, _] -> `{base}ɔtrɔ`
+    [aspect=result, tense=fut, person=2, number=sg, _] -> `{base}ɔtrot`
+    [aspect=result, tense=fut, _] -> `{base}ɔtro`
+    # 準備相（tk + tɔ → ktɔ）
+    [aspect=prep, tense=pres, person=2, number=sg, _] -> `{base}ɔtkuj`
+    [aspect=prep, tense=pres, _] -> `{base}ɔtku`
+    [aspect=prep, tense=past, person=2, number=sg, _] -> `{base}ɔkto`
+    [aspect=prep, tense=past, _] -> `{base}ɔktɔ`
+    [aspect=prep, tense=fut, person=2, number=sg, _] -> `{base}ɔtkot`
+    [aspect=prep, tense=fut, _] -> `{base}ɔtko`
+    # 起動相（ds + tɔ → stɔ）
+    [aspect=incep, tense=pres, person=2, number=sg, _] -> `{base}ɔdsuj`
+    [aspect=incep, tense=pres, _] -> `{base}ɔdsu`
+    [aspect=incep, tense=past, person=2, number=sg, _] -> `{base}ɔsto`
+    [aspect=incep, tense=past, _] -> `{base}ɔstɔ`
+    [aspect=incep, tense=fut, person=2, number=sg, _] -> `{base}ɔdsot`
+    [aspect=incep, tense=fut, _] -> `{base}ɔdso`
+    # 終結相（v + tɔ = vtɔ）
+    [aspect=term, tense=pres, person=2, number=sg, _] -> `{base}ɔvuj`
+    [aspect=term, tense=pres, _] -> `{base}ɔvu`
+    [aspect=term, tense=past, person=2, number=sg, _] -> `{base}ɔvto`
+    [aspect=term, tense=past, _] -> `{base}ɔvtɔ`
+    [aspect=term, tense=fut, person=2, number=sg, _] -> `{base}ɔvot`
+    [aspect=term, tense=fut, _] -> `{base}ɔvo`
+  }
+
+  slot pn_neg_sfx {
+    [person=1, number=sg, polarity=pos, _] -> `w`
+    [person=2, number=sg, polarity=pos, _] -> ``
+    [person=3, number=sg, polarity=pos, _] -> ``
+    [person=1, number=pl, polarity=pos, _] -> `l`
+    [person=2, number=pl, polarity=pos, _] -> `s`
+    [person=3, number=pl, polarity=pos, _] -> `r`
+    [person=1, number=sg, polarity=neg, _] -> `wñ`
+    [person=2, number=sg, polarity=neg, _] -> `ñ`
+    [person=3, number=sg, polarity=neg, _] -> `ñ`
+    [person=1, number=pl, polarity=neg, _] -> `lñ`
+    [person=2, number=pl, polarity=neg, _] -> `sñ`
+    [person=3, number=pl, polarity=neg, _] -> `rñ`
+  }
+}
+
+# ── 前舌母音語幹動詞 ──
+# 例: fue (増える) → stems { base: "fu" }, ivæ (祝福する) → stems { base: "iv" }
+# 語幹末母音は時制で交替: 現在 e, 過去 a, 未来 æ
+# 連結母音不要（語幹末母音自体がその機能）
+# 子音語幹の連結母音 a は、この交替の過去形 a が類推で拡張したもの
+inflection verb_front_v for {tense, aspect, person, number, polarity} {
+  requires stems: base
+
+  compose nasalization(tense_stem + pn_neg_sfx)
+
+  slot tense_stem {
+    # 非完了相 — 語幹末母音が時制を標示
+    [aspect=impf, tense=pres, person=2, number=sg, _] -> `{base}i`
+    [aspect=impf, tense=pres, _] -> `{base}e`
+    [aspect=impf, tense=past, person=2, number=sg, _] -> `{base}ate`
+    [aspect=impf, tense=past, _] -> `{base}ata`
+    [aspect=impf, tense=fut, person=2, number=sg, _] -> `{base}æt`
+    [aspect=impf, tense=fut, _] -> `{base}æ`
+    # 完遂相（sm + ta → sma）
+    [aspect=perf, tense=pres, person=2, number=sg, _] -> `{base}esmi`
+    [aspect=perf, tense=pres, _] -> `{base}esme`
+    [aspect=perf, tense=past, person=2, number=sg, _] -> `{base}asme`
+    [aspect=perf, tense=past, _] -> `{base}asma`
+    [aspect=perf, tense=fut, person=2, number=sg, _] -> `{base}æsmæt`
+    [aspect=perf, tense=fut, _] -> `{base}æsmæ`
+    # 結果状態相（tr + ta → tra）
+    [aspect=result, tense=pres, person=2, number=sg, _] -> `{base}etri`
+    [aspect=result, tense=pres, _] -> `{base}etre`
+    [aspect=result, tense=past, person=2, number=sg, _] -> `{base}atre`
+    [aspect=result, tense=past, _] -> `{base}atra`
+    [aspect=result, tense=fut, person=2, number=sg, _] -> `{base}ætræt`
+    [aspect=result, tense=fut, _] -> `{base}ætræ`
+    # 準備相（tk + ta → kta）
+    [aspect=prep, tense=pres, person=2, number=sg, _] -> `{base}etki`
+    [aspect=prep, tense=pres, _] -> `{base}etke`
+    [aspect=prep, tense=past, person=2, number=sg, _] -> `{base}akte`
+    [aspect=prep, tense=past, _] -> `{base}akta`
+    [aspect=prep, tense=fut, person=2, number=sg, _] -> `{base}ætkæt`
+    [aspect=prep, tense=fut, _] -> `{base}ætkæ`
+    # 起動相（ds + ta → sta）
+    [aspect=incep, tense=pres, person=2, number=sg, _] -> `{base}edsi`
+    [aspect=incep, tense=pres, _] -> `{base}edse`
+    [aspect=incep, tense=past, person=2, number=sg, _] -> `{base}aste`
+    [aspect=incep, tense=past, _] -> `{base}asta`
+    [aspect=incep, tense=fut, person=2, number=sg, _] -> `{base}ædsæt`
+    [aspect=incep, tense=fut, _] -> `{base}ædsæ`
+    # 終結相（v + ta → vta）
+    [aspect=term, tense=pres, person=2, number=sg, _] -> `{base}evi`
+    [aspect=term, tense=pres, _] -> `{base}eve`
+    [aspect=term, tense=past, person=2, number=sg, _] -> `{base}avte`
+    [aspect=term, tense=past, _] -> `{base}avta`
+    [aspect=term, tense=fut, person=2, number=sg, _] -> `{base}ævæt`
+    [aspect=term, tense=fut, _] -> `{base}ævæ`
+  }
+
+  slot pn_neg_sfx {
+    [person=1, number=sg, polarity=pos, _] -> `w`
+    [person=2, number=sg, polarity=pos, _] -> ``
+    [person=3, number=sg, polarity=pos, _] -> ``
+    [person=1, number=pl, polarity=pos, _] -> `l`
+    [person=2, number=pl, polarity=pos, _] -> `s`
+    [person=3, number=pl, polarity=pos, _] -> `r`
+    [person=1, number=sg, polarity=neg, _] -> `wñ`
+    [person=2, number=sg, polarity=neg, _] -> `ñ`
+    [person=3, number=sg, polarity=neg, _] -> `ñ`
+    [person=1, number=pl, polarity=neg, _] -> `lñ`
+    [person=2, number=pl, polarity=neg, _] -> `sñ`
+    [person=3, number=pl, polarity=neg, _] -> `rñ`
+  }
+}
+
+# ── 後舌母音語幹動詞 ──
+# 例: omɔ (思う) → stems { base: "om" }
+# 語幹末母音は時制で交替: 現在 u, 過去 ɔ, 未来 o
+# 連結母音不要（語幹末母音自体がその機能）
+# 子音語幹の連結母音 ɔ は、元々中立だった a が後舌環境で同化した結果
+inflection verb_back_v for {tense, aspect, person, number, polarity} {
+  requires stems: base
+
+  compose nasalization(tense_stem + pn_neg_sfx)
+
+  slot tense_stem {
+    # 非完了相 — 語幹末母音が時制を標示
+    [aspect=impf, tense=pres, person=2, number=sg, _] -> `{base}uj`
+    [aspect=impf, tense=pres, _] -> `{base}u`
+    [aspect=impf, tense=past, person=2, number=sg, _] -> `{base}ɔto`
+    [aspect=impf, tense=past, _] -> `{base}ɔtɔ`
+    [aspect=impf, tense=fut, person=2, number=sg, _] -> `{base}ot`
+    [aspect=impf, tense=fut, _] -> `{base}o`
+    # 完遂相（sm + tɔ → smɔ）
+    [aspect=perf, tense=pres, person=2, number=sg, _] -> `{base}usmuj`
+    [aspect=perf, tense=pres, _] -> `{base}usmu`
+    [aspect=perf, tense=past, person=2, number=sg, _] -> `{base}ɔsmo`
+    [aspect=perf, tense=past, _] -> `{base}ɔsmɔ`
+    [aspect=perf, tense=fut, person=2, number=sg, _] -> `{base}osmot`
+    [aspect=perf, tense=fut, _] -> `{base}osmo`
+    # 結果状態相（tr + tɔ → trɔ）
+    [aspect=result, tense=pres, person=2, number=sg, _] -> `{base}utruj`
+    [aspect=result, tense=pres, _] -> `{base}utru`
+    [aspect=result, tense=past, person=2, number=sg, _] -> `{base}ɔtro`
+    [aspect=result, tense=past, _] -> `{base}ɔtrɔ`
+    [aspect=result, tense=fut, person=2, number=sg, _] -> `{base}otrot`
+    [aspect=result, tense=fut, _] -> `{base}otro`
+    # 準備相（tk + tɔ → ktɔ）
+    [aspect=prep, tense=pres, person=2, number=sg, _] -> `{base}utkuj`
+    [aspect=prep, tense=pres, _] -> `{base}utku`
+    [aspect=prep, tense=past, person=2, number=sg, _] -> `{base}ɔkto`
+    [aspect=prep, tense=past, _] -> `{base}ɔktɔ`
+    [aspect=prep, tense=fut, person=2, number=sg, _] -> `{base}otkot`
+    [aspect=prep, tense=fut, _] -> `{base}otko`
+    # 起動相（ds + tɔ → stɔ）
+    [aspect=incep, tense=pres, person=2, number=sg, _] -> `{base}udsuj`
+    [aspect=incep, tense=pres, _] -> `{base}udsu`
+    [aspect=incep, tense=past, person=2, number=sg, _] -> `{base}ɔsto`
+    [aspect=incep, tense=past, _] -> `{base}ɔstɔ`
+    [aspect=incep, tense=fut, person=2, number=sg, _] -> `{base}odsot`
+    [aspect=incep, tense=fut, _] -> `{base}odso`
+    # 終結相（v + tɔ → vtɔ）
+    [aspect=term, tense=pres, person=2, number=sg, _] -> `{base}uvuj`
+    [aspect=term, tense=pres, _] -> `{base}uvu`
+    [aspect=term, tense=past, person=2, number=sg, _] -> `{base}ɔvto`
+    [aspect=term, tense=past, _] -> `{base}ɔvtɔ`
+    [aspect=term, tense=fut, person=2, number=sg, _] -> `{base}ovot`
+    [aspect=term, tense=fut, _] -> `{base}ovo`
+  }
+
+  slot pn_neg_sfx {
+    [person=1, number=sg, polarity=pos, _] -> `w`
+    [person=2, number=sg, polarity=pos, _] -> ``
+    [person=3, number=sg, polarity=pos, _] -> ``
+    [person=1, number=pl, polarity=pos, _] -> `l`
+    [person=2, number=pl, polarity=pos, _] -> `s`
+    [person=3, number=pl, polarity=pos, _] -> `r`
+    [person=1, number=sg, polarity=neg, _] -> `wñ`
+    [person=2, number=sg, polarity=neg, _] -> `ñ`
+    [person=3, number=sg, polarity=neg, _] -> `ñ`
+    [person=1, number=pl, polarity=neg, _] -> `lñ`
+    [person=2, number=pl, polarity=neg, _] -> `sñ`
+    [person=3, number=pl, polarity=neg, _] -> `rñ`
+  }
+}
+
+# ── 中立母音語幹動詞 ──
+# 例: æta (会う) → stems { base: "æt" }
+# 語幹末母音は時制で交替: 現在 ə, 過去 a, 未来 a
+# 過去/未来の母音が同一 a のため、過去は相接辞に -t を保持して弁別
+# 2sg 標示:
+#   現在: ə→əj（滑音挿入、後舌 u→uj と平行）
+#   過去: 接辞母音 a→e 上昇（前舌/後舌と共通）
+#   未来: -p 子音挿入（-t は過去標識と衝突するため調音部位を変更。antp の -p と同源）
+# CC オンセットの相接辞は現在 2sg で CV 転倒（smə→səm 等）
+inflection verb_neutral for {tense, aspect, person, number, polarity} {
+  requires stems: base
+
+  compose nasalization(tense_stem + pn_neg_sfx)
+
+  slot tense_stem {
+    # 非完了相
+    [aspect=impf, tense=pres, person=2, number=sg, _] -> `{base}əj`
+    [aspect=impf, tense=pres, _] -> `{base}ə`
+    [aspect=impf, tense=past, person=2, number=sg, _] -> `{base}ate`
+    [aspect=impf, tense=past, _] -> `{base}ata`
+    [aspect=impf, tense=fut, person=2, number=sg, _] -> `{base}ap`
+    [aspect=impf, tense=fut, _] -> `{base}a`
+    # 完遂相（過去: -t 保持で弁別）
+    [aspect=perf, tense=pres, person=2, number=sg, _] -> `{base}əjsəm`
+    [aspect=perf, tense=pres, _] -> `{base}əsmə`
+    [aspect=perf, tense=past, person=2, number=sg, _] -> `{base}asmet`
+    [aspect=perf, tense=past, _] -> `{base}asmat`
+    [aspect=perf, tense=fut, person=2, number=sg, _] -> `{base}asmap`
+    [aspect=perf, tense=fut, _] -> `{base}asma`
+    # 結果状態相
+    [aspect=result, tense=pres, person=2, number=sg, _] -> `{base}əjtər`
+    [aspect=result, tense=pres, _] -> `{base}ətrə`
+    [aspect=result, tense=past, person=2, number=sg, _] -> `{base}atret`
+    [aspect=result, tense=past, _] -> `{base}atrat`
+    [aspect=result, tense=fut, person=2, number=sg, _] -> `{base}atrap`
+    [aspect=result, tense=fut, _] -> `{base}atra`
+    # 準備相
+    [aspect=prep, tense=pres, person=2, number=sg, _] -> `{base}əjtək`
+    [aspect=prep, tense=pres, _] -> `{base}ətkə`
+    [aspect=prep, tense=past, person=2, number=sg, _] -> `{base}aktet`
+    [aspect=prep, tense=past, _] -> `{base}aktat`
+    [aspect=prep, tense=fut, person=2, number=sg, _] -> `{base}atkap`
+    [aspect=prep, tense=fut, _] -> `{base}atka`
+    # 起動相
+    [aspect=incep, tense=pres, person=2, number=sg, _] -> `{base}əjdəs`
+    [aspect=incep, tense=pres, _] -> `{base}ədsə`
+    [aspect=incep, tense=past, person=2, number=sg, _] -> `{base}adset`
+    [aspect=incep, tense=past, _] -> `{base}adsat`
+    [aspect=incep, tense=fut, person=2, number=sg, _] -> `{base}adsap`
+    [aspect=incep, tense=fut, _] -> `{base}adsa`
+    # 終結相（v- は単子音なので転倒不要）
+    [aspect=term, tense=pres, person=2, number=sg, _] -> `{base}əjvə`
+    [aspect=term, tense=pres, _] -> `{base}əvə`
+    [aspect=term, tense=past, person=2, number=sg, _] -> `{base}avet`
+    [aspect=term, tense=past, _] -> `{base}avat`
+    [aspect=term, tense=fut, person=2, number=sg, _] -> `{base}avap`
+    [aspect=term, tense=fut, _] -> `{base}ava`
+  }
+
+  slot pn_neg_sfx {
+    [person=1, number=sg, polarity=pos, _] -> `w`
+    [person=2, number=sg, polarity=pos, _] -> ``
+    [person=3, number=sg, polarity=pos, _] -> ``
+    [person=1, number=pl, polarity=pos, _] -> `l`
+    [person=2, number=pl, polarity=pos, _] -> `s`
+    [person=3, number=pl, polarity=pos, _] -> `r`
+    [person=1, number=sg, polarity=neg, _] -> `wñ`
+    [person=2, number=sg, polarity=neg, _] -> `ñ`
+    [person=3, number=sg, polarity=neg, _] -> `ñ`
+    [person=1, number=pl, polarity=neg, _] -> `lñ`
+    [person=2, number=pl, polarity=neg, _] -> `sñ`
+    [person=3, number=pl, polarity=neg, _] -> `rñ`
+  }
+}

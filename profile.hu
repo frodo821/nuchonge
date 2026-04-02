@@ -1,0 +1,17 @@
+# @suppress entire-file: glob-import
+# ニンゴト語文法プロファイル
+
+@use * from "core/tags.hu"
+@use * from "core/phonrules.hu"
+@use * from "core/noun_inflections.hu"
+@use * from "core/verb_inflections.hu"
+
+@export use * from "core/tags.hu"
+@export use * from "core/phonrules.hu"
+@export use * from "core/noun_inflections.hu"
+@export use * from "core/verb_inflections.hu"
+
+@render {
+  separator: " "
+  no_separator_before: ".,;:!?"
+}
