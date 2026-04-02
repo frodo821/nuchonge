@@ -63,12 +63,12 @@ dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "."
 # NIV: "Let the land produce vegetation: seed-bearing plants and trees that bear fruit with seed in it, according to their various kinds."
 # 構造: 義務法宣言 + 実現 + 満足
 # 義務法宣言: 「陸地があらゆる種類の植物を生やすべし — 種を持つ草、そして種を伴い実を持つ木」
-"«"~ rk[case=nom, number=sg] alaj[case=gen, number=pl, animacy=inanim, degree=pos] wakrel[case=gen, number=pl] haer[case=dat, number=sg] bek~sa~hae[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
-tan[case=dat, number=sg] mot[$=base]~ar_ptcp[harmony=back, tense=pres, case=nom, number=sg, animacy=inanim] kush[case=nom, number=sg] ","
-sosh tan[case=com, number=sg] mi[case=dat, number=sg] mot[$=base]~ar_ptcp[harmony=back, tense=pres, case=nom, number=sg, animacy=inanim] ki[case=nom, number=sg] ~"»"
+"«"~ rk[case=nom, number=sg] alaj[case=gen, number=pl, animacy=inanim, degree=pos] wakrel[case=gen, number=pl] haer[case=dat, number=pl] bek~sa~hae[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+tan[case=dat, number=sg] mot[$=base]~ar_ptcp[harmony=back, tense=pres, case=nom, number=pl, animacy=inanim] kush[case=nom, number=pl] ","
+sosh tan[case=com, number=sg] mi[case=dat, number=sg] mot[$=base]~ar_ptcp[harmony=back, tense=pres, case=nom, number=pl, animacy=inanim] ki[case=nom, number=pl] ~"»"
 to kam[case=nom, number=sg] re[sandhi=pre_v]~ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
 # 実現: 陸地が植物を生やした
-rk[case=nom, number=sg] haer[case=dat, number=sg] sa~hae[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
+rk[case=nom, number=sg] haer[case=dat, number=pl] sa~hae[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
 # 満足
 kam[case=nom, number=sg] ser[case=acc, number=sg] mir[tense=past, aspect=result, person=3, number=sg, polarity=pos] ","
 dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "." //
