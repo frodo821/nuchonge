@@ -21,3 +21,20 @@ entry chis {
     note: "現代日本語「ちいさい」(小さい) → /tʃiisai/ → /çis/"
   }
 }
+
+# あらゆる（中立子音語幹）
+entry alaj {
+  headword: "alaj"
+  tags: [pos=adj, harmony=neutral, stem_final=cons]
+  stems { root: "alaj" }
+  inflection_class: adj_neutral_cons
+
+  meanings {
+    every { "すべての、あらゆる" }
+    various { "多種多様な、さまざまな" }
+  }
+
+  etymology {
+    note: "現代日本語「あらゆる」→ /arajuru/ → /alajul/ (r→l) → /alaj/ (縮約)"
+  }
+}

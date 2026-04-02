@@ -78,7 +78,7 @@ entry se_def {
     [sandhi=pre_v] -> `s`
   }
   meaning: "定冠詞（名詞の前に置かれる不変化前接語）"
-  etymology { note: "中称指示詞属格 sorne（その）→ sorn → sən → sə に縮約。文法化により指示性が漂白され定性標識として定着。母音前では ə が脱落。" }
+  etymology { note: "中称指示詞属格 serne（その）→ sern → sən → sə に縮約。文法化により指示性が漂白され定性標識として定着。母音前では ə が脱落。" }
 }
 
 # ── 分詞標識 ──

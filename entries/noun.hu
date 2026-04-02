@@ -505,3 +505,125 @@ entry lej {
     note: "現代日本語「れい」(霊) → /reː/ → /rej/ → /lej/（ら行 → l、長母音 → 二重母音 → j コーダ）"
   }
 }
+
+# 種類（中立子音語幹・無生）
+# wakr（分ける）の受動分詞が語彙化。「分けられたもの」→「種類」
+entry wakrel {
+  headword: "wakrələ"
+  tags: [pos=noun, harmony=neutral, stem_final=cons, animacy=inanim]
+  stems { root: "wakrəl" }
+  inflection_class: noun_neutral_cons_inanim
+
+  meanings {
+    kind { "種類、類" }
+    category { "区分、分類" }
+  }
+
+  etymology {
+    note: "動詞 wakər（分ける）の受動分詞 wakr+rəl（分けられたもの）が語彙化。シュワー挿入前の語幹 wakr を化石的に保持。"
+  }
+}
+
+# 木（前舌母音語幹・無生）
+entry ki {
+  headword: "ki"
+  tags: [pos=noun, harmony=front, stem_final=front_vowel, animacy=inanim]
+  stems { root: "ki" }
+  inflection_class: noun_front_v_inanim
+
+  meanings {
+    tree { "樹木、幹と枝と葉を持つ大型の多年生植物" }
+    wood { "木材、材木" }
+  }
+
+  etymology {
+    note: "現代日本語「き」(木) → /ki/。短母音単音節のため変形を受けず保存。"
+  }
+}
+
+# 種（中立子音語幹・無生）
+entry tan {
+  headword: "tan"
+  tags: [pos=noun, harmony=neutral, stem_final=cons, animacy=inanim]
+  stems { root: "tan" }
+  inflection_class: noun_neutral_cons_inanim
+
+  meanings {
+    seed { "種子、植物の繁殖器官" }
+    kind { "種類、類（比喩的）" }
+  }
+
+  etymology {
+    note: "現代日本語「たね」(種) → /tane/ → /tan/"
+  }
+}
+
+# 草（後舌子音語幹・無生）
+entry kush {
+  headword: "kuʃ"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "kuʃ" }
+  inflection_class: noun_back_cons_inanim
+
+  meanings {
+    grass { "草、草本植物" }
+    herb { "薬草、食用の草" }
+  }
+
+  etymology {
+    note: "現代日本語「くさ」(草) → /kusa/ → /kuʃ/ (語末 a 脱落、s→ʃ 口蓋化)"
+  }
+}
+
+# 植物（前舌子音語幹・無生）
+# hae（生える）の能動分詞現在形 ha+er が語彙化した実体名詞
+entry haer {
+  headword: "haeri"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "haer" }
+  inflection_class: noun_front_cons_inanim
+
+  meanings {
+    vegetation { "植物、草木の総称" }
+    plant { "地に生える生物全般" }
+  }
+
+  etymology {
+    note: "動詞 hae（生える）の能動分詞現在形 ha+er（生えているもの）が実体名詞として語彙化。形容詞→名詞の転成。"
+  }
+}
+
+# 所（後舌子音語幹・無生）
+entry tokl {
+  headword: "tokl"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "tokl" }
+  inflection_class: noun_back_cons_inanim
+
+  meanings {
+    place { "場所、位置" }
+    spot { "地点、箇所" }
+  }
+
+  etymology {
+    note: "現代日本語「ところ」(所) → /tokoro/ → /tokol/ (r→l) → /tokl/ (母音脱落)"
+  }
+}
+
+# 陸（後舌子音語幹・無生）
+# 母音が全て脱落した重子音語幹
+entry rk {
+  headword: "r̃k"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "r̃k" }
+  inflection_class: noun_back_cons_inanim
+
+  meanings {
+    land { "陸地、海に対する乾いた地面" }
+    continent { "大陸、広大な土地" }
+  }
+
+  etymology {
+    note: "現代日本語「りく」(陸) → /riku/ → /r̃k/（母音脱落、音節主音化）"
+  }
+}

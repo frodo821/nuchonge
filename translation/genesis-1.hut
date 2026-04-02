@@ -4,8 +4,8 @@
 
 # > 1 まだ何もなかった時、神は天と地を造りました。
 # mar~r~ẽt → marrẽt (副詞mar + 条件法r + 鼻母音化ẽt)
-dor[case=nom, number=sg] mar~re[sandhi=pre_v]~ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=neg, animacy=inanim] taemd[case=loc, number=sg] ","
-sor[case=loc, number=sg] kam[case=nom, number=sg] ten[case=acc, number=sg]~to[sandhi=pre_v] tir[case=acc, number=sg] tsukr[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."　//
+der[case=nom, number=sg] mar~re[sandhi=pre_v]~ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=neg, animacy=inanim] taemd[case=loc, number=sg] ","
+ser[case=loc, number=sg] kam[case=nom, number=sg] ten[case=acc, number=sg]~to[sandhi=pre_v] tir[case=acc, number=sg] tsukr[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."　//
 
 # > 2 地は形も定まらず、闇に包まれた水の上を、さらに神の霊が覆っていました。
 # NIV/Vulgate構造: 地は形も充満もなかった。闇が深淵の上を覆っていた。神の霊が水の上を漂っていた。
@@ -22,10 +22,10 @@ chikal[case=nom, number=sg] kagajk[tense=past, aspect=incep, person=3, number=sg
 
 # > 4-5 それを見て、神は大いに満足し、光と闇とを区別しました。しばらくの間、光は輝き続け、やがて、もう一度闇に覆われました。神は光を「昼」、闇を「夜」と名づけました。こうして昼と夜ができて、一日目が終わりました。
 # それを見て、神は大いに満足した。
-kam[case=nom, number=sg] sor[case=acc, number=sg] mir[tense=past, aspect=result, person=3, number=sg, polarity=pos] ","
+kam[case=nom, number=sg] ser[case=acc, number=sg] mir[tense=past, aspect=result, person=3, number=sg, polarity=pos] ","
 dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "."
 # 光と闇を区別した。
-chikal[case=acc, number=sg]~to[sandhi=pre_v] jam[case=acc, number=sg] wakr[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
+chikal[case=acc, number=sg]~to[sandhi=pre_v] jam[case=acc, number=sg] waker[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
 # しばらく光が輝き続け、やがて再び闇に覆われた。
 chikal[case=nom, number=sg] shibl[sandhi=pre_c]~kagajk[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
 chis[case=gen, number=sg, animacy=inanim, degree=pos] taemd[case=gen, number=sg] noch[case=loc, number=sg] jam[case=dat, number=sg] sae~ral~oir[tense=past, aspect=incep, person=3, number=sg, polarity=pos] "."
@@ -37,18 +37,44 @@ chit_num cha[case=nom, number=sg] owat[tense=past, aspect=term, person=3, number
 # > 6 「もやは上下に分かれ、空と海になれ」と神が言われると、
 # > 7-8 そのとおり水蒸気が二つに分かれ、空ができました。こうして二日目も終わりました。
 # 義務法宣言 + 実現
-"«"~ maj[case=nom, number=sg] uae[case=all, number=sg]~to[sandhi=pre_v] shit[case=all, number=sg] bek~wakr[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+"«"~ maj[case=nom, number=sg] uae[case=all, number=sg]~to[sandhi=pre_v] shit[case=all, number=sg] bek~waker[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
 sor_noun[case=acc, number=sg]~to[sandhi=pre_v] um[case=acc, number=sg] bek~ar_verb[tense=pres, aspect=result, person=3, number=sg, polarity=pos, animacy=inanim] ~"»"
 to kam[case=nom, number=sg] re[sandhi=pre_v]~ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
-maj[case=nom, number=sg] fut wakr[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
+maj[case=nom, number=sg] fut waker[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
 sor_noun[case=nom, number=sg] nar[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
 fut cha[case=nom, number=sg] owat[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
 
 # > 9-10 「空の下の水は集まって海となり、乾いた地が現れ出よ。」こう神が言われると、そのとおりになりました。神は乾いた地を「陸地」、水の部分を「海」と名づけました。それを見て満足すると、
+# 構造: 義務法宣言 + 実現 + 命名 + 満足
+# 義務法宣言: 「空の下の水は集まるべし。そして乾いた地が現れるべし」
+"«"~ sor_noun[case=gen, number=sg] shit[case=gen, number=sg] miz[case=nom, number=sg] chit_num tokl[case=all, number=sg] bek~atmol[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+sosh kawak[$=base]~ar_ptcp[harmony=back, tense=past, case=nom, number=sg, animacy=inanim] tir[case=nom, number=sg] bek~elve[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ~"»"
+to kam[case=nom, number=sg] re[sandhi=pre_v]~ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
+# 実現: 水は集まり、乾いた地が現れた
+miz[case=nom, number=sg] atmol[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
+kawak[$=base]~ar_ptcp[harmony=back, tense=past, case=nom, number=sg, animacy=inanim] tir[case=nom, number=sg] elve[tense=past, aspect=incep, person=3, number=sg, polarity=pos] "."
+# 命名: 乾いた地を「陸地」、水を「海」と名づけた
+kam[case=nom, number=sg] kawak[$=base]~ar_ptcp[harmony=back, tense=past, case=acc, number=sg, animacy=inanim] tir[case=acc, number=sg] "«"~ rk ~"»" to miz[case=acc, number=sg] "«"~ um ~"»" to ier[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
+# 満足: それを見て満足した
+kam[case=nom, number=sg] ser[case=acc, number=sg] mir[tense=past, aspect=result, person=3, number=sg, polarity=pos] ","
+dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "." //
 
-# > 11-12 神はまた言われました。「陸地には、あらゆる種類の草、種のある植物、実のなる木が生えよ。それぞれの種から同じ種類の草や木が生えるようになれ。」すると、そのとおりになり、神は満足しました。
+# > 11-12 神はまた言われました。「陸地には、あらゆる種類の草、種のある植物、実のなる木が生えよ。」すると、そのとおりになり、神は満足しました。
+# NIV: "Let the land produce vegetation: seed-bearing plants and trees that bear fruit with seed in it, according to their various kinds."
+# 構造: 義務法宣言 + 実現 + 満足
+# 義務法宣言: 「陸地があらゆる種類の植物を生やすべし — 種を持つ草、そして種を伴い実を持つ木」
+"«"~ rk[case=nom, number=sg] alaj[case=gen, number=pl, animacy=inanim, degree=pos] wakrel[case=gen, number=pl] haer[case=dat, number=sg] bek~sa~hae[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+tan[case=dat, number=sg] mot[$=base]~ar_ptcp[harmony=back, tense=pres, case=nom, number=sg, animacy=inanim] kush[case=nom, number=sg] ","
+sosh tan[case=com, number=sg] mi[case=dat, number=sg] mot[$=base]~ar_ptcp[harmony=back, tense=pres, case=nom, number=sg, animacy=inanim] ki[case=nom, number=sg] ~"»"
+to kam[case=nom, number=sg] re[sandhi=pre_v]~ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
+# 実現: 陸地が植物を生やした
+rk[case=nom, number=sg] haer[case=dat, number=sg] sa~hae[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
+# 満足
+kam[case=nom, number=sg] ser[case=acc, number=sg] mir[tense=past, aspect=result, person=3, number=sg, polarity=pos] ","
+dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "." //
 
 # > 13 これが三日目です。
+mi_num cha[case=nom, number=sg] owat[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
 
 # > 14-15 神のことばはさらに続きます。「空に光が輝き、地を照らせ。その光で、昼と夜の区別、季節の変化、一日や一年の区切りをつけよ。」すると、そのとおりになりました。
 

@@ -117,38 +117,38 @@ entry kar {
 # ============================================================
 
 # 近称指示詞
-entry kor {
-  headword: "kor"
+entry ker {
+  headword: "ker"
   tags: [pos=pron, harmony=front]
-  stems { light: "kor", heavy: "kok" }
+  stems { light: "ker", heavy: "kek" }
   inflection_class: demonstrative
   meaning: "これ、この（近称指示詞）"
   etymology {
-    note: "現代日本語「これ」→ /kore/ → /kor/"
+    note: "現代日本語「これ」→ /kore/ → 前舌調和で o→e → /ker/"
   }
 }
 
 # 中称指示詞
-entry sor {
-  headword: "sor"
+entry ser {
+  headword: "ser"
   tags: [pos=pron, harmony=front]
-  stems { light: "sor", heavy: "sok" }
+  stems { light: "ser", heavy: "sek" }
   inflection_class: demonstrative
   meaning: "それ、その（中称指示詞）"
   etymology {
-    note: "現代日本語「それ」→ /sore/ → /sor/"
+    note: "現代日本語「それ」→ /sore/ → 前舌調和で o→e → /ser/"
   }
 }
 
 # 疑問・不定指示詞
-entry dor {
-  headword: "dor"
+entry der {
+  headword: "der"
   tags: [pos=pron, harmony=front]
-  stems { light: "dor", heavy: "dok" }
+  stems { light: "der", heavy: "dek" }
   inflection_class: demonstrative
   meaning: "どれ、どの（疑問・不定指示詞）"
   etymology {
-    note: "現代日本語「どれ」→ /dore/ → /dor/"
+    note: "現代日本語「どれ」→ /dore/ → 前舌調和で o→e → /der/"
   }
 }
 

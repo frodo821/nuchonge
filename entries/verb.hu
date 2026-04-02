@@ -226,10 +226,10 @@ entry nar {
 }
 
 # 区別する（後舌子音語幹）
-entry wakr {
-  headword: "wakr"
+entry waker {
+  headword: "wakər"
   tags: [pos=verb, harmony=back, stem_final=cons]
-  stems { base: "wakr" }
+  stems { base: "wakər" }
   inflection_class: verb_back_cons
 
   meanings {
@@ -238,7 +238,7 @@ entry wakr {
   }
 
   etymology {
-    note: "現代日本語「わける」(分ける) → /wakeru/ → /wakr/"
+    note: "現代日本語「わける」(分ける) → /wakeru/ → /wakr/ → /wakər/（kr間にシュワー挿入。mitəʃ と同パターン）"
   }
 }
 
@@ -337,5 +337,78 @@ entry oir {
 
   etymology {
     note: "現代日本語「おおう」(覆う) → /oou/ → /ɔir/（二重母音化 oo→ɔi、語末 r 付加）"
+  }
+}
+
+# 集まる（後舌子音語幹）
+# /atsumaru/ → ts→t, r→l, a→ɔ (後舌同化) → /atmɔl/
+entry atmol {
+  headword: "atmɔl"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "atmɔl" }
+  inflection_class: verb_back_cons
+
+  meanings {
+    gather { "散らばっていたものが一箇所に集合する" }
+    collect { "複数の人や物が同じ場所に集合する" }
+    accumulate { "資源や情報などが蓄積される" }
+  }
+
+  etymology {
+    note: "現代日本語「あつまる」(集まる) → /atsumaru/ → /atumalu/ (ts→t, r→l) → /atmal/ (母音脱落) → /atmɔl/ (後舌調和で a→ɔ 同化)"
+  }
+}
+
+# 持つ（後舌子音語幹）
+entry mot {
+  headword: "mot"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "mot" }
+  inflection_class: verb_back_cons
+
+  meanings {
+    have { "所有する、持っている" }
+    hold { "手に持つ、保持する" }
+    bear { "（特徴・性質を）備えている" }
+  }
+
+  etymology {
+    note: "現代日本語「もつ」(持つ) → /motsu/ → /mot/ (ts→t)"
+  }
+}
+
+# 現れる（前舌母音語幹）
+# /arawareru/ → r→l, w→v → /alavele/ → 前舌調和で全母音が前舌に同化 → /elve/
+entry elve {
+  headword: "elve"
+  tags: [pos=verb, harmony=front, stem_final=front_vowel]
+  stems { base: "elv" }
+  inflection_class: verb_front_v
+
+  meanings {
+    appear { "それまで見えなかったものが姿を見せる、出現する" }
+    emerge { "隠れていたものが目に見える形になる" }
+    manifest { "何かの結果として生じる、発生する" }
+  }
+
+  etymology {
+    note: "現代日本語「あらわれる」(現れる) → /arawareru/ → /alavaleru/ (r→l, w→v) → /aləve/ (縮約) → /alve/ (ə脱落) → /elve/ (前舌調和で a→e 完全同化)"
+  }
+}
+
+# 乾く（後舌子音語幹）
+entry kawak {
+  headword: "kawak"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "kawak" }
+  inflection_class: verb_back_cons
+
+  meanings {
+    dry { "水分がなくなる、乾燥する" }
+    parch { "乾ききる、からからになる" }
+  }
+
+  etymology {
+    note: "現代日本語「かわく」(乾く) → /kawaku/ → /kawak/"
   }
 }
