@@ -4,25 +4,25 @@
 
 # > 1 まだ何もなかった時、神は天と地を造りました。
 # mar~r~ẽt → marrẽt (副詞mar + 条件法r + 鼻母音化ẽt)
-der[case=nom, number=sg] mar~re[sandhi=pre_v]~ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=neg, animacy=inanim] taemd[case=loc, number=sg] ","
+"1" der[case=nom, number=sg] mar~re[sandhi=pre_v]~ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=neg, animacy=inanim] taemd[case=loc, number=sg] ","
 ser[case=loc, number=sg] kam[case=nom, number=sg] ten[case=acc, number=sg]~to[sandhi=pre_v] tir[case=acc, number=sg] tsukr[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."　//
 
 # > 2 地は形も定まらず、闇に包まれた水の上を、さらに神の霊が覆っていました。
 # NIV/Vulgate構造: 地は形も充満もなかった。闇が深淵の上を覆っていた。神の霊が水の上を漂っていた。
-tir[case=nom, number=sg] katch[case=acc, number=sg]~to[sandhi=pre_v] mitesh[$=base]~ral_ptcp[harmony=front, tense=past, case=acc, number=sg, animacy=inanim] ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=neg, animacy=inanim] "."
+"2" tir[case=nom, number=sg] katch[case=acc, number=sg]~to[sandhi=pre_v] mitesh[$=base]~ral_ptcp[harmony=front, tense=past, case=acc, number=sg, animacy=inanim] ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=neg, animacy=inanim] "."
 sosh jam[case=nom, number=sg] fuch[case=gen, number=sg] uae[case=acc, number=sg] oir[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
 sosh kam[case=gen, number=sg] lej[case=nom, number=sg] miz[case=gen, number=sg] uae[case=acc, number=sg] tadaj[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # > 3 「光よ、輝き出よ。」神が言われると、光がさっとさしてきました。
 # 構造: 「光は輝くべし」と神が言った時、光が輝いた。
 # fiat lux = 義務法(bək~)による存在宣言
-"«"~ chikal[case=nom, number=sg] bek~kagajk[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ~"»"
+"3" "«"~ chikal[case=nom, number=sg] bek~kagajk[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ~"»"
 to kam[case=nom, number=sg] re[sandhi=pre_v]~ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
 chikal[case=nom, number=sg] kagajk[tense=past, aspect=incep, person=3, number=sg, polarity=pos] "." //
 
 # > 4-5 それを見て、神は大いに満足し、光と闇とを区別しました。しばらくの間、光は輝き続け、やがて、もう一度闇に覆われました。神は光を「昼」、闇を「夜」と名づけました。こうして昼と夜ができて、一日目が終わりました。
 # それを見て、神は大いに満足した。
-kam[case=nom, number=sg] ser[case=acc, number=sg] mir[tense=past, aspect=result, person=3, number=sg, polarity=pos] ","
+"4-5" kam[case=nom, number=sg] ser[case=acc, number=sg] mir[tense=past, aspect=result, person=3, number=sg, polarity=pos] ","
 dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "."
 # 光と闇を区別した。
 chikal[case=acc, number=sg]~to[sandhi=pre_v] jam[case=acc, number=sg] waker[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
@@ -37,17 +37,17 @@ chit_num pen_ord[case=nom, number=sg] cha[case=nom, number=sg] owat[tense=past, 
 # > 6 「もやは上下に分かれ、空と海になれ」と神が言われると、
 # > 7-8 そのとおり水蒸気が二つに分かれ、空ができました。こうして二日目も終わりました。
 # 義務法宣言 + 実現
-"«"~ maj[case=nom, number=sg] uae[case=all, number=sg]~to[sandhi=pre_v] shit[case=all, number=sg] bek~waker[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+"6" "«"~ maj[case=nom, number=sg] uae[case=all, number=sg]~to[sandhi=pre_v] shit[case=all, number=sg] bek~waker[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
 sor_noun[case=acc, number=sg]~to[sandhi=pre_v] um[case=acc, number=sg] bek~ar_verb[tense=pres, aspect=result, person=3, number=sg, polarity=pos, animacy=inanim] ~"»"
-to kam[case=nom, number=sg] re[sandhi=pre_v]~ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
-maj[case=nom, number=sg] fut te_dummy[case=all, number=sg] waker[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
+to kam[case=nom, number=sg] re[sandhi=pre_v]~ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "," //
+"7-8" maj[case=nom, number=sg] fut te_dummy[case=all, number=sg] waker[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
 sor_noun[case=nom, number=sg] nar[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
 fut pen_ord[case=nom, number=sg] cha[case=nom, number=sg] owat[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
 
 # > 9-10 「空の下の水は集まって海となり、乾いた地が現れ出よ。」こう神が言われると、そのとおりになりました。神は乾いた地を「陸地」、水の部分を「海」と名づけました。それを見て満足すると、
 # 構造: 義務法宣言 + 実現 + 命名 + 満足
 # 義務法宣言: 「空の下の水は集まるべし。そして乾いた地が現れるべし」
-"«"~ sor_noun[case=gen, number=sg] shit[case=gen, number=sg] miz[case=nom, number=sg] chit_num tokl[case=all, number=sg] bek~atmol[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+"9-10" "«"~ sor_noun[case=gen, number=sg] shit[case=gen, number=sg] miz[case=nom, number=sg] chit_num tokl[case=all, number=sg] bek~atmol[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
 sosh kawak[$=base]~ar_ptcp[harmony=back, tense=past, case=nom, number=sg, animacy=inanim] tir[case=nom, number=sg] bek~elve[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ~"»"
 to kam[case=nom, number=sg] re[sandhi=pre_v]~ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
 # 実現: 水は集まり、乾いた地が現れた
@@ -63,7 +63,7 @@ dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "."
 # NIV: "Let the land produce vegetation: seed-bearing plants and trees that bear fruit with seed in it, according to their various kinds."
 # 構造: 義務法宣言 + 実現 + 満足
 # 義務法宣言: 「陸地があらゆる種類の植物を生やすべし — 種を持つ草、そして種を伴い実を持つ木」
-"«"~ rk[case=nom, number=sg] alaj[case=gen, number=pl, animacy=inanim, degree=pos] wakrel[case=gen, number=pl] haer[case=acc, number=pl] bek~sa~hae[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+"11-12" "«"~ rk[case=nom, number=sg] alaj[case=gen, number=pl, animacy=inanim, degree=pos] wakrel[case=gen, number=pl] haer[case=acc, number=pl] bek~sa~hae[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
 tan[case=acc, number=sg] mot[$=base]~ar_ptcp[harmony=back, tense=pres, case=acc, number=pl, animacy=inanim] kush[case=acc, number=pl] ","
 sosh tan[case=com, number=sg] mi[case=acc, number=sg] mot[$=base]~ar_ptcp[harmony=back, tense=pres, case=acc, number=pl, animacy=inanim] ki[case=acc, number=pl] ~"»"
 to kam[case=nom, number=sg] re[sandhi=pre_v]~ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
@@ -80,7 +80,7 @@ mi_num pen_ord[case=nom, number=sg] cha[case=nom, number=sg] owat[tense=past, as
 # 構造: 義務法宣言（存在 + 分離目的 + 存在目的 + 照射目的）+ 実現
 # TODO: tempora (moadim, 定められた時節) を taemd で仮置き。季節・祭期を表す専用語彙を要検討。
 # 「空に光あるべし、昼と夜を分けるために。しるしと時と日と年のためにあるべし。そして地を照らすために。」
-"«"~ sor_noun[case=loc, number=sg] chikal[case=nom, number=pl] bek~ar_verb[tense=pres, aspect=result, person=3, number=pl, polarity=pos, animacy=inanim] ","
+"14-15" "«"~ sor_noun[case=loc, number=sg] chikal[case=nom, number=pl] bek~ar_verb[tense=pres, aspect=result, person=3, number=pl, polarity=pos, animacy=inanim] ","
 chiru[case=acc, number=sg]~to[sandhi=pre_v] jor[case=acc, number=sg] waker[tense=pres, aspect=impf, person=3, number=sg, polarity=pos]~sup[harmony=back] "."
 shilesrel[case=dat, number=pl]~to[sandhi=pre_c] taemd[case=dat, number=pl]~to[sandhi=pre_c] cha[case=dat, number=pl]~to[sandhi=pre_c] tosh[case=dat, number=pl] bek~ar_verb[tense=pres, aspect=result, person=3, number=pl, polarity=pos, animacy=inanim] "."
 sosh tir[case=acc, number=sg] teraes[tense=pres, aspect=impf, person=3, number=sg, polarity=pos]~sup[harmony=front] ~"»"
@@ -91,12 +91,12 @@ sor_noun[case=loc, number=sg] chikal[case=nom, number=pl] ar_verb[tense=past, as
 # > 16-18 Fecitque Deus duo luminaria magna: luminare maius, ut praeesset diei: et luminare minus, ut praeesset nocti: et stellas. Et posuit eas in firmamento caeli, ut lucerent super terram, et praeessent diei ac nocti, et dividerent lucem ac tenebras. Et vidit Deus quod esset bonum.
 # 構造: 創造 + 統治 + 星 + 照射・分離 + 満足
 # 神は空に二つの大きい光を造った。大きい光が昼を治め、小さい光が夜を治めた。星々も造った。光は地を照らし、光と闇を分けた。
-kam[case=nom, number=sg] sor_noun[case=loc, number=sg] fut ok[case=acc, number=sg, animacy=inanim, degree=pos] chikal[case=acc, number=sg] tsukr[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
+"16" kam[case=nom, number=sg] sor_noun[case=loc, number=sg] fut ok[case=acc, number=sg, animacy=inanim, degree=pos] chikal[case=acc, number=sg] tsukr[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
 ok[case=nom, number=sg, animacy=inanim, degree=pos] chikal[case=nom, number=sg] chiru[case=acc, number=sg] osmal[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
 chis[case=nom, number=sg, animacy=inanim, degree=pos] chikal[case=nom, number=sg] jor[case=acc, number=sg] osmal[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
-sosh hoshi[case=acc, number=pl] tsukr[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
-chikal[case=nom, number=pl] tir[case=acc, number=sg] teraes[tense=past, aspect=impf, person=3, number=pl, polarity=pos] ","
-chikal[case=acc, number=sg]~to[sandhi=pre_v] jam[case=acc, number=sg] waker[tense=past, aspect=term, person=3, number=pl, polarity=pos] "."
+sosh hoshi[case=acc, number=pl] tsukr[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
+"17" chikal[case=nom, number=pl] tir[case=acc, number=sg] teraes[tense=past, aspect=impf, person=3, number=pl, polarity=pos] ","
+"18" chikal[case=acc, number=sg]~to[sandhi=pre_v] jam[case=acc, number=sg] waker[tense=past, aspect=term, person=3, number=pl, polarity=pos] "."
 kam[case=nom, number=sg] ser[case=acc, number=sg] mir[tense=past, aspect=result, person=3, number=sg, polarity=pos] ","
 dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "." //
 
@@ -106,29 +106,29 @@ jo pen_ord[case=nom, number=sg] cha[case=nom, number=sg] owat[tense=past, aspect
 # > 20-23 Dixit etiam Deus: Producant aquae reptile animae viventis, et volatile super terram. Creavitque Deus cete grandia, et omnem animam viventem... Benedixitque eis, dicens: Crescite et multiplicamini...
 # 構造: 義務法宣言 + 実現(創造+満足) + 祝福(命令法+義務法) + 五日目
 # v20: 「海は生き物で満たされるべし。鳥は地の上、空を飛ぶべし」
-"«"~ um[case=nom, number=sg] ikiler[case=com, number=pl] bek~ral~mitesh[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+"20" "«"~ um[case=nom, number=sg] ikiler[case=com, number=pl] bek~ral~mitesh[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
 sosh tol[case=nom, number=pl] tir[case=gen, number=sg] uae[case=loc, number=sg] sor_noun[case=loc, number=sg] bek~tob[tense=pres, aspect=impf, person=3, number=pl, polarity=pos] ~"»"
-to kam[case=nom, number=sg] re[sandhi=pre_v]~ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
+to kam[case=nom, number=sg] re[sandhi=pre_v]~ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "," //
 # v21: 神は海の大きい生き物と、あらゆる種類の魚と鳥を造った
-kam[case=nom, number=sg] um[case=gen, number=sg] ok[case=acc, number=pl, animacy=anim, degree=pos] ikiler[case=acc, number=pl] ","
+"21" kam[case=nom, number=sg] um[case=gen, number=sg] ok[case=acc, number=pl, animacy=anim, degree=pos] ikiler[case=acc, number=pl] ","
 sosh alaj[case=gen, number=pl, animacy=anim, degree=pos] wakrel[case=gen, number=pl] sakn[case=acc, number=pl]~to[sandhi=pre_v] tol[case=acc, number=pl] tsukr[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
 # 満足
 kam[case=nom, number=sg] ser[case=acc, number=sg] mir[tense=past, aspect=result, person=3, number=sg, polarity=pos] ","
-dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "."
+dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "." //
 # v22: 祝福 — 命令法(2pl直接) + 義務法(3pl鳥)
-kam[case=nom, number=sg] ivae[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
+"22" kam[case=nom, number=sg] ivae[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
 "«"~ ja~fue[tense=pres, aspect=impf, person=2, number=pl, polarity=pos] ","
 um[case=acc, number=pl] ja~mitesh[tense=pres, aspect=impf, person=2, number=pl, polarity=pos] "."
 tol[case=nom, number=pl] tir[case=loc, number=sg] bek~fue[tense=pres, aspect=impf, person=3, number=pl, polarity=pos] ~"»"
 to ier[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
 
 # > 23 これが五日目です。
-its pen_ord[case=nom, number=sg] cha[case=nom, number=sg] owat[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
+"23" its pen_ord[case=nom, number=sg] cha[case=nom, number=sg] owat[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
 
 # > 24-25 Dixit quoque Deus: Producat terra animam viventem in genere suo, iumenta, et reptilia, et bestias terrae... Et vidit Deus quod esset bonum.
 # 構造: 義務法宣言(陸地が生き物を生やすべし) + 実現 + 満足
 # 「陸地はあらゆる種類の生き物を生やすべし — 家畜、地を這うもの、獣を」
-"«"~ rk[case=nom, number=sg] alaj[case=gen, number=pl, animacy=anim, degree=pos] wakrel[case=gen, number=pl] ikiler[case=acc, number=pl] bek~sa~hae[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+"24-25" "«"~ rk[case=nom, number=sg] alaj[case=gen, number=pl, animacy=anim, degree=pos] wakrel[case=gen, number=pl] ikiler[case=acc, number=pl] bek~sa~hae[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
 aekiler[case=acc, number=pl] "," tir[case=loc, number=sg] tukbe[$=base]~ar_ptcp[harmony=back, tense=pres, case=acc, number=pl, animacy=anim] ","
 sosh kemon[case=acc, number=pl] ~"»"
 to kam[case=nom, number=sg] re[sandhi=pre_v]~ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
@@ -139,7 +139,7 @@ dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "."
 # > 26-27 Faciamus hominem ad imaginem et similitudinem nostram... Et creavit Deus hominem ad imaginem suam; masculum et feminam creavit eos.
 # 構造: 神の宣言(1pl義務法) + 創造
 # 「われわれの形に人を造るべし、あらゆる生き物を治めるために」
-"«"~ vech[case=gen, number=pl] katch[case=loc, number=sg] chit[case=acc, number=pl] bek~tsukr[tense=pres, aspect=impf, person=1, number=pl, polarity=pos] ","
+"26-27" "«"~ vech[case=gen, number=pl] katch[case=loc, number=sg] chit[case=acc, number=pl] bek~tsukr[tense=pres, aspect=impf, person=1, number=pl, polarity=pos] ","
 sakn[case=acc, number=pl]~to[sandhi=pre_v] tol[case=acc, number=pl]~to[sandhi=pre_v] aekiler[case=acc, number=pl]~to[sandhi=pre_v] kemon[case=acc, number=pl]~to[sandhi=pre_v] alaj[case=acc, number=pl, animacy=anim, degree=pos] tir[case=gen, number=sg] ikiler[case=acc, number=pl] osmal[tense=pres, aspect=impf, person=3, number=sg, polarity=pos]~sup[harmony=back] ~"»"
 to kam[case=nom, number=sg] ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
 # 神は神の形に人を造った。男と女に造った。
@@ -148,7 +148,7 @@ ot[case=acc, number=sg]~to[sandhi=pre_v] me_f[case=acc, number=sg] tsukr[tense=p
 
 # > 28-30 Crescite et multiplicamini, et replete terram, et subiicite eam... Ecce dedi vobis omnem herbam... et omne lignum...
 # 構造: 祝福 + 命令法(増えよ・満たせ・治めよ) + 食物の授与
-kam[case=nom, number=sg] ivae[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
+"28-30" kam[case=nom, number=sg] ivae[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
 "«"~ ja~fue[tense=pres, aspect=impf, person=2, number=pl, polarity=pos] ","
 tir[case=acc, number=sg] ja~mitesh[tense=pres, aspect=impf, person=2, number=pl, polarity=pos] "."
 alaj[case=acc, number=pl, animacy=anim, degree=pos] ikiler[case=acc, number=pl] ja~osmal[tense=pres, aspect=impf, person=2, number=pl, polarity=pos] "."
@@ -160,6 +160,6 @@ to ier[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
 
 # > 31 Viditque Deus cuncta quae fecerat: et erant valde bona. Et factum est vespere et mane, dies sextus.
 # 構造: 神がすべてを見た + 大いに満足 + 六日目
-kam[case=nom, number=sg] alaj[case=acc, number=pl, animacy=anim, degree=pos] tsukr[$=base]~ral_ptcp[harmony=back, tense=past, case=acc, number=pl, animacy=anim] mir[tense=past, aspect=result, person=3, number=sg, polarity=pos] ","
+"31" kam[case=nom, number=sg] alaj[case=acc, number=pl, animacy=anim, degree=pos] tsukr[$=base]~ral_ptcp[harmony=back, tense=past, case=acc, number=pl, animacy=anim] mir[tense=past, aspect=result, person=3, number=sg, polarity=pos] ","
 dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "." 
 mu pen_ord[case=nom, number=sg] cha[case=nom, number=sg] owat[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
