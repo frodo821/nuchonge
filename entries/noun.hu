@@ -329,13 +329,13 @@ entry noch {
 
 # 昼（前舌子音語幹・無生）
 entry chiru {
-  headword: "çiru"
+  headword: "çiri"
   tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
-  stems { root: "çiru" }
+  stems { root: "çir" }
   inflection_class: noun_front_cons_inanim
   meaning: "昼、日中"
   etymology {
-    note: "現代日本語「ひる」(昼) → /hiru/ → /çiru/"
+    note: "現代日本語「ひる」(昼) → /hiru/ → /çiru/ → /çir/（語末母音脱落）"
   }
 }
 
@@ -353,10 +353,10 @@ entry jor {
 
 # 日（前舌子音語幹・無生）
 entry cha {
-  headword: "ça"
-  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  headword: "çajə"
+  tags: [pos=noun, harmony=neutral, stem_final=a, animacy=inanim]
   stems { root: "ça" }
-  inflection_class: noun_front_cons_inanim
+  inflection_class: noun_neutral_v_inanim
 
   meanings {
     day { "日、一日（24時間）" }

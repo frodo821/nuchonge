@@ -238,6 +238,53 @@ inflection noun_back_av_inanim for {case, number} {
   [case=all, number=pl] -> `{root}ruh`
 }
 
+# ── 中立母音語幹 a/ə・有生（j 滑音）──
+# 前舌 i/e/æ 語幹 → j 滑音、後舌 a 語幹 → j 滑音の中間。
+# 格母音は中立子音語幹と平行（ə/a）。複数有生: 主対は単数と同形、ə 挿入。
+inflection noun_neutral_v_anim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}jə`
+  [case=acc, number=sg] -> `{root}ja`
+  [case=gen, number=sg] -> `{root}nə`
+  [case=dat, number=sg] -> `{root}ñ`
+  [case=loc, number=sg] -> `{root}də`
+  [case=com, number=sg] -> `{root}tə`
+  [case=abl, number=sg] -> `{root}kr̃`
+  [case=all, number=sg] -> `{root}hə`
+  # 複数 — 有生: 主格・対格は単数と同形
+  [case=nom, number=pl] -> `{root}jə`
+  [case=acc, number=pl] -> `{root}ja`
+  [case=gen, number=pl] -> `{root}ənə`
+  [case=dat, number=pl] -> `{root}əñ`
+  [case=loc, number=pl] -> `{root}ədə`
+  [case=com, number=pl] -> `{root}ətə`
+  [case=abl, number=pl] -> `{root}əkr̃`
+  [case=all, number=pl] -> `{root}əhə`
+}
+
+# ── 中立母音語幹 a/ə・無生 ──
+# 複数無生: r- 標識（前舌 r- / 後舌 r- と同形）
+inflection noun_neutral_v_inanim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}jə`
+  [case=acc, number=sg] -> `{root}ja`
+  [case=gen, number=sg] -> `{root}mə`
+  [case=dat, number=sg] -> `{root}ñ`
+  [case=loc, number=sg] -> `{root}də`
+  [case=com, number=sg] -> `{root}tə`
+  [case=abl, number=sg] -> `{root}kr̃`
+  [case=all, number=sg] -> `{root}hə`
+  # 複数 — 無生 r-
+  [case=nom, number=pl] -> `{root}rə`
+  [case=acc, number=pl] -> `{root}ra`
+  [case=gen, number=pl] -> `{root}rmə`
+  [case=dat, number=pl] -> `{root}rəñ`
+  [case=loc, number=pl] -> `{root}rdə`
+  [case=com, number=pl] -> `{root}rtə`
+  [case=abl, number=pl] -> `{root}rəkr̃`
+  [case=all, number=pl] -> `{root}rhə`
+}
+
 # ── 中立子音語幹・有生 ──
 # 中立母音 ə/a を使用。格語尾は前舌/後舌と平行。
 # 複数標識: 有生 ər-（前舌 ir- / 後舌 ar- の中間）
