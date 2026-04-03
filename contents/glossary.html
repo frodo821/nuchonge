@@ -94,6 +94,51 @@ h1 {
   margin: 0 0 0.8rem;
   font-style: italic;
 }
+.entry-card .meanings {
+  margin: 0 0 0.8rem;
+  padding: 0;
+  list-style: none;
+}
+.entry-card .meanings li {
+  color: #555;
+  font-style: italic;
+  margin: 0.15rem 0;
+}
+.entry-card .meanings li .meaning-id {
+  font-style: normal;
+  font-weight: 600;
+  color: #777;
+  font-size: 0.85rem;
+}
+.entry-card .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin: 0.3rem 0 0.6rem;
+}
+.entry-card .tag {
+  display: inline-block;
+  background: #eef1f5;
+  color: #556;
+  font-size: 0.78rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 3px;
+}
+.entry-card .etymology {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.4rem 0 0.8rem;
+}
+.entry-card .etymology .proto {
+  font-family: "Georgia", serif;
+  font-style: italic;
+}
+.entry-card .etymology .etym-note {
+  margin-left: 0.3rem;
+}
+.entry-card .etymology .etym-links {
+  margin-top: 0.2rem;
+}
 .entry-card table {
   border-collapse: collapse;
   font-size: 0.9rem;
@@ -147,6 +192,7 @@ h1 {
 <div class="content">
 <div class="entry-card" id="entry-aekiler">
 <h2>ækileri</h2>
+<div class="tags"><span class="tag">有生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
 <p class="meaning">家畜、飼育される動物</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -163,7 +209,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-alaj">
 <h2>alaj</h2>
-<p class="meaning">すべての、あらゆる</p>
+<div class="tags"><span class="tag">中立調和</span><span class="tag">形容詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">every</span> すべての、あらゆる</li>
+<li><span class="meaning-id">various</span> 多種多様な、さまざまな</li>
+</ul>
 <h3>Degree: 比較級</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -209,6 +259,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-ant">
 <h2>ant</h2>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">代名詞</span></div>
 <p class="meaning">あなた、あなたたち（二人称代名詞）</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -224,6 +275,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-ar_ptcp">
 <h2>ar</h2>
+<div class="tags"><span class="tag">不変化詞</span></div>
 <p class="meaning">能動分詞標識（〜している、〜した、〜する）</p>
 <h3>Animacy: 有生 / Harmony: 後舌調和</h3>
 <table>
@@ -402,7 +454,14 @@ h1 {
 </div>
 <div class="entry-card" id="entry-ar_verb">
 <h2>ar</h2>
-<p class="meaning">存在する、ある（物や事の存在を表す）</p>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">動詞</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">exist</span> 存在する、ある（物や事の存在を表す）</li>
+<li><span class="meaning-id">animate_exist</span> いる（有生物の存在を表す）</li>
+<li><span class="meaning-id">copula</span> 〜である（同定・属性付与のコピュラ）</li>
+<li><span class="meaning-id">locate</span> 位置する、所在する</li>
+<li><span class="meaning-id">occur</span> 発生する、起こる（事象や状態について）</li>
+</ul>
 <h3>Animacy: 有生 / Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -574,6 +633,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-ataw">
 <h2>ataw</h2>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
 <p class="meaning">与える、供給する、授ける</p>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
@@ -746,7 +806,12 @@ h1 {
 </div>
 <div class="entry-card" id="entry-atmol">
 <h2>atmɔl</h2>
-<p class="meaning">散らばっていたものが一箇所に集合する</p>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">gather</span> 散らばっていたものが一箇所に集合する</li>
+<li><span class="meaning-id">collect</span> 複数の人や物が同じ場所に集合する</li>
+<li><span class="meaning-id">accumulate</span> 資源や情報などが蓄積される</li>
+</ul>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -918,11 +983,17 @@ h1 {
 </div>
 <div class="entry-card" id="entry-bek">
 <h2>bək</h2>
+<div class="tags"><span class="tag">不変化詞</span></div>
 <p class="meaning">〜しなければならない（義務法）</p>
 </div>
 <div class="entry-card" id="entry-cha">
 <h2>ça</h2>
-<p class="meaning">日、一日（24時間）</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">day</span> 日、一日（24時間）</li>
+<li><span class="meaning-id">sun</span> 太陽</li>
+<li><span class="meaning-id">sunlight</span> 日光、日差し</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -938,7 +1009,12 @@ h1 {
 </div>
 <div class="entry-card" id="entry-chikal">
 <h2>çikal</h2>
-<p class="meaning">光、光明</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">light</span> 光、光明</li>
+<li><span class="meaning-id">radiance</span> 輝き、明るさ</li>
+<li><span class="meaning-id">enlightenment</span> 知識、啓示、理解（比喩的）</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -954,6 +1030,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-chiru">
 <h2>çiru</h2>
+<div class="tags"><span class="tag">無生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
 <p class="meaning">昼、日中</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -970,7 +1047,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-chis">
 <h2>çis</h2>
-<p class="meaning">小さい、サイズが小さい</p>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">形容詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">small</span> 小さい、サイズが小さい</li>
+<li><span class="meaning-id">few</span> 少ない、数量が少ない</li>
+</ul>
 <h3>Degree: 比較級</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -1016,7 +1097,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-chit">
 <h2>çit</h2>
-<p class="meaning">人間、人類の個体</p>
+<div class="tags"><span class="tag">有生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">human</span> 人間、人類の個体</li>
+<li><span class="meaning-id">other</span> 他者、自分以外の人物</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -1032,14 +1117,17 @@ h1 {
 </div>
 <div class="entry-card" id="entry-chit_num">
 <h2>çit</h2>
+<div class="tags"><span class="tag">数詞</span></div>
 <p class="meaning">一（1）</p>
 </div>
 <div class="entry-card" id="entry-dak">
 <h2>dak</h2>
+<div class="tags"><span class="tag">接続詞</span></div>
 <p class="meaning">だから、ゆえに（理由・因果の接続詞）</p>
 </div>
 <div class="entry-card" id="entry-der">
 <h2>der</h2>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">代名詞</span></div>
 <p class="meaning">どれ、どの（疑問・不定指示詞）</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -1056,7 +1144,12 @@ h1 {
 </div>
 <div class="entry-card" id="entry-elve">
 <h2>elve</h2>
-<p class="meaning">それまで見えなかったものが姿を見せる、出現する</p>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">動詞</span><span class="tag">前舌母音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">appear</span> それまで見えなかったものが姿を見せる、出現する</li>
+<li><span class="meaning-id">emerge</span> 隠れていたものが目に見える形になる</li>
+<li><span class="meaning-id">manifest</span> 何かの結果として生じる、発生する</li>
+</ul>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -1228,6 +1321,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-fuch">
 <h2>fuç</h2>
+<div class="tags"><span class="tag">無生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
 <p class="meaning">深淵、底知れぬ深い場所</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -1244,7 +1338,12 @@ h1 {
 </div>
 <div class="entry-card" id="entry-fue">
 <h2>fue</h2>
-<p class="meaning">数量が多くなる、増加する</p>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">動詞</span><span class="tag">前舌母音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">increase</span> 数量が多くなる、増加する</li>
+<li><span class="meaning-id">multiply</span> 繁殖する、繁栄する</li>
+<li><span class="meaning-id">expand</span> 範囲や規模が大きくなる</li>
+</ul>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -1416,11 +1515,17 @@ h1 {
 </div>
 <div class="entry-card" id="entry-fut">
 <h2>fut</h2>
+<div class="tags"><span class="tag">数詞</span></div>
 <p class="meaning">二（2）</p>
 </div>
 <div class="entry-card" id="entry-hae">
 <h2>hae</h2>
-<p class="meaning">植物が地面から出て成長する</p>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">動詞</span><span class="tag">前舌母音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">sprout</span> 植物が地面から出て成長する</li>
+<li><span class="meaning-id">grow</span> 髪や毛、爪などが体から自然に出てくる</li>
+<li><span class="meaning-id">emerge</span> 何かが自然に出現する、発生する</li>
+</ul>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -1592,7 +1697,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-haer">
 <h2>haeri</h2>
-<p class="meaning">植物、草木の総称</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">vegetation</span> 植物、草木の総称</li>
+<li><span class="meaning-id">plant</span> 地に生える生物全般</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -1608,7 +1717,10 @@ h1 {
 </div>
 <div class="entry-card" id="entry-hoshi">
 <h2>hoʃi</h2>
-<p class="meaning">星、恒星、夜空に輝く天体</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">star</span> 星、恒星、夜空に輝く天体</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -1624,7 +1736,12 @@ h1 {
 </div>
 <div class="entry-card" id="entry-ier">
 <h2>ier</h2>
-<p class="meaning">言う、述べる</p>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">say</span> 言う、述べる</li>
+<li><span class="meaning-id">command</span> 命じる、宣言する</li>
+<li><span class="meaning-id">name</span> 名づける、呼ぶ</li>
+</ul>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -1796,7 +1913,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-ikiler">
 <h2>ikileri</h2>
-<p class="meaning">生き物、生命ある存在</p>
+<div class="tags"><span class="tag">有生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">creature</span> 生き物、生命ある存在</li>
+<li><span class="meaning-id">living_being</span> 生物、動物全般</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -1812,11 +1933,16 @@ h1 {
 </div>
 <div class="entry-card" id="entry-its">
 <h2>its</h2>
+<div class="tags"><span class="tag">数詞</span></div>
 <p class="meaning">五（5）</p>
 </div>
 <div class="entry-card" id="entry-ivae">
 <h2>ivæ</h2>
-<p class="meaning">幸福や成功を願って言葉をかける</p>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">動詞</span><span class="tag">前舌母音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">bless</span> 幸福や成功を願って言葉をかける</li>
+<li><span class="meaning-id">consecrate</span> 神聖さを授ける</li>
+</ul>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -1988,11 +2114,17 @@ h1 {
 </div>
 <div class="entry-card" id="entry-ja">
 <h2>ja</h2>
+<div class="tags"><span class="tag">不変化詞</span></div>
 <p class="meaning">〜しろ（命令法）</p>
 </div>
 <div class="entry-card" id="entry-jam">
 <h2>jami</h2>
-<p class="meaning">闇、暗闇、光の欠如</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">darkness</span> 闇、暗闇、光の欠如</li>
+<li><span class="meaning-id">night</span> 夜、夜間</li>
+<li><span class="meaning-id">ignorance</span> 無知、混乱（比喩的）</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -2008,10 +2140,12 @@ h1 {
 </div>
 <div class="entry-card" id="entry-jo">
 <h2>jo</h2>
+<div class="tags"><span class="tag">数詞</span></div>
 <p class="meaning">四（4）</p>
 </div>
 <div class="entry-card" id="entry-jor">
 <h2>jor</h2>
+<div class="tags"><span class="tag">無生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
 <p class="meaning">夜、夜間</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -2028,7 +2162,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-kagajk">
 <h2>kagajk</h2>
-<p class="meaning">輝く、光る</p>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">shine</span> 輝く、光る</li>
+<li><span class="meaning-id">glow</span> 煌めく、きらめく</li>
+</ul>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -2200,7 +2338,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-kam">
 <h2>kam</h2>
-<p class="meaning">神、神性を持つ存在</p>
+<div class="tags"><span class="tag">有生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">god</span> 神、神性を持つ存在</li>
+<li><span class="meaning-id">creator</span> 創造主、万物の支配者</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -2216,7 +2358,12 @@ h1 {
 </div>
 <div class="entry-card" id="entry-katch">
 <h2>katç</h2>
-<p class="meaning">形、形状、外見</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">shape</span> 形、形状、外見</li>
+<li><span class="meaning-id">form</span> 様式、形式</li>
+<li><span class="meaning-id">state</span> 状態、様子</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -2232,7 +2379,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-kawak">
 <h2>kawak</h2>
-<p class="meaning">水分がなくなる、乾燥する</p>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">dry</span> 水分がなくなる、乾燥する</li>
+<li><span class="meaning-id">parch</span> 乾ききる、からからになる</li>
+</ul>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -2404,6 +2555,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-kemon">
 <h2>kəmon</h2>
+<div class="tags"><span class="tag">有生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
 <p class="meaning">獣、野生の動物</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -2420,7 +2572,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-ki">
 <h2>ki</h2>
-<p class="meaning">樹木、幹と枝と葉を持つ大型の多年生植物</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">前舌母音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">tree</span> 樹木、幹と枝と葉を持つ大型の多年生植物</li>
+<li><span class="meaning-id">wood</span> 木材、材木</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -2436,7 +2592,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-kush">
 <h2>kuʃ</h2>
-<p class="meaning">草、草本植物</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">grass</span> 草、草本植物</li>
+<li><span class="meaning-id">herb</span> 薬草、食用の草</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -2452,7 +2612,12 @@ h1 {
 </div>
 <div class="entry-card" id="entry-lej">
 <h2>lej</h2>
-<p class="meaning">霊、精神的存在</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">spirit</span> 霊、精神的存在</li>
+<li><span class="meaning-id">soul</span> 魂、精神</li>
+<li><span class="meaning-id">divine_force</span> 神聖な力、超自然的存在</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -2468,7 +2633,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-maj">
 <h2>maja</h2>
-<p class="meaning">もや、霧、水蒸気の集まり</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">mist</span> もや、霧、水蒸気の集まり</li>
+<li><span class="meaning-id">chaos</span> 原初の混沌状態（創造物語）</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -2484,10 +2653,12 @@ h1 {
 </div>
 <div class="entry-card" id="entry-mar">
 <h2>mar</h2>
+<div class="tags"><span class="tag">副詞</span></div>
 <p class="meaning">まだ〜（継続・未完了）</p>
 </div>
 <div class="entry-card" id="entry-me_f">
 <h2>me</h2>
+<div class="tags"><span class="tag">有生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">前舌母音</span></div>
 <p class="meaning">女、女性</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -2504,6 +2675,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-mi">
 <h2>mi</h2>
+<div class="tags"><span class="tag">無生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">前舌母音</span></div>
 <p class="meaning">実、果実、種子</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -2520,11 +2692,17 @@ h1 {
 </div>
 <div class="entry-card" id="entry-mi_num">
 <h2>mi</h2>
+<div class="tags"><span class="tag">数詞</span></div>
 <p class="meaning">三（3）</p>
 </div>
 <div class="entry-card" id="entry-mir">
 <h2>mir</h2>
-<p class="meaning">視覚で捉える、目で認識する</p>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">see</span> 視覚で捉える、目で認識する</li>
+<li><span class="meaning-id">observe</span> 観察する、注視する</li>
+<li><span class="meaning-id">understand</span> 理解する、認識する（比喩的用法）</li>
+</ul>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -2696,7 +2874,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-mitesh">
 <h2>mitəʃ</h2>
-<p class="meaning">満ちる、いっぱいになる</p>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">fill</span> 満ちる、いっぱいになる</li>
+<li><span class="meaning-id">abound</span> あふれる、豊富になる</li>
+</ul>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -2868,7 +3050,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-miz">
 <h2>m̃z</h2>
-<p class="meaning">水、H2O</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">water</span> 水、H2O</li>
+<li><span class="meaning-id">liquid</span> 液体、液状のもの</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -2884,7 +3070,12 @@ h1 {
 </div>
 <div class="entry-card" id="entry-mot">
 <h2>mot</h2>
-<p class="meaning">所有する、持っている</p>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">have</span> 所有する、持っている</li>
+<li><span class="meaning-id">hold</span> 手に持つ、保持する</li>
+<li><span class="meaning-id">bear</span> （特徴・性質を）備えている</li>
+</ul>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -3056,11 +3247,16 @@ h1 {
 </div>
 <div class="entry-card" id="entry-mu">
 <h2>mu</h2>
+<div class="tags"><span class="tag">数詞</span></div>
 <p class="meaning">六（6）</p>
 </div>
 <div class="entry-card" id="entry-nar">
 <h2>nar</h2>
-<p class="meaning">なる、変化する</p>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">become</span> なる、変化する</li>
+<li><span class="meaning-id">arise</span> 生じる、発生する</li>
+</ul>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -3232,6 +3428,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-noch">
 <h2>noç</h2>
+<div class="tags"><span class="tag">無生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
 <p class="meaning">後、後方、以後</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -3248,7 +3445,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-oir">
 <h2>ɔir</h2>
-<p class="meaning">覆う、包む</p>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">cover</span> 覆う、包む</li>
+<li><span class="meaning-id">protect</span> 庇護する、保護する</li>
+</ul>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -3420,7 +3621,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-ok">
 <h2>ɔk</h2>
-<p class="meaning">大きい、サイズが大きい</p>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">形容詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">big</span> 大きい、サイズが大きい</li>
+<li><span class="meaning-id">great</span> 重要な、偉大な</li>
+</ul>
 <h3>Degree: 比較級</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -3466,7 +3671,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-osmal">
 <h2>ɔsmal</h2>
-<p class="meaning">治める、統治する</p>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">govern</span> 治める、統治する</li>
+<li><span class="meaning-id">rule</span> 支配する、管理する</li>
+</ul>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -3638,6 +3847,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-ot">
 <h2>ot</h2>
+<div class="tags"><span class="tag">有生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
 <p class="meaning">男、男性</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -3654,6 +3864,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-owat">
 <h2>owat</h2>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
 <p class="meaning">終わる、完了する</p>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
@@ -3824,12 +4035,31 @@ h1 {
 <tr><th>3人称 現在</th><td>owatɔvur</td><td>owatɔvu</td></tr>
 </tbody></table>
 </div>
+<div class="entry-card" id="entry-pen_ord">
+<h2>pən</h2>
+<div class="tags"><span class="tag">無生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<p class="meaning">番、順序（序数を形成する助数詞名詞）</p>
+<table>
+<thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
+<tbody>
+<tr><th>出格</th><td>pənerikr̃</td><td>pənikr̃</td></tr>
+<tr><th>対格</th><td>pənere</td><td>pəne</td></tr>
+<tr><th>向格</th><td>pənerhe</td><td>pənhe</td></tr>
+<tr><th>共格</th><td>pənerte</td><td>pənte</td></tr>
+<tr><th>与格</th><td>pəneriñ</td><td>pəniñ</td></tr>
+<tr><th>属格</th><td>pəneme</td><td>pənme</td></tr>
+<tr><th>所格</th><td>pənerde</td><td>pənde</td></tr>
+<tr><th>主格</th><td>pəneri</td><td>pəni</td></tr>
+</tbody></table>
+</div>
 <div class="entry-card" id="entry-ral">
 <h2>ral</h2>
+<div class="tags"><span class="tag">不変化詞</span></div>
 <p class="meaning">受身標識（動詞に ~ で結合）</p>
 </div>
 <div class="entry-card" id="entry-ral_ptcp">
 <h2>ral</h2>
+<div class="tags"><span class="tag">不変化詞</span></div>
 <p class="meaning">受動分詞標識（〜されている、〜された、〜される）</p>
 <h3>Animacy: 有生 / Harmony: 後舌調和</h3>
 <table>
@@ -4008,6 +4238,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-re">
 <h2>rə</h2>
+<div class="tags"><span class="tag">不変化詞</span></div>
 <p class="meaning">〜であれば（条件法）</p>
 <table>
 <thead><tr><th>Sandhi</th><th>Form</th></tr></thead>
@@ -4018,7 +4249,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-rk">
 <h2>r̃k</h2>
-<p class="meaning">陸地、海に対する乾いた地面</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">land</span> 陸地、海に対する乾いた地面</li>
+<li><span class="meaning-id">continent</span> 大陸、広大な土地</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -4034,14 +4269,17 @@ h1 {
 </div>
 <div class="entry-card" id="entry-sa">
 <h2>sa</h2>
+<div class="tags"><span class="tag">不変化詞</span></div>
 <p class="meaning">使役標識（動詞に ~ で結合）</p>
 </div>
 <div class="entry-card" id="entry-sae">
 <h2>sæ</h2>
+<div class="tags"><span class="tag">副詞</span></div>
 <p class="meaning">再び〜（再度・反復）</p>
 </div>
 <div class="entry-card" id="entry-sakn">
 <h2>sakən</h2>
+<div class="tags"><span class="tag">有生</span><span class="tag">中立調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
 <p class="meaning">魚、水中に生息する脊椎動物</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -4058,6 +4296,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-ser">
 <h2>ser</h2>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">代名詞</span></div>
 <p class="meaning">それ、その（中称指示詞）</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -4074,6 +4313,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-shibl">
 <h2>ʃiblə</h2>
+<div class="tags"><span class="tag">副詞</span></div>
 <p class="meaning">しばらく〜（一定期間の継続）</p>
 <table>
 <thead><tr><th>Sandhi</th><th>Form</th></tr></thead>
@@ -4084,7 +4324,12 @@ h1 {
 </div>
 <div class="entry-card" id="entry-shilesrel">
 <h2>ʃilesrel</h2>
-<p class="meaning">しるし、印、目印</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">sign</span> しるし、印、目印</li>
+<li><span class="meaning-id">omen</span> 兆し、前兆</li>
+<li><span class="meaning-id">token</span> 証、象徴</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -4100,6 +4345,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-shit">
 <h2>ʃit</h2>
+<div class="tags"><span class="tag">無生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
 <p class="meaning">下、下方</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -4116,7 +4362,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-sor_noun">
 <h2>sora</h2>
-<p class="meaning">空、大気</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">sky</span> 空、大気</li>
+<li><span class="meaning-id">heaven</span> 天空</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -4132,10 +4382,12 @@ h1 {
 </div>
 <div class="entry-card" id="entry-sosh">
 <h2>soʃ</h2>
+<div class="tags"><span class="tag">接続詞</span></div>
 <p class="meaning">そして、また（並列接続詞）</p>
 </div>
 <div class="entry-card" id="entry-sup">
 <h2>sup</h2>
+<div class="tags"><span class="tag">不変化詞</span></div>
 <p class="meaning">目的標識（〜するために。動詞3sg形に後接する向格接辞）</p>
 <table>
 <thead><tr><th>Harmony</th><th>Form</th></tr></thead>
@@ -4147,6 +4399,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-tadaj">
 <h2>tadaj</h2>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
 <p class="meaning">漂う、浮遊する</p>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
@@ -4319,6 +4572,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-taemd">
 <h2>tæm</h2>
+<div class="tags"><span class="tag">無生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
 <p class="meaning">時間、時</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -4335,7 +4589,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-tan">
 <h2>tan</h2>
-<p class="meaning">種子、植物の繁殖器官</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">中立調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">seed</span> 種子、植物の繁殖器官</li>
+<li><span class="meaning-id">kind</span> 種類、類（比喩的）</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -4349,9 +4607,30 @@ h1 {
 <tr><th>主格</th><td>tanərə</td><td>tanə</td></tr>
 </tbody></table>
 </div>
+<div class="entry-card" id="entry-te_dummy">
+<h2>tə</h2>
+<div class="tags"><span class="tag">無生</span><span class="tag">中立調和</span><span class="tag">名詞</span></div>
+<p class="meaning">汎用ダミー名詞（数詞の格担体、助数詞「つ」に相当）</p>
+<table>
+<thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
+<tbody>
+<tr><th>出格</th><td>tərəkr̃</td><td>təkr̃</td></tr>
+<tr><th>対格</th><td>təra</td><td>ta</td></tr>
+<tr><th>向格</th><td>tərhə</td><td>təhə</td></tr>
+<tr><th>共格</th><td>tərtə</td><td>tətə</td></tr>
+<tr><th>与格</th><td>tərəñ</td><td>təñ</td></tr>
+<tr><th>属格</th><td>təmə</td><td>təmə</td></tr>
+<tr><th>所格</th><td>tərdə</td><td>tədə</td></tr>
+<tr><th>主格</th><td>tərə</td><td>tə</td></tr>
+</tbody></table>
+</div>
 <div class="entry-card" id="entry-ten">
 <h2>ten</h2>
-<p class="meaning">天、空、天空</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">sky</span> 天、空、天空</li>
+<li><span class="meaning-id">heaven</span> 天国、神の住まう場所</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -4367,7 +4646,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-teraes">
 <h2>teræs</h2>
-<p class="meaning">照らす、光を当てる</p>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">illuminate</span> 照らす、光を当てる</li>
+<li><span class="meaning-id">shine_on</span> 明るくする、光で満たす</li>
+</ul>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -4539,7 +4822,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-tir">
 <h2>tr̃</h2>
-<p class="meaning">地、大地、土地</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">earth</span> 地、大地、土地</li>
+<li><span class="meaning-id">world</span> 地球、世界</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -4555,7 +4842,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-to">
 <h2>to</h2>
-<p class="meaning">引用標識（直接引用の前後に置く）</p>
+<div class="tags"><span class="tag">接続詞</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">quote</span> 引用標識（直接引用の前後に置く）</li>
+<li><span class="meaning-id">listing</span> 列挙接語（格語尾に後接、母音環境で -t に縮約）</li>
+</ul>
 <table>
 <thead><tr><th>Sandhi</th><th>Form</th></tr></thead>
 <tbody>
@@ -4565,6 +4856,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-tob">
 <h2>tob</h2>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
 <p class="meaning">飛ぶ、空中を移動する</p>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
@@ -4737,7 +5029,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-tokl">
 <h2>tokl</h2>
-<p class="meaning">場所、位置</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">place</span> 場所、位置</li>
+<li><span class="meaning-id">spot</span> 地点、箇所</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -4753,6 +5049,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-tol">
 <h2>tol</h2>
+<div class="tags"><span class="tag">有生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
 <p class="meaning">鳥、翼を持つ動物</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -4769,7 +5066,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-tosh">
 <h2>toʃ</h2>
-<p class="meaning">年、一年間</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">year</span> 年、一年間</li>
+<li><span class="meaning-id">age</span> 年齢、歳</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
@@ -4785,11 +5086,16 @@ h1 {
 </div>
 <div class="entry-card" id="entry-tov">
 <h2>tov</h2>
+<div class="tags"><span class="tag">副詞</span></div>
 <p class="meaning">とても〜（強意・程度）</p>
 </div>
 <div class="entry-card" id="entry-tsukr">
 <h2>tsukr</h2>
-<p class="meaning">作る、創る、製作する</p>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">create</span> 作る、創る、製作する</li>
+<li><span class="meaning-id">make</span> 創造する、生み出す</li>
+</ul>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -4961,6 +5267,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-tukbe">
 <h2>tukbu</h2>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
 <p class="meaning">蹲る、地を這う、地面に沿って移動する</p>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
@@ -5133,6 +5440,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-uae">
 <h2>uæ</h2>
+<div class="tags"><span class="tag">無生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">前舌母音</span></div>
 <p class="meaning">上、上部、表面</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -5149,6 +5457,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-um">
 <h2>um</h2>
+<div class="tags"><span class="tag">無生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
 <p class="meaning">海、大洋</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -5165,6 +5474,7 @@ h1 {
 </div>
 <div class="entry-card" id="entry-vech">
 <h2>vəç</h2>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">代名詞</span></div>
 <p class="meaning">私、我々（一人称代名詞）</p>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -5180,7 +5490,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-waker">
 <h2>wakər</h2>
-<p class="meaning">区別する、分ける</p>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">distinguish</span> 区別する、分ける</li>
+<li><span class="meaning-id">separate</span> 分離する、切り離す</li>
+</ul>
 <h3>Polarity: 否定 / Aspect: 非完了</h3>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
@@ -5352,7 +5666,11 @@ h1 {
 </div>
 <div class="entry-card" id="entry-wakrel">
 <h2>wakrələ</h2>
-<p class="meaning">種類、類</p>
+<div class="tags"><span class="tag">無生</span><span class="tag">中立調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ul class="meanings">
+<li><span class="meaning-id">kind</span> 種類、類</li>
+<li><span class="meaning-id">category</span> 区分、分類</li>
+</ul>
 <table>
 <thead><tr><th></th><th>複数</th><th>単数</th></tr></thead>
 <tbody>
