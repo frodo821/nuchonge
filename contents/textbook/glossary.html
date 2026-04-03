@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glossary</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #1a1a1a;
+  background: #fafafa;
+  display: flex;
+  min-height: 100vh;
+}
+nav {
+  width: 220px;
+  flex-shrink: 0;
+  background: #fff;
+  border-right: 1px solid #e0e0e0;
+  padding: 1.5rem 1rem;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+nav > a {
+  display: block;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+nav > a:hover { color: #0060df; }
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li { margin: 0.25rem 0; }
+nav li a {
+  color: #555;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+nav li a:hover { color: #0060df; }
+nav li.current {
+  font-weight: 600;
+  color: #0060df;
+  font-size: 0.95rem;
+}
+main {
+  flex: 1;
+  max-width: 52rem;
+  padding: 2rem 2.5rem;
+}
+h1 {
+  font-size: 1.6rem;
+  margin: 0 0 1.5rem;
+  color: #222;
+}
+.content p {
+  line-height: 1.7;
+  margin: 0.6rem 0;
+}
+.content a.word {
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+  cursor: help;
+  transition: border-color 0.15s, color 0.15s;
+}
+.content a.word:hover {
+  color: #0060df;
+  border-bottom-color: #0060df;
+}
+/* glossary page */
+.entry-card {
+  margin: 1.5rem 0;
+  padding: 1rem 1.2rem;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+}
+.entry-card h2 {
+  font-size: 1.15rem;
+  margin: 0 0 0.3rem;
+  color: #222;
+}
+.entry-card .meaning {
+  color: #555;
+  margin: 0 0 0.8rem;
+  font-style: italic;
+}
+.entry-card .meanings {
+  margin: 0 0 0.8rem;
+  padding: 0 0 0 1.4rem;
+  list-style: decimal;
+}
+.entry-card .meanings li {
+  color: #555;
+  font-style: italic;
+  margin: 0.15rem 0;
+}
+.entry-card .meanings li::marker {
+  font-style: normal;
+  font-weight: 600;
+  color: #777;
+  font-size: 0.85rem;
+}
+.entry-card .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin: 0.3rem 0 0.6rem;
+}
+.entry-card .tag {
+  display: inline-block;
+  background: #eef1f5;
+  color: #556;
+  font-size: 0.78rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 3px;
+}
+.entry-card .etymology {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.4rem 0 0.8rem;
+}
+.entry-card .etymology .proto {
+  font-family: "Georgia", serif;
+  font-style: italic;
+}
+.entry-card .etymology .etym-note {
+  margin-left: 0.3rem;
+}
+.entry-card .etymology .etym-links {
+  margin-top: 0.2rem;
+}
+.entry-card table {
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  width: 100%;
+  max-width: 100%;
+}
+.entry-card th, .entry-card td {
+  border: 1px solid #ddd;
+  padding: 0.3rem 0.6rem;
+  text-align: left;
+}
+.entry-card th {
+  background: #f5f5f5;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #444;
+  vertical-align: middle;
+}
+.entry-card th[rowspan] {
+  border-right: 2px solid #ccc;
+}
+.entry-card td {
+  font-family: "Georgia", serif;
+}
+.entry-card h3 {
+  font-size: 0.95rem;
+  margin: 1rem 0 0.3rem;
+  color: #555;
+  font-weight: 600;
+}
+@media (max-width: 700px) {
+  body { flex-direction: column; }
+  nav {
+    width: 100%;
+    height: auto;
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  nav ul { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .entry-card { overflow-x: auto; }
+}
+</style>
+</head>
+<body>
+<nav>
+<a href="index.html">Nuçoŋə Ʒətəkr̃ jət Kɔkrələ Ajərə</a>
+<ul>
+<li class="current">Glossary</li>
+<li><a href="ch01.html">Ajə çit pənme: Æ</a></li>
+<li><a href="ch02.html">Ajə fut pənme: Çitiri</a></li>
+<li><a href="ch03.html">Ajə mi pənme: Namo</a></li>
+<li><a href="ch04.html">Ajə jo pənme: Kiri to Hñora</a></li>
+<li><a href="ch05.html">Ajə its pənme: Vəç to Ant</a></li>
+</ul>
+</nav>
+<main>
+<h1>Glossary</h1>
+<div class="content">
+<div class="entry-card" id="entry-ae">
+<h2>æ</h2>
+<div class="tags"><span class="tag">無生</span><span class="tag">前舌調和</span><span class="tag">名詞</span></div>
+<ol class="meanings">
+<li>人が住むための建物、住居</li>
+<li>家族や家系を表す社会的単位</li>
+<li>慣れ親しんだ場所や環境（比喩的用法）</li>
+</ol>
+<div class="etymology"><span class="etym-note">現代日本語「いえ」(家) → /ie/ → /je/ → /æ/（二重母音の融合）。格変化に二重の化石化: (1) /ie/ の /i/ が格接辞に再分析（ie-de → æ-id 等）、(2) gen 古層 -ne が dat -iñ との弁別圧力で -me に追従（→ æim）。pl æje は融合前の /je/ が複数形で保存。</span></div>
+<table>
+<thead>
+<tr><th colspan="1"></th><th>単数</th><th>複数</th></tr>
+</thead>
+<tbody>
+<tr><th>主格</th><td>æ</td><td>æje</td></tr>
+<tr><th>対格</th><td>æ</td><td>æje</td></tr>
+<tr><th>与格</th><td>æiñ</td><td>æjiñ</td></tr>
+<tr><th>所格</th><td>æid</td><td>æjid</td></tr>
+<tr><th>属格</th><td>æim</td><td>æjim</td></tr>
+<tr><th>出格</th><td>æikr̃</td><td>æjikr̃</td></tr>
+<tr><th>向格</th><td>æihə</td><td>æjihə</td></tr>
+<tr><th>共格</th><td>æit</td><td>æjit</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-ant">
+<h2>ant</h2>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">代名詞</span></div>
+<p class="meaning">あなた、あなたたち（二人称代名詞）</p>
+<div class="etymology"><span class="etym-note">sg: 現代日本語「あんた」→ /anta/ → /ant/。pl: 「あなたたち」→ /anatatʃi/ → /antatʃi/ → /antaʃi/（破裂成分脱落）→ /antasi/（ʃ→s、聞こえ度維持で前方移動）→ /antas/ → /antes/（前舌調和）。2pl人称標識 -s はこの代名詞末尾に由来。</span></div>
+<table>
+<thead>
+<tr><th colspan="1"></th><th>単数</th><th>複数</th></tr>
+</thead>
+<tbody>
+<tr><th>主格</th><td>ant</td><td>antes</td></tr>
+<tr><th>対格</th><td>ante</td><td>antes</td></tr>
+<tr><th>与格</th><td>antñ</td><td>antesñ</td></tr>
+<tr><th>属格</th><td>antne</td><td>antesne</td></tr>
+<tr><th>出格</th><td>anter</td><td>antesr</td></tr>
+<tr><th>向格</th><td>anteñ</td><td>antesñ</td></tr>
+<tr><th>共格</th><td>antet</td><td>antest</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-ar_verb">
+<h2>ar</h2>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">動詞</span></div>
+<ol class="meanings">
+<li>存在する、ある（物や事の存在を表す）</li>
+<li>いる（有生物の存在を表す）</li>
+<li>〜である（同定・属性付与のコピュラ）</li>
+<li>位置する、所在する</li>
+<li>発生する、起こる（事象や状態について）</li>
+</ol>
+<div class="etymology"><span class="etym-note">3語幹の統合。ar ← 現代日本語「ある」/aru/ → /ar/。ir ← 「いる」/iru/ → /ir/（有生存在、3人称に化石化）。dər ← 「である」/dearu/ → /dar/ → /dər/（コピュラ、1人称に定着）。未来形 dəro- は「だろう」/darou/ → /dəro/ の化石化。過去の r→t 交替は過去標識 -ta の語幹吸収。</span></div>
+<h3>Polarity: 肯定</h3>
+<table>
+<thead>
+<tr><th colspan="3" rowspan="2"></th><th colspan="3">単数</th><th colspan="3">複数</th></tr>
+<tr><th>現在</th><th>過去</th><th>未来</th><th>現在</th><th>過去</th><th>未来</th></tr>
+</thead>
+<tbody>
+<tr><th rowspan="6">非完了</th><th rowspan="2">1人称</th><th>有生</th><td>dərw</td><td>dətw</td><td>dərow</td><td>dərl</td><td>dətl</td><td>dərol</td></tr>
+<tr><th>無生</th><td>dərw</td><td>dətw</td><td>dərow</td><td>dərl</td><td>dətl</td><td>dərol</td></tr>
+<tr><th rowspan="2">2人称</th><th>有生</th><td>ar</td><td>at</td><td>duro</td><td>ars</td><td>ats</td><td>dəros</td></tr>
+<tr><th>無生</th><td>ar</td><td>at</td><td>duro</td><td>ars</td><td>ats</td><td>dəros</td></tr>
+<tr><th rowspan="2">3人称</th><th>有生</th><td>ir</td><td>it</td><td>dəro</td><td>irr</td><td>itr</td><td>dəror</td></tr>
+<tr><th>無生</th><td>er</td><td>et</td><td>dəro</td><td>err</td><td>etr</td><td>dəror</td></tr>
+<tr><th rowspan="6">結果状態</th><th rowspan="2">1人称</th><th>有生</th><td>dətrew</td><td>dətraw</td><td>dərotrew</td><td>dətrel</td><td>dətral</td><td>dərotrel</td></tr>
+<tr><th>無生</th><td>dətrew</td><td>dətraw</td><td>dərotrew</td><td>dətrel</td><td>dətral</td><td>dərotrel</td></tr>
+<tr><th rowspan="2">2人称</th><th>有生</th><td>atri</td><td>atre</td><td>durotre</td><td>atres</td><td>atras</td><td>dərotres</td></tr>
+<tr><th>無生</th><td>atri</td><td>atre</td><td>durotre</td><td>atres</td><td>atras</td><td>dərotres</td></tr>
+<tr><th rowspan="2">3人称</th><th>有生</th><td>itre</td><td>itra</td><td>dərotre</td><td>itrer</td><td>itrar</td><td>dərotrer</td></tr>
+<tr><th>無生</th><td>etre</td><td>etra</td><td>dərotre</td><td>etrer</td><td>etrar</td><td>dərotrer</td></tr>
+<tr><th rowspan="6">終結</th><th rowspan="2">1人称</th><th>有生</th><td>dərvew</td><td>dətvaw</td><td>dərovow</td><td>dərvel</td><td>dətval</td><td>dərovol</td></tr>
+<tr><th>無生</th><td>dərvew</td><td>dətvaw</td><td>dərovow</td><td>dərvel</td><td>dətval</td><td>dərovol</td></tr>
+<tr><th rowspan="2">2人称</th><th>有生</th><td>arvi</td><td>atve</td><td>durovo</td><td>arves</td><td>atvas</td><td>dərovos</td></tr>
+<tr><th>無生</th><td>arvi</td><td>atve</td><td>durovo</td><td>arves</td><td>atvas</td><td>dərovos</td></tr>
+<tr><th rowspan="2">3人称</th><th>有生</th><td>irve</td><td>itva</td><td>dərovo</td><td>irver</td><td>itvar</td><td>dərovor</td></tr>
+<tr><th>無生</th><td>erve</td><td>etva</td><td>dərovo</td><td>erver</td><td>etvar</td><td>dərovor</td></tr>
+</tbody></table>
+<h3>Polarity: 否定</h3>
+<table>
+<thead>
+<tr><th colspan="3" rowspan="2"></th><th colspan="3">単数</th><th colspan="3">複数</th></tr>
+<tr><th>現在</th><th>過去</th><th>未来</th><th>現在</th><th>過去</th><th>未来</th></tr>
+</thead>
+<tbody>
+<tr><th rowspan="6">非完了</th><th rowspan="2">1人称</th><th>有生</th><td>də̃rw</td><td>də̃tw</td><td>dərõw</td><td>də̃rl</td><td>də̃tl</td><td>dərõl</td></tr>
+<tr><th>無生</th><td>də̃rw</td><td>də̃tw</td><td>dərõw</td><td>də̃rl</td><td>də̃tl</td><td>dərõl</td></tr>
+<tr><th rowspan="2">2人称</th><th>有生</th><td>ãr</td><td>ãt</td><td>durõ</td><td>ãrs</td><td>ãts</td><td>dərõs</td></tr>
+<tr><th>無生</th><td>ãr</td><td>ãt</td><td>durõ</td><td>ãrs</td><td>ãts</td><td>dərõs</td></tr>
+<tr><th rowspan="2">3人称</th><th>有生</th><td>ĩr</td><td>ĩt</td><td>dərõ</td><td>ĩrr</td><td>ĩtr</td><td>dərõr</td></tr>
+<tr><th>無生</th><td>ẽr</td><td>ẽt</td><td>dərõ</td><td>ẽrr</td><td>ẽtr</td><td>dərõr</td></tr>
+<tr><th rowspan="6">結果状態</th><th rowspan="2">1人称</th><th>有生</th><td>dətrẽw</td><td>dətrãw</td><td>dərotrẽw</td><td>dətrẽl</td><td>dətrãl</td><td>dərotrẽl</td></tr>
+<tr><th>無生</th><td>dətrẽw</td><td>dətrãw</td><td>dərotrẽw</td><td>dətrẽl</td><td>dətrãl</td><td>dərotrẽl</td></tr>
+<tr><th rowspan="2">2人称</th><th>有生</th><td>atrĩ</td><td>atrẽ</td><td>durotrẽ</td><td>atrẽs</td><td>atrãs</td><td>dərotrẽs</td></tr>
+<tr><th>無生</th><td>atrĩ</td><td>atrẽ</td><td>durotrẽ</td><td>atrẽs</td><td>atrãs</td><td>dərotrẽs</td></tr>
+<tr><th rowspan="2">3人称</th><th>有生</th><td>itrẽ</td><td>itrã</td><td>dərotrẽ</td><td>itrẽr</td><td>itrãr</td><td>dərotrẽr</td></tr>
+<tr><th>無生</th><td>etrẽ</td><td>etrã</td><td>dərotrẽ</td><td>etrẽr</td><td>etrãr</td><td>dərotrẽr</td></tr>
+<tr><th rowspan="6">終結</th><th rowspan="2">1人称</th><th>有生</th><td>dərvẽw</td><td>dətvãw</td><td>dərovõw</td><td>dərvẽl</td><td>dətvãl</td><td>dərovõl</td></tr>
+<tr><th>無生</th><td>dərvẽw</td><td>dətvãw</td><td>dərovõw</td><td>dərvẽl</td><td>dətvãl</td><td>dərovõl</td></tr>
+<tr><th rowspan="2">2人称</th><th>有生</th><td>arvĩ</td><td>atvẽ</td><td>durovõ</td><td>arvẽs</td><td>atvãs</td><td>dərovõs</td></tr>
+<tr><th>無生</th><td>arvĩ</td><td>atvẽ</td><td>durovõ</td><td>arvẽs</td><td>atvãs</td><td>dərovõs</td></tr>
+<tr><th rowspan="2">3人称</th><th>有生</th><td>irvẽ</td><td>itvã</td><td>dərovõ</td><td>irvẽr</td><td>itvãr</td><td>dərovõr</td></tr>
+<tr><th>無生</th><td>ervẽ</td><td>etvã</td><td>dərovõ</td><td>ervẽr</td><td>etvãr</td><td>dərovõr</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-chis">
+<h2>çis</h2>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">形容詞</span><span class="tag">子音</span></div>
+<ol class="meanings">
+<li>小さい、サイズが小さい</li>
+<li>少ない、数量が少ない</li>
+</ol>
+<div class="etymology"><span class="etym-note">現代日本語「ちいさい」(小さい) → /tʃiisai/ → /çis/</span></div>
+<table>
+<thead>
+<tr><th colspan="2" rowspan="2"></th><th colspan="2">単数</th><th colspan="2">複数</th></tr>
+<tr><th>有生</th><th>無生</th><th>有生</th><th>無生</th></tr>
+</thead>
+<tbody>
+<tr><th rowspan="2">主格</th><th>原級</th><td>çisiŋ</td><td>çisiŋ</td><td>çisriŋ</td><td>çiseriŋ</td></tr>
+<tr><th>比較級</th><td>çisjəriŋ</td><td>çisjəriŋ</td><td>çisjərriŋ</td><td>çisjəreriŋ</td></tr>
+<tr><th rowspan="2">対格</th><th>原級</th><td>çiseŋ</td><td>çiseŋ</td><td>çisreŋ</td><td>çisereŋ</td></tr>
+<tr><th>比較級</th><td>çisjəreŋ</td><td>çisjəreŋ</td><td>çisjərreŋ</td><td>çisjərereŋ</td></tr>
+<tr><th rowspan="2">与格</th><th>原級</th><td>çisiŋ</td><td>çisiŋ</td><td>çisiriŋ</td><td>çiseriŋ</td></tr>
+<tr><th>比較級</th><td>çisjəriŋ</td><td>çisjəriŋ</td><td>çisjəririŋ</td><td>çisjəreriŋ</td></tr>
+<tr><th rowspan="2">所格</th><th>原級</th><td>çisdeŋ</td><td>çisdeŋ</td><td>çisirdeŋ</td><td>çiserdeŋ</td></tr>
+<tr><th>比較級</th><td>çisjərdeŋ</td><td>çisjərdeŋ</td><td>çisjərirdeŋ</td><td>çisjərerdeŋ</td></tr>
+<tr><th rowspan="2">属格</th><th>原級</th><td>çisneŋ</td><td>çismeŋ</td><td>çisineŋ</td><td>çisemeŋ</td></tr>
+<tr><th>比較級</th><td>çisjərneŋ</td><td>çisjərmeŋ</td><td>çisjərineŋ</td><td>çisjəremeŋ</td></tr>
+<tr><th rowspan="2">出格</th><th>原級</th><td>çisikr̃əŋ</td><td>çisikr̃əŋ</td><td>çisirikr̃əŋ</td><td>çiserikr̃əŋ</td></tr>
+<tr><th>比較級</th><td>çisjərikr̃əŋ</td><td>çisjərikr̃əŋ</td><td>çisjəririkr̃əŋ</td><td>çisjərerikr̃əŋ</td></tr>
+<tr><th rowspan="2">向格</th><th>原級</th><td>çisheŋ</td><td>çisheŋ</td><td>çisirheŋ</td><td>çiserheŋ</td></tr>
+<tr><th>比較級</th><td>çisjərheŋ</td><td>çisjərheŋ</td><td>çisjərirheŋ</td><td>çisjərerheŋ</td></tr>
+<tr><th rowspan="2">共格</th><th>原級</th><td>çisteŋ</td><td>çisteŋ</td><td>çisirteŋ</td><td>çiserteŋ</td></tr>
+<tr><th>比較級</th><td>çisjərteŋ</td><td>çisjərteŋ</td><td>çisjərirteŋ</td><td>çisjərerteŋ</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-chit">
+<h2>çit</h2>
+<div class="tags"><span class="tag">有生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ol class="meanings">
+<li>人間、人類の個体</li>
+<li>他者、自分以外の人物</li>
+</ol>
+<div class="etymology"><span class="etym-note">現代日本語「ひと」(人) → /hito/ → /hit/ → /çit/</span></div>
+<table>
+<thead>
+<tr><th colspan="1"></th><th>単数</th><th>複数</th></tr>
+</thead>
+<tbody>
+<tr><th>主格</th><td>çiti</td><td>çitri</td></tr>
+<tr><th>対格</th><td>çite</td><td>çitre</td></tr>
+<tr><th>与格</th><td>çitiñ</td><td>çitiriñ</td></tr>
+<tr><th>所格</th><td>çitde</td><td>çitirde</td></tr>
+<tr><th>属格</th><td>çitne</td><td>çitine</td></tr>
+<tr><th>出格</th><td>çitikr̃</td><td>çitirikr̃</td></tr>
+<tr><th>向格</th><td>çithe</td><td>çitirhe</td></tr>
+<tr><th>共格</th><td>çitte</td><td>çitirte</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-hn">
+<h2>hñ</h2>
+<div class="tags"><span class="tag">無生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<ol class="meanings">
+<li>印刷または電子化された文字・画像からなる情報媒体</li>
+<li>書籍、図書、出版物</li>
+<li>知識や情報の源泉（比喩的用法）</li>
+<li>基本、根本、原理（複合語の中で）</li>
+</ol>
+<div class="etymology"><span class="etym-note">現代日本語「ほん」(本) → /hon/ → /hñ/（母音脱落と子音の音節主音化）</span></div>
+<table>
+<thead>
+<tr><th colspan="1"></th><th>単数</th><th>複数</th></tr>
+</thead>
+<tbody>
+<tr><th>主格</th><td>hña</td><td>hñora</td></tr>
+<tr><th>対格</th><td>hño</td><td>hñoro</td></tr>
+<tr><th>与格</th><td>hñuñ</td><td>hñoruñ</td></tr>
+<tr><th>所格</th><td>hñdo</td><td>hñordo</td></tr>
+<tr><th>属格</th><td>hñmo</td><td>hñomo</td></tr>
+<tr><th>出格</th><td>hñukr̃</td><td>hñorukr̃</td></tr>
+<tr><th>向格</th><td>hñuh</td><td>hñoruh</td></tr>
+<tr><th>共格</th><td>hñto</td><td>hñorto</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-jom">
+<h2>jom</h2>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
+<ol class="meanings">
+<li>文字や記号を見て、その意味を理解する</li>
+<li>書物などを読んで理解する</li>
+<li>心や状況を推測して理解する</li>
+<li>データを読み取る、アクセスする</li>
+</ol>
+<div class="etymology"><span class="etym-note">現代日本語「よむ」(読む) → /jomu/ → /jom/</span></div>
+<table>
+<thead>
+<tr><th colspan="3" rowspan="2"></th><th colspan="3">単数</th><th colspan="3">複数</th></tr>
+<tr><th>現在</th><th>過去</th><th>未来</th><th>現在</th><th>過去</th><th>未来</th></tr>
+</thead>
+<tbody>
+<tr><th rowspan="6">非完了</th><th rowspan="2">1人称</th><th>肯定</th><td>jomuw</td><td>jomɔtɔw</td><td>jomow</td><td>jomul</td><td>jomɔtɔl</td><td>jomol</td></tr>
+<tr><th>否定</th><td>jomũw</td><td>jomɔtɔ̃w</td><td>jomõw</td><td>jomũl</td><td>jomɔtɔ̃l</td><td>jomõl</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>jomuj</td><td>jomɔto</td><td>jomot</td><td>jomus</td><td>jomɔtɔs</td><td>jomos</td></tr>
+<tr><th>否定</th><td>jomũj</td><td>jomɔtõ</td><td>jomõt</td><td>jomũs</td><td>jomɔtɔ̃s</td><td>jomõs</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>jomu</td><td>jomɔtɔ</td><td>jomo</td><td>jomur</td><td>jomɔtɔr</td><td>jomor</td></tr>
+<tr><th>否定</th><td>jomũ</td><td>jomɔtɔ̃</td><td>jomõ</td><td>jomũr</td><td>jomɔtɔ̃r</td><td>jomõr</td></tr>
+<tr><th rowspan="6">完遂</th><th rowspan="2">1人称</th><th>肯定</th><td>jomɔsmuw</td><td>jomɔsmɔw</td><td>jomɔsmow</td><td>jomɔsmul</td><td>jomɔsmɔl</td><td>jomɔsmol</td></tr>
+<tr><th>否定</th><td>jomɔsmũw</td><td>jomɔsmɔ̃w</td><td>jomɔsmõw</td><td>jomɔsmũl</td><td>jomɔsmɔ̃l</td><td>jomɔsmõl</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>jomɔsmuj</td><td>jomɔsmo</td><td>jomɔsmot</td><td>jomɔsmus</td><td>jomɔsmɔs</td><td>jomɔsmos</td></tr>
+<tr><th>否定</th><td>jomɔsmũj</td><td>jomɔsmõ</td><td>jomɔsmõt</td><td>jomɔsmũs</td><td>jomɔsmɔ̃s</td><td>jomɔsmõs</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>jomɔsmu</td><td>jomɔsmɔ</td><td>jomɔsmo</td><td>jomɔsmur</td><td>jomɔsmɔr</td><td>jomɔsmor</td></tr>
+<tr><th>否定</th><td>jomɔsmũ</td><td>jomɔsmɔ̃</td><td>jomɔsmõ</td><td>jomɔsmũr</td><td>jomɔsmɔ̃r</td><td>jomɔsmõr</td></tr>
+<tr><th rowspan="6">結果状態</th><th rowspan="2">1人称</th><th>肯定</th><td>jomɔtruw</td><td>jomɔtrɔw</td><td>jomɔtrow</td><td>jomɔtrul</td><td>jomɔtrɔl</td><td>jomɔtrol</td></tr>
+<tr><th>否定</th><td>jomɔtrũw</td><td>jomɔtrɔ̃w</td><td>jomɔtrõw</td><td>jomɔtrũl</td><td>jomɔtrɔ̃l</td><td>jomɔtrõl</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>jomɔtruj</td><td>jomɔtro</td><td>jomɔtrot</td><td>jomɔtrus</td><td>jomɔtrɔs</td><td>jomɔtros</td></tr>
+<tr><th>否定</th><td>jomɔtrũj</td><td>jomɔtrõ</td><td>jomɔtrõt</td><td>jomɔtrũs</td><td>jomɔtrɔ̃s</td><td>jomɔtrõs</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>jomɔtru</td><td>jomɔtrɔ</td><td>jomɔtro</td><td>jomɔtrur</td><td>jomɔtrɔr</td><td>jomɔtror</td></tr>
+<tr><th>否定</th><td>jomɔtrũ</td><td>jomɔtrɔ̃</td><td>jomɔtrõ</td><td>jomɔtrũr</td><td>jomɔtrɔ̃r</td><td>jomɔtrõr</td></tr>
+<tr><th rowspan="6">準備</th><th rowspan="2">1人称</th><th>肯定</th><td>jomɔtkuw</td><td>jomɔktɔw</td><td>jomɔtkow</td><td>jomɔtkul</td><td>jomɔktɔl</td><td>jomɔtkol</td></tr>
+<tr><th>否定</th><td>jomɔtkũw</td><td>jomɔktɔ̃w</td><td>jomɔtkõw</td><td>jomɔtkũl</td><td>jomɔktɔ̃l</td><td>jomɔtkõl</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>jomɔtkuj</td><td>jomɔkto</td><td>jomɔtkot</td><td>jomɔtkus</td><td>jomɔktɔs</td><td>jomɔtkos</td></tr>
+<tr><th>否定</th><td>jomɔtkũj</td><td>jomɔktõ</td><td>jomɔtkõt</td><td>jomɔtkũs</td><td>jomɔktɔ̃s</td><td>jomɔtkõs</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>jomɔtku</td><td>jomɔktɔ</td><td>jomɔtko</td><td>jomɔtkur</td><td>jomɔktɔr</td><td>jomɔtkor</td></tr>
+<tr><th>否定</th><td>jomɔtkũ</td><td>jomɔktɔ̃</td><td>jomɔtkõ</td><td>jomɔtkũr</td><td>jomɔktɔ̃r</td><td>jomɔtkõr</td></tr>
+<tr><th rowspan="6">起動</th><th rowspan="2">1人称</th><th>肯定</th><td>jomɔdsuw</td><td>jomɔstɔw</td><td>jomɔdsow</td><td>jomɔdsul</td><td>jomɔstɔl</td><td>jomɔdsol</td></tr>
+<tr><th>否定</th><td>jomɔdsũw</td><td>jomɔstɔ̃w</td><td>jomɔdsõw</td><td>jomɔdsũl</td><td>jomɔstɔ̃l</td><td>jomɔdsõl</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>jomɔdsuj</td><td>jomɔsto</td><td>jomɔdsot</td><td>jomɔdsus</td><td>jomɔstɔs</td><td>jomɔdsos</td></tr>
+<tr><th>否定</th><td>jomɔdsũj</td><td>jomɔstõ</td><td>jomɔdsõt</td><td>jomɔdsũs</td><td>jomɔstɔ̃s</td><td>jomɔdsõs</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>jomɔdsu</td><td>jomɔstɔ</td><td>jomɔdso</td><td>jomɔdsur</td><td>jomɔstɔr</td><td>jomɔdsor</td></tr>
+<tr><th>否定</th><td>jomɔdsũ</td><td>jomɔstɔ̃</td><td>jomɔdsõ</td><td>jomɔdsũr</td><td>jomɔstɔ̃r</td><td>jomɔdsõr</td></tr>
+<tr><th rowspan="6">終結</th><th rowspan="2">1人称</th><th>肯定</th><td>jomɔvuw</td><td>jomɔvtɔw</td><td>jomɔvow</td><td>jomɔvul</td><td>jomɔvtɔl</td><td>jomɔvol</td></tr>
+<tr><th>否定</th><td>jomɔvũw</td><td>jomɔvtɔ̃w</td><td>jomɔvõw</td><td>jomɔvũl</td><td>jomɔvtɔ̃l</td><td>jomɔvõl</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>jomɔvuj</td><td>jomɔvto</td><td>jomɔvot</td><td>jomɔvus</td><td>jomɔvtɔs</td><td>jomɔvos</td></tr>
+<tr><th>否定</th><td>jomɔvũj</td><td>jomɔvtõ</td><td>jomɔvõt</td><td>jomɔvũs</td><td>jomɔvtɔ̃s</td><td>jomɔvõs</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>jomɔvu</td><td>jomɔvtɔ</td><td>jomɔvo</td><td>jomɔvur</td><td>jomɔvtɔr</td><td>jomɔvor</td></tr>
+<tr><th>否定</th><td>jomɔvũ</td><td>jomɔvtɔ̃</td><td>jomɔvõ</td><td>jomɔvũr</td><td>jomɔvtɔ̃r</td><td>jomɔvõr</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-kar">
+<h2>kar</h2>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">代名詞</span></div>
+<ol class="meanings">
+<li>話者と聞き手以外の人物を指す三人称代名詞</li>
+<li>文脈上で既に言及された人物を指し示す照応表現</li>
+</ol>
+<div class="etymology"><span class="etym-note">sg: 現代日本語「かれ」(彼) → /kare/ → /kar/。本来 /r/ → /l/ だが、pl /karera/ → /kall/ とすると 1pl -l と衝突するため /r/ を保持。pl: 「かれら」→ /karera/ → /karl/（語幹 r は sg に引きずられて保持、末尾 /ra/ → /l/）。3pl人称標識 -r はこの代名詞語幹の /r/ に由来。</span></div>
+<table>
+<thead>
+<tr><th colspan="1"></th><th>単数</th><th>複数</th></tr>
+</thead>
+<tbody>
+<tr><th>主格</th><td>kar</td><td>karl</td></tr>
+<tr><th>対格</th><td>kare</td><td>karel</td></tr>
+<tr><th>与格</th><td>karñ</td><td>karelr̃</td></tr>
+<tr><th>属格</th><td>karne</td><td>karlne</td></tr>
+<tr><th>出格</th><td>karr</td><td>karekr</td></tr>
+<tr><th>向格</th><td>karñ</td><td>karñ</td></tr>
+<tr><th>共格</th><td>kart</td><td>kart</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-ki">
+<h2>ki</h2>
+<div class="tags"><span class="tag">無生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">前舌母音</span></div>
+<ol class="meanings">
+<li>樹木、幹と枝と葉を持つ大型の多年生植物</li>
+<li>木材、材木</li>
+</ol>
+<div class="etymology"><span class="etym-note">現代日本語「き」(木) → /ki/。短母音単音節のため変形を受けず保存。</span></div>
+<table>
+<thead>
+<tr><th colspan="1"></th><th>単数</th><th>複数</th></tr>
+</thead>
+<tbody>
+<tr><th>主格</th><td>kiji</td><td>kiri</td></tr>
+<tr><th>対格</th><td>kije</td><td>kire</td></tr>
+<tr><th>与格</th><td>kiñ</td><td>kiriñ</td></tr>
+<tr><th>所格</th><td>kide</td><td>kirde</td></tr>
+<tr><th>属格</th><td>kime</td><td>kirme</td></tr>
+<tr><th>出格</th><td>kikr̃</td><td>kirikr̃</td></tr>
+<tr><th>向格</th><td>kihe</td><td>kirhe</td></tr>
+<tr><th>共格</th><td>kite</td><td>kirte</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-kok">
+<h2>kɔk</h2>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
+<ol class="meanings">
+<li>文字や記号を記す</li>
+<li>絵や図を描く</li>
+</ol>
+<div class="etymology"><span class="etym-note">現代日本語「かく」(書く) → /kaku/ → /kak/ → /kɔk/（後舌調和で a→ɔ）</span></div>
+<table>
+<thead>
+<tr><th colspan="3" rowspan="2"></th><th colspan="3">単数</th><th colspan="3">複数</th></tr>
+<tr><th>現在</th><th>過去</th><th>未来</th><th>現在</th><th>過去</th><th>未来</th></tr>
+</thead>
+<tbody>
+<tr><th rowspan="6">非完了</th><th rowspan="2">1人称</th><th>肯定</th><td>kɔkuw</td><td>kɔkɔtɔw</td><td>kɔkow</td><td>kɔkul</td><td>kɔkɔtɔl</td><td>kɔkol</td></tr>
+<tr><th>否定</th><td>kɔkũw</td><td>kɔkɔtɔ̃w</td><td>kɔkõw</td><td>kɔkũl</td><td>kɔkɔtɔ̃l</td><td>kɔkõl</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>kɔkuj</td><td>kɔkɔto</td><td>kɔkot</td><td>kɔkus</td><td>kɔkɔtɔs</td><td>kɔkos</td></tr>
+<tr><th>否定</th><td>kɔkũj</td><td>kɔkɔtõ</td><td>kɔkõt</td><td>kɔkũs</td><td>kɔkɔtɔ̃s</td><td>kɔkõs</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>kɔku</td><td>kɔkɔtɔ</td><td>kɔko</td><td>kɔkur</td><td>kɔkɔtɔr</td><td>kɔkor</td></tr>
+<tr><th>否定</th><td>kɔkũ</td><td>kɔkɔtɔ̃</td><td>kɔkõ</td><td>kɔkũr</td><td>kɔkɔtɔ̃r</td><td>kɔkõr</td></tr>
+<tr><th rowspan="6">完遂</th><th rowspan="2">1人称</th><th>肯定</th><td>kɔkɔsmuw</td><td>kɔkɔsmɔw</td><td>kɔkɔsmow</td><td>kɔkɔsmul</td><td>kɔkɔsmɔl</td><td>kɔkɔsmol</td></tr>
+<tr><th>否定</th><td>kɔkɔsmũw</td><td>kɔkɔsmɔ̃w</td><td>kɔkɔsmõw</td><td>kɔkɔsmũl</td><td>kɔkɔsmɔ̃l</td><td>kɔkɔsmõl</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>kɔkɔsmuj</td><td>kɔkɔsmo</td><td>kɔkɔsmot</td><td>kɔkɔsmus</td><td>kɔkɔsmɔs</td><td>kɔkɔsmos</td></tr>
+<tr><th>否定</th><td>kɔkɔsmũj</td><td>kɔkɔsmõ</td><td>kɔkɔsmõt</td><td>kɔkɔsmũs</td><td>kɔkɔsmɔ̃s</td><td>kɔkɔsmõs</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>kɔkɔsmu</td><td>kɔkɔsmɔ</td><td>kɔkɔsmo</td><td>kɔkɔsmur</td><td>kɔkɔsmɔr</td><td>kɔkɔsmor</td></tr>
+<tr><th>否定</th><td>kɔkɔsmũ</td><td>kɔkɔsmɔ̃</td><td>kɔkɔsmõ</td><td>kɔkɔsmũr</td><td>kɔkɔsmɔ̃r</td><td>kɔkɔsmõr</td></tr>
+<tr><th rowspan="6">結果状態</th><th rowspan="2">1人称</th><th>肯定</th><td>kɔkɔtruw</td><td>kɔkɔtrɔw</td><td>kɔkɔtrow</td><td>kɔkɔtrul</td><td>kɔkɔtrɔl</td><td>kɔkɔtrol</td></tr>
+<tr><th>否定</th><td>kɔkɔtrũw</td><td>kɔkɔtrɔ̃w</td><td>kɔkɔtrõw</td><td>kɔkɔtrũl</td><td>kɔkɔtrɔ̃l</td><td>kɔkɔtrõl</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>kɔkɔtruj</td><td>kɔkɔtro</td><td>kɔkɔtrot</td><td>kɔkɔtrus</td><td>kɔkɔtrɔs</td><td>kɔkɔtros</td></tr>
+<tr><th>否定</th><td>kɔkɔtrũj</td><td>kɔkɔtrõ</td><td>kɔkɔtrõt</td><td>kɔkɔtrũs</td><td>kɔkɔtrɔ̃s</td><td>kɔkɔtrõs</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>kɔkɔtru</td><td>kɔkɔtrɔ</td><td>kɔkɔtro</td><td>kɔkɔtrur</td><td>kɔkɔtrɔr</td><td>kɔkɔtror</td></tr>
+<tr><th>否定</th><td>kɔkɔtrũ</td><td>kɔkɔtrɔ̃</td><td>kɔkɔtrõ</td><td>kɔkɔtrũr</td><td>kɔkɔtrɔ̃r</td><td>kɔkɔtrõr</td></tr>
+<tr><th rowspan="6">準備</th><th rowspan="2">1人称</th><th>肯定</th><td>kɔkɔtkuw</td><td>kɔkɔktɔw</td><td>kɔkɔtkow</td><td>kɔkɔtkul</td><td>kɔkɔktɔl</td><td>kɔkɔtkol</td></tr>
+<tr><th>否定</th><td>kɔkɔtkũw</td><td>kɔkɔktɔ̃w</td><td>kɔkɔtkõw</td><td>kɔkɔtkũl</td><td>kɔkɔktɔ̃l</td><td>kɔkɔtkõl</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>kɔkɔtkuj</td><td>kɔkɔkto</td><td>kɔkɔtkot</td><td>kɔkɔtkus</td><td>kɔkɔktɔs</td><td>kɔkɔtkos</td></tr>
+<tr><th>否定</th><td>kɔkɔtkũj</td><td>kɔkɔktõ</td><td>kɔkɔtkõt</td><td>kɔkɔtkũs</td><td>kɔkɔktɔ̃s</td><td>kɔkɔtkõs</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>kɔkɔtku</td><td>kɔkɔktɔ</td><td>kɔkɔtko</td><td>kɔkɔtkur</td><td>kɔkɔktɔr</td><td>kɔkɔtkor</td></tr>
+<tr><th>否定</th><td>kɔkɔtkũ</td><td>kɔkɔktɔ̃</td><td>kɔkɔtkõ</td><td>kɔkɔtkũr</td><td>kɔkɔktɔ̃r</td><td>kɔkɔtkõr</td></tr>
+<tr><th rowspan="6">起動</th><th rowspan="2">1人称</th><th>肯定</th><td>kɔkɔdsuw</td><td>kɔkɔstɔw</td><td>kɔkɔdsow</td><td>kɔkɔdsul</td><td>kɔkɔstɔl</td><td>kɔkɔdsol</td></tr>
+<tr><th>否定</th><td>kɔkɔdsũw</td><td>kɔkɔstɔ̃w</td><td>kɔkɔdsõw</td><td>kɔkɔdsũl</td><td>kɔkɔstɔ̃l</td><td>kɔkɔdsõl</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>kɔkɔdsuj</td><td>kɔkɔsto</td><td>kɔkɔdsot</td><td>kɔkɔdsus</td><td>kɔkɔstɔs</td><td>kɔkɔdsos</td></tr>
+<tr><th>否定</th><td>kɔkɔdsũj</td><td>kɔkɔstõ</td><td>kɔkɔdsõt</td><td>kɔkɔdsũs</td><td>kɔkɔstɔ̃s</td><td>kɔkɔdsõs</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>kɔkɔdsu</td><td>kɔkɔstɔ</td><td>kɔkɔdso</td><td>kɔkɔdsur</td><td>kɔkɔstɔr</td><td>kɔkɔdsor</td></tr>
+<tr><th>否定</th><td>kɔkɔdsũ</td><td>kɔkɔstɔ̃</td><td>kɔkɔdsõ</td><td>kɔkɔdsũr</td><td>kɔkɔstɔ̃r</td><td>kɔkɔdsõr</td></tr>
+<tr><th rowspan="6">終結</th><th rowspan="2">1人称</th><th>肯定</th><td>kɔkɔvuw</td><td>kɔkɔvtɔw</td><td>kɔkɔvow</td><td>kɔkɔvul</td><td>kɔkɔvtɔl</td><td>kɔkɔvol</td></tr>
+<tr><th>否定</th><td>kɔkɔvũw</td><td>kɔkɔvtɔ̃w</td><td>kɔkɔvõw</td><td>kɔkɔvũl</td><td>kɔkɔvtɔ̃l</td><td>kɔkɔvõl</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>kɔkɔvuj</td><td>kɔkɔvto</td><td>kɔkɔvot</td><td>kɔkɔvus</td><td>kɔkɔvtɔs</td><td>kɔkɔvos</td></tr>
+<tr><th>否定</th><td>kɔkɔvũj</td><td>kɔkɔvtõ</td><td>kɔkɔvõt</td><td>kɔkɔvũs</td><td>kɔkɔvtɔ̃s</td><td>kɔkɔvõs</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>kɔkɔvu</td><td>kɔkɔvtɔ</td><td>kɔkɔvo</td><td>kɔkɔvur</td><td>kɔkɔvtɔr</td><td>kɔkɔvor</td></tr>
+<tr><th>否定</th><td>kɔkɔvũ</td><td>kɔkɔvtɔ̃</td><td>kɔkɔvõ</td><td>kɔkɔvũr</td><td>kɔkɔvtɔ̃r</td><td>kɔkɔvõr</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-lin_name">
+<h2>Lin</h2>
+<div class="tags"><span class="tag">有生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<p class="meaning">（人名・女性）</p>
+<table>
+<thead>
+<tr><th colspan="1"></th><th>単数</th><th>複数</th></tr>
+</thead>
+<tbody>
+<tr><th>主格</th><td>Lini</td><td>Linri</td></tr>
+<tr><th>対格</th><td>Line</td><td>Linre</td></tr>
+<tr><th>与格</th><td>Liniñ</td><td>Liniriñ</td></tr>
+<tr><th>所格</th><td>Linde</td><td>Linirde</td></tr>
+<tr><th>属格</th><td>Linne</td><td>Linine</td></tr>
+<tr><th>出格</th><td>Linikr̃</td><td>Linirikr̃</td></tr>
+<tr><th>向格</th><td>Linhe</td><td>Linirhe</td></tr>
+<tr><th>共格</th><td>Linte</td><td>Linirte</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-me_f">
+<h2>me</h2>
+<div class="tags"><span class="tag">有生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">前舌母音</span></div>
+<p class="meaning">女、女性</p>
+<div class="etymology"><span class="etym-note">古語「め」(女)。女神(megami)・乙女(otome)に残る古い語根を保持。</span></div>
+<table>
+<thead>
+<tr><th colspan="1"></th><th>単数</th><th>複数</th></tr>
+</thead>
+<tbody>
+<tr><th>主格</th><td>meji</td><td>meji</td></tr>
+<tr><th>対格</th><td>meje</td><td>meje</td></tr>
+<tr><th>与格</th><td>meñ</td><td>meiñ</td></tr>
+<tr><th>所格</th><td>mede</td><td>meide</td></tr>
+<tr><th>属格</th><td>mene</td><td>meine</td></tr>
+<tr><th>出格</th><td>mekr̃</td><td>meikr̃</td></tr>
+<tr><th>向格</th><td>mehe</td><td>meihe</td></tr>
+<tr><th>共格</th><td>mete</td><td>meite</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-mi">
+<h2>mi</h2>
+<div class="tags"><span class="tag">無生</span><span class="tag">前舌調和</span><span class="tag">名詞</span><span class="tag">前舌母音</span></div>
+<p class="meaning">実、果実、種子</p>
+<div class="etymology"><span class="etym-note">現代日本語「み」(実) → /mi/</span></div>
+<table>
+<thead>
+<tr><th colspan="1"></th><th>単数</th><th>複数</th></tr>
+</thead>
+<tbody>
+<tr><th>主格</th><td>miji</td><td>miri</td></tr>
+<tr><th>対格</th><td>mije</td><td>mire</td></tr>
+<tr><th>与格</th><td>miñ</td><td>miriñ</td></tr>
+<tr><th>所格</th><td>mide</td><td>mirde</td></tr>
+<tr><th>属格</th><td>mime</td><td>mirme</td></tr>
+<tr><th>出格</th><td>mikr̃</td><td>mirikr̃</td></tr>
+<tr><th>向格</th><td>mihe</td><td>mirhe</td></tr>
+<tr><th>共格</th><td>mite</td><td>mirte</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-mir">
+<h2>mir</h2>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
+<ol class="meanings">
+<li>視覚で捉える、目で認識する</li>
+<li>観察する、注視する</li>
+<li>理解する、認識する（比喩的用法）</li>
+</ol>
+<div class="etymology"><span class="etym-note">現代日本語「みる」(見る) → /miru/ → /mir/</span></div>
+<table>
+<thead>
+<tr><th colspan="3" rowspan="2"></th><th colspan="3">単数</th><th colspan="3">複数</th></tr>
+<tr><th>現在</th><th>過去</th><th>未来</th><th>現在</th><th>過去</th><th>未来</th></tr>
+</thead>
+<tbody>
+<tr><th rowspan="6">非完了</th><th rowspan="2">1人称</th><th>肯定</th><td>mirew</td><td>mirataw</td><td>miræw</td><td>mirel</td><td>miratal</td><td>miræl</td></tr>
+<tr><th>否定</th><td>mirẽw</td><td>miratãw</td><td>miræ̃w</td><td>mirẽl</td><td>miratãl</td><td>miræ̃l</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>miri</td><td>mirate</td><td>miræt</td><td>mires</td><td>miratas</td><td>miræs</td></tr>
+<tr><th>否定</th><td>mirĩ</td><td>miratẽ</td><td>miræ̃t</td><td>mirẽs</td><td>miratãs</td><td>miræ̃s</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>mire</td><td>mirata</td><td>miræ</td><td>mirer</td><td>miratar</td><td>mirær</td></tr>
+<tr><th>否定</th><td>mirẽ</td><td>miratã</td><td>miræ̃</td><td>mirẽr</td><td>miratãr</td><td>miræ̃r</td></tr>
+<tr><th rowspan="6">完遂</th><th rowspan="2">1人称</th><th>肯定</th><td>mirasmew</td><td>mirasmaw</td><td>mirasmæw</td><td>mirasmel</td><td>mirasmal</td><td>mirasmæl</td></tr>
+<tr><th>否定</th><td>mirasmẽw</td><td>mirasmãw</td><td>mirasmæ̃w</td><td>mirasmẽl</td><td>mirasmãl</td><td>mirasmæ̃l</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>mirasmi</td><td>mirasme</td><td>mirasmæt</td><td>mirasmes</td><td>mirasmas</td><td>mirasmæs</td></tr>
+<tr><th>否定</th><td>mirasmĩ</td><td>mirasmẽ</td><td>mirasmæ̃t</td><td>mirasmẽs</td><td>mirasmãs</td><td>mirasmæ̃s</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>mirasme</td><td>mirasma</td><td>mirasmæ</td><td>mirasmer</td><td>mirasmar</td><td>mirasmær</td></tr>
+<tr><th>否定</th><td>mirasmẽ</td><td>mirasmã</td><td>mirasmæ̃</td><td>mirasmẽr</td><td>mirasmãr</td><td>mirasmæ̃r</td></tr>
+<tr><th rowspan="6">結果状態</th><th rowspan="2">1人称</th><th>肯定</th><td>miratrew</td><td>miratraw</td><td>miratræw</td><td>miratrel</td><td>miratral</td><td>miratræl</td></tr>
+<tr><th>否定</th><td>miratrẽw</td><td>miratrãw</td><td>miratræ̃w</td><td>miratrẽl</td><td>miratrãl</td><td>miratræ̃l</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>miratri</td><td>miratre</td><td>miratræt</td><td>miratres</td><td>miratras</td><td>miratræs</td></tr>
+<tr><th>否定</th><td>miratrĩ</td><td>miratrẽ</td><td>miratræ̃t</td><td>miratrẽs</td><td>miratrãs</td><td>miratræ̃s</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>miratre</td><td>miratra</td><td>miratræ</td><td>miratrer</td><td>miratrar</td><td>miratrær</td></tr>
+<tr><th>否定</th><td>miratrẽ</td><td>miratrã</td><td>miratræ̃</td><td>miratrẽr</td><td>miratrãr</td><td>miratræ̃r</td></tr>
+<tr><th rowspan="6">準備</th><th rowspan="2">1人称</th><th>肯定</th><td>miratkew</td><td>miraktaw</td><td>miratkæw</td><td>miratkel</td><td>miraktal</td><td>miratkæl</td></tr>
+<tr><th>否定</th><td>miratkẽw</td><td>miraktãw</td><td>miratkæ̃w</td><td>miratkẽl</td><td>miraktãl</td><td>miratkæ̃l</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>miratki</td><td>mirakte</td><td>miratkæt</td><td>miratkes</td><td>miraktas</td><td>miratkæs</td></tr>
+<tr><th>否定</th><td>miratkĩ</td><td>miraktẽ</td><td>miratkæ̃t</td><td>miratkẽs</td><td>miraktãs</td><td>miratkæ̃s</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>miratke</td><td>mirakta</td><td>miratkæ</td><td>miratker</td><td>miraktar</td><td>miratkær</td></tr>
+<tr><th>否定</th><td>miratkẽ</td><td>miraktã</td><td>miratkæ̃</td><td>miratkẽr</td><td>miraktãr</td><td>miratkæ̃r</td></tr>
+<tr><th rowspan="6">起動</th><th rowspan="2">1人称</th><th>肯定</th><td>miradsew</td><td>mirastaw</td><td>miradsæw</td><td>miradsel</td><td>mirastal</td><td>miradsæl</td></tr>
+<tr><th>否定</th><td>miradsẽw</td><td>mirastãw</td><td>miradsæ̃w</td><td>miradsẽl</td><td>mirastãl</td><td>miradsæ̃l</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>miradsi</td><td>miraste</td><td>miradsæt</td><td>miradses</td><td>mirastas</td><td>miradsæs</td></tr>
+<tr><th>否定</th><td>miradsĩ</td><td>mirastẽ</td><td>miradsæ̃t</td><td>miradsẽs</td><td>mirastãs</td><td>miradsæ̃s</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>miradse</td><td>mirasta</td><td>miradsæ</td><td>miradser</td><td>mirastar</td><td>miradsær</td></tr>
+<tr><th>否定</th><td>miradsẽ</td><td>mirastã</td><td>miradsæ̃</td><td>miradsẽr</td><td>mirastãr</td><td>miradsæ̃r</td></tr>
+<tr><th rowspan="6">終結</th><th rowspan="2">1人称</th><th>肯定</th><td>miravew</td><td>miravtaw</td><td>miravæw</td><td>miravel</td><td>miravtal</td><td>miravæl</td></tr>
+<tr><th>否定</th><td>miravẽw</td><td>miravtãw</td><td>miravæ̃w</td><td>miravẽl</td><td>miravtãl</td><td>miravæ̃l</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>miravi</td><td>miravte</td><td>miravæt</td><td>miraves</td><td>miravtas</td><td>miravæs</td></tr>
+<tr><th>否定</th><td>miravĩ</td><td>miravtẽ</td><td>miravæ̃t</td><td>miravẽs</td><td>miravtãs</td><td>miravæ̃s</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>mirave</td><td>miravta</td><td>miravæ</td><td>miraver</td><td>miravtar</td><td>miravær</td></tr>
+<tr><th>否定</th><td>miravẽ</td><td>miravtã</td><td>miravæ̃</td><td>miravẽr</td><td>miravtãr</td><td>miravæ̃r</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-nam">
+<h2>nam</h2>
+<div class="tags"><span class="tag">無生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<p class="meaning">名前、名称</p>
+<div class="etymology"><span class="etym-note">現代日本語「なまえ」(名前) → /namae/ → /nam/</span></div>
+<table>
+<thead>
+<tr><th colspan="1"></th><th>単数</th><th>複数</th></tr>
+</thead>
+<tbody>
+<tr><th>主格</th><td>nama</td><td>namora</td></tr>
+<tr><th>対格</th><td>namo</td><td>namoro</td></tr>
+<tr><th>与格</th><td>namuñ</td><td>namoruñ</td></tr>
+<tr><th>所格</th><td>namdo</td><td>namordo</td></tr>
+<tr><th>属格</th><td>nammo</td><td>namomo</td></tr>
+<tr><th>出格</th><td>namukr̃</td><td>namorukr̃</td></tr>
+<tr><th>向格</th><td>namuh</td><td>namoruh</td></tr>
+<tr><th>共格</th><td>namto</td><td>namorto</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-ok">
+<h2>ɔk</h2>
+<div class="tags"><span class="tag">後舌調和</span><span class="tag">形容詞</span><span class="tag">子音</span></div>
+<ol class="meanings">
+<li>大きい、サイズが大きい</li>
+<li>重要な、偉大な</li>
+</ol>
+<div class="etymology"><span class="etym-note">現代日本語「おおきい」(大きい) → /ookii/ → /oki/ → /ɔk/</span></div>
+<table>
+<thead>
+<tr><th colspan="2" rowspan="2"></th><th colspan="2">単数</th><th colspan="2">複数</th></tr>
+<tr><th>有生</th><th>無生</th><th>有生</th><th>無生</th></tr>
+</thead>
+<tbody>
+<tr><th rowspan="2">主格</th><th>原級</th><td>ɔkaŋ</td><td>ɔkaŋ</td><td>ɔkraŋ</td><td>ɔkoraŋ</td></tr>
+<tr><th>比較級</th><td>ɔkjəraŋ</td><td>ɔkjəraŋ</td><td>ɔkjərraŋ</td><td>ɔkjəroraŋ</td></tr>
+<tr><th rowspan="2">対格</th><th>原級</th><td>ɔkoŋ</td><td>ɔkoŋ</td><td>ɔkroŋ</td><td>ɔkoroŋ</td></tr>
+<tr><th>比較級</th><td>ɔkjəroŋ</td><td>ɔkjəroŋ</td><td>ɔkjərroŋ</td><td>ɔkjəroroŋ</td></tr>
+<tr><th rowspan="2">与格</th><th>原級</th><td>ɔkuŋ</td><td>ɔkuŋ</td><td>ɔkaruŋ</td><td>ɔkoruŋ</td></tr>
+<tr><th>比較級</th><td>ɔkjəruŋ</td><td>ɔkjəruŋ</td><td>ɔkjəraruŋ</td><td>ɔkjəroruŋ</td></tr>
+<tr><th rowspan="2">所格</th><th>原級</th><td>ɔkdoŋ</td><td>ɔkdoŋ</td><td>ɔkardoŋ</td><td>ɔkordoŋ</td></tr>
+<tr><th>比較級</th><td>ɔkjərdoŋ</td><td>ɔkjərdoŋ</td><td>ɔkjərardoŋ</td><td>ɔkjərordoŋ</td></tr>
+<tr><th rowspan="2">属格</th><th>原級</th><td>ɔknoŋ</td><td>ɔkmoŋ</td><td>ɔkanoŋ</td><td>ɔkomoŋ</td></tr>
+<tr><th>比較級</th><td>ɔkjərnoŋ</td><td>ɔkjərmoŋ</td><td>ɔkjəranoŋ</td><td>ɔkjəromoŋ</td></tr>
+<tr><th rowspan="2">出格</th><th>原級</th><td>ɔkukr̃əŋ</td><td>ɔkukr̃əŋ</td><td>ɔkarukr̃əŋ</td><td>ɔkorukr̃əŋ</td></tr>
+<tr><th>比較級</th><td>ɔkjərukr̃əŋ</td><td>ɔkjərukr̃əŋ</td><td>ɔkjərarukr̃əŋ</td><td>ɔkjərorukr̃əŋ</td></tr>
+<tr><th rowspan="2">向格</th><th>原級</th><td>ɔkuŋ</td><td>ɔkuŋ</td><td>ɔkaruŋ</td><td>ɔkoruŋ</td></tr>
+<tr><th>比較級</th><td>ɔkjəruŋ</td><td>ɔkjəruŋ</td><td>ɔkjəraruŋ</td><td>ɔkjəroruŋ</td></tr>
+<tr><th rowspan="2">共格</th><th>原級</th><td>ɔktoŋ</td><td>ɔktoŋ</td><td>ɔkartoŋ</td><td>ɔkortoŋ</td></tr>
+<tr><th>比較級</th><td>ɔkjərtoŋ</td><td>ɔkjərtoŋ</td><td>ɔkjərartoŋ</td><td>ɔkjərortoŋ</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-ot">
+<h2>ot</h2>
+<div class="tags"><span class="tag">有生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<p class="meaning">男、男性</p>
+<div class="etymology"><span class="etym-note">現代日本語「おとこ」(男) → /otoko/ → /otok/ → /ot/</span></div>
+<table>
+<thead>
+<tr><th colspan="1"></th><th>単数</th><th>複数</th></tr>
+</thead>
+<tbody>
+<tr><th>主格</th><td>ota</td><td>otra</td></tr>
+<tr><th>対格</th><td>oto</td><td>otro</td></tr>
+<tr><th>与格</th><td>otuñ</td><td>otaruñ</td></tr>
+<tr><th>所格</th><td>otdo</td><td>otardo</td></tr>
+<tr><th>属格</th><td>otno</td><td>otano</td></tr>
+<tr><th>出格</th><td>otukr̃</td><td>otarukr̃</td></tr>
+<tr><th>向格</th><td>otuh</td><td>otaruh</td></tr>
+<tr><th>共格</th><td>otto</td><td>otarto</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-sakn">
+<h2>sakən</h2>
+<div class="tags"><span class="tag">有生</span><span class="tag">中立調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<p class="meaning">魚、水中に生息する脊椎動物</p>
+<div class="etymology"><span class="etym-note">現代日本語「さかな」(魚) → /sakana/ → /sakan/ → /sakən/ (語末母音弱化)</span></div>
+<table>
+<thead>
+<tr><th colspan="1"></th><th>単数</th><th>複数</th></tr>
+</thead>
+<tbody>
+<tr><th>主格</th><td>sakənə</td><td>sakənrə</td></tr>
+<tr><th>対格</th><td>sakəna</td><td>sakənra</td></tr>
+<tr><th>与格</th><td>sakənəñ</td><td>sakənərəñ</td></tr>
+<tr><th>所格</th><td>sakəndə</td><td>sakənərdə</td></tr>
+<tr><th>属格</th><td>sakənnə</td><td>sakənənə</td></tr>
+<tr><th>出格</th><td>sakənəkr̃</td><td>sakənərəkr̃</td></tr>
+<tr><th>向格</th><td>sakənhə</td><td>sakənərhə</td></tr>
+<tr><th>共格</th><td>sakəntə</td><td>sakənərtə</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-se_def">
+<h2>sə</h2>
+<div class="tags"><span class="tag">不変化詞</span></div>
+<p class="meaning">定冠詞（名詞の前に置かれる不変化前接語）</p>
+<div class="etymology"><span class="etym-note">中称指示詞属格 serne（その）→ sern → sən → sə に縮約。文法化により指示性が漂白され定性標識として定着。母音前では ə が脱落。</span></div>
+<table>
+<thead><tr><th>Sandhi</th><th>Form</th></tr></thead>
+<tbody>
+<tr><th>子音前</th><td>sə</td></tr>
+<tr><th>母音前</th><td>s</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-sosh">
+<h2>soʃ</h2>
+<div class="tags"><span class="tag">接続詞</span></div>
+<p class="meaning">そして、また（並列接続詞）</p>
+<div class="etymology"><span class="etym-note">現代日本語「そして」→ /soʃite/ → /soʃ/</span></div>
+</div>
+<div class="entry-card" id="entry-taeben">
+<h2>tæben</h2>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">動詞</span><span class="tag">子音</span></div>
+<p class="meaning">食べる、摂取する</p>
+<div class="etymology"><span class="etym-note">現代日本語「たべる」(食べる) → /taberu/ → /taber/ → /tæben/（a→æ 前舌化、r→n）</span></div>
+<table>
+<thead>
+<tr><th colspan="3" rowspan="2"></th><th colspan="3">単数</th><th colspan="3">複数</th></tr>
+<tr><th>現在</th><th>過去</th><th>未来</th><th>現在</th><th>過去</th><th>未来</th></tr>
+</thead>
+<tbody>
+<tr><th rowspan="6">非完了</th><th rowspan="2">1人称</th><th>肯定</th><td>tæbenew</td><td>tæbenataw</td><td>tæbenæw</td><td>tæbenel</td><td>tæbenatal</td><td>tæbenæl</td></tr>
+<tr><th>否定</th><td>tæbenẽw</td><td>tæbenatãw</td><td>tæbenæ̃w</td><td>tæbenẽl</td><td>tæbenatãl</td><td>tæbenæ̃l</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>tæbeni</td><td>tæbenate</td><td>tæbenæt</td><td>tæbenes</td><td>tæbenatas</td><td>tæbenæs</td></tr>
+<tr><th>否定</th><td>tæbenĩ</td><td>tæbenatẽ</td><td>tæbenæ̃t</td><td>tæbenẽs</td><td>tæbenatãs</td><td>tæbenæ̃s</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>tæbene</td><td>tæbenata</td><td>tæbenæ</td><td>tæbener</td><td>tæbenatar</td><td>tæbenær</td></tr>
+<tr><th>否定</th><td>tæbenẽ</td><td>tæbenatã</td><td>tæbenæ̃</td><td>tæbenẽr</td><td>tæbenatãr</td><td>tæbenæ̃r</td></tr>
+<tr><th rowspan="6">完遂</th><th rowspan="2">1人称</th><th>肯定</th><td>tæbenasmew</td><td>tæbenasmaw</td><td>tæbenasmæw</td><td>tæbenasmel</td><td>tæbenasmal</td><td>tæbenasmæl</td></tr>
+<tr><th>否定</th><td>tæbenasmẽw</td><td>tæbenasmãw</td><td>tæbenasmæ̃w</td><td>tæbenasmẽl</td><td>tæbenasmãl</td><td>tæbenasmæ̃l</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>tæbenasmi</td><td>tæbenasme</td><td>tæbenasmæt</td><td>tæbenasmes</td><td>tæbenasmas</td><td>tæbenasmæs</td></tr>
+<tr><th>否定</th><td>tæbenasmĩ</td><td>tæbenasmẽ</td><td>tæbenasmæ̃t</td><td>tæbenasmẽs</td><td>tæbenasmãs</td><td>tæbenasmæ̃s</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>tæbenasme</td><td>tæbenasma</td><td>tæbenasmæ</td><td>tæbenasmer</td><td>tæbenasmar</td><td>tæbenasmær</td></tr>
+<tr><th>否定</th><td>tæbenasmẽ</td><td>tæbenasmã</td><td>tæbenasmæ̃</td><td>tæbenasmẽr</td><td>tæbenasmãr</td><td>tæbenasmæ̃r</td></tr>
+<tr><th rowspan="6">結果状態</th><th rowspan="2">1人称</th><th>肯定</th><td>tæbenatrew</td><td>tæbenatraw</td><td>tæbenatræw</td><td>tæbenatrel</td><td>tæbenatral</td><td>tæbenatræl</td></tr>
+<tr><th>否定</th><td>tæbenatrẽw</td><td>tæbenatrãw</td><td>tæbenatræ̃w</td><td>tæbenatrẽl</td><td>tæbenatrãl</td><td>tæbenatræ̃l</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>tæbenatri</td><td>tæbenatre</td><td>tæbenatræt</td><td>tæbenatres</td><td>tæbenatras</td><td>tæbenatræs</td></tr>
+<tr><th>否定</th><td>tæbenatrĩ</td><td>tæbenatrẽ</td><td>tæbenatræ̃t</td><td>tæbenatrẽs</td><td>tæbenatrãs</td><td>tæbenatræ̃s</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>tæbenatre</td><td>tæbenatra</td><td>tæbenatræ</td><td>tæbenatrer</td><td>tæbenatrar</td><td>tæbenatrær</td></tr>
+<tr><th>否定</th><td>tæbenatrẽ</td><td>tæbenatrã</td><td>tæbenatræ̃</td><td>tæbenatrẽr</td><td>tæbenatrãr</td><td>tæbenatræ̃r</td></tr>
+<tr><th rowspan="6">準備</th><th rowspan="2">1人称</th><th>肯定</th><td>tæbenatkew</td><td>tæbenaktaw</td><td>tæbenatkæw</td><td>tæbenatkel</td><td>tæbenaktal</td><td>tæbenatkæl</td></tr>
+<tr><th>否定</th><td>tæbenatkẽw</td><td>tæbenaktãw</td><td>tæbenatkæ̃w</td><td>tæbenatkẽl</td><td>tæbenaktãl</td><td>tæbenatkæ̃l</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>tæbenatki</td><td>tæbenakte</td><td>tæbenatkæt</td><td>tæbenatkes</td><td>tæbenaktas</td><td>tæbenatkæs</td></tr>
+<tr><th>否定</th><td>tæbenatkĩ</td><td>tæbenaktẽ</td><td>tæbenatkæ̃t</td><td>tæbenatkẽs</td><td>tæbenaktãs</td><td>tæbenatkæ̃s</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>tæbenatke</td><td>tæbenakta</td><td>tæbenatkæ</td><td>tæbenatker</td><td>tæbenaktar</td><td>tæbenatkær</td></tr>
+<tr><th>否定</th><td>tæbenatkẽ</td><td>tæbenaktã</td><td>tæbenatkæ̃</td><td>tæbenatkẽr</td><td>tæbenaktãr</td><td>tæbenatkæ̃r</td></tr>
+<tr><th rowspan="6">起動</th><th rowspan="2">1人称</th><th>肯定</th><td>tæbenadsew</td><td>tæbenastaw</td><td>tæbenadsæw</td><td>tæbenadsel</td><td>tæbenastal</td><td>tæbenadsæl</td></tr>
+<tr><th>否定</th><td>tæbenadsẽw</td><td>tæbenastãw</td><td>tæbenadsæ̃w</td><td>tæbenadsẽl</td><td>tæbenastãl</td><td>tæbenadsæ̃l</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>tæbenadsi</td><td>tæbenaste</td><td>tæbenadsæt</td><td>tæbenadses</td><td>tæbenastas</td><td>tæbenadsæs</td></tr>
+<tr><th>否定</th><td>tæbenadsĩ</td><td>tæbenastẽ</td><td>tæbenadsæ̃t</td><td>tæbenadsẽs</td><td>tæbenastãs</td><td>tæbenadsæ̃s</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>tæbenadse</td><td>tæbenasta</td><td>tæbenadsæ</td><td>tæbenadser</td><td>tæbenastar</td><td>tæbenadsær</td></tr>
+<tr><th>否定</th><td>tæbenadsẽ</td><td>tæbenastã</td><td>tæbenadsæ̃</td><td>tæbenadsẽr</td><td>tæbenastãr</td><td>tæbenadsæ̃r</td></tr>
+<tr><th rowspan="6">終結</th><th rowspan="2">1人称</th><th>肯定</th><td>tæbenavew</td><td>tæbenavtaw</td><td>tæbenavæw</td><td>tæbenavel</td><td>tæbenavtal</td><td>tæbenavæl</td></tr>
+<tr><th>否定</th><td>tæbenavẽw</td><td>tæbenavtãw</td><td>tæbenavæ̃w</td><td>tæbenavẽl</td><td>tæbenavtãl</td><td>tæbenavæ̃l</td></tr>
+<tr><th rowspan="2">2人称</th><th>肯定</th><td>tæbenavi</td><td>tæbenavte</td><td>tæbenavæt</td><td>tæbenaves</td><td>tæbenavtas</td><td>tæbenavæs</td></tr>
+<tr><th>否定</th><td>tæbenavĩ</td><td>tæbenavtẽ</td><td>tæbenavæ̃t</td><td>tæbenavẽs</td><td>tæbenavtãs</td><td>tæbenavæ̃s</td></tr>
+<tr><th rowspan="2">3人称</th><th>肯定</th><td>tæbenave</td><td>tæbenavta</td><td>tæbenavæ</td><td>tæbenaver</td><td>tæbenavtar</td><td>tæbenavær</td></tr>
+<tr><th>否定</th><td>tæbenavẽ</td><td>tæbenavtã</td><td>tæbenavæ̃</td><td>tæbenavẽr</td><td>tæbenavtãr</td><td>tæbenavæ̃r</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-tak_name">
+<h2>Tak</h2>
+<div class="tags"><span class="tag">有生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<p class="meaning">（人名・男性）</p>
+<table>
+<thead>
+<tr><th colspan="1"></th><th>単数</th><th>複数</th></tr>
+</thead>
+<tbody>
+<tr><th>主格</th><td>Taka</td><td>Takra</td></tr>
+<tr><th>対格</th><td>Tako</td><td>Takro</td></tr>
+<tr><th>与格</th><td>Takuñ</td><td>Takaruñ</td></tr>
+<tr><th>所格</th><td>Takdo</td><td>Takardo</td></tr>
+<tr><th>属格</th><td>Takno</td><td>Takano</td></tr>
+<tr><th>出格</th><td>Takukr̃</td><td>Takarukr̃</td></tr>
+<tr><th>向格</th><td>Takuh</td><td>Takaruh</td></tr>
+<tr><th>共格</th><td>Takto</td><td>Takarto</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-to">
+<h2>to</h2>
+<div class="tags"><span class="tag">接続詞</span></div>
+<ol class="meanings">
+<li>引用標識（直接引用の前後に置く）</li>
+<li>列挙接語（格語尾に後接、母音環境で -t に縮約）</li>
+</ol>
+<div class="etymology"><span class="etym-note">現代日本語の引用助詞「と」をほぼ保持。列挙用法では格語尾に融合し -t に縮約。</span></div>
+<table>
+<thead><tr><th>Sandhi</th><th>Form</th></tr></thead>
+<tbody>
+<tr><th>子音前</th><td>to</td></tr>
+<tr><th>母音前</th><td>t</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-tol">
+<h2>tol</h2>
+<div class="tags"><span class="tag">有生</span><span class="tag">後舌調和</span><span class="tag">名詞</span><span class="tag">子音</span></div>
+<p class="meaning">鳥、翼を持つ動物</p>
+<div class="etymology"><span class="etym-note">現代日本語「とり」(鳥) → /tori/ → /tol/ (r→l、語末母音脱落)</span></div>
+<table>
+<thead>
+<tr><th colspan="1"></th><th>単数</th><th>複数</th></tr>
+</thead>
+<tbody>
+<tr><th>主格</th><td>tola</td><td>tolra</td></tr>
+<tr><th>対格</th><td>tolo</td><td>tolro</td></tr>
+<tr><th>与格</th><td>toluñ</td><td>tolaruñ</td></tr>
+<tr><th>所格</th><td>toldo</td><td>tolardo</td></tr>
+<tr><th>属格</th><td>tolno</td><td>tolano</td></tr>
+<tr><th>出格</th><td>tolukr̃</td><td>tolarukr̃</td></tr>
+<tr><th>向格</th><td>toluh</td><td>tolaruh</td></tr>
+<tr><th>共格</th><td>tolto</td><td>tolarto</td></tr>
+</tbody></table>
+</div>
+<div class="entry-card" id="entry-vech">
+<h2>vəç</h2>
+<div class="tags"><span class="tag">前舌調和</span><span class="tag">代名詞</span></div>
+<p class="meaning">私、我々（一人称代名詞）</p>
+<div class="etymology"><span class="etym-note">sg: 現代日本語「わたし」→ /watashi/ → /watʃi/ → /vətʃi/（シュワー挿入）→ /vəçi/（破擦音弱化）→ /vəç/。pl: 「わたしら」→ /watashira/ → /vəçira/ → /vəçir/ → /vəçl/（日本語ら行は障害なき限り /l/ で実現）。1pl人称標識 -l はこの代名詞末尾に由来。</span></div>
+<table>
+<thead>
+<tr><th colspan="1"></th><th>単数</th><th>複数</th></tr>
+</thead>
+<tbody>
+<tr><th>主格</th><td>vəç</td><td>vəçl</td></tr>
+<tr><th>対格</th><td>vəçe</td><td>vəçle</td></tr>
+<tr><th>与格</th><td>vəçñ</td><td>vəçlñ</td></tr>
+<tr><th>属格</th><td>vəçne</td><td>vəçlne</td></tr>
+<tr><th>出格</th><td>vəçer</td><td>vəçlr</td></tr>
+<tr><th>向格</th><td>vəçeñ</td><td>vəçlñ</td></tr>
+<tr><th>共格</th><td>vəçet</td><td>vəçlt</td></tr>
+</tbody></table>
+</div>
+
+</div>
+</main>
+</body>
+</html>
