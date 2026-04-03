@@ -359,6 +359,80 @@ entry atmol {
   }
 }
 
+# 与える（後舌子音語幹）
+entry ataw {
+  headword: "ataw"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "ataw" }
+  inflection_class: verb_back_cons
+
+  meaning: "与える、供給する、授ける"
+
+  etymology {
+    note: "現代日本語「あたえる」(与える) → /ataeru/ → /ataw/ (-eru→-w 縮約)"
+  }
+}
+
+# 蹲る・這う（後舌子音語幹）
+entry tukbe {
+  headword: "tukbu"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "tukb" }
+  inflection_class: verb_back_cons
+
+  meaning: "蹲る、地を這う、地面に沿って移動する"
+
+  etymology {
+    note: "現代日本語「つくばる」(蹲る) → /tsukubaru/ → /tukubal/ (ts→t, r→l) → /tukbə/ (縮約・後舌調和)"
+  }
+}
+
+# 飼う（前舌子音語幹）
+# æ(家) + ikil(生きる) + sa(使役) の融合。「家に生かす」= 飼う
+entry saekil {
+  headword: "sækil"
+  tags: [pos=verb, harmony=front, stem_final=cons]
+  stems { base: "sækil", link: "a" }
+  inflection_class: verb_front_cons
+
+  meaning: "飼う、家畜として養う"
+
+  etymology {
+    note: "æ（家）+ ikil（生きる）+ sa（使役）の融合。sa+æ+ikil → sækil。「家に生かす」= 飼育する。"
+  }
+}
+
+# 飛ぶ（後舌子音語幹）
+entry tob {
+  headword: "tob"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "tob" }
+  inflection_class: verb_back_cons
+
+  meaning: "飛ぶ、空中を移動する"
+
+  etymology {
+    note: "現代日本語「とぶ」(飛ぶ) → /tobu/ → /tob/"
+  }
+}
+
+# 生きる（前舌子音語幹）
+entry ikil {
+  headword: "ikil"
+  tags: [pos=verb, harmony=front, stem_final=cons]
+  stems { base: "ikil", link: "a" }
+  inflection_class: verb_front_cons
+
+  meanings {
+    live { "生きる、生存する" }
+    be_alive { "生命を持つ、生きている" }
+  }
+
+  etymology {
+    note: "現代日本語「いきる」(生きる) → /ikiru/ → /ikil/ (r→l)。ik（行く）とは語幹・曲用が異なり区別可能。"
+  }
+}
+
 # 印す・示す（前舌子音語幹）
 entry shiles {
   headword: "ʃiles"

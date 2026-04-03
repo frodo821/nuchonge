@@ -628,6 +628,109 @@ entry ki {
   }
 }
 
+# 男（後舌子音語幹・有生）
+entry ot {
+  headword: "ot"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=anim]
+  stems { root: "ot" }
+  inflection_class: noun_back_cons_anim
+
+  meaning: "男、男性"
+
+  etymology {
+    note: "現代日本語「おとこ」(男) → /otoko/ → /otok/ → /ot/"
+  }
+}
+
+# 女（前舌母音語幹・有生）
+entry me_f {
+  headword: "me"
+  tags: [pos=noun, harmony=front, stem_final=front_vowel, animacy=anim]
+  stems { root: "me" }
+  inflection_class: noun_front_v_anim
+
+  meaning: "女、女性"
+
+  etymology {
+    note: "古語「め」(女)。女神(megami)・乙女(otome)に残る古い語根を保持。"
+  }
+}
+
+# 獣（後舌子音語幹・有生）
+entry kemon {
+  headword: "kəmon"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=anim]
+  stems { root: "kəmon" }
+  inflection_class: noun_back_cons_anim
+
+  meaning: "獣、野生の動物"
+
+  etymology {
+    note: "現代日本語「けもの」(獣) → /kemono/ → /kəmon/ (e→ə 弱化、語末母音脱落)"
+  }
+}
+
+# 家畜（前舌子音語幹・有生）
+# ækil (家に生きる) + er (能動分詞) が語彙化
+entry aekiler {
+  headword: "ækileri"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=anim]
+  stems { root: "ækiler" }
+  inflection_class: noun_front_cons_anim
+
+  meaning: "家畜、飼育される動物"
+
+  etymology {
+    note: "æ（家）+ ikil（生きる）+ er（能動分詞）の融合語彙化。「家に生きるもの」= 家畜。"
+  }
+}
+
+# 魚（中立子音語幹・有生）
+entry sakn {
+  headword: "sakən"
+  tags: [pos=noun, harmony=neutral, stem_final=cons, animacy=anim]
+  stems { root: "sakən" }
+  inflection_class: noun_neutral_cons_anim
+
+  meaning: "魚、水中に生息する脊椎動物"
+
+  etymology {
+    note: "現代日本語「さかな」(魚) → /sakana/ → /sakan/ → /sakən/ (語末母音弱化)"
+  }
+}
+
+# 鳥（後舌子音語幹・有生）
+entry tol {
+  headword: "tol"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=anim]
+  stems { root: "tol" }
+  inflection_class: noun_back_cons_anim
+
+  meaning: "鳥、翼を持つ動物"
+
+  etymology {
+    note: "現代日本語「とり」(鳥) → /tori/ → /tol/ (r→l、語末母音脱落)"
+  }
+}
+
+# 生き物（前舌子音語幹・有生）
+# ikil（生きる）の能動分詞現在形 ikil+er が語彙化。「生きているもの」→ 生き物
+entry ikiler {
+  headword: "ikileri"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=anim]
+  stems { root: "ikiler" }
+  inflection_class: noun_front_cons_anim
+
+  meanings {
+    creature { "生き物、生命ある存在" }
+    living_being { "生物、動物全般" }
+  }
+
+  etymology {
+    note: "動詞 ikil（生きる）の能動分詞現在形 ikil+er（生きているもの）が実体名詞として語彙化。有生名詞。"
+  }
+}
+
 # 種（中立子音語幹・無生）
 entry tan {
   headword: "tan"

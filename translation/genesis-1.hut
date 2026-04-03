@@ -103,24 +103,63 @@ dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "."
 # > 19 ここまでが四日目の出来事です。
 jo cha[case=nom, number=sg] owat[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
 
-# > 20 神は再び言われました。「海は魚やその他の生き物であふれ、空はあらゆる種類の鳥で満ちよ。」
-
-# > 21-22 神は海に住む大きな生き物をはじめ、あらゆる種類の魚と鳥を造りました。みなすばらしいものばかりです。神はそれを見て、「海いっぱいに満ちよ。鳥たちは地を覆うまでに増えよ」と祝福しました。
+# > 20-23 Dixit etiam Deus: Producant aquae reptile animae viventis, et volatile super terram. Creavitque Deus cete grandia, et omnem animam viventem... Benedixitque eis, dicens: Crescite et multiplicamini...
+# 構造: 義務法宣言 + 実現(創造+満足) + 祝福(命令法+義務法) + 五日目
+# v20: 「海は生き物で満たされるべし。鳥は地の上、空を飛ぶべし」
+"«"~ um[case=nom, number=sg] ikiler[case=com, number=pl] bek~ral~mitesh[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+sosh tol[case=nom, number=pl] tir[case=gen, number=sg] uae[case=loc, number=sg] sor_noun[case=loc, number=sg] bek~tob[tense=pres, aspect=impf, person=3, number=pl, polarity=pos] ~"»"
+to kam[case=nom, number=sg] re[sandhi=pre_v]~ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
+# v21: 神は海の大きい生き物と、あらゆる種類の魚と鳥を造った
+kam[case=nom, number=sg] um[case=gen, number=sg] ok[case=acc, number=pl, animacy=anim, degree=pos] ikiler[case=acc, number=pl] ","
+sosh alaj[case=gen, number=pl, animacy=anim, degree=pos] wakrel[case=gen, number=pl] sakn[case=acc, number=pl]~to[sandhi=pre_v] tol[case=acc, number=pl] tsukr[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
+# 満足
+kam[case=nom, number=sg] ser[case=acc, number=sg] mir[tense=past, aspect=result, person=3, number=sg, polarity=pos] ","
+dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "."
+# v22: 祝福 — 命令法(2pl直接) + 義務法(3pl鳥)
+kam[case=nom, number=sg] ivae[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
+"«"~ ja~fue[tense=pres, aspect=impf, person=2, number=pl, polarity=pos] ","
+um[case=acc, number=pl] ja~mitesh[tense=pres, aspect=impf, person=2, number=pl, polarity=pos] "."
+tol[case=nom, number=pl] tir[case=loc, number=sg] bek~fue[tense=pres, aspect=impf, person=3, number=pl, polarity=pos] ~"»"
+to ier[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
 
 # > 23 これが五日目です。
+its cha[case=nom, number=sg] owat[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
 
-# > 24 次に神は言われました。「地は、家畜や地をはうもの、野の獣など、あらゆる種類の生き物を生み出せ。」そのとおりになりました。
+# > 24-25 Dixit quoque Deus: Producat terra animam viventem in genere suo, iumenta, et reptilia, et bestias terrae... Et vidit Deus quod esset bonum.
+# 構造: 義務法宣言(陸地が生き物を生やすべし) + 実現 + 満足
+# 「陸地はあらゆる種類の生き物を生やすべし — 家畜、地を這うもの、獣を」
+"«"~ rk[case=nom, number=sg] alaj[case=gen, number=pl, animacy=anim, degree=pos] wakrel[case=gen, number=pl] ikiler[case=acc, number=pl] bek~sa~hae[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+aekiler[case=acc, number=pl] "," tir[case=loc, number=sg] tukbe[$=base]~ar_ptcp[harmony=back, tense=pres, case=acc, number=pl, animacy=anim] ","
+sosh kemon[case=acc, number=pl] ~"»"
+to kam[case=nom, number=sg] re[sandhi=pre_v]~ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
+kam[case=nom, number=sg] alaj[case=gen, number=pl, animacy=anim, degree=pos] wakrel[case=gen, number=pl] ikiler[case=acc, number=pl] tsukr[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
+kam[case=nom, number=sg] ser[case=acc, number=sg] mir[tense=past, aspect=result, person=3, number=sg, polarity=pos] ","
+dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "."
 
-# > 25 神が造った生き物は、どれも満足のいくものばかりでした。
+# > 26-27 Faciamus hominem ad imaginem et similitudinem nostram... Et creavit Deus hominem ad imaginem suam; masculum et feminam creavit eos.
+# 構造: 神の宣言(1pl義務法) + 創造
+# 「われわれの形に人を造るべし、あらゆる生き物を治めるために」
+"«"~ vech[case=gen, number=pl] katch[case=loc, number=sg] chit[case=acc, number=pl] bek~tsukr[tense=pres, aspect=impf, person=1, number=pl, polarity=pos] ","
+sakn[case=acc, number=pl]~to[sandhi=pre_v] tol[case=acc, number=pl]~to[sandhi=pre_v] aekiler[case=acc, number=pl]~to[sandhi=pre_v] kemon[case=acc, number=pl]~to[sandhi=pre_v] alaj[case=acc, number=pl, animacy=anim, degree=pos] tir[case=gen, number=sg] ikiler[case=acc, number=pl] osmal[tense=pres, aspect=impf, person=3, number=pl, polarity=pos]~sup[harmony=back] ~"»"
+to kam[case=nom, number=sg] ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
+# 神は神の形に人を造った。男と女に造った。
+kam[case=nom, number=sg] kam[case=gen, number=sg] katch[case=loc, number=sg] chit[case=acc, number=pl] tsukr[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
+ot[case=acc, number=sg]~to[sandhi=pre_v] me_f[case=acc, number=sg] tsukr[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
 
-# > 26 そして最後に、神はこう言われました。「さあ、人間を造ろう。地と空と海のあらゆる生き物を治めさせるために、われわれに最も近い、われわれのかたちに似せて人間を造ろう。」
+# > 28-30 Crescite et multiplicamini, et replete terram, et subiicite eam... Ecce dedi vobis omnem herbam... et omne lignum...
+# 構造: 祝福 + 命令法(増えよ・満たせ・治めよ) + 食物の授与
+kam[case=nom, number=sg] ivae[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
+"«"~ ja~fue[tense=pres, aspect=impf, person=2, number=pl, polarity=pos] ","
+tir[case=acc, number=sg] ja~mitesh[tense=pres, aspect=impf, person=2, number=pl, polarity=pos] "."
+alaj[case=acc, number=pl, animacy=anim, degree=pos] ikiler[case=acc, number=pl] ja~osmal[tense=pres, aspect=impf, person=2, number=pl, polarity=pos] "."
+# 種を持つ草と実を持つ木をあなたたちに与える
+tan[case=acc, number=sg] mot[$=base]~ar_ptcp[harmony=back, tense=pres, case=acc, number=pl, animacy=inanim] haer[case=acc, number=pl]~to[sandhi=pre_v]
+mi[case=acc, number=sg] mot[$=base]~ar_ptcp[harmony=back, tense=pres, case=acc, number=pl, animacy=inanim] ki[case=acc, number=pl]
+ant[case=dat, number=pl] ataw[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] ~"»"
+to ier[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
 
-# > 27 このように人間は、天地を造った神の特性を持つ者として、男と女とに創造されました。
-
-# > 28 神は人間を祝福して言われました。「地に増え広がり、大地を治めよ。あなたがたは、魚と鳥とすべての動物の主人なのだ。
-
-# > 29 全地に生える種のある植物を見てみなさい。みなあなたがたのものだ。実のなる木もすべて与えるから、好きなだけ食べるがいい。
-
-# > 30 また、動物や鳥にも、あらゆる草と植物を彼らの食物として与える。」
-
-# > 31 神はでき上がった世界を隅から隅まで見渡しました。とてもすばらしい世界が広がっていました。こうして六日目が終わりました。
+# > 31 Viditque Deus cuncta quae fecerat: et erant valde bona. Et factum est vespere et mane, dies sextus.
+# 構造: 神がすべてを見た + 大いに満足 + 六日目
+kam[case=nom, number=sg] alaj[case=acc, number=pl, animacy=inanim, degree=pos] tsukr[$=base]~ral_ptcp[harmony=back, tense=past, case=acc, number=pl, animacy=inanim] mir[tense=past, aspect=result, person=3, number=sg, polarity=pos] ","
+dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "."
+mu cha[case=nom, number=sg] owat[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
