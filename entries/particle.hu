@@ -228,6 +228,22 @@ entry shibl {
   etymology { note: "現代日本語「しばらく」→ /ʃibaraku/ → /ʃibar/ → /ʃiblə/（r→l、末尾母音弱化）" }
 }
 
+# ── Supine（目的の動詞名詞形）──
+# 動詞の3sg形に ~ で後接し、目的節「〜するために」を形成。
+# 形式: 動詞 tense_stem + 向格子音。被修飾動詞と時制一致を要求。
+# 用法: verb[tense, aspect, person=3, number=sg, polarity=pos]~sup[harmony]
+entry sup {
+  headword: "sup"
+  tags: [pos=part]
+  inflect for {harmony} {
+    [harmony=back] -> `h`
+    [harmony=front] -> `he`
+    [harmony=neutral] -> `hə`
+  }
+  meaning: "目的標識（〜するために。動詞3sg形に後接する向格接辞）"
+  etymology { note: "向格語尾 -h/-he/-hə の動詞への転用。supine（目的の動詞名詞形）として文法化。" }
+}
+
 # ── 数詞 ──
 
 entry chit_num {

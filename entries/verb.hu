@@ -359,6 +359,58 @@ entry atmol {
   }
 }
 
+# 印す・示す（前舌子音語幹）
+entry shiles {
+  headword: "ʃiles"
+  tags: [pos=verb, harmony=front, stem_final=cons]
+  stems { base: "ʃiles", link: "a" }
+  inflection_class: verb_front_cons
+
+  meanings {
+    mark { "印をつける、しるしをつける" }
+    indicate { "示す、指し示す" }
+    signify { "意味する、表す" }
+  }
+
+  etymology {
+    note: "現代日本語「しるす」(印す/記す) → /ʃirusu/ → /ʃilusu/ (r→l) → /ʃiles/ (前舌調和で u→e、語末母音脱落)"
+  }
+}
+
+# 治める（後舌子音語幹）
+entry osmal {
+  headword: "ɔsmal"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "ɔsmal" }
+  inflection_class: verb_back_cons
+
+  meanings {
+    govern { "治める、統治する" }
+    rule { "支配する、管理する" }
+  }
+
+  etymology {
+    note: "現代日本語「おさめる」(治める) → /osameru/ → /osamelu/ (r→l) → /ɔsmal/ (母音脱落・後舌化)"
+  }
+}
+
+# 照らす（前舌子音語幹）
+entry teraes {
+  headword: "teræs"
+  tags: [pos=verb, harmony=front, stem_final=cons]
+  stems { base: "teræs", link: "a" }
+  inflection_class: verb_front_cons
+
+  meanings {
+    illuminate { "照らす、光を当てる" }
+    shine_on { "明るくする、光で満たす" }
+  }
+
+  etymology {
+    note: "現代日本語「てらす」(照らす) → /terasu/ → /teræs/ (a→æ 部分的前舌化、語末母音脱落)"
+  }
+}
+
 # 持つ（後舌子音語幹）
 entry mot {
   headword: "mot"

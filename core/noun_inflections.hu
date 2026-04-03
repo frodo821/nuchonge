@@ -289,71 +289,208 @@ inflection noun_neutral_cons_inanim for {case, number} {
 # 形容詞曲用
 # ============================================================
 # 形容詞は修飾する名詞の格・数・有生性に一致変化する。
-# 有生性は名詞では classificatory だが、形容詞では inflectional（一致対象による）。
-# 現時点では名詞と同一パターンへ delegation。
-
-# 比較級: -jər 接辞。子音語幹(r末)として曲用、調和は元の形容詞に従う
+# リンカー nə が格語尾と融合し、名詞曲用と体系的に区別される。
+#
+# 融合規則:
+#   1. 母音語尾 + nə → Vŋ（n が coda で ŋ に安定）
+#   2. ɲ(ñ) + nə → ŋ（鼻音の調音点が置換。名詞 -iɲ/dat vs 形容詞 -iŋ/dat）
+#   3. h + nə → ŋ（h が吸収。後舌で与格と向格が合流するが名詞で区別可能）
+#   4. その他の子音 + nə → Cəŋ（シュワー挿入）
+#
+# 比較級: -jər 接辞。比較級も同じリンカー融合曲用を使う。
 # 語源: 「より」/jori/ → /jor/ → /jər/（弱化で中立母音に）
 # 最上級: sə + 比較級（分析的、統語レベルで処理）
 
+# ── リンカー融合済み形容詞曲用（基底クラス）──
+
+# 前舌子音語幹・有生
+inflection adj_link_front_cons_anim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}iŋ`
+  [case=acc, number=sg] -> `{root}eŋ`
+  [case=gen, number=sg] -> `{root}neŋ`
+  [case=dat, number=sg] -> `{root}iŋ`
+  [case=loc, number=sg] -> `{root}deŋ`
+  [case=com, number=sg] -> `{root}teŋ`
+  [case=abl, number=sg] -> `{root}ikr̃əŋ`
+  [case=all, number=sg] -> `{root}heŋ`
+  [case=nom, number=pl] -> `{root}riŋ`
+  [case=acc, number=pl] -> `{root}reŋ`
+  [case=gen, number=pl] -> `{root}ineŋ`
+  [case=dat, number=pl] -> `{root}iriŋ`
+  [case=loc, number=pl] -> `{root}irdeŋ`
+  [case=com, number=pl] -> `{root}irteŋ`
+  [case=abl, number=pl] -> `{root}irikr̃əŋ`
+  [case=all, number=pl] -> `{root}irheŋ`
+}
+
+# 前舌子音語幹・無生
+inflection adj_link_front_cons_inanim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}iŋ`
+  [case=acc, number=sg] -> `{root}eŋ`
+  [case=gen, number=sg] -> `{root}meŋ`
+  [case=dat, number=sg] -> `{root}iŋ`
+  [case=loc, number=sg] -> `{root}deŋ`
+  [case=com, number=sg] -> `{root}teŋ`
+  [case=abl, number=sg] -> `{root}ikr̃əŋ`
+  [case=all, number=sg] -> `{root}heŋ`
+  [case=nom, number=pl] -> `{root}eriŋ`
+  [case=acc, number=pl] -> `{root}ereŋ`
+  [case=gen, number=pl] -> `{root}emeŋ`
+  [case=dat, number=pl] -> `{root}eriŋ`
+  [case=loc, number=pl] -> `{root}erdeŋ`
+  [case=com, number=pl] -> `{root}erteŋ`
+  [case=abl, number=pl] -> `{root}erikr̃əŋ`
+  [case=all, number=pl] -> `{root}erheŋ`
+}
+
+# 後舌子音語幹・有生
+inflection adj_link_back_cons_anim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}aŋ`
+  [case=acc, number=sg] -> `{root}oŋ`
+  [case=gen, number=sg] -> `{root}noŋ`
+  [case=dat, number=sg] -> `{root}uŋ`
+  [case=loc, number=sg] -> `{root}doŋ`
+  [case=com, number=sg] -> `{root}toŋ`
+  [case=abl, number=sg] -> `{root}ukr̃əŋ`
+  [case=all, number=sg] -> `{root}uŋ`
+  [case=nom, number=pl] -> `{root}raŋ`
+  [case=acc, number=pl] -> `{root}roŋ`
+  [case=gen, number=pl] -> `{root}anoŋ`
+  [case=dat, number=pl] -> `{root}aruŋ`
+  [case=loc, number=pl] -> `{root}ardoŋ`
+  [case=com, number=pl] -> `{root}artoŋ`
+  [case=abl, number=pl] -> `{root}arukr̃əŋ`
+  [case=all, number=pl] -> `{root}aruŋ`
+}
+
+# 後舌子音語幹・無生
+inflection adj_link_back_cons_inanim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}aŋ`
+  [case=acc, number=sg] -> `{root}oŋ`
+  [case=gen, number=sg] -> `{root}moŋ`
+  [case=dat, number=sg] -> `{root}uŋ`
+  [case=loc, number=sg] -> `{root}doŋ`
+  [case=com, number=sg] -> `{root}toŋ`
+  [case=abl, number=sg] -> `{root}ukr̃əŋ`
+  [case=all, number=sg] -> `{root}uŋ`
+  [case=nom, number=pl] -> `{root}oraŋ`
+  [case=acc, number=pl] -> `{root}oroŋ`
+  [case=gen, number=pl] -> `{root}omoŋ`
+  [case=dat, number=pl] -> `{root}oruŋ`
+  [case=loc, number=pl] -> `{root}ordoŋ`
+  [case=com, number=pl] -> `{root}ortoŋ`
+  [case=abl, number=pl] -> `{root}orukr̃əŋ`
+  [case=all, number=pl] -> `{root}oruŋ`
+}
+
+# 中立子音語幹・有生
+inflection adj_link_neutral_cons_anim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}əŋ`
+  [case=acc, number=sg] -> `{root}aŋ`
+  [case=gen, number=sg] -> `{root}nəŋ`
+  [case=dat, number=sg] -> `{root}əŋ`
+  [case=loc, number=sg] -> `{root}dəŋ`
+  [case=com, number=sg] -> `{root}təŋ`
+  [case=abl, number=sg] -> `{root}əkr̃əŋ`
+  [case=all, number=sg] -> `{root}əŋ`
+  [case=nom, number=pl] -> `{root}rəŋ`
+  [case=acc, number=pl] -> `{root}raŋ`
+  [case=gen, number=pl] -> `{root}ənəŋ`
+  [case=dat, number=pl] -> `{root}ərəŋ`
+  [case=loc, number=pl] -> `{root}ərdəŋ`
+  [case=com, number=pl] -> `{root}ərtəŋ`
+  [case=abl, number=pl] -> `{root}ərəkr̃əŋ`
+  [case=all, number=pl] -> `{root}ərhəŋ`
+}
+
+# 中立子音語幹・無生
+inflection adj_link_neutral_cons_inanim for {case, number} {
+  requires stems: root
+  [case=nom, number=sg] -> `{root}əŋ`
+  [case=acc, number=sg] -> `{root}aŋ`
+  [case=gen, number=sg] -> `{root}məŋ`
+  [case=dat, number=sg] -> `{root}əŋ`
+  [case=loc, number=sg] -> `{root}dəŋ`
+  [case=com, number=sg] -> `{root}təŋ`
+  [case=abl, number=sg] -> `{root}əkr̃əŋ`
+  [case=all, number=sg] -> `{root}əŋ`
+  [case=nom, number=pl] -> `{root}ərəŋ`
+  [case=acc, number=pl] -> `{root}əraŋ`
+  [case=gen, number=pl] -> `{root}əməŋ`
+  [case=dat, number=pl] -> `{root}ərəŋ`
+  [case=loc, number=pl] -> `{root}ərdəŋ`
+  [case=com, number=pl] -> `{root}ərtəŋ`
+  [case=abl, number=pl] -> `{root}ərəkr̃əŋ`
+  [case=all, number=pl] -> `{root}ərhəŋ`
+}
+
+# ── ディスパッチ（比較級共通）──
+
 inflection adj_comp_front for {case, number, animacy} {
   requires stems: root
-  [animacy=anim, _] -> noun_front_cons_anim[case, number] with stems { root: root }
-  [animacy=inanim, _] -> noun_front_cons_inanim[case, number] with stems { root: root }
+  [animacy=anim, _] -> adj_link_front_cons_anim[case, number] with stems { root: root }
+  [animacy=inanim, _] -> adj_link_front_cons_inanim[case, number] with stems { root: root }
 }
 
 inflection adj_comp_back for {case, number, animacy} {
   requires stems: root
-  [animacy=anim, _] -> noun_back_cons_anim[case, number] with stems { root: root }
-  [animacy=inanim, _] -> noun_back_cons_inanim[case, number] with stems { root: root }
+  [animacy=anim, _] -> adj_link_back_cons_anim[case, number] with stems { root: root }
+  [animacy=inanim, _] -> adj_link_back_cons_inanim[case, number] with stems { root: root }
 }
 
 inflection adj_comp_neutral for {case, number, animacy} {
   requires stems: root
-  [animacy=anim, _] -> noun_neutral_cons_anim[case, number] with stems { root: root }
-  [animacy=inanim, _] -> noun_neutral_cons_inanim[case, number] with stems { root: root }
+  [animacy=anim, _] -> adj_link_neutral_cons_anim[case, number] with stems { root: root }
+  [animacy=inanim, _] -> adj_link_neutral_cons_inanim[case, number] with stems { root: root }
 }
 
+# ── 原級・比較級ディスパッチ ──
+
 inflection adj_front_cons for {case, number, animacy, degree} {
-  requires stems: root
-  [degree=pos, animacy=anim, _] -> noun_front_cons_anim[case, number] with stems { root: root }
-  [degree=pos, animacy=inanim, _] -> noun_front_cons_inanim[case, number] with stems { root: root }
-  [degree=comp, _] -> adj_comp_front[case, number, animacy] with stems { root: "{root}jər" }
+  requires stems: root, comp
+  [degree=pos, animacy=anim, _] -> adj_link_front_cons_anim[case, number] with stems { root: root }
+  [degree=pos, animacy=inanim, _] -> adj_link_front_cons_inanim[case, number] with stems { root: root }
+  [degree=comp, _] -> adj_comp_front[case, number, animacy] with stems { root: comp }
 }
 
 inflection adj_back_cons for {case, number, animacy, degree} {
-  requires stems: root
-  [degree=pos, animacy=anim, _] -> noun_back_cons_anim[case, number] with stems { root: root }
-  [degree=pos, animacy=inanim, _] -> noun_back_cons_inanim[case, number] with stems { root: root }
-  [degree=comp, _] -> adj_comp_back[case, number, animacy] with stems { root: "{root}jər" }
+  requires stems: root, comp
+  [degree=pos, animacy=anim, _] -> adj_link_back_cons_anim[case, number] with stems { root: root }
+  [degree=pos, animacy=inanim, _] -> adj_link_back_cons_inanim[case, number] with stems { root: root }
+  [degree=comp, _] -> adj_comp_back[case, number, animacy] with stems { root: comp }
 }
 
 inflection adj_front_v for {case, number, animacy, degree} {
-  requires stems: root
-  [degree=pos, animacy=anim, _] -> noun_front_v_anim[case, number] with stems { root: root }
-  [degree=pos, animacy=inanim, _] -> noun_front_v_inanim[case, number] with stems { root: root }
-  [degree=comp, _] -> adj_comp_front[case, number, animacy] with stems { root: "{root}jər" }
+  requires stems: root, comp
+  [degree=pos, animacy=anim, _] -> adj_link_front_cons_anim[case, number] with stems { root: root }
+  [degree=pos, animacy=inanim, _] -> adj_link_front_cons_inanim[case, number] with stems { root: root }
+  [degree=comp, _] -> adj_comp_front[case, number, animacy] with stems { root: comp }
 }
 
 inflection adj_back_ov for {case, number, animacy, degree} {
-  requires stems: root
-  [degree=pos, animacy=anim, _] -> noun_back_ov_anim[case, number] with stems { root: root }
-  [degree=pos, animacy=inanim, _] -> noun_back_ov_inanim[case, number] with stems { root: root }
-  [degree=comp, _] -> adj_comp_back[case, number, animacy] with stems { root: "{root}jər" }
+  requires stems: root, comp
+  [degree=pos, animacy=anim, _] -> adj_link_back_cons_anim[case, number] with stems { root: root }
+  [degree=pos, animacy=inanim, _] -> adj_link_back_cons_inanim[case, number] with stems { root: root }
+  [degree=comp, _] -> adj_comp_back[case, number, animacy] with stems { root: comp }
 }
 
 inflection adj_back_av for {case, number, animacy, degree} {
-  requires stems: root
-  [degree=pos, animacy=anim, _] -> noun_back_av_anim[case, number] with stems { root: root }
-  [degree=pos, animacy=inanim, _] -> noun_back_av_inanim[case, number] with stems { root: root }
-  [degree=comp, _] -> adj_comp_back[case, number, animacy] with stems { root: "{root}jər" }
+  requires stems: root, comp
+  [degree=pos, animacy=anim, _] -> adj_link_back_cons_anim[case, number] with stems { root: root }
+  [degree=pos, animacy=inanim, _] -> adj_link_back_cons_inanim[case, number] with stems { root: root }
+  [degree=comp, _] -> adj_comp_back[case, number, animacy] with stems { root: comp }
 }
 
 inflection adj_neutral_cons for {case, number, animacy, degree} {
-  requires stems: root
-  [degree=pos, animacy=anim, _] -> noun_neutral_cons_anim[case, number] with stems { root: root }
-  [degree=pos, animacy=inanim, _] -> noun_neutral_cons_inanim[case, number] with stems { root: root }
-  [degree=comp, _] -> adj_comp_neutral[case, number, animacy] with stems { root: "{root}jər" }
+  requires stems: root, comp
+  [degree=pos, animacy=anim, _] -> adj_link_neutral_cons_anim[case, number] with stems { root: root }
+  [degree=pos, animacy=inanim, _] -> adj_link_neutral_cons_inanim[case, number] with stems { root: root }
+  [degree=comp, _] -> adj_comp_neutral[case, number, animacy] with stems { root: comp }
 }
 
 # ============================================================

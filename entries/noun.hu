@@ -524,6 +524,93 @@ entry wakrel {
   }
 }
 
+# しるし（前舌子音語幹・無生）
+# shiles（印す）の受動分詞 shiles+rel が語彙化。「印されたもの」→ しるし
+entry shilesrel {
+  headword: "ʃilesrel"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "ʃilesrel" }
+  inflection_class: noun_front_cons_inanim
+
+  meanings {
+    sign { "しるし、印、目印" }
+    omen { "兆し、前兆" }
+    token { "証、象徴" }
+  }
+
+  etymology {
+    note: "動詞 ʃiles（印す）の受動分詞現在形 ʃiles+rel（印されたもの）が実体名詞として語彙化。"
+  }
+}
+
+# 年（後舌子音語幹・無生）
+entry tosh {
+  headword: "toʃ"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "toʃ" }
+  inflection_class: noun_back_cons_inanim
+
+  meanings {
+    year { "年、一年間" }
+    age { "年齢、歳" }
+  }
+
+  etymology {
+    note: "現代日本語「とし」(年) → /toshi/ → /toʃ/"
+  }
+}
+
+# 星（後舌子音語幹・無生）
+entry hoshi {
+  headword: "hoʃi"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "hoʃ" }
+  inflection_class: noun_back_cons_inanim
+
+  meanings {
+    star { "星、恒星、夜空に輝く天体" }
+  }
+
+  etymology {
+    note: "現代日本語「ほし」(星) → /hoʃi/。語幹 hoʃ。"
+  }
+}
+
+# 月（後舌子音語幹・無生）
+entry chuk {
+  headword: "çuk"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "çuk" }
+  inflection_class: noun_back_cons_inanim
+
+  meanings {
+    moon { "月、天体としての月" }
+    month { "暦上の月（一ヶ月）" }
+  }
+
+  etymology {
+    note: "現代日本語「つき」(月) → /tsuki/ → /çuk/ (ts→ç、語末母音脱落)"
+  }
+}
+
+# 太陽（前舌母音語幹・無生）
+# çikal (光) の語根 hi が天体名として古形保持。ça (日) が日常語として音変化した一方で、
+# 天体としての「太陽」は神聖語彙として古い形を保つ。
+entry hi {
+  headword: "hi"
+  tags: [pos=noun, harmony=front, stem_final=front_vowel, animacy=inanim]
+  stems { root: "hi" }
+  inflection_class: noun_front_v_inanim
+
+  meanings {
+    sun { "太陽、天体としての太陽" }
+  }
+
+  etymology {
+    note: "現代日本語「ひ」(日) → /hi/。ça (日・一日) が音変化を経た一方、天体名としての hi は古形を保持。çikal (光) の語根。"
+  }
+}
+
 # 木（前舌母音語幹・無生）
 entry ki {
   headword: "ki"

@@ -9,7 +9,7 @@
 entry chis {
   headword: "çis"
   tags: [pos=adj, harmony=front, stem_final=cons]
-  stems { root: "çis" }
+  stems { root: "çis", comp: "çisjər" }
   inflection_class: adj_front_cons
 
   meanings {
@@ -26,7 +26,7 @@ entry chis {
 entry alaj {
   headword: "alaj"
   tags: [pos=adj, harmony=neutral, stem_final=cons]
-  stems { root: "alaj" }
+  stems { root: "alaj", comp: "alajjər" }
   inflection_class: adj_neutral_cons
 
   meanings {
@@ -36,5 +36,22 @@ entry alaj {
 
   etymology {
     note: "現代日本語「あらゆる」→ /arajuru/ → /alajul/ (r→l) → /alaj/ (縮約)"
+  }
+}
+
+# 大きい（後舌子音語幹）
+entry ok {
+  headword: "ɔk"
+  tags: [pos=adj, harmony=back, stem_final=cons]
+  stems { root: "ɔk", comp: "ɔkjər" }
+  inflection_class: adj_back_cons
+
+  meanings {
+    big { "大きい、サイズが大きい" }
+    great { "重要な、偉大な" }
+  }
+
+  etymology {
+    note: "現代日本語「おおきい」(大きい) → /ookii/ → /oki/ → /ɔk/"
   }
 }
