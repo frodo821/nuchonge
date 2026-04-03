@@ -134,7 +134,7 @@ sosh kemon[case=acc, number=pl] ~"»"
 to kam[case=nom, number=sg] re[sandhi=pre_v]~ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
 kam[case=nom, number=sg] alaj[case=gen, number=pl, animacy=anim, degree=pos] wakrel[case=gen, number=pl] ikiler[case=acc, number=pl] tsukr[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
 kam[case=nom, number=sg] ser[case=acc, number=sg] mir[tense=past, aspect=result, person=3, number=sg, polarity=pos] ","
-dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "."
+dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "." //
 
 # > 26-27 Faciamus hominem ad imaginem et similitudinem nostram... Et creavit Deus hominem ad imaginem suam; masculum et feminam creavit eos.
 # 構造: 神の宣言(1pl義務法) + 創造
@@ -144,7 +144,7 @@ sakn[case=acc, number=pl]~to[sandhi=pre_v] tol[case=acc, number=pl]~to[sandhi=pr
 to kam[case=nom, number=sg] ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
 # 神は神の形に人を造った。男と女に造った。
 kam[case=nom, number=sg] kam[case=gen, number=sg] katch[case=loc, number=sg] chit[case=acc, number=pl] tsukr[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
-ot[case=acc, number=sg]~to[sandhi=pre_v] me_f[case=acc, number=sg] tsukr[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
+ot[case=acc, number=sg]~to[sandhi=pre_v] me_f[case=acc, number=sg] tsukr[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
 
 # > 28-30 Crescite et multiplicamini, et replete terram, et subiicite eam... Ecce dedi vobis omnem herbam... et omne lignum...
 # 構造: 祝福 + 命令法(増えよ・満たせ・治めよ) + 食物の授与
@@ -156,10 +156,10 @@ alaj[case=acc, number=pl, animacy=anim, degree=pos] ikiler[case=acc, number=pl] 
 tan[case=acc, number=sg] mot[$=base]~ar_ptcp[harmony=back, tense=pres, case=acc, number=pl, animacy=inanim] haer[case=acc, number=pl]~to[sandhi=pre_v]
 mi[case=acc, number=sg] mot[$=base]~ar_ptcp[harmony=back, tense=pres, case=acc, number=pl, animacy=inanim] ki[case=acc, number=pl]
 ant[case=dat, number=pl] ataw[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] ~"»"
-to ier[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
+to ier[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
 
 # > 31 Viditque Deus cuncta quae fecerat: et erant valde bona. Et factum est vespere et mane, dies sextus.
 # 構造: 神がすべてを見た + 大いに満足 + 六日目
 kam[case=nom, number=sg] alaj[case=acc, number=pl, animacy=inanim, degree=pos] tsukr[$=base]~ral_ptcp[harmony=back, tense=past, case=acc, number=pl, animacy=inanim] mir[tense=past, aspect=result, person=3, number=sg, polarity=pos] ","
-dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "."
+dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "." 
 mu cha[case=nom, number=sg] owat[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
