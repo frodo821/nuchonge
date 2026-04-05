@@ -1,0 +1,102 @@
+# @title Ajə fut toç fut pənme: Jomuraŋ Çita
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə fut toç fut pənme: Jomuraŋ Çita
+# 第22章：読んでいる人
+# ============================================================
+#
+# 新出語彙: (なし)
+#
+# 新出文法:
+#   能動分詞 (-er/-ur/-ər)、時制交替
+#   分詞の形容詞的用法・名詞的用法
+# ============================================================
+
+# ── A. 能動分詞の導入: 後舌動詞 ──
+<h2>"Jomuraŋ"</h2>
+
+# Taka jomu. — Takは読んでいる
+tak_name[case=nom, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka jomuraŋ çita ir. — Takは読んでいる人だ（現在能動分詞）
+tak_name[case=nom, number=sg] jom~ar_ptcp[harmony=back, tense=pres, case=nom, number=sg, animacy=anim] chit[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# jomuraŋ çita æid ir. — 読んでいる人が家にいる
+jom~ar_ptcp[harmony=back, tense=pres, case=nom, number=sg, animacy=anim] chit[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "." //
+
+# ── B. 前舌動詞の能動分詞 ──
+<h2>"Mireriŋ" "soʃ" "tæbeneriŋ"</h2>
+
+# mireriŋ çita ir. — 見ている人がいる
+mir~ar_ptcp[harmony=front, tense=pres, case=nom, number=sg, animacy=anim] chit[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# tæbeneriŋ Lini ir. — 食べているLinがいる
+taeben~ar_ptcp[harmony=front, tense=pres, case=nom, number=sg, animacy=anim] lin_name[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# kɔkuraŋ Taka ir. — 書いているTakがいる
+kok~ar_ptcp[harmony=back, tense=pres, case=nom, number=sg, animacy=anim] tak_name[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "." //
+
+# ── C. 時制交替: 現在・過去・未来分詞 ──
+<h2>"Jomuraŋ," "jomɔraŋ," "jomoraŋ"</h2>
+
+# jomuraŋ çita — 読んでいる人（現在: -ur）
+jom~ar_ptcp[harmony=back, tense=pres, case=nom, number=sg, animacy=anim] chit[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# jomɔraŋ çita — 読んでいた人（過去: -ɔr）
+jom~ar_ptcp[harmony=back, tense=past, case=nom, number=sg, animacy=anim] chit[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# jomoraŋ çita — 読むであろう人（未来: -or）
+jom~ar_ptcp[harmony=back, tense=fut, case=nom, number=sg, animacy=anim] chit[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# mireriŋ Lini — 見ているLin（現在: -er）
+mir~ar_ptcp[harmony=front, tense=pres, case=nom, number=sg, animacy=anim] lin_name[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# mirariŋ Lini — 見ていたLin（過去: -ar）
+mir~ar_ptcp[harmony=front, tense=past, case=nom, number=sg, animacy=anim] lin_name[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "." //
+
+# ── D. 分詞の格変化 ──
+<h2>"Jomuroŋ" "çite"</h2>
+
+# vəç jomuroŋ çite mire. — 私は読んでいる人を見る（対格一致）
+vech[case=nom, number=sg] jom~ar_ptcp[harmony=back, tense=pres, case=acc, number=sg, animacy=anim] chit[case=acc, number=sg] mir[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
+
+# jomuronoŋ çitno hña er. — 読んでいる人の本がある（属格一致）
+jom~ar_ptcp[harmony=back, tense=pres, case=gen, number=sg, animacy=anim] chit[case=gen, number=sg] hn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Taka mirereŋ çite tæbenatre. — Takは見ている人を食べてある[=知っている]
+# 訂正: Taka mirereŋ çite miratre. — Takは見ている人を見てある
+tak_name[case=nom, number=sg] mir~ar_ptcp[harmony=front, tense=pres, case=acc, number=sg, animacy=anim] chit[case=acc, number=sg] mir[tense=pres, aspect=result, person=3, number=sg, polarity=pos] "." //
+
+# ── E. 名詞的用法（実体名詞化） ──
+<h2>"Ikileri" "soʃ" "haeri"</h2>
+
+# ikileri — 生きているもの（= 生き物）
+# haeri — 生えているもの（= 植物）
+# 分詞が実体名詞として定着した語
+
+# ikileri æid ir. — 生き物が家にいる
+ikiler[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# haeri kide er. — 植物が木のところにある
+haer[case=nom, number=sg] ki[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Taka ikiletore mire. — Takは生き物たちを見る
+tak_name[case=nom, number=sg] ikiler[case=acc, number=pl] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── F. まとめ ──
+<hr/>
+
+# jomuraŋ Taka æid ir. kɔkɔraŋ hña er.
+jom~ar_ptcp[harmony=back, tense=pres, case=nom, number=sg, animacy=anim] tak_name[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+kok~ar_ptcp[harmony=back, tense=past, case=nom, number=sg, animacy=inanim] hn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# tæbeneriŋ Lini çisdeŋ kide ir. mirariŋ ikiletori kek ir.
+taeben~ar_ptcp[harmony=front, tense=pres, case=nom, number=sg, animacy=anim] lin_name[case=nom, number=sg] chis[case=loc, number=sg, animacy=inanim, degree=pos] ki[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+mir~ar_ptcp[harmony=front, tense=past, case=nom, number=pl, animacy=anim] ikiler[case=nom, number=pl] ker[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "."
+
+# vəç jomɔraŋ çite miratre, soʃ jomoroŋ çite mɔtuw.
+# (私は読んでいた人を見てある、そして読むだろう人を待つ)
+vech[case=nom, number=sg] jom~ar_ptcp[harmony=back, tense=past, case=acc, number=sg, animacy=anim] chit[case=acc, number=sg] mir[tense=pres, aspect=result, person=1, number=sg, polarity=pos] ","
+sosh jom~ar_ptcp[harmony=back, tense=fut, case=acc, number=sg, animacy=anim] chit[case=acc, number=sg] mat[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "." //
+// <a href="../grammatica/ch22">"Grammatica"</a>

@@ -1,0 +1,121 @@
+# @title Ajə toç its pənme: Jomɔvu
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə toç its pənme: Jomɔvu
+# 第15章：読み終える
+# ============================================================
+#
+# 新出語彙: ma (もう), mar (まだ)
+#
+# 新出文法:
+#   終結相 (-v-)、動作の完了点
+#   impf (非完結) と term (終結) の対比
+# ============================================================
+
+# ── A. 非完結と終結の対比: 後舌動詞 ──
+<h2>"Jomu" "soʃ" "jomɔvu"</h2>
+
+# Taka hño jomu. — 非完結: 読んでいる
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka hño jomɔvu. — 終結: 読み終える
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=term, person=3, number=sg, polarity=pos] "."
+
+# Taka namo kɔku. Taka namo kɔkɔvu.
+tak_name[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+tak_name[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=pres, aspect=term, person=3, number=sg, polarity=pos] "." //
+
+# ── B. 前舌動詞の終結相 ──
+<h2>"Mirave" "soʃ" "tæbenave"</h2>
+
+# Lini kije mire. Lini kije mirave.
+lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=term, person=3, number=sg, polarity=pos] "."
+
+# Lini mije tæbene. Lini mije tæbenave.
+lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=term, person=3, number=sg, polarity=pos] "." //
+
+# ── C. ma (もう) と mar (まだ) ──
+<h2>"Ma" "soʃ" "mar"</h2>
+
+# Taka hño mar jomu. — まだ読んでいる
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] mar jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka hño ma jomɔvu. — もう読み終える
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] ma jom[tense=pres, aspect=term, person=3, number=sg, polarity=pos] "."
+
+# Lini mije mar tæbene. Lini mije ma tæbenave.
+lin_name[case=nom, number=sg] mi[case=acc, number=sg] mar taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+lin_name[case=nom, number=sg] mi[case=acc, number=sg] ma taeben[tense=pres, aspect=term, person=3, number=sg, polarity=pos] "." //
+
+# ── D. 終結相の過去と未来 ──
+<h2>"Jomɔvtɔ" "soʃ" "jomɔvo"</h2>
+
+# kunɔ Taka hño jomɔvtɔ. — 昨日読み終えた
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
+
+# kunɔ Lini mije tæbenavta.
+kuno[case=loc, number=sg]lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
+
+# asu Taka hño jomɔvo. — 明日読み終える
+asu[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=fut, aspect=term, person=3, number=sg, polarity=pos] "."
+
+# asu Lini kije miravæ.
+asu[case=loc, number=sg]lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=fut, aspect=term, person=3, number=sg, polarity=pos] "." //
+
+# ── E. 終結相の人称変化 ──
+<h2>"Jomɔvuw," "jomɔvuj"</h2>
+
+# vəç hño jomɔvuw. — 1sg
+vech[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=term, person=1, number=sg, polarity=pos] "."
+
+# ant hño jomɔvuj. — 2sg
+ant[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=term, person=2, number=sg, polarity=pos] "."
+
+# Taka hño jomɔvu. — 3sg
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=term, person=3, number=sg, polarity=pos] "."
+
+# vəçl hñoro jomɔvul. — 1pl
+vech[case=nom, number=pl] hn[case=acc, number=pl] jom[tense=pres, aspect=term, person=1, number=pl, polarity=pos] "."
+
+# antes hñoro jomɔvus. — 2pl
+ant[case=nom, number=pl] hn[case=acc, number=pl] jom[tense=pres, aspect=term, person=2, number=pl, polarity=pos] "."
+
+# karl hñoro jomɔvur. — 3pl
+kar[case=nom, number=pl] hn[case=acc, number=pl] jom[tense=pres, aspect=term, person=3, number=pl, polarity=pos] "." //
+
+# ── F. 終結相の否定 ──
+<h2>"Jomɔvũ" "soʃ" "miravẽ"</h2>
+
+# Taka hño jomɔvũ. — 読み終えない
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=term, person=3, number=sg, polarity=neg] "."
+
+# Lini kije miravẽ. — 見終えない
+lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=term, person=3, number=sg, polarity=neg] "."
+
+# vəç mije mar tæbenavẽw. — 私はまだ食べ終えない
+vech[case=nom, number=sg] mi[case=acc, number=sg] mar taeben[tense=pres, aspect=term, person=1, number=sg, polarity=neg] "."
+
+# kunɔ Taka hño jomɔvtɔ̃. — 昨日読み終えなかった
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=term, person=3, number=sg, polarity=neg] "." //
+
+# ── G. まとめ ──
+<hr/>
+
+# kunɔ Taka hño jomɔvtɔ, soʃ namo kɔkɔvtɔ.
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","
+sosh nam[case=acc, number=sg] kok[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
+
+# Lini kɔj mije mar tæbene. mije tæbenavẽ.
+lin_name[case=nom, number=sg] kjo[case=loc, number=sg]mi[case=acc, number=sg] mar taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+mi[case=acc, number=sg] taeben[tense=pres, aspect=term, person=3, number=sg, polarity=neg] "."
+
+# asu Lini mije ma tæbenavæ.
+asu[case=loc, number=sg]lin_name[case=nom, number=sg] mi[case=acc, number=sg] ma taeben[tense=fut, aspect=term, person=3, number=sg, polarity=pos] "."
+
+# vəç hño ma miravew, soʃ hño ma jomɔvuw.
+vech[case=nom, number=sg] hn[case=acc, number=sg] ma mir[tense=pres, aspect=term, person=1, number=sg, polarity=pos] ","
+sosh hn[case=acc, number=sg] ma jom[tense=pres, aspect=term, person=1, number=sg, polarity=pos] "." //
+// <a href="../grammatica/ch15">"Grammatica"</a>

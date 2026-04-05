@@ -1,0 +1,89 @@
+# @title Ajə toç ja pənme: Ɔkjəraŋ
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə toç ja pənme: Ɔkjəraŋ
+# 第18章：もっと大きい
+# ============================================================
+#
+# 新出語彙: (なし)
+#
+# 新出文法:
+#   比較級 (-jər)、最上級 (sə + 比較級)
+#   出格による比較対象
+# ============================================================
+
+# ── A. 原級と比較級 ──
+<h2>"Ɔkaŋ" "soʃ" "ɔkjəraŋ"</h2>
+
+# Takno æ ɔkaŋ er. — Takの家は大きい（原級）
+tak_name[case=gen, number=sg] ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Takno æ ɔkjəraŋ er. — Takの家はもっと大きい（比較級）
+tak_name[case=gen, number=sg] ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=comp] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Linne kiji çisiŋ er. Linne kiji çisjəriŋ er.
+lin_name[case=gen, number=sg] ki[case=nom, number=sg] chis[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+lin_name[case=gen, number=sg] ki[case=nom, number=sg] chis[case=nom, number=sg, animacy=inanim, degree=comp] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
+
+# ── B. 出格による比較対象 ──
+<h2>"Linne" "æikr̃"</h2>
+
+# Linne æikr̃ Takno æ ɔkjəraŋ er.
+# — Linの家より、Takの家はもっと大きい（出格 = 「〜より」）
+lin_name[case=gen, number=sg] ae[case=abl, number=sg] tak_name[case=gen, number=sg] ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=comp] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Takno æikr̃ Linne æ çisjəraŋ er.
+# — Takの家より、Linの家はもっと小さい
+tak_name[case=gen, number=sg] ae[case=abl, number=sg] lin_name[case=gen, number=sg] ae[case=nom, number=sg] chis[case=nom, number=sg, animacy=inanim, degree=comp] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
+
+# ── C. 有生名詞の比較 ──
+<h2>"Linikr̃" "Taka" "ɔkjəraŋ"</h2>
+
+# Linikr̃ Taka ɔkjəraŋ ir. — LinよりTakは大きい
+lin_name[case=abl, number=sg] tak_name[case=nom, number=sg] ok[case=nom, number=sg, animacy=anim, degree=comp] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# Takikr̃ Lini çisjəriŋ ir. — TakよりLinは小さい
+tak_name[case=abl, number=sg] lin_name[case=nom, number=sg] chis[case=nom, number=sg, animacy=anim, degree=comp] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# vəçikr̃ ant ɔkjəraŋ dəri. — 私よりあなたは大きい
+vech[case=abl, number=sg] ant[case=nom, number=sg] ok[case=nom, number=sg, animacy=anim, degree=comp] ar_verb[tense=pres, aspect=impf, person=2, number=sg, polarity=pos, animacy=anim] "." //
+
+# ── D. 比較級の限定用法 ──
+<h2>"Ɔkjəroŋ" "hño"</h2>
+
+# Taka ɔkjəroŋ hño jomu. — Takはもっと大きい本を読む
+tak_name[case=nom, number=sg] ok[case=acc, number=sg, animacy=inanim, degree=comp] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini çisjəreŋ mije tæbene. — Linはもっと小さい実を食べる
+lin_name[case=nom, number=sg] chis[case=acc, number=sg, animacy=inanim, degree=comp] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── E. 最上級: sə + 比較級 ──
+<h2>"Sə" "ɔkjəraŋ"</h2>
+
+# sə ɔkjəraŋ æ er. — 一番大きい家がある（最上級）
+se_def[sandhi=pre_v]~ok[case=nom, number=sg, animacy=inanim, degree=comp] ae[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# sə çisjəriŋ kiji er. — 一番小さい木がある
+se_def[sandhi=pre_c] chis[case=nom, number=sg, animacy=inanim, degree=comp] ki[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Taka sə ɔkjəroŋ hño jomu. — Takは一番大きい本を読む
+tak_name[case=nom, number=sg] se_def[sandhi=pre_v]~ok[case=acc, number=sg, animacy=inanim, degree=comp] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── F. まとめ ──
+<hr/>
+
+# Takno æ ɔkaŋ er. Linne æ çisiŋ er.
+tak_name[case=gen, number=sg] ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+lin_name[case=gen, number=sg] ae[case=nom, number=sg] chis[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Linne æikr̃ Takno æ ɔkjəraŋ er.
+lin_name[case=gen, number=sg] ae[case=abl, number=sg] tak_name[case=gen, number=sg] ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=comp] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Taka sə ɔkjərdoŋ æid sə ɔkjəroŋ hño jomu.
+tak_name[case=nom, number=sg] se_def[sandhi=pre_v]~ok[case=loc, number=sg, animacy=inanim, degree=comp] ae[case=loc, number=sg] se_def[sandhi=pre_c] ok[case=acc, number=sg, animacy=inanim, degree=comp] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Linikr̃ Taka ɔkjəraŋ ir, soʃ Takikr̃ Lini çisjəriŋ ir.
+lin_name[case=abl, number=sg] tak_name[case=nom, number=sg] ok[case=nom, number=sg, animacy=anim, degree=comp] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] ","
+sosh tak_name[case=abl, number=sg] lin_name[case=nom, number=sg] chis[case=nom, number=sg, animacy=anim, degree=comp] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "." //
+// <a href="../grammatica/ch18">"Grammatica"</a>

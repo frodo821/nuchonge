@@ -1,0 +1,109 @@
+# @title Ajə toç naŋ pənme: Ɔkoŋ Hño
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə toç naŋ pənme: Ɔkoŋ Hño
+# 第17章：大きい本を
+# ============================================================
+#
+# 新出語彙: (なし)
+#
+# 新出文法:
+#   形容詞の限定用法（属格・対格での一致）
+#   リンカー -ŋ の格変化体系
+#   有生/無生による属格の分岐
+# ============================================================
+
+# ── A. 述語用法の復習 ──
+<h2>"Ɔkaŋ" "soʃ" "çisiŋ"</h2>
+
+# sə æ ɔkaŋ er. — 家は大きい（述語: 主格一致）
+se_def[sandhi=pre_v]~ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# sə kiji çisiŋ er. — 木は小さい
+se_def[sandhi=pre_c] ki[case=nom, number=sg] chis[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# sə ota ɔkaŋ ir. — 男は大きい（有生）
+se_def[sandhi=pre_v]~ot[case=nom, number=sg] ok[case=nom, number=sg, animacy=anim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "." //
+
+# ── B. 限定用法: 主格 ──
+<h2>"Ɔkaŋ" "æ"</h2>
+
+# ɔkaŋ æ er. — 大きい家がある（限定: 形容詞+名詞、主格一致）
+ok[case=nom, number=sg, animacy=inanim, degree=pos] ae[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# çisiŋ kiji er. — 小さい木がある
+chis[case=nom, number=sg, animacy=inanim, degree=pos] ki[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# ɔkaŋ hña er, soʃ çisiŋ hña er.
+ok[case=nom, number=sg, animacy=inanim, degree=pos] hn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] ","
+sosh chis[case=nom, number=sg, animacy=inanim, degree=pos] hn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
+
+# ── C. 限定用法: 対格 ──
+<h2>"Ɔkoŋ" "hño"</h2>
+
+# Taka ɔkoŋ hño jomu. — Takは大きい本を読む（対格一致）
+tak_name[case=nom, number=sg] ok[case=acc, number=sg, animacy=inanim, degree=pos] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini çiseŋ mije tæbene. — Linは小さい実を食べる
+lin_name[case=nom, number=sg] chis[case=acc, number=sg, animacy=inanim, degree=pos] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka ɔkoŋ hño ma jomɔvtɔ. — Takは大きい本をもう読み終えた
+tak_name[case=nom, number=sg] ok[case=acc, number=sg, animacy=inanim, degree=pos] hn[case=acc, number=sg] ma jom[tense=past, aspect=term, person=3, number=sg, polarity=pos] "." //
+
+# ── D. 属格: 無生と有生の分岐 ──
+<h2>"Ɔkmoŋ" "soʃ" "ɔknoŋ"</h2>
+
+# ɔkmoŋ hñom nama er. — 大きい本の名前がある（無生: -moŋ）
+ok[case=gen, number=sg, animacy=inanim, degree=pos] hn[case=gen, number=sg] nam[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# çismeŋ kime nama er. — 小さい木の名前がある（無生: -meŋ）
+chis[case=gen, number=sg, animacy=inanim, degree=pos] ki[case=gen, number=sg] nam[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# ɔknoŋ otno æ er. — 大きい男の家がある（有生: -noŋ）
+ok[case=gen, number=sg, animacy=anim, degree=pos] ot[case=gen, number=sg] ae[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# çisneŋ Linne kiji er. — 小さいLinの木がある（有生: -neŋ）
+chis[case=gen, number=sg, animacy=anim, degree=pos] lin_name[case=gen, number=sg] ki[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
+
+# ── E. 他の格での一致 ──
+<h2>"Ɔkdoŋ," "ɔktoŋ"</h2>
+
+# Taka ɔkdoŋ æid ir. — Takは大きい家にいる（所格: -doŋ）
+tak_name[case=nom, number=sg] ok[case=loc, number=sg, animacy=inanim, degree=pos] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# Lini çisdeŋ kide ir. — Linは小さい木にいる（所格: -deŋ）
+lin_name[case=nom, number=sg] chis[case=loc, number=sg, animacy=inanim, degree=pos] ki[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# Taka ɔktoŋ Linto æid ir. — Takは大きいLinと家にいる（共格: -toŋ）
+tak_name[case=nom, number=sg] ok[case=com, number=sg, animacy=anim, degree=pos] lin_name[case=com, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "." //
+
+# ── F. 複数での一致 ──
+<h2>"Ɔkoraŋ" "soʃ" "ɔkraŋ"</h2>
+
+# ɔkoraŋ hñora er. — 大きい本(複)がある（無生pl: -oraŋ）
+ok[case=nom, number=pl, animacy=inanim, degree=pos] hn[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
+
+# ɔkraŋ otra ir. — 大きい男(複)がいる（有生pl: -raŋ）
+ok[case=nom, number=pl, animacy=anim, degree=pos] ot[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "."
+
+# Taka ɔkoroŋ hñoro jomu. — Takは大きい本(複)を読む（無生pl acc: -oroŋ）
+tak_name[case=nom, number=sg] ok[case=acc, number=pl, animacy=inanim, degree=pos] hn[case=acc, number=pl] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── G. まとめ ──
+<hr/>
+
+# Takno ɔkaŋ æ er. Linne çisiŋ kiji er.
+tak_name[case=gen, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ae[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+lin_name[case=gen, number=sg] chis[case=nom, number=sg, animacy=inanim, degree=pos] ki[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Taka ɔkdoŋ æid ɔkoŋ hño jomu.
+tak_name[case=nom, number=sg] ok[case=loc, number=sg, animacy=inanim, degree=pos] ae[case=loc, number=sg] ok[case=acc, number=sg, animacy=inanim, degree=pos] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini çisdeŋ kide çiseŋ mije tæbene.
+lin_name[case=nom, number=sg] chis[case=loc, number=sg, animacy=inanim, degree=pos] ki[case=loc, number=sg] chis[case=acc, number=sg, animacy=inanim, degree=pos] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# ɔknoŋ Takno æ ɔkaŋ er, soʃ çisneŋ Linne kiji çisiŋ er.
+ok[case=gen, number=sg, animacy=anim, degree=pos] tak_name[case=gen, number=sg] ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] ","
+sosh chis[case=gen, number=sg, animacy=anim, degree=pos] lin_name[case=gen, number=sg] ki[case=nom, number=sg] chis[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
+// <a href="../grammatica/ch17">"Grammatica"</a>

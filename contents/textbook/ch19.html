@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ajə toç koŋ pənme: Jomɔdsu to Jomɔtku</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #1a1a1a;
+  background: #fafafa;
+  display: flex;
+  min-height: 100vh;
+}
+nav {
+  width: 220px;
+  flex-shrink: 0;
+  background: #fff;
+  border-right: 1px solid #e0e0e0;
+  padding: 1.5rem 1rem;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+nav > a {
+  display: block;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+nav > a:hover { color: #0060df; }
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li { margin: 0.25rem 0; }
+nav li a {
+  color: #555;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+nav li a:hover { color: #0060df; }
+nav li.current {
+  font-weight: 600;
+  color: #0060df;
+  font-size: 0.95rem;
+}
+main {
+  flex: 1;
+  max-width: 52rem;
+  padding: 2rem 2.5rem;
+}
+h1 {
+  font-size: 1.6rem;
+  margin: 0 0 1.5rem;
+  color: #222;
+}
+.content p {
+  line-height: 1.7;
+  margin: 0.6rem 0;
+}
+.content a.word {
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+  cursor: help;
+  transition: border-color 0.15s, color 0.15s;
+}
+.content a.word:hover {
+  color: #0060df;
+  border-bottom-color: #0060df;
+}
+/* glossary page */
+.entry-card {
+  margin: 1.5rem 0;
+  padding: 1rem 1.2rem;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+}
+.entry-card h2 {
+  font-size: 1.15rem;
+  margin: 0 0 0.3rem;
+  color: #222;
+}
+.entry-card .meaning {
+  color: #555;
+  margin: 0 0 0.8rem;
+  font-style: italic;
+}
+.entry-card .meanings {
+  margin: 0 0 0.8rem;
+  padding: 0 0 0 1.4rem;
+  list-style: decimal;
+}
+.entry-card .meanings li {
+  color: #555;
+  font-style: italic;
+  margin: 0.15rem 0;
+}
+.entry-card .meanings li::marker {
+  font-style: normal;
+  font-weight: 600;
+  color: #777;
+  font-size: 0.85rem;
+}
+.entry-card .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin: 0.3rem 0 0.6rem;
+}
+.entry-card .tag {
+  display: inline-block;
+  background: #eef1f5;
+  color: #556;
+  font-size: 0.78rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 3px;
+}
+.entry-card .etymology {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.4rem 0 0.8rem;
+}
+.entry-card .etymology .proto {
+  font-family: "Georgia", serif;
+  font-style: italic;
+}
+.entry-card .etymology .etym-note {
+  margin-left: 0.3rem;
+}
+.entry-card .etymology .etym-links {
+  margin-top: 0.2rem;
+}
+.entry-card table {
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  width: 100%;
+  max-width: 100%;
+}
+.entry-card th, .entry-card td {
+  border: 1px solid #ddd;
+  padding: 0.3rem 0.6rem;
+  text-align: left;
+}
+.entry-card th {
+  background: #f5f5f5;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #444;
+  vertical-align: middle;
+}
+.entry-card th[rowspan] {
+  border-right: 2px solid #ccc;
+}
+.entry-card td {
+  font-family: "Georgia", serif;
+}
+.entry-card h3 {
+  font-size: 0.95rem;
+  margin: 1rem 0 0.3rem;
+  color: #555;
+  font-weight: 600;
+}
+@media (max-width: 700px) {
+  body { flex-direction: column; }
+  nav {
+    width: 100%;
+    height: auto;
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  nav ul { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .entry-card { overflow-x: auto; }
+}
+</style>
+</head>
+<body>
+<nav>
+<a href="index.html">Nuçoŋə Ʒətəkr̃ jət Kɔkrələ Ajərə</a>
+<ul>
+<li><a href="glossary.html">Glossary</a></li>
+<li><a href="ch01.html">Ajə çit pənme: Æ</a></li>
+<li><a href="ch02.html">Ajə fut pənme: Çitiri</a></li>
+<li><a href="ch03.html">Ajə mi pənme: Namo</a></li>
+<li><a href="ch04.html">Ajə jo pənme: Kiri to Hñora</a></li>
+<li><a href="ch05.html">Ajə its pənme: Vəç to Ant</a></li>
+<li><a href="ch06.html">Ajə mu pənme: Atɔw</a></li>
+<li><a href="ch07.html">Ajə naŋ pənme: Tokla</a></li>
+<li><a href="ch08.html">Ajə ja pənme: Kunɔ</a></li>
+<li><a href="ch09.html">Ajə koŋ pənme: Asu</a></li>
+<li><a href="ch10.html">Ajə toç pənme: Æikr̃</a></li>
+<li><a href="ch11.html">Ajə toç çit pənme: Æihə</a></li>
+<li><a href="ch12.html">Ajə toç fut pənme: Vəçl</a></li>
+<li><a href="ch13.html">Ajə toç mi pənme: Ẽr</a></li>
+<li><a href="ch14.html">Ajə toç jo pənme: Ker to Ser</a></li>
+<li><a href="ch15.html">Ajə toç its pənme: Jomɔvu</a></li>
+<li><a href="ch16.html">Ajə toç mu pənme: Jomɔtru</a></li>
+<li><a href="ch17.html">Ajə toç naŋ pənme: Ɔkoŋ Hño</a></li>
+<li><a href="ch18.html">Ajə toç ja pənme: Ɔkjəraŋ</a></li>
+<li class="current">Ajə toç koŋ pənme: Jomɔdsu to Jomɔtku</li>
+<li><a href="ch20.html">Ajə fut toç pənme: Jomɔsmu</a></li>
+<li><a href="ch21.html">Ajə fut toç çit pənme: Mi Hñora</a></li>
+<li><a href="ch22.html">Ajə fut toç fut pənme: Jomuraŋ Çita</a></li>
+</ul>
+</nav>
+<main>
+<h1>Ajə toç koŋ pənme: Jomɔdsu to Jomɔtku</h1>
+<div class="content">
+<p><h2>Jomu soʃ jomɔdsu</h2> <a href="glossary.html#entry-tak_name" class="word" title="Tak — （人名・男性） [case=nom, number=sg]">Taka</a> <a href="glossary.html#entry-hn" class="word" title="hñ — 印刷または電子化された文字・画像からなる情報媒体 [case=acc, number=sg]">hño</a> <a href="glossary.html#entry-jom" class="word" title="jom — 文字や記号を見て、その意味を理解する [tense=pres, aspect=impf, person=3, number=sg, polarity=pos]">jomu</a>. <a href="glossary.html#entry-tak_name" class="word" title="Tak — （人名・男性） [case=nom, number=sg]">Taka</a> <a href="glossary.html#entry-hn" class="word" title="hñ — 印刷または電子化された文字・画像からなる情報媒体 [case=acc, number=sg]">hño</a> <a href="glossary.html#entry-jom" class="word" title="jom — 文字や記号を見て、その意味を理解する [tense=pres, aspect=incep, person=3, number=sg, polarity=pos]">jomɔdsu</a>. <a href="glossary.html#entry-lin_name" class="word" title="Lin — （人名・女性） [case=nom, number=sg]">Lini</a> <a href="glossary.html#entry-ki" class="word" title="ki — 樹木、幹と枝と葉を持つ大型の多年生植物 [case=acc, number=sg]">kije</a> <a href="glossary.html#entry-mir" class="word" title="mir — 視覚で捉える、目で認識する [tense=pres, aspect=incep, person=3, number=sg, polarity=pos]">miradse</a>. <a href="glossary.html#entry-lin_name" class="word" title="Lin — （人名・女性） [case=nom, number=sg]">Lini</a> <a href="glossary.html#entry-mi" class="word" title="mi — 実、果実、種子 [case=acc, number=sg]">mije</a> <a href="glossary.html#entry-taeben" class="word" title="tæben — 食べる、摂取する [tense=pres, aspect=incep, person=3, number=sg, polarity=pos]">tæbenadse</a>.</p>
+<p><h2>Jomɔtku soʃ miratke</h2> <a href="glossary.html#entry-tak_name" class="word" title="Tak — （人名・男性） [case=nom, number=sg]">Taka</a> <a href="glossary.html#entry-hn" class="word" title="hñ — 印刷または電子化された文字・画像からなる情報媒体 [case=acc, number=sg]">hño</a> <a href="glossary.html#entry-jom" class="word" title="jom — 文字や記号を見て、その意味を理解する [tense=pres, aspect=prep, person=3, number=sg, polarity=pos]">jomɔtku</a>. <a href="glossary.html#entry-lin_name" class="word" title="Lin — （人名・女性） [case=nom, number=sg]">Lini</a> <a href="glossary.html#entry-mi" class="word" title="mi — 実、果実、種子 [case=acc, number=sg]">mije</a> <a href="glossary.html#entry-taeben" class="word" title="tæben — 食べる、摂取する [tense=pres, aspect=prep, person=3, number=sg, polarity=pos]">tæbenatke</a>. <a href="glossary.html#entry-tak_name" class="word" title="Tak — （人名・男性） [case=nom, number=sg]">Taka</a> <a href="glossary.html#entry-nam" class="word" title="nam — 名前、名称 [case=acc, number=sg]">namo</a> <a href="glossary.html#entry-kok" class="word" title="kɔk — 文字や記号を記す [tense=pres, aspect=prep, person=3, number=sg, polarity=pos]">kɔkɔtku</a>. <a href="glossary.html#entry-lin_name" class="word" title="Lin — （人名・女性） [case=nom, number=sg]">Lini</a> <a href="glossary.html#entry-ki" class="word" title="ki — 樹木、幹と枝と葉を持つ大型の多年生植物 [case=acc, number=sg]">kije</a> <a href="glossary.html#entry-mir" class="word" title="mir — 視覚で捉える、目で認識する [tense=pres, aspect=prep, person=3, number=sg, polarity=pos]">miratke</a>.</p>
+<p><h2>Jomɔdsu soʃ jomɔtku</h2> <a href="glossary.html#entry-tak_name" class="word" title="Tak — （人名・男性） [case=nom, number=sg]">Taka</a> <a href="glossary.html#entry-hn" class="word" title="hñ — 印刷または電子化された文字・画像からなる情報媒体 [case=acc, number=sg]">hño</a> <a href="glossary.html#entry-jom" class="word" title="jom — 文字や記号を見て、その意味を理解する [tense=pres, aspect=incep, person=3, number=sg, polarity=pos]">jomɔdsu</a>. <a href="glossary.html#entry-tak_name" class="word" title="Tak — （人名・男性） [case=nom, number=sg]">Taka</a> <a href="glossary.html#entry-hn" class="word" title="hñ — 印刷または電子化された文字・画像からなる情報媒体 [case=acc, number=sg]">hño</a> <a href="glossary.html#entry-jom" class="word" title="jom — 文字や記号を見て、その意味を理解する [tense=pres, aspect=prep, person=3, number=sg, polarity=pos]">jomɔtku</a>. <a href="glossary.html#entry-asu" class="word" title="asu — 明日 [case=loc, number=sg]">asudo</a> <a href="glossary.html#entry-lin_name" class="word" title="Lin — （人名・女性） [case=nom, number=sg]">Lini</a> <a href="glossary.html#entry-mi" class="word" title="mi — 実、果実、種子 [case=acc, number=sg]">mije</a> <a href="glossary.html#entry-taeben" class="word" title="tæben — 食べる、摂取する [tense=fut, aspect=incep, person=3, number=sg, polarity=pos]">tæbenadsæ</a>. <a href="glossary.html#entry-kjo" class="word" title="kɔj — 今日 [case=loc, number=sg]">kɔjdo</a> <a href="glossary.html#entry-lin_name" class="word" title="Lin — （人名・女性） [case=nom, number=sg]">Lini</a> <a href="glossary.html#entry-mi" class="word" title="mi — 実、果実、種子 [case=acc, number=sg]">mije</a> <a href="glossary.html#entry-taeben" class="word" title="tæben — 食べる、摂取する [tense=pres, aspect=prep, person=3, number=sg, polarity=pos]">tæbenatke</a>.</p>
+<p><h2>Jomɔstɔ soʃ jomɔktɔ</h2> <a href="glossary.html#entry-kuno" class="word" title="kunɔ — 昨日 [case=loc, number=sg]">kunɔdo</a> <a href="glossary.html#entry-tak_name" class="word" title="Tak — （人名・男性） [case=nom, number=sg]">Taka</a> <a href="glossary.html#entry-hn" class="word" title="hñ — 印刷または電子化された文字・画像からなる情報媒体 [case=acc, number=sg]">hño</a> <a href="glossary.html#entry-jom" class="word" title="jom — 文字や記号を見て、その意味を理解する [tense=past, aspect=incep, person=3, number=sg, polarity=pos]">jomɔstɔ</a>. <a href="glossary.html#entry-kuno" class="word" title="kunɔ — 昨日 [case=loc, number=sg]">kunɔdo</a> <a href="glossary.html#entry-lin_name" class="word" title="Lin — （人名・女性） [case=nom, number=sg]">Lini</a> <a href="glossary.html#entry-ki" class="word" title="ki — 樹木、幹と枝と葉を持つ大型の多年生植物 [case=acc, number=sg]">kije</a> <a href="glossary.html#entry-mir" class="word" title="mir — 視覚で捉える、目で認識する [tense=past, aspect=incep, person=3, number=sg, polarity=pos]">mirasta</a>. <a href="glossary.html#entry-kuno" class="word" title="kunɔ — 昨日 [case=loc, number=sg]">kunɔdo</a> <a href="glossary.html#entry-tak_name" class="word" title="Tak — （人名・男性） [case=nom, number=sg]">Taka</a> <a href="glossary.html#entry-hn" class="word" title="hñ — 印刷または電子化された文字・画像からなる情報媒体 [case=acc, number=sg]">hño</a> <a href="glossary.html#entry-jom" class="word" title="jom — 文字や記号を見て、その意味を理解する [tense=past, aspect=prep, person=3, number=sg, polarity=pos]">jomɔktɔ</a>. <a href="glossary.html#entry-kuno" class="word" title="kunɔ — 昨日 [case=loc, number=sg]">kunɔdo</a> <a href="glossary.html#entry-lin_name" class="word" title="Lin — （人名・女性） [case=nom, number=sg]">Lini</a> <a href="glossary.html#entry-mi" class="word" title="mi — 実、果実、種子 [case=acc, number=sg]">mije</a> <a href="glossary.html#entry-taeben" class="word" title="tæben — 食べる、摂取する [tense=past, aspect=prep, person=3, number=sg, polarity=pos]">tæbenakta</a>.</p>
+<p><h2>Jomɔdsuw, jomɔdsũ</h2> <a href="glossary.html#entry-vech" class="word" title="vəç — 私、我々（一人称代名詞） [case=nom, number=sg]">vəç</a> <a href="glossary.html#entry-hn" class="word" title="hñ — 印刷または電子化された文字・画像からなる情報媒体 [case=acc, number=sg]">hño</a> <a href="glossary.html#entry-jom" class="word" title="jom — 文字や記号を見て、その意味を理解する [tense=pres, aspect=incep, person=1, number=sg, polarity=pos]">jomɔdsuw</a>. <a href="glossary.html#entry-ant" class="word" title="ant — あなた、あなたたち（二人称代名詞） [case=nom, number=sg]">ant</a> <a href="glossary.html#entry-hn" class="word" title="hñ — 印刷または電子化された文字・画像からなる情報媒体 [case=acc, number=sg]">hño</a> <a href="glossary.html#entry-jom" class="word" title="jom — 文字や記号を見て、その意味を理解する [tense=pres, aspect=incep, person=2, number=sg, polarity=pos]">jomɔdsuj</a>. <a href="glossary.html#entry-tak_name" class="word" title="Tak — （人名・男性） [case=nom, number=sg]">Taka</a> <a href="glossary.html#entry-hn" class="word" title="hñ — 印刷または電子化された文字・画像からなる情報媒体 [case=acc, number=sg]">hño</a> <a href="glossary.html#entry-jom" class="word" title="jom — 文字や記号を見て、その意味を理解する [tense=pres, aspect=incep, person=3, number=sg, polarity=neg]">jomɔdsũ</a>. <a href="glossary.html#entry-lin_name" class="word" title="Lin — （人名・女性） [case=nom, number=sg]">Lini</a> <a href="glossary.html#entry-ki" class="word" title="ki — 樹木、幹と枝と葉を持つ大型の多年生植物 [case=acc, number=sg]">kije</a> <a href="glossary.html#entry-mir" class="word" title="mir — 視覚で捉える、目で認識する [tense=pres, aspect=prep, person=3, number=sg, polarity=neg]">miratkẽ</a>.</p>
+<p><hr/><a href="glossary.html#entry-kuno" class="word" title="kunɔ — 昨日 [case=loc, number=sg]">kunɔdo</a> <a href="glossary.html#entry-tak_name" class="word" title="Tak — （人名・男性） [case=nom, number=sg]">Taka</a> <a href="glossary.html#entry-hn" class="word" title="hñ — 印刷または電子化された文字・画像からなる情報媒体 [case=acc, number=sg]">hño</a> <a href="glossary.html#entry-jom" class="word" title="jom — 文字や記号を見て、その意味を理解する [tense=past, aspect=prep, person=3, number=sg, polarity=pos]">jomɔktɔ</a>, <a href="glossary.html#entry-sosh" class="word" title="soʃ — そして、また（並列接続詞）">soʃ</a> <a href="glossary.html#entry-kjo" class="word" title="kɔj — 今日 [case=loc, number=sg]">kɔjdo</a> <a href="glossary.html#entry-hn" class="word" title="hñ — 印刷または電子化された文字・画像からなる情報媒体 [case=acc, number=sg]">hño</a> <a href="glossary.html#entry-jom" class="word" title="jom — 文字や記号を見て、その意味を理解する [tense=pres, aspect=incep, person=3, number=sg, polarity=pos]">jomɔdsu</a>. <a href="glossary.html#entry-lin_name" class="word" title="Lin — （人名・女性） [case=nom, number=sg]">Lini</a> <a href="glossary.html#entry-kuno" class="word" title="kunɔ — 昨日 [case=loc, number=sg]">kunɔdo</a> <a href="glossary.html#entry-mi" class="word" title="mi — 実、果実、種子 [case=acc, number=sg]">mije</a> <a href="glossary.html#entry-taeben" class="word" title="tæben — 食べる、摂取する [tense=past, aspect=prep, person=3, number=sg, polarity=pos]">tæbenakta</a>. <a href="glossary.html#entry-kjo" class="word" title="kɔj — 今日 [case=loc, number=sg]">kɔjdo</a> <a href="glossary.html#entry-mi" class="word" title="mi — 実、果実、種子 [case=acc, number=sg]">mije</a> <a href="glossary.html#entry-ma" class="word" title="ma — もう〜（完了・既遂）">ma</a> <a href="glossary.html#entry-taeben" class="word" title="tæben — 食べる、摂取する [tense=pres, aspect=term, person=3, number=sg, polarity=pos]">tæbenave</a>. <a href="glossary.html#entry-vech" class="word" title="vəç — 私、我々（一人称代名詞） [case=nom, number=sg]">vəç</a> <a href="glossary.html#entry-asu" class="word" title="asu — 明日 [case=loc, number=sg]">asudo</a> <a href="glossary.html#entry-hn" class="word" title="hñ — 印刷または電子化された文字・画像からなる情報媒体 [case=acc, number=sg]">hño</a> <a href="glossary.html#entry-jom" class="word" title="jom — 文字や記号を見て、その意味を理解する [tense=fut, aspect=prep, person=1, number=sg, polarity=pos]">jomɔtkow</a>, <a href="glossary.html#entry-sosh" class="word" title="soʃ — そして、また（並列接続詞）">soʃ</a> <a href="glossary.html#entry-nam" class="word" title="nam — 名前、名称 [case=acc, number=sg]">namo</a> <a href="glossary.html#entry-kok" class="word" title="kɔk — 文字や記号を記す [tense=pres, aspect=incep, person=1, number=sg, polarity=pos]">kɔkɔdsuw</a>.</p>
+<p><a href="../grammatica/ch19">Grammatica</a></p>
+
+</div>
+</main>
+</body>
+</html>

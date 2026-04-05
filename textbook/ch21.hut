@@ -1,0 +1,110 @@
+# @title Ajə fut toç çit pənme: Mi Hñora
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə fut toç çit pənme: Mi Hñora
+# 第21章：三冊の本
+# ============================================================
+#
+# 新出語彙: (なし — 数詞・助数詞名詞は既出エントリ)
+#
+# 新出文法:
+#   数詞 (çit〜toç)、助数詞名詞 (tə, pən, kəj, pəj)
+#   数詞＋名詞の構文、序数・回数・倍数
+# ============================================================
+
+# ── A. 基数詞 1–10 ──
+<h2>"Çit," "fut," "mi," "jo," "its"</h2>
+
+# çit hña er. — 本が1冊ある
+chit_num hn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# fut hñora er. — 本が2冊ある
+fut hn[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
+
+# mi hñora er. — 本が3冊ある
+mi_num hn[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
+
+# jo kiri er. its kiri er.
+jo ki[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
+its ki[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "." //
+
+# ── B. 数詞＋名詞の格一致 ──
+<h2>"Mi" "hñoro"</h2>
+
+# Taka mi hñoro jomu. — Takは3冊の本を読む（対格）
+tak_name[case=nom, number=sg] mi_num hn[case=acc, number=pl] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini fut mire tæbene. — Linは2つの実を食べる
+lin_name[case=nom, number=sg] fut mi[case=acc, number=pl] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# mi hñomo nama er. — 3冊の本の名前がある（属格）
+mi_num hn[case=gen, number=pl] nam[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
+
+# ── C. tə: 汎用助数詞 ──
+<h2>"Tə"</h2>
+
+# çit tə er. fut tərə er.
+chit_num te_dummy[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+fut te_dummy[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
+
+# Taka mi ta mire. — Takは3つを見る（tə が対格を担う）
+tak_name[case=nom, number=sg] mi_num te_dummy[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini its ta tæbene. — Linは5つを食べる
+lin_name[case=nom, number=sg] its te_dummy[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── D. pən: 序数 ──
+<h2>"Pəni"</h2>
+
+# çit pənme hña er. — 1番目の本がある
+chit_num pen_ord[case=gen, number=sg] hn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Taka fut pənme hño jomu. — Takは2番目の本を読む
+tak_name[case=nom, number=sg] fut pen_ord[case=gen, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# mi pənme hña ɔkaŋ er. — 3番目の本は大きい
+mi_num pen_ord[case=gen, number=sg] hn[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
+
+# ── E. kəj と pəj: 回数と倍数 ──
+<h2>"Kəji" "soʃ" "pəji"</h2>
+
+# Taka hño fut kəji jomu. — Takは本を2回読む
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] fut kej_freq[case=nom, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini mije mi kəji tæbene. — Linは実を3回食べる
+lin_name[case=nom, number=sg] mi[case=acc, number=sg] mi_num kej_freq[case=nom, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Takno æ Linne æikr̃ fut pəji ɔkjəraŋ er.
+# — Takの家はLinの家より2倍大きい
+tak_name[case=gen, number=sg] ae[case=nom, number=sg] lin_name[case=gen, number=sg] ae[case=abl, number=sg] fut pej_mult[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=comp] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
+
+# ── F. 合成数詞 ──
+<h2>"Toç" "çit," "fut" "toç"</h2>
+
+# toç çit hñora er. — 11冊の本がある
+toch chit_num hn[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
+
+# fut toç hñora er. — 20冊の本がある
+fut toch hn[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
+
+# fut toç its hñora er. — 25冊の本がある
+fut toch its hn[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
+
+# jak hñora er. — 100冊の本がある
+jak_num hn[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "." //
+
+# ── G. まとめ ──
+<hr/>
+
+# Takno æid mi hñora er. Taka çit pənme hño ma jomɔsmu.
+tak_name[case=gen, number=sg] ae[case=loc, number=sg] mi_num hn[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
+tak_name[case=nom, number=sg] chit_num pen_ord[case=gen, number=sg] hn[case=acc, number=sg] ma jom[tense=pres, aspect=perf, person=3, number=sg, polarity=pos] "."
+
+# fut pənme hño mar jomu. mi pənme hño jomɔdsu.
+fut pen_ord[case=gen, number=sg] hn[case=acc, number=sg] mar jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+mi_num pen_ord[case=gen, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=incep, person=3, number=sg, polarity=pos] "."
+
+# Lini fut mire mi kəji tæbene.
+lin_name[case=nom, number=sg] fut mi[case=acc, number=pl] mi_num kej_freq[case=nom, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+// <a href="../grammatica/ch21">"Grammatica"</a>

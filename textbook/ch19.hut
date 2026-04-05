@@ -1,0 +1,106 @@
+# @title Ajə toç koŋ pənme: Jomɔdsu to Jomɔtku
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə toç koŋ pənme: Jomɔdsu to Jomɔtku
+# 第19章：読み始めると読んでおく
+# ============================================================
+#
+# 新出語彙: (なし)
+#
+# 新出文法:
+#   起動相 (-ds-)、動作の開始
+#   準備相 (-tk-)、事前準備
+# ============================================================
+
+# ── A. 起動相: 動作の開始 ──
+<h2>"Jomu" "soʃ" "jomɔdsu"</h2>
+
+# Taka hño jomu. — 読んでいる（非完結）
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka hño jomɔdsu. — 読み始める（起動）
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=incep, person=3, number=sg, polarity=pos] "."
+
+# Lini kije miradse. — 見始める
+lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=incep, person=3, number=sg, polarity=pos] "."
+
+# Lini mije tæbenadse. — 食べ始める
+lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=incep, person=3, number=sg, polarity=pos] "." //
+
+# ── B. 準備相: 事前の準備 ──
+<h2>"Jomɔtku" "soʃ" "miratke"</h2>
+
+# Taka hño jomɔtku. — 読んでおく（準備: 事前に読む）
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=prep, person=3, number=sg, polarity=pos] "."
+
+# Lini mije tæbenatke. — 食べておく
+lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=prep, person=3, number=sg, polarity=pos] "."
+
+# Taka namo kɔkɔtku. — 書いておく
+tak_name[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=pres, aspect=prep, person=3, number=sg, polarity=pos] "."
+
+# Lini kije miratke. — 見ておく
+lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=prep, person=3, number=sg, polarity=pos] "." //
+
+# ── C. 起動と準備の対比 ──
+<h2>"Jomɔdsu" "soʃ" "jomɔtku"</h2>
+
+# Taka hño jomɔdsu. — 読み始める（これから読み進める）
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=incep, person=3, number=sg, polarity=pos] "."
+
+# Taka hño jomɔtku. — 読んでおく（後のために読む）
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=prep, person=3, number=sg, polarity=pos] "."
+
+# asu Lini mije tæbenadse. — 明日Linは食べ始める
+asu[case=loc, number=sg]lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=fut, aspect=incep, person=3, number=sg, polarity=pos] "."
+
+# kɔj Lini mije tæbenatke. — 今日Linは食べておく
+kjo[case=loc, number=sg]lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=prep, person=3, number=sg, polarity=pos] "." //
+
+# ── D. 過去形: ds→st の転換 ──
+<h2>"Jomɔstɔ" "soʃ" "jomɔktɔ"</h2>
+
+# kunɔ Taka hño jomɔstɔ. — 昨日読み始めた（過去起動: ds→st）
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=incep, person=3, number=sg, polarity=pos] "."
+
+# kunɔ Lini kije mirasta. — 昨日見始めた（前舌: ds→st）
+kuno[case=loc, number=sg]lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=past, aspect=incep, person=3, number=sg, polarity=pos] "."
+
+# kunɔ Taka hño jomɔktɔ. — 昨日読んでおいた（過去準備: tk→kt）
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=prep, person=3, number=sg, polarity=pos] "."
+
+# kunɔ Lini mije tæbenakta. — 昨日食べておいた（前舌: tk→kt）
+kuno[case=loc, number=sg]lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=past, aspect=prep, person=3, number=sg, polarity=pos] "." //
+
+# ── E. 人称と否定 ──
+<h2>"Jomɔdsuw," "jomɔdsũ"</h2>
+
+# vəç hño jomɔdsuw. — 1sg 読み始める
+vech[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=incep, person=1, number=sg, polarity=pos] "."
+
+# ant hño jomɔdsuj. — 2sg
+ant[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=incep, person=2, number=sg, polarity=pos] "."
+
+# Taka hño jomɔdsũ. — 読み始めない（否定）
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=incep, person=3, number=sg, polarity=neg] "."
+
+# Lini kije miratkẽ. — 見ておかない（否定）
+lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=prep, person=3, number=sg, polarity=neg] "." //
+
+# ── F. まとめ ──
+<hr/>
+
+# kunɔ Taka hño jomɔtku, soʃ kɔj hño jomɔdsu.
+# (昨日Takは読んでおいた、そして今日読み始める)
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=prep, person=3, number=sg, polarity=pos] ","
+sosh kjo[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=pres, aspect=incep, person=3, number=sg, polarity=pos] "."
+
+# Lini kunɔ mije tæbenakta. kɔj mije ma tæbenave.
+lin_name[case=nom, number=sg] kuno[case=loc, number=sg]mi[case=acc, number=sg] taeben[tense=past, aspect=prep, person=3, number=sg, polarity=pos] "."
+kjo[case=loc, number=sg]mi[case=acc, number=sg] ma taeben[tense=pres, aspect=term, person=3, number=sg, polarity=pos] "."
+
+# vəç asu hño jomɔtkuw, soʃ namo kɔkɔdsuw.
+vech[case=nom, number=sg] asu[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=fut, aspect=prep, person=1, number=sg, polarity=pos] ","
+sosh nam[case=acc, number=sg] kok[tense=pres, aspect=incep, person=1, number=sg, polarity=pos] "." //
+// <a href="../grammatica/ch19">"Grammatica"</a>

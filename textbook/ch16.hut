@@ -1,0 +1,131 @@
+# @title Ajə toç mu pənme: Jomɔtru
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə toç mu pənme: Jomɔtru
+# 第16章：読んである
+# ============================================================
+#
+# 新出語彙: (なし)
+#
+# 新出文法:
+#   結果状態相 (-tr-)、完了後の状態持続
+#   impf / term / result の三段階対比
+# ============================================================
+
+# ── A. impf → term → result の三段階 ──
+<h2>"Jomu," "jomɔvu," "jomɔtru"</h2>
+
+# Taka hño jomu. — 読んでいる（非完結: 進行中）
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka hño jomɔvu. — 読み終える（終結: 完了点）
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=term, person=3, number=sg, polarity=pos] "."
+
+# Taka hño jomɔtru. — 読んである（結果状態: 完了後の状態）
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=result, person=3, number=sg, polarity=pos] "." //
+
+# ── B. 前舌動詞の結果状態相 ──
+<h2>"Miratre" "soʃ" "tæbenatre"</h2>
+
+# Lini kije mire. Lini kije miratre.
+lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=result, person=3, number=sg, polarity=pos] "."
+
+# Lini mije tæbene. Lini mije tæbenatre.
+lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=result, person=3, number=sg, polarity=pos] "."
+
+# Taka namo kɔku. Taka namo kɔkɔtru.
+tak_name[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+tak_name[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=pres, aspect=result, person=3, number=sg, polarity=pos] "." //
+
+# ── C. 結果状態が生む帰結 ──
+<h2>"Jomɔtru," "dak"</h2>
+
+# Taka hño jomɔtru. dak namo miratre.
+# (Takは本を読んである。だから名前を見てある[=知っている]。)
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=result, person=3, number=sg, polarity=pos] "."
+dak nam[case=acc, number=sg] mir[tense=pres, aspect=result, person=3, number=sg, polarity=pos] "."
+
+# Lini mije tæbenatre. dak miji kek ẽr.
+# (Linは実を食べてある。だから実はここにない。)
+lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=result, person=3, number=sg, polarity=pos] "."
+dak mi[case=nom, number=sg] ker[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=neg, animacy=inanim] "."
+
+# Taka namo kɔkɔtru. dak nama hñod er.
+# (Takは名前を書いてある。だから名前が本にある。)
+tak_name[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=pres, aspect=result, person=3, number=sg, polarity=pos] "."
+dak nam[case=nom, number=sg] hn[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
+
+# ── D. 結果状態相の過去と未来 ──
+<h2>"Jomɔtrɔ" "soʃ" "jomɔtro"</h2>
+
+# kunɔ Taka hño jomɔtrɔ. — 昨日読んであった
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=result, person=3, number=sg, polarity=pos] "."
+
+# kunɔ Lini mije tæbenatra.
+kuno[case=loc, number=sg]lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=past, aspect=result, person=3, number=sg, polarity=pos] "."
+
+# asu Taka hño jomɔtro. — 明日読んであるだろう
+asu[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=fut, aspect=result, person=3, number=sg, polarity=pos] "."
+
+# asu Lini kije miratræ.
+asu[case=loc, number=sg]lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=fut, aspect=result, person=3, number=sg, polarity=pos] "." //
+
+# ── E. 結果状態相の人称変化 ──
+<h2>"Jomɔtruw," "jomɔtruj"</h2>
+
+# vəç hño jomɔtruw. — 1sg
+vech[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=result, person=1, number=sg, polarity=pos] "."
+
+# ant hño jomɔtruj. — 2sg
+ant[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=result, person=2, number=sg, polarity=pos] "."
+
+# Taka hño jomɔtru. — 3sg
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=result, person=3, number=sg, polarity=pos] "."
+
+# vəçl hñoro jomɔtrul. — 1pl
+vech[case=nom, number=pl] hn[case=acc, number=pl] jom[tense=pres, aspect=result, person=1, number=pl, polarity=pos] "."
+
+# karl hñoro jomɔtrur. — 3pl
+kar[case=nom, number=pl] hn[case=acc, number=pl] jom[tense=pres, aspect=result, person=3, number=pl, polarity=pos] "." //
+
+# ── F. 結果状態相の否定 ──
+<h2>"Jomɔtrũ" "soʃ" "miratrẽ"</h2>
+
+# Taka hño jomɔtrũ. — 読んでない
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=result, person=3, number=sg, polarity=neg] "."
+
+# Lini kije miratrẽ. — 見てない
+lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=result, person=3, number=sg, polarity=neg] "."
+
+# vəç mije mar tæbenatrẽw. — 私はまだ食べてない
+vech[case=nom, number=sg] mi[case=acc, number=sg] mar taeben[tense=pres, aspect=result, person=1, number=sg, polarity=neg] "."
+
+# dak miji kek er. — だから実はここにある
+dak mi[case=nom, number=sg] ker[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
+
+# ── G. まとめ ──
+<hr/>
+
+# Taka hño ma jomɔtru, soʃ namo ma kɔkɔtru.
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] ma jom[tense=pres, aspect=result, person=3, number=sg, polarity=pos] ","
+sosh nam[case=acc, number=sg] ma kok[tense=pres, aspect=result, person=3, number=sg, polarity=pos] "."
+
+# dak Taka namo miratre.
+dak tak_name[case=nom, number=sg] nam[case=acc, number=sg] mir[tense=pres, aspect=result, person=3, number=sg, polarity=pos] "."
+
+# Lini mije mar tæbenatrẽ. dak miji kek er.
+lin_name[case=nom, number=sg] mi[case=acc, number=sg] mar taeben[tense=pres, aspect=result, person=3, number=sg, polarity=neg] "."
+dak mi[case=nom, number=sg] ker[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# asu Lini mije tæbenatræ. dak miji kek ẽr.
+asu[case=loc, number=sg]lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=fut, aspect=result, person=3, number=sg, polarity=pos] "."
+dak mi[case=nom, number=sg] ker[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=neg, animacy=inanim] "."
+
+# vəç hño ma jomɔtruw, soʃ hño ma miratrw.
+# 訂正: miratrew
+vech[case=nom, number=sg] hn[case=acc, number=sg] ma jom[tense=pres, aspect=result, person=1, number=sg, polarity=pos] ","
+sosh hn[case=acc, number=sg] ma mir[tense=pres, aspect=result, person=1, number=sg, polarity=pos] "." //
+// <a href="../grammatica/ch16">"Grammatica"</a>

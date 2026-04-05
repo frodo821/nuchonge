@@ -1,0 +1,106 @@
+# @title Ajə fut toç pənme: Jomɔsmu
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə fut toç pənme: Jomɔsmu
+# 第20章：読んでしまう
+# ============================================================
+#
+# 新出語彙: (なし)
+#
+# 新出文法:
+#   完遂相 (-sm-)、動作の完全達成・不可逆
+#   term と perf の意味対比
+#   6相体系の完成
+# ============================================================
+
+# ── A. 完遂相の導入 ──
+<h2>"Jomu" "soʃ" "jomɔsmu"</h2>
+
+# Taka hño jomu. — 読んでいる（非完結）
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka hño jomɔsmu. — 読んでしまう（完遂: 完全に達成）
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=perf, person=3, number=sg, polarity=pos] "."
+
+# Lini mije tæbenasme. — 食べてしまう
+lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=perf, person=3, number=sg, polarity=pos] "."
+
+# Taka namo kɔkɔsmu. — 書いてしまう
+tak_name[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=pres, aspect=perf, person=3, number=sg, polarity=pos] "." //
+
+# ── B. term と perf の対比 ──
+<h2>"Jomɔvu" "soʃ" "jomɔsmu"</h2>
+
+# Taka hño jomɔvu. — 読み終える（終結: 完了点に達する）
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=term, person=3, number=sg, polarity=pos] "."
+
+# Taka hño jomɔsmu. — 読んでしまう（完遂: 完全に・不可逆に）
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=perf, person=3, number=sg, polarity=pos] "."
+
+# Lini mije tæbenave. Lini mije tæbenasme.
+lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=term, person=3, number=sg, polarity=pos] "."
+lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=perf, person=3, number=sg, polarity=pos] "." //
+
+# ── C. 過去と未来 ──
+<h2>"Jomɔsmɔ" "soʃ" "jomɔsmo"</h2>
+
+# kunɔ Taka hño jomɔsmɔ. — 昨日読んでしまった
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=perf, person=3, number=sg, polarity=pos] "."
+
+# kunɔ Lini mije tæbenasma. — 昨日食べてしまった
+kuno[case=loc, number=sg]lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=past, aspect=perf, person=3, number=sg, polarity=pos] "."
+
+# asu Taka hño jomɔsmo. — 明日読んでしまうだろう
+asu[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=fut, aspect=perf, person=3, number=sg, polarity=pos] "."
+
+# asu Lini kije mirasmæ. — 明日見てしまうだろう
+asu[case=loc, number=sg]lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=fut, aspect=perf, person=3, number=sg, polarity=pos] "." //
+
+# ── D. 人称と否定 ──
+<h2>"Jomɔsmuw," "jomɔsmũ"</h2>
+
+# vəç hño jomɔsmuw. — 1sg 読んでしまう
+vech[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=perf, person=1, number=sg, polarity=pos] "."
+
+# ant hño jomɔsmuj. — 2sg
+ant[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=perf, person=2, number=sg, polarity=pos] "."
+
+# Taka hño jomɔsmũ. — 読んでしまわない
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=perf, person=3, number=sg, polarity=neg] "."
+
+# Lini mije tæbenasmẽ. — 食べてしまわない
+lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=perf, person=3, number=sg, polarity=neg] "." //
+
+# ── E. 6相の総覧 ──
+<h2>"Jomɔtku," "jomɔdsu," "jomu," "jomɔvu," "jomɔtru," "jomɔsmu"</h2>
+
+# 準備→起動→非完結→終結→結果状態→完遂
+# Taka hño jomɔtku.
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=prep, person=3, number=sg, polarity=pos] "."
+# Taka hño jomɔdsu.
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=incep, person=3, number=sg, polarity=pos] "."
+# Taka hño jomu.
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+# Taka hño jomɔvu.
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=term, person=3, number=sg, polarity=pos] "."
+# Taka hño jomɔtru.
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=result, person=3, number=sg, polarity=pos] "."
+# Taka hño jomɔsmu.
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=perf, person=3, number=sg, polarity=pos] "." //
+
+# ── F. まとめ ──
+<hr/>
+
+# kunɔ Taka hño jomɔktɔ. kɔj hño jomɔstɔ, soʃ hño ma jomɔsmu.
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=prep, person=3, number=sg, polarity=pos] "."
+kjo[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=past, aspect=incep, person=3, number=sg, polarity=pos] ","
+sosh hn[case=acc, number=sg] ma jom[tense=pres, aspect=perf, person=3, number=sg, polarity=pos] "."
+
+# Lini kunɔ mije tæbenasma. kɔj mije tæbenatrẽ.
+lin_name[case=nom, number=sg] kuno[case=loc, number=sg]mi[case=acc, number=sg] taeben[tense=past, aspect=perf, person=3, number=sg, polarity=pos] "."
+kjo[case=loc, number=sg]mi[case=acc, number=sg] taeben[tense=pres, aspect=result, person=3, number=sg, polarity=neg] "."
+
+# vəç asu ɔkoŋ hño jomɔsmuw.
+vech[case=nom, number=sg] asu[case=loc, number=sg]ok[case=acc, number=sg, animacy=inanim, degree=pos] hn[case=acc, number=sg] jom[tense=fut, aspect=perf, person=1, number=sg, polarity=pos] "." //
+// <a href="../grammatica/ch20">"Grammatica"</a>
