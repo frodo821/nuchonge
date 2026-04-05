@@ -17,7 +17,7 @@
 # ============================================================
 
 # ── A. 存在 ──
-# 無生名詞の主格単数 + コピュラ er
+<h2>"Er"</h2>
 
 # æ er.
 ae[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
@@ -29,7 +29,7 @@ ki[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, po
 hn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
 
 # ── B. 定冠詞と性質 ──
-# 定冠詞 sə + 述語形容詞（主格一致）+ コピュラ
+<h2>"Sə," "ɔkaŋ" "soʃ" "çisiŋ"</h2>
 
 # sæ ɔkaŋ er.
 se_def[sandhi=pre_v]~ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
@@ -41,7 +41,7 @@ se_def[sandhi=pre_c] ki[case=nom, number=sg] chis[case=nom, number=sg, animacy=i
 se_def[sandhi=pre_c] hn[case=nom, number=sg] chis[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
 
 # ── C. 有生名詞 ──
-# 有生コピュラ ir (3sg) — er との対比
+<h2>"Ir"</h2>
 
 # çiti ir.
 chit[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
@@ -59,7 +59,7 @@ se_def[sandhi=pre_v]~ot[case=nom, number=sg] ok[case=nom, number=sg, animacy=ani
 se_def[sandhi=pre_c] me_f[case=nom, number=sg] chis[case=nom, number=sg, animacy=anim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "." //
 
 # ── D. 複数 ──
-# 無生複数 (err) と有生複数 (irr)
+<h2>"Err" "soʃ" "irr"</h2>
 
 # æje err.
 ae[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
@@ -83,7 +83,7 @@ ot[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, po
 me_f[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "." //
 
 # ── E. 列挙 (to) ──
-# NP同士を to で結合。動詞は複数形で一致。
+<h2>"To"</h2>
 
 # æt kiji err.
 ae[case=nom, number=sg]~to[sandhi=pre_v] ki[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
@@ -92,7 +92,7 @@ ae[case=nom, number=sg]~to[sandhi=pre_v] ki[case=nom, number=sg] ar_verb[tense=p
 ot[case=nom, number=sg]~to[sandhi=pre_v] me_f[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "." //
 
 # ── F. 文の接続 (soʃ) ──
-# 文レベルの並列接続
+<h2>"Soʃ"</h2>
 
 # sæ ɔkaŋ er, soʃ sə kiji çisiŋ er.
 se_def[sandhi=pre_v]~ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] ","
@@ -103,7 +103,7 @@ se_def[sandhi=pre_v]~ot[case=nom, number=sg] ok[case=nom, number=sg, animacy=ani
 sosh se_def[sandhi=pre_c] me_f[case=nom, number=sg] chis[case=nom, number=sg, animacy=anim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "." //
 
 # ── G. まとめ ──
-# セクション全体の語彙を組み合わせた総合パッセージ
+<hr/>
 
 # æjet kiri err.
 ae[case=nom, number=pl]~to[sandhi=pre_v] ki[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."

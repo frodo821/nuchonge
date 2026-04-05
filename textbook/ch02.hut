@@ -27,6 +27,7 @@ se_def[sandhi=pre_v]~ot[case=nom, number=sg] ok[case=nom, number=sg, animacy=ani
 sosh se_def[sandhi=pre_c] me_f[case=nom, number=sg] chis[case=nom, number=sg, animacy=anim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "." //
 
 # ── B. jomu（読む）: 対格の導入 ──
+<h2>"Jomu"</h2>
 # 主語(主格) + 目的語(対格) + 動詞: SOV
 
 # sə ota hño jomu.
@@ -39,6 +40,7 @@ se_def[sandhi=pre_c] me_f[case=nom, number=sg] hn[case=acc, number=sg] jom[tense
 se_def[sandhi=pre_v]~ot[case=nom, number=sg] se_def[sandhi=pre_c] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── C. mire（見る）: 無生目的語 ──
+<h2>"Mire"</h2>
 
 # sə ota kije mire.
 se_def[sandhi=pre_v]~ot[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -54,6 +56,7 @@ se_def[sandhi=pre_v]~ot[case=nom, number=sg] se_def[sandhi=pre_v]~ae[case=acc, n
 se_def[sandhi=pre_c] me_f[case=nom, number=sg] se_def[sandhi=pre_v]~ae[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── D. mire（見る）: 有生目的語 ──
+<h2>"Çite" "soʃ" "meje"</h2>
 # çit: nom çiti / acc çite — 格語尾の対比
 
 # sə ota çite mire.
@@ -66,6 +69,7 @@ se_def[sandhi=pre_v]~ot[case=nom, number=sg] me_f[case=acc, number=sg] mir[tense
 se_def[sandhi=pre_c] me_f[case=nom, number=sg] ot[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── E. kɔku（書く）と namo（名前） ──
+<h2>"Kɔku"</h2>
 
 # sə ota namo kɔku.
 se_def[sandhi=pre_v]~ot[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -74,6 +78,7 @@ se_def[sandhi=pre_v]~ot[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=
 se_def[sandhi=pre_c] me_f[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── F. tæbene（食べる）と mije（実） ──
+<h2>"Tæbene"</h2>
 
 # miji er.
 mi[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
@@ -85,6 +90,7 @@ se_def[sandhi=pre_v]~ot[case=nom, number=sg] mi[case=acc, number=sg] taeben[tens
 se_def[sandhi=pre_c] me_f[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── G. 文の接続: 異なる動作の並列 ──
+<h2>"Soʃ"</h2>
 
 # sə ota hño jomu, soʃ sə meji mije tæbene.
 se_def[sandhi=pre_v]~ot[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
@@ -95,6 +101,7 @@ se_def[sandhi=pre_v]~ot[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=
 sosh se_def[sandhi=pre_c] me_f[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── H. まとめ ──
+<hr/>
 # Ch 1 + Ch 2 の語彙を組み合わせた総合パッセージ
 
 # sæ ɔkaŋ er. kiji er. hña er.

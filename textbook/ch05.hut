@@ -18,6 +18,7 @@
 # ============================================================
 
 # ── A. 1人称単数: vəç ──
+<h2>"Vəç"</h2>
 # 動詞に -w を付加。コピュラ1sg = dərw
 
 # vəç ota dərw.
@@ -33,6 +34,7 @@ vech[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, p
 vech[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "." //
 
 # ── B. 2人称単数: ant ──
+<h2>"Ant"</h2>
 # 時制母音が上昇: 前舌 e→i, 後舌 u→uj。コピュラ2sg = ar
 
 # ant meji ar.
@@ -48,6 +50,7 @@ ant[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, pe
 ant[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //
 
 # ── C. 1sg と 2sg の対比 ──
+<h2>"Jomuw" "soʃ" "jomuj"</h2>
 
 # vəç hño jomuw. ant hño jomuj.
 vech[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
@@ -58,6 +61,7 @@ vech[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=pres, aspect=impf, 
 ant[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //
 
 # ── D. 代名詞の対格: 「私を」「あなたを」 ──
+<h2>"Ante" "soʃ" "vəçe"</h2>
 
 # vəç ante mirew.
 vech[case=nom, number=sg] ant[case=acc, number=sg] mir[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
@@ -70,6 +74,7 @@ tak_name[case=nom, number=sg] vech[case=acc, number=sg] mir[tense=pres, aspect=i
 lin_name[case=nom, number=sg] ant[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── E. 代名詞の属格: 「私の」「あなたの」 ──
+<h2>"Vəçne" "soʃ" "antne"</h2>
 
 # vəçne æ ɔkaŋ er.
 vech[case=gen, number=sg] ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
@@ -84,6 +89,7 @@ vech[case=nom, number=sg] ant[case=gen, number=sg] hn[case=acc, number=sg] jom[t
 ant[case=nom, number=sg] vech[case=gen, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //
 
 # ── F. 3人称との対比 ──
+<h2>"Jomu," "jomuw," "jomuj"</h2>
 
 # Taka hño jomu. — 3sg: 語尾なし
 tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -95,6 +101,7 @@ vech[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, p
 ant[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //
 
 # ── G. まとめ ──
+<hr/>
 
 # vəç ota dərw. vəçne nama Taka er.
 vech[case=nom, number=sg] ot[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=1, number=sg, polarity=pos, animacy=anim] "."

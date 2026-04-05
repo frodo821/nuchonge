@@ -16,6 +16,7 @@
 # ============================================================
 
 # ── A. 出格: 起点の表現 ──
+<h2>"Toklukr̃" "kuru"</h2>
 # 「〜から」
 
 # Taka æikr̃ ir. — Takは家からいる（家から来ている）
@@ -33,6 +34,7 @@ kuno[case=loc, number=sg]lin_name[case=nom, number=sg] tokl[case=abl, number=sg]
 asu[case=loc, number=sg]tak_name[case=nom, number=sg] ae[case=abl, number=sg] kur[tense=fut, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── B. kur の人称 ──
+<h2>"Kuruw" "soʃ" "kuruj"</h2>
 
 # vəç æikr̃ kuruw.
 vech[case=nom, number=sg] ae[case=abl, number=sg] kur[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
@@ -41,6 +43,7 @@ vech[case=nom, number=sg] ae[case=abl, number=sg] kur[tense=pres, aspect=impf, p
 ant[case=nom, number=sg] tokl[case=abl, number=sg] kur[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //
 
 # ── C. ik (行く): 3sg = mek 語幹 ──
+<h2>"Meke"</h2>
 # デフォルト語幹は mek（← 向かう）
 
 # Taka æikr̃ meke.
@@ -56,6 +59,7 @@ kuno[case=loc, number=sg]tak_name[case=nom, number=sg] ae[case=abl, number=sg] i
 asu[case=loc, number=sg]lin_name[case=nom, number=sg] tokl[case=abl, number=sg] ik[tense=fut, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── D. ik の補充形: 1sg = ik, 2sg = dər ──
+<h2>"Ikew," "dəri," "meke"</h2>
 
 # vəç æikr̃ ikew. — 1sg: ik 語幹
 vech[case=nom, number=sg] ae[case=abl, number=sg] ik[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
@@ -67,6 +71,7 @@ ant[case=nom, number=sg] ae[case=abl, number=sg] ik[tense=pres, aspect=impf, per
 tak_name[case=nom, number=sg] ae[case=abl, number=sg] ik[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── E. ik の3時制 (1sg) ──
+<h2>"Ikataw," "ikew," "ikæw"</h2>
 
 # vəç kunɔ æikr̃ ikataw.
 vech[case=nom, number=sg] kuno[case=loc, number=sg]ae[case=abl, number=sg] ik[tense=past, aspect=impf, person=1, number=sg, polarity=pos] "."
@@ -78,6 +83,7 @@ vech[case=nom, number=sg] kjo[case=loc, number=sg]ae[case=abl, number=sg] ik[ten
 vech[case=nom, number=sg] asu[case=loc, number=sg]ae[case=abl, number=sg] ik[tense=fut, aspect=impf, person=1, number=sg, polarity=pos] "." //
 
 # ── F. 代名詞の出格 ──
+<h2>"Vəçer" "soʃ" "anter"</h2>
 
 # Taka vəçer kuru. — 私のところから来る
 tak_name[case=nom, number=sg] vech[case=abl, number=sg] kur[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -89,6 +95,7 @@ lin_name[case=nom, number=sg] ant[case=abl, number=sg] kur[tense=pres, aspect=im
 tak_name[case=nom, number=sg] kar[case=abl, number=sg] ik[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── G. まとめ（主語省略も活用） ──
+<hr/>
 
 # kunɔ Taka æikr̃ mekata. toklukr̃ kurɔtɔ.
 kuno[case=loc, number=sg]tak_name[case=nom, number=sg] ae[case=abl, number=sg] ik[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."

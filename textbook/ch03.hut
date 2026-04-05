@@ -25,6 +25,7 @@ me_f[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, 
 se_def[sandhi=pre_v]~ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
 
 # ── B. 属格の導入: 所有 ──
+<h2>"Otno" "soʃ" "mene"</h2>
 # GEN + NOUN = 「〜の〜」
 
 # sotno æ ɔkaŋ er.
@@ -38,6 +39,7 @@ se_def[sandhi=pre_v]~ot[case=gen, number=sg] hn[case=nom, number=sg] ar_verb[ten
 se_def[sandhi=pre_c] me_f[case=gen, number=sg] hn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
 
 # ── C. 属格 + 対格: 他者の物を動詞の目的語に ──
+<h2>"Mene" "hño"</h2>
 
 # sota sə mene hño jomu.
 se_def[sandhi=pre_v]~ot[case=nom, number=sg] se_def[sandhi=pre_c] me_f[case=gen, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -46,6 +48,7 @@ se_def[sandhi=pre_v]~ot[case=nom, number=sg] se_def[sandhi=pre_c] me_f[case=gen,
 se_def[sandhi=pre_c] me_f[case=nom, number=sg] se_def[sandhi=pre_v]~ot[case=gen, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── D. 3人称代名詞 kar ──
+<h2>"Kar"</h2>
 # karne = 彼/彼女の（属格）
 
 # kar ir. karne æ ɔkaŋ er.
@@ -56,6 +59,7 @@ kar[case=gen, number=sg] ae[case=nom, number=sg] ok[case=nom, number=sg, animacy
 kar[case=nom, number=sg] kar[case=gen, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── E. 名前: nam + 属格 ──
+<h2>"Nama"</h2>
 # 「〜の名前は…である」
 
 # sotno nama er.
@@ -69,6 +73,7 @@ se_def[sandhi=pre_v]~ot[case=gen, number=sg] nam[case=nom, number=sg] tak_name[c
 se_def[sandhi=pre_c] me_f[case=gen, number=sg] nam[case=nom, number=sg] lin_name[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
 
 # ── F. 人物名を主語として使う ──
+<h2>"Taka" "soʃ" "Lini"</h2>
 
 # Taka hño jomu.
 tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -83,6 +88,7 @@ tak_name[case=nom, number=sg] lin_name[case=acc, number=sg] mir[tense=pres, aspe
 lin_name[case=nom, number=sg] tak_name[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── G. まとめ ──
+<hr/>
 
 # Taka ota ir. Takno æ ɔkaŋ er.
 tak_name[case=nom, number=sg] ot[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."

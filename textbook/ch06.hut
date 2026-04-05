@@ -18,6 +18,7 @@
 # ============================================================
 
 # ── A. atɔw（与える）の導入 ──
+<h2>"Atɔwu"</h2>
 # S(主格) + IO(与格) + DO(対格) + V
 
 # Taka Liniñ hño atɔwu.
@@ -30,6 +31,7 @@ lin_name[case=nom, number=sg] tak_name[case=dat, number=sg] mi[case=acc, number=
 tak_name[case=nom, number=sg] lin_name[case=dat, number=sg] hn[case=acc, number=pl] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── B. 与格と他の格の対比 ──
+<h2>"Lini," "Line," "Liniñ"</h2>
 # Lin の3格: Lini (主格), Line (対格), Liniñ (与格)
 
 # Lini hño jomu.
@@ -42,6 +44,7 @@ tak_name[case=nom, number=sg] lin_name[case=acc, number=sg] mir[tense=pres, aspe
 tak_name[case=nom, number=sg] lin_name[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── C. 代名詞の与格 ──
+<h2>"Vəçñ" "soʃ" "antñ"</h2>
 
 # Taka vəçñ hño atɔwu.
 tak_name[case=nom, number=sg] vech[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -56,6 +59,7 @@ ant[case=nom, number=sg] vech[case=dat, number=sg] hn[case=acc, number=sg] ataw[
 ant[case=nom, number=sg] kar[case=dat, number=sg] mi[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //
 
 # ── D. 定冠詞付きの与格 ──
+<h2>"Sə" "çitiñ"</h2>
 
 # Taka sə çitiñ hño atɔwu.
 tak_name[case=nom, number=sg] se_def[sandhi=pre_c] chit[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -67,6 +71,7 @@ lin_name[case=nom, number=sg] se_def[sandhi=pre_v]~ot[case=dat, number=sg] mi[ca
 vech[case=nom, number=sg] se_def[sandhi=pre_c] me_f[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "." //
 
 # ── E. 与格複数 ──
+<h2>"Çitiriñ"</h2>
 
 # Taka çitiriñ hñoro atɔwu.
 tak_name[case=nom, number=sg] chit[case=dat, number=pl] hn[case=acc, number=pl] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -75,6 +80,7 @@ tak_name[case=nom, number=sg] chit[case=dat, number=pl] hn[case=acc, number=pl] 
 lin_name[case=nom, number=sg] se_def[sandhi=pre_c] chit[case=dat, number=pl] mi[case=acc, number=pl] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── F. まとめ ──
+<hr/>
 
 # Taka ota ir. Lini meji ir.
 tak_name[case=nom, number=sg] ot[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."

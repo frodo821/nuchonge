@@ -13,6 +13,7 @@
 # ============================================================
 
 # ── A. 3pl: -r ──
+<h2>"Jomur"</h2>
 # Ch 1 で 3pl コピュラ (err/irr) は既出。他の動詞の 3pl を導入。
 
 # karl hño jomur.
@@ -25,6 +26,7 @@ kar[case=nom, number=pl] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, pe
 kuno[case=loc, number=sg]kar[case=nom, number=pl] hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=3, number=pl, polarity=pos] "." //
 
 # ── B. 1pl: -l ──
+<h2>"Jomul"</h2>
 
 # vəçl hño jomul.
 vech[case=nom, number=pl] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=1, number=pl, polarity=pos] "."
@@ -36,6 +38,7 @@ vech[case=nom, number=pl] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, p
 vech[case=nom, number=pl] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=1, number=pl, polarity=pos, animacy=anim] "." //
 
 # ── C. 2pl: -s ──
+<h2>"Jomus"</h2>
 
 # antes hño jomus.
 ant[case=nom, number=pl] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=2, number=pl, polarity=pos] "."
@@ -47,6 +50,7 @@ ant[case=nom, number=pl] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf,
 ant[case=nom, number=pl] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=2, number=pl, polarity=pos, animacy=anim] "." //
 
 # ── D. 全人称の対比 (jom, 現在) ──
+<h2>"Jomuw," "jomuj," "jomu," "jomul," "jomus," "jomur"</h2>
 
 # vəç hño jomuw. — 1sg
 vech[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
@@ -67,6 +71,7 @@ ant[case=nom, number=pl] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, pe
 kar[case=nom, number=pl] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=pl, polarity=pos] "." //
 
 # ── E. 複数人称の過去・未来 ──
+<h2>"Jomɔtɔl" "soʃ" "mekæs"</h2>
 
 # vəçl kunɔ hño jomɔtɔl.
 vech[case=nom, number=pl] kuno[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=1, number=pl, polarity=pos] "."
@@ -79,6 +84,7 @@ ant[case=nom, number=pl] kuno[case=loc, number=sg]mi[case=acc, number=sg] taeben
 vech[case=nom, number=pl] asu[case=loc, number=sg]ae[case=abl, number=sg] tokl[case=all, number=sg] ik[tense=fut, aspect=impf, person=1, number=pl, polarity=pos] "." //
 
 # ── F. 代名詞複数の格変化 ──
+<h2>"Vəçle" "soʃ" "antesne"</h2>
 
 # vəçl æid dərl. vəçle Taka mire.
 vech[case=nom, number=pl] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=1, number=pl, polarity=pos, animacy=anim] "."
@@ -88,6 +94,7 @@ vech[case=acc, number=pl] tak_name[case=nom, number=sg] mir[tense=pres, aspect=i
 tak_name[case=nom, number=sg] ant[case=gen, number=pl] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── G. まとめ ──
+<hr/>
 
 # vəçl Linte æid dərl. hñoro jomul.
 vech[case=nom, number=pl] lin_name[case=com, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=1, number=pl, polarity=pos, animacy=anim] "."

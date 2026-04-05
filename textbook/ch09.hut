@@ -17,6 +17,7 @@
 # ============================================================
 
 # ── A. 3sg 未来: 3時制の対比 ──
+<h2>"Jomɔtɔ," "jomu," "jomo"</h2>
 
 # kunɔ Taka hño jomɔtɔ. kɔj hño jomu. asu[case=loc, number=sg]hño jomo.
 kuno[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -29,6 +30,7 @@ kjo[case=loc, number=sg]ki[case=acc, number=sg] mir[tense=pres, aspect=impf, per
 asu[case=loc, number=sg]ki[case=acc, number=sg] mir[tense=fut, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── B. 他の動詞の未来形 ──
+<h2>"Kɔko" "soʃ" "tæbenæ"</h2>
 
 # asu[case=loc, number=sg]Taka namo kɔko.
 asu[case=loc, number=sg]tak_name[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=fut, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -40,6 +42,7 @@ asu[case=loc, number=sg]lin_name[case=nom, number=sg] mi[case=acc, number=sg] ta
 asu[case=loc, number=sg]tak_name[case=nom, number=sg] lin_name[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=fut, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── C. コピュラ未来: dəro ──
+<h2>"Dəro"</h2>
 
 # kɔj Taka æid ir. asu[case=loc, number=sg]Taka æid dəro.
 kjo[case=loc, number=sg]tak_name[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
@@ -50,6 +53,7 @@ kjo[case=loc, number=sg]hn[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[
 asu[case=loc, number=sg]hn[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=fut, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
 
 # ── D. 1sg/2sg 未来 ──
+<h2>"Jomow" "soʃ" "jomot"</h2>
 # 1sg: +w、2sg: -t 付加（現在・過去の母音上昇とは異なる）
 
 # vəç asu[case=loc, number=sg]hño jomow.
@@ -65,6 +69,7 @@ vech[case=nom, number=sg] asu[case=loc, number=sg]ki[case=acc, number=sg] mir[te
 ant[case=nom, number=sg] asu[case=loc, number=sg]ki[case=acc, number=sg] mir[tense=fut, aspect=impf, person=2, number=sg, polarity=pos] "." //
 
 # ── E. コピュラ未来の人称 ──
+<h2>"Dərow" "soʃ" "duro"</h2>
 
 # vəç asu[case=loc, number=sg]æid dərow.
 vech[case=nom, number=sg] asu[case=loc, number=sg]ae[case=loc, number=sg] ar_verb[tense=fut, aspect=impf, person=1, number=sg, polarity=pos, animacy=anim] "."
@@ -73,6 +78,7 @@ vech[case=nom, number=sg] asu[case=loc, number=sg]ae[case=loc, number=sg] ar_ver
 ant[case=nom, number=sg] asu[case=loc, number=sg]ae[case=loc, number=sg] ar_verb[tense=fut, aspect=impf, person=2, number=sg, polarity=pos, animacy=anim] "." //
 
 # ── F. 2sg の時制別対比 ──
+<h2>"Jomuj," "jomɔto," "jomot"</h2>
 # 現在: 母音上昇、過去: 母音上昇、未来: -t 付加
 
 # ant hño jomuj. — pres: u→uj
@@ -85,6 +91,7 @@ ant[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=impf, pe
 ant[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=fut, aspect=impf, person=2, number=sg, polarity=pos] "." //
 
 # ── G. まとめ（主語省略も活用） ──
+<hr/>
 
 # Taka kunɔ hño jomɔtɔ. kɔj hño jomu. asu[case=loc, number=sg]hño jomo.
 tak_name[case=nom, number=sg] kuno[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."

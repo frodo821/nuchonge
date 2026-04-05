@@ -23,6 +23,7 @@ tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=imp
 lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── B. 対格複数: 無生目的語 ──
+<h2>"Hñoro" "soʃ" "kire"</h2>
 # 無生複数: 前舌 -ere, 後舌 -oro, 前舌母音 -re
 
 # Taka hñoro jomu.
@@ -39,6 +40,7 @@ lin_name[case=nom, number=sg] hn[case=acc, number=pl] jom[tense=pres, aspect=imp
 sosh tak_name[case=nom, number=sg] hn[case=acc, number=pl] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── C. 動物の導入: tol (鳥), sakən (魚) ──
+<h2>"Tola" "soʃ" "sakənə"</h2>
 
 # tola ir. tolra irr.
 tol[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
@@ -53,6 +55,7 @@ se_def[sandhi=pre_c] tol[case=nom, number=sg] chis[case=nom, number=sg, animacy=
 se_def[sandhi=pre_c] sakn[case=nom, number=sg] chis[case=nom, number=sg, animacy=anim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "." //
 
 # ── D. 対格複数: 有生目的語 ──
+<h2>"Tolro" "soʃ" "sakənra"</h2>
 # 有生複数: 前舌 -re, 後舌 -ro, 中立 -ra
 
 # Taka tolro mire.
@@ -65,6 +68,7 @@ lin_name[case=nom, number=sg] sakn[case=acc, number=pl] mir[tense=pres, aspect=i
 tak_name[case=nom, number=sg] chit[case=acc, number=pl] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── E. 単数 vs 複数の対比 ──
+<h2>"Tolo" "soʃ" "tolro"</h2>
 
 # Taka tolo mire. Taka tolro mire.
 tak_name[case=nom, number=sg] tol[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -79,6 +83,7 @@ lin_name[case=nom, number=sg] sakn[case=acc, number=sg] mir[tense=pres, aspect=i
 lin_name[case=nom, number=sg] sakn[case=acc, number=pl] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── F. まとめ ──
+<hr/>
 
 # Takno æ ɔkaŋ er. Takno æ kiri err. Taka kire mire.
 tak_name[case=gen, number=sg] ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."

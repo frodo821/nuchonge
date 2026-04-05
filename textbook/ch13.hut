@@ -13,6 +13,7 @@
 # ============================================================
 
 # ── A. コピュラの否定（復習から拡張） ──
+<h2>"Er" "soʃ" "ẽr"</h2>
 
 # kiji er. kiji ẽr.
 ki[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
@@ -27,6 +28,7 @@ vech[case=nom, number=sg] ot[case=nom, number=sg] ar_verb[tense=pres, aspect=imp
 vech[case=nom, number=sg] ot[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=1, number=sg, polarity=neg, animacy=anim] "." //
 
 # ── B. 規則動詞の否定: 鼻母音化 ──
+<h2>"Jomu" "soʃ" "jomũ"</h2>
 # 否定 -ñ → 時制母音が鼻母音化し、-ñ は脱落
 
 # Taka hño jomu. Taka hño jomũ.
@@ -38,6 +40,7 @@ lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=imp
 lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=neg] "." //
 
 # ── C. 人称+否定 ──
+<h2>"Jomũw," "jomũj," "jomũl"</h2>
 
 # vəç hño jomũw. — 1sg neg
 vech[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=1, number=sg, polarity=neg] "."
@@ -56,6 +59,7 @@ ant[case=nom, number=pl] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, pe
 kar[case=nom, number=pl] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=pl, polarity=neg] "." //
 
 # ── D. 前舌動詞の否定 ──
+<h2>"Mire" "soʃ" "mirẽ"</h2>
 
 # vəç kije mirẽw.
 vech[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=1, number=sg, polarity=neg] "."
@@ -69,6 +73,7 @@ lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=imp
 kar[case=nom, number=pl] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=pl, polarity=neg] "." //
 
 # ── E. 過去・未来の否定 ──
+<h2>"Jomɔ̃tɔ" "soʃ" "jomõ"</h2>
 
 # kunɔ Taka hño jomɔ̃tɔ. — past neg 3sg
 kuno[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=3, number=sg, polarity=neg] "."
@@ -95,6 +100,7 @@ tak_name[case=nom, number=sg] ae[case=abl, number=sg] tokl[case=all, number=sg] 
 lin_name[case=nom, number=sg] ae[case=abl, number=sg] tokl[case=all, number=sg] ik[tense=pres, aspect=impf, person=3, number=sg, polarity=neg] "." //
 
 # ── G. まとめ ──
+<hr/>
 
 # vəçl kunɔ æid dərl. kɔj æid də̃rl. asu[case=loc, number=sg]tokluh mekæl.
 vech[case=nom, number=pl] kuno[case=loc, number=sg]ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=1, number=pl, polarity=pos, animacy=anim] "."

@@ -18,6 +18,7 @@
 # ============================================================
 
 # ── A. 3sg 過去の導入: 現在との対比 ──
+<h2>"Jomɔtɔ" "soʃ" "mirata"</h2>
 
 # kɔj Taka hño jomu. kunɔ Taka hño jomɔtɔ.
 kjo[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -28,6 +29,7 @@ kjo[case=loc, number=sg]lin_name[case=nom, number=sg] ki[case=acc, number=sg] mi
 kuno[case=loc, number=sg]lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── B. 他の動詞の過去形 ──
+<h2>"Kɔkɔtɔ" "soʃ" "tæbenata"</h2>
 
 # kunɔ Taka namo kɔkɔtɔ.
 kuno[case=loc, number=sg]tak_name[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -39,6 +41,7 @@ kuno[case=loc, number=sg]lin_name[case=nom, number=sg] mi[case=acc, number=sg] t
 kuno[case=loc, number=sg]tak_name[case=nom, number=sg] lin_name[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── C. コピュラ過去: it (有生) / et (無生) ──
+<h2>"It" "soʃ" "et"</h2>
 
 # kɔj Taka æid ir. kunɔ Taka æid it.
 kjo[case=loc, number=sg]tak_name[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
@@ -52,6 +55,7 @@ kuno[case=loc, number=sg]hn[case=nom, number=sg] ae[case=loc, number=sg] ar_verb
 kuno[case=loc, number=sg]tol[case=nom, number=pl] ki[case=gen, number=sg] uae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "." //
 
 # ── D. 1sg/2sg 過去 ──
+<h2>"Jomɔtɔw" "soʃ" "jomɔto"</h2>
 
 # vəç kunɔ hño jomɔtɔw.
 vech[case=nom, number=sg] kuno[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=1, number=sg, polarity=pos] "."
@@ -66,6 +70,7 @@ vech[case=nom, number=sg] kuno[case=loc, number=sg]mi[case=acc, number=sg] taebe
 ant[case=nom, number=sg] kuno[case=loc, number=sg]mi[case=acc, number=sg] taeben[tense=past, aspect=impf, person=2, number=sg, polarity=pos] "." //
 
 # ── E. コピュラ過去 1sg/2sg ──
+<h2>"Dətw" "soʃ" "at"</h2>
 
 # vəç kunɔ æid dətw.
 vech[case=nom, number=sg] kuno[case=loc, number=sg]ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=1, number=sg, polarity=pos, animacy=anim] "."
@@ -74,6 +79,7 @@ vech[case=nom, number=sg] kuno[case=loc, number=sg]ae[case=loc, number=sg] ar_ve
 ant[case=nom, number=sg] kuno[case=loc, number=sg]ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=2, number=sg, polarity=pos, animacy=anim] "." //
 
 # ── F. 人称の過去形総覧 ──
+<h2>"Jomɔtɔ," "jomɔtɔw," "jomɔto"</h2>
 
 # Taka hño jomɔtɔ. — 3sg
 tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -102,6 +108,7 @@ ant[case=nom, number=sg] kuno[case=loc, number=sg]hn[case=acc, number=sg] jom[te
 mi[case=acc, number=sg] taeben[tense=past, aspect=impf, person=2, number=sg, polarity=pos] "." //
 
 # ── H. まとめ ──
+<hr/>
 
 # kunɔ Taka Linte æid it.
 kuno[case=loc, number=sg]tak_name[case=nom, number=sg] lin_name[case=com, number=sg] ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."

@@ -18,6 +18,7 @@
 # ============================================================
 
 # ── A. 所格: 場所の表現 ──
+<h2>"Æid"</h2>
 # 「〜で」「〜に（場所）」
 
 # Taka æid ir.
@@ -33,6 +34,7 @@ hn[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf,
 tak_name[case=nom, number=sg] ae[case=loc, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── B. tokl（場所）の導入 ──
+<h2>"Tokla"</h2>
 
 # tokla er. sə tokla ɔkaŋ er.
 tokl[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
@@ -47,6 +49,7 @@ tol[case=nom, number=pl] tokl[case=loc, number=sg] ar_verb[tense=pres, aspect=im
 sakn[case=nom, number=pl] tokl[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "." //
 
 # ── C. ʃit（下）と uæ（上）: 属格 + 空間名詞 + 所格 ──
+<h2>"Uæde" "soʃ" "ʃitde"</h2>
 
 # tola kime uæde ir.
 tol[case=nom, number=sg] ki[case=gen, number=sg] uae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
@@ -61,6 +64,7 @@ hn[case=nom, number=sg] ae[case=gen, number=sg] uae[case=loc, number=sg] ar_verb
 lin_name[case=nom, number=sg] ki[case=gen, number=sg] shit[case=loc, number=sg] tol[case=acc, number=pl] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── D. 共格: 共同の表現 ──
+<h2>"Linte" "soʃ" "Takto"</h2>
 # 「〜と共に」
 
 # Taka Linte hño jomu.
@@ -76,6 +80,7 @@ vech[case=nom, number=sg] ant[case=com, number=sg] ki[case=acc, number=sg] mir[t
 ant[case=nom, number=sg] vech[case=com, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //
 
 # ── E. 格の対比: Lin の6格 ──
+<h2>"Lini," "Line," "Liniñ," "Linde," "Linte"</h2>
 
 # Lini hño jomu.               — NOM (主語)
 lin_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -97,6 +102,7 @@ tak_name[case=nom, number=sg] lin_name[case=loc, number=sg] hn[case=acc, number=
 tak_name[case=nom, number=sg] lin_name[case=com, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── F. まとめ ──
+<hr/>
 
 # Taka Linte æid ir. Takno æ ɔkaŋ er.
 tak_name[case=nom, number=sg] lin_name[case=com, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."

@@ -13,6 +13,7 @@
 # ============================================================
 
 # ── A. 向格: 方向の表現 ──
+<h2>"Tokluh" "soʃ" "æihə"</h2>
 # 「〜へ」「〜に向かって」
 
 # Taka tokluh meke.
@@ -28,6 +29,7 @@ tak_name[case=nom, number=sg] lin_name[case=all, number=sg] ik[tense=pres, aspec
 lin_name[case=nom, number=sg] tak_name[case=all, number=sg] kur[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── B. 出格 + 向格: 完全な移動表現 ──
+<h2>"Æikr̃" "tokluh"</h2>
 # X-ABL Y-ALL ik/kur = XからYへ行く/来る
 
 # Taka æikr̃ tokluh meke.
@@ -40,6 +42,7 @@ lin_name[case=nom, number=sg] tokl[case=abl, number=sg] ae[case=all, number=sg] 
 tak_name[case=nom, number=sg] lin_name[case=abl, number=sg] ae[case=all, number=sg] ik[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── C. 移動の3時制 ──
+<h2>"Mekata," "meke," "mekæ"</h2>
 
 # kunɔ Taka æikr̃ tokluh mekata.
 kuno[case=loc, number=sg]tak_name[case=nom, number=sg] ae[case=abl, number=sg] tokl[case=all, number=sg] ik[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -51,6 +54,7 @@ kjo[case=loc, number=sg]tokl[case=abl, number=sg] ae[case=all, number=sg] ik[ten
 asu[case=loc, number=sg]ae[case=abl, number=sg] tokl[case=all, number=sg] ik[tense=fut, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── D. 1sg/2sg の移動 ──
+<h2>"Ikew" "soʃ" "dəri"</h2>
 
 # vəç æikr̃ tokluh ikew.
 vech[case=nom, number=sg] ae[case=abl, number=sg] tokl[case=all, number=sg] ik[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
@@ -65,6 +69,7 @@ vech[case=nom, number=sg] tokl[case=abl, number=sg] ae[case=all, number=sg] kur[
 ant[case=nom, number=sg] ae[case=abl, number=sg] tokl[case=all, number=sg] kur[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //
 
 # ── E. 代名詞の向格 ──
+<h2>"Vəçeñ" "soʃ" "anteñ"</h2>
 
 # Taka vəçeñ kuru.
 tak_name[case=nom, number=sg] vech[case=all, number=sg] kur[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
@@ -76,6 +81,7 @@ lin_name[case=nom, number=sg] ant[case=all, number=sg] ik[tense=pres, aspect=imp
 vech[case=nom, number=sg] kar[case=all, number=sg] ik[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "." //
 
 # ── F. 所格 vs 向格 vs 出格 ──
+<h2>"Æid," "æihə," "æikr̃"</h2>
 # 場所にいる / 場所へ行く / 場所から来る
 
 # Taka æid ir.
@@ -88,6 +94,7 @@ tak_name[case=nom, number=sg] ae[case=all, number=sg] ik[tense=pres, aspect=impf
 tak_name[case=nom, number=sg] ae[case=abl, number=sg] ik[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── G. まとめ ──
+<hr/>
 
 # kunɔ Taka Linte tokldo it.
 kuno[case=loc, number=sg]tak_name[case=nom, number=sg] lin_name[case=com, number=sg] tokl[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
