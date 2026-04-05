@@ -127,4 +127,4 @@ sosh lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, as
 # vəç kunɔ antet tokldo mije tæbenataw, soʃ hño jomɔtɔw.
 vech[case=nom, number=sg] kuno[case=loc, number=sg]ant[case=com, number=sg] tokl[case=loc, number=sg] mi[case=acc, number=sg] taeben[tense=past, aspect=impf, person=1, number=sg, polarity=pos] ","
 sosh hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=1, number=sg, polarity=pos] "." //
-// <a href="../grammatica/ch08.md">"Grammatica"</a>
+// <a href="../grammatica/ch08">"Grammatica"</a>

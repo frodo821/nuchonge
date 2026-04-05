@@ -97,4 +97,4 @@ lin_name[case=nom, number=sg] tol[case=acc, number=pl]~to[sandhi=pre_v] sakn[cas
 # Taka hñoro jomu, soʃ Lini mire tæbene.
 tak_name[case=nom, number=sg] hn[case=acc, number=pl] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
 sosh lin_name[case=nom, number=sg] mi[case=acc, number=pl] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
-// <a href="../grammatica/ch04.md">"Grammatica"</a>
+// <a href="../grammatica/ch04">"Grammatica"</a>

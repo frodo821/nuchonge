@@ -105,4 +105,4 @@ sosh lin_name[case=nom, number=sg] tak_name[case=gen, number=sg] mi[case=acc, nu
 # Taka Line mire. karne æ mire.
 tak_name[case=nom, number=sg] lin_name[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
 kar[case=gen, number=sg] ae[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
-// <a href="../grammatica/ch03.md">"Grammatica"</a>
+// <a href="../grammatica/ch03">"Grammatica"</a>

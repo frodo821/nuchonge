@@ -108,4 +108,4 @@ lin_name[case=nom, number=sg] ker[case=abl, number=sg] tokl[case=all, number=sg]
 # deri ɔkaŋ er? ari ɔkaŋ er.
 der[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "?"
 ar[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
-// <a href="../grammatica/ch14.md">"Grammatica"</a>
+// <a href="../grammatica/ch14">"Grammatica"</a>
