@@ -119,3 +119,4 @@ lin_name[case=nom, number=sg] tak_name[case=com, number=sg] hn[case=acc, number=
 # vəç antet tokldo mije tæbenew, soʃ hño jomuw.
 vech[case=nom, number=sg] ant[case=com, number=sg] tokl[case=loc, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] ","
 sosh hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "." //
+// <a href="../grammatica/ch07.md">"Grammatica"</a>

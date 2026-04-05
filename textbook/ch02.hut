@@ -123,3 +123,4 @@ sosh se_def[sandhi=pre_v]~ot[case=nom, number=sg] nam[case=acc, number=sg] kok[t
 # sə meji oto mire. sə meji sə kije mire.
 se_def[sandhi=pre_c] me_f[case=nom, number=sg] ot[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
 se_def[sandhi=pre_c] me_f[case=nom, number=sg] se_def[sandhi=pre_c] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+// <a href="../grammatica/ch02.md">"Grammatica"</a>
