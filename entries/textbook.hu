@@ -69,23 +69,39 @@ entry aj {
 
 # ── 時間副詞 ──
 
-# 昨日
+# 昨日（後舌母音語幹・無生）
 entry kuno {
   headword: "kunɔ"
-  tags: [pos=adv]
+  tags: [pos=noun, harmony=back, stem_final=back_vowel, animacy=inanim]
+  stems { root: "kunɔ" }
+  inflection_class: noun_back_ov_inanim
   meaning: "昨日"
   etymology {
     note: "現代日本語「きのう」/kinou/ → /kino/ → /kuno/（後舌調和 i→u）→ /kunɔ/（o→ɔ）"
   }
 }
 
-# 今日
+# 今日（後舌子音語幹・無生）
 entry kjo {
   headword: "kɔj"
-  tags: [pos=adv]
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "kɔj" }
+  inflection_class: noun_back_cons_inanim
   meaning: "今日"
   etymology {
     note: "現代日本語「きょう」/kjou/ → /kjɔ/（後舌化）→ /kɔj/（CV転倒で子音連続回避）"
+  }
+}
+
+# 明日（後舌母音語幹・無生）
+entry asu {
+  headword: "asu"
+  tags: [pos=noun, harmony=back, stem_final=back_vowel, animacy=inanim]
+  stems { root: "asu" }
+  inflection_class: noun_back_ov_inanim
+  meaning: "明日"
+  etymology {
+    note: "現代日本語「あす」/asu/。短母音語のため変形を受けず保存。"
   }
 }
 

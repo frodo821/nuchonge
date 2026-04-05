@@ -1,0 +1,103 @@
+# @title Ajə toç pənme: Æikr̃
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə toç pənme: Æikr̃
+# 第10章：家から
+# ============================================================
+#
+# 新出語彙:
+#   動詞: kur (来る), ik (行く — 補充形)
+#
+# 既出語彙 (Ch 1–9): 全既出語彙 + asu
+#
+# 新出文法:
+#   出格（起点）、移動動詞、ik の補充形パラダイム
+# ============================================================
+
+# ── A. 出格: 起点の表現 ──
+# 「〜から」
+
+# Taka æikr̃ ir. — Takは家からいる（家から来ている）
+# まず kur (来る) で出格を導入
+# Lini toklukr̃ kuru.
+lin_name[case=nom, number=sg] tokl[case=abl, number=sg] kur[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka æikr̃ kuru.
+tak_name[case=nom, number=sg] ae[case=abl, number=sg] kur[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# kunɔ Lini toklukr̃ kurɔtɔ.
+kuno[case=loc, number=sg]lin_name[case=nom, number=sg] tokl[case=abl, number=sg] kur[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# asu[case=loc, number=sg]Taka æikr̃ kuro.
+asu[case=loc, number=sg]tak_name[case=nom, number=sg] ae[case=abl, number=sg] kur[tense=fut, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── B. kur の人称 ──
+
+# vəç æikr̃ kuruw.
+vech[case=nom, number=sg] ae[case=abl, number=sg] kur[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
+
+# ant toklukr̃ kuruj.
+ant[case=nom, number=sg] tokl[case=abl, number=sg] kur[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //
+
+# ── C. ik (行く): 3sg = mek 語幹 ──
+# デフォルト語幹は mek（← 向かう）
+
+# Taka æikr̃ meke.
+tak_name[case=nom, number=sg] ae[case=abl, number=sg] ik[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini toklukr̃ meke.
+lin_name[case=nom, number=sg] tokl[case=abl, number=sg] ik[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# kunɔ Taka æikr̃ mekata.
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] ae[case=abl, number=sg] ik[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# asu[case=loc, number=sg]Lini toklukr̃ mekæ.
+asu[case=loc, number=sg]lin_name[case=nom, number=sg] tokl[case=abl, number=sg] ik[tense=fut, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── D. ik の補充形: 1sg = ik, 2sg = dər ──
+
+# vəç æikr̃ ikew. — 1sg: ik 語幹
+vech[case=nom, number=sg] ae[case=abl, number=sg] ik[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
+
+# ant æikr̃ dəri. — 2sg: dər 語幹
+ant[case=nom, number=sg] ae[case=abl, number=sg] ik[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "."
+
+# Taka æikr̃ meke. — 3sg: mek 語幹
+tak_name[case=nom, number=sg] ae[case=abl, number=sg] ik[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── E. ik の3時制 (1sg) ──
+
+# vəç kunɔ æikr̃ ikataw.
+vech[case=nom, number=sg] kuno[case=loc, number=sg]ae[case=abl, number=sg] ik[tense=past, aspect=impf, person=1, number=sg, polarity=pos] "."
+
+# vəç kɔj æikr̃ ikew.
+vech[case=nom, number=sg] kjo[case=loc, number=sg]ae[case=abl, number=sg] ik[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
+
+# vəç asu[case=loc, number=sg]æikr̃ ikæw.
+vech[case=nom, number=sg] asu[case=loc, number=sg]ae[case=abl, number=sg] ik[tense=fut, aspect=impf, person=1, number=sg, polarity=pos] "." //
+
+# ── F. 代名詞の出格 ──
+
+# Taka vəçer kuru. — 私のところから来る
+tak_name[case=nom, number=sg] vech[case=abl, number=sg] kur[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini anter kuru. — あなたのところから来る
+lin_name[case=nom, number=sg] ant[case=abl, number=sg] kur[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka karr meke. — 彼/彼女のところから行く
+tak_name[case=nom, number=sg] kar[case=abl, number=sg] ik[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── G. まとめ（主語省略も活用） ──
+
+# kunɔ Taka æikr̃ mekata. toklukr̃ kurɔtɔ.
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] ae[case=abl, number=sg] ik[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
+tokl[case=abl, number=sg] kur[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# kɔj Lini toklukr̃ meke. æikr̃ kuru.
+kjo[case=loc, number=sg]lin_name[case=nom, number=sg] tokl[case=abl, number=sg] ik[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+ae[case=abl, number=sg] kur[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# vəç asu[case=loc, number=sg]æikr̃ ikæw. ant toklukr̃ dəri.
+vech[case=nom, number=sg] asu[case=loc, number=sg]ae[case=abl, number=sg] ik[tense=fut, aspect=impf, person=1, number=sg, polarity=pos] "."
+ant[case=nom, number=sg] tokl[case=abl, number=sg] ik[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //

@@ -20,58 +20,58 @@
 # ── A. 3sg 過去の導入: 現在との対比 ──
 
 # kɔj Taka hño jomu. kunɔ Taka hño jomɔtɔ.
-kjo hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
-kuno tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
+kjo[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
 
 # kɔj Lini kije mire. kunɔ Lini kije mirata.
-kjo lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
-kuno lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "." //
+kjo[case=loc, number=sg]lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+kuno[case=loc, number=sg]lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── B. 他の動詞の過去形 ──
 
 # kunɔ Taka namo kɔkɔtɔ.
-kuno tak_name[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
 
 # kunɔ Lini mije tæbenata.
-kuno lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
+kuno[case=loc, number=sg]lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
 
 # kunɔ Taka Liniñ hño atɔwɔtɔ.
-kuno tak_name[case=nom, number=sg] lin_name[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "." //
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] lin_name[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # ── C. コピュラ過去: it (有生) / et (無生) ──
 
 # kɔj Taka æid ir. kunɔ Taka æid it.
-kjo tak_name[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
-kuno tak_name[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+kjo[case=loc, number=sg]tak_name[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
 
 # kɔj hña æid er. kunɔ hña æid et.
-kjo hn[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
-kuno hn[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+kjo[case=loc, number=sg]hn[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+kuno[case=loc, number=sg]hn[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
 
 # kunɔ tolra kime uæde itr.
-kuno tol[case=nom, number=pl] ki[case=gen, number=sg] uae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "." //
+kuno[case=loc, number=sg]tol[case=nom, number=pl] ki[case=gen, number=sg] uae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "." //
 
 # ── D. 1sg/2sg 過去 ──
 
 # vəç kunɔ hño jomɔtɔw.
-vech[case=nom, number=sg] kuno hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=1, number=sg, polarity=pos] "."
+vech[case=nom, number=sg] kuno[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=1, number=sg, polarity=pos] "."
 
 # ant kunɔ hño jomɔto.
-ant[case=nom, number=sg] kuno hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=2, number=sg, polarity=pos] "."
+ant[case=nom, number=sg] kuno[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=2, number=sg, polarity=pos] "."
 
 # vəç kunɔ mije tæbenataw.
-vech[case=nom, number=sg] kuno mi[case=acc, number=sg] taeben[tense=past, aspect=impf, person=1, number=sg, polarity=pos] "."
+vech[case=nom, number=sg] kuno[case=loc, number=sg]mi[case=acc, number=sg] taeben[tense=past, aspect=impf, person=1, number=sg, polarity=pos] "."
 
 # ant kunɔ mije tæbenate.
-ant[case=nom, number=sg] kuno mi[case=acc, number=sg] taeben[tense=past, aspect=impf, person=2, number=sg, polarity=pos] "." //
+ant[case=nom, number=sg] kuno[case=loc, number=sg]mi[case=acc, number=sg] taeben[tense=past, aspect=impf, person=2, number=sg, polarity=pos] "." //
 
 # ── E. コピュラ過去 1sg/2sg ──
 
 # vəç kunɔ æid dətw.
-vech[case=nom, number=sg] kuno ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=1, number=sg, polarity=pos, animacy=anim] "."
+vech[case=nom, number=sg] kuno[case=loc, number=sg]ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=1, number=sg, polarity=pos, animacy=anim] "."
 
 # ant kunɔ æid at.
-ant[case=nom, number=sg] kuno ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=2, number=sg, polarity=pos, animacy=anim] "." //
+ant[case=nom, number=sg] kuno[case=loc, number=sg]ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=2, number=sg, polarity=pos, animacy=anim] "." //
 
 # ── F. 人称の過去形総覧 ──
 
@@ -89,22 +89,22 @@ ant[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=impf, pe
 # 3sg は名前や名詞で一度主語を示せば、後続文で省略可能。
 
 # vəç kunɔ hño jomɔtɔw. mije tæbenataw.
-vech[case=nom, number=sg] kuno hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=1, number=sg, polarity=pos] "."
+vech[case=nom, number=sg] kuno[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=1, number=sg, polarity=pos] "."
 mi[case=acc, number=sg] taeben[tense=past, aspect=impf, person=1, number=sg, polarity=pos] "."
 
 # Taka kunɔ æid it. hño jomɔtɔ. Liniñ mije atɔwɔtɔ.
-tak_name[case=nom, number=sg] kuno ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+tak_name[case=nom, number=sg] kuno[case=loc, number=sg]ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
 hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
 lin_name[case=dat, number=sg] mi[case=acc, number=sg] ataw[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
 
 # ant kunɔ hño jomɔto. mije tæbenate.
-ant[case=nom, number=sg] kuno hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=2, number=sg, polarity=pos] "."
+ant[case=nom, number=sg] kuno[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=2, number=sg, polarity=pos] "."
 mi[case=acc, number=sg] taeben[tense=past, aspect=impf, person=2, number=sg, polarity=pos] "." //
 
 # ── H. まとめ ──
 
 # kunɔ Taka Linte æid it.
-kuno tak_name[case=nom, number=sg] lin_name[case=com, number=sg] ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] lin_name[case=com, number=sg] ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
 
 # Taka hñoro jomɔtɔ, soʃ Lini mire tæbenata.
 tak_name[case=nom, number=sg] hn[case=acc, number=pl] jom[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
@@ -114,9 +114,9 @@ sosh lin_name[case=nom, number=sg] mi[case=acc, number=pl] taeben[tense=past, as
 tak_name[case=nom, number=sg] lin_name[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
 
 # kɔj Taka hño jomu, soʃ Lini mije tæbene.
-kjo tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+kjo[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
 sosh lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
 
 # vəç kunɔ antet tokldo mije tæbenataw, soʃ hño jomɔtɔw.
-vech[case=nom, number=sg] kuno ant[case=com, number=sg] tokl[case=loc, number=sg] mi[case=acc, number=sg] taeben[tense=past, aspect=impf, person=1, number=sg, polarity=pos] ","
+vech[case=nom, number=sg] kuno[case=loc, number=sg]ant[case=com, number=sg] tokl[case=loc, number=sg] mi[case=acc, number=sg] taeben[tense=past, aspect=impf, person=1, number=sg, polarity=pos] ","
 sosh hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=1, number=sg, polarity=pos] "." //

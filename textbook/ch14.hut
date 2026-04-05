@@ -1,0 +1,103 @@
+# @title Ajə toç jo pənme: Ker to Ser
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə toç jo pənme: Ker to Ser
+# 第14章：これとそれ
+# ============================================================
+#
+# 新出語彙: (なし — 指示詞 ker/ser/der/ar は既出エントリ)
+#
+# 新出文法:
+#   指示詞体系 (ker 近称, ser 中称, der 疑問, ar 遠称)、
+#   軽語幹/重語幹交替、指示詞の格変化
+# ============================================================
+
+# ── A. ker (近称: これ/この) ──
+
+# keri er. — これがある。
+ker[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# keri hña er. — これは本である。
+ker[case=nom, number=sg] hn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# keri ɔkaŋ er. — これは大きい。
+ker[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# vəç kere mirew. — 私はこれを見る。
+vech[case=nom, number=sg] ker[case=acc, number=sg] mir[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "." //
+
+# ── B. ser (中称: それ/その) ──
+
+# seri er. seri çisiŋ er.
+ser[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+ser[case=nom, number=sg] chis[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Taka sere jomu. — Takはそれを読む。
+tak_name[case=nom, number=sg] ser[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# serne nama Taka er. — その名前はTakである。
+ser[case=gen, number=sg] nam[case=nom, number=sg] tak_name[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
+
+# ── C. 軽語幹と重語幹の交替 ──
+# 主/対/与/属/共 → 軽語幹 (ker-/ser-)
+# 所/出/向 → 重語幹 (kek-/sek-)
+
+# kek Taka ir. — Takはここ(loc)にいる。
+ker[case=loc, number=sg] tak_name[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# sekr Lini kuru. — Linはそこ(abl)から来る。
+ser[case=abl, number=sg] lin_name[case=nom, number=sg] kur[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# kekñ Taka meke. — Takはここ(all)へ行く。
+ker[case=all, number=sg] tak_name[case=nom, number=sg] ik[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── D. der (疑問・不定: どれ/どの) ──
+
+# deri er. — どれがある？（何がある？）
+der[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "?"
+
+# ant dere miri. — あなたはどれを見る？
+ant[case=nom, number=sg] der[case=acc, number=sg] mir[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "?"
+
+# derne nama er. — どの名前がある？（名前は何？）
+der[case=gen, number=sg] nam[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "?" //
+
+# ── E. ar (遠称: あれ/あの — 不規則) ──
+
+# ari ɔkaŋ er. — あれは大きい。
+ar[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Taka are mire. — Takはあれを見る。
+tak_name[case=nom, number=sg] ar[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# akr Lini it. — あそこ(loc/abl)にLinがいた。
+ar[case=loc, number=sg] lin_name[case=nom, number=sg] ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "." //
+
+# ── F. 指示詞の対比 ──
+
+# keri hña er. seri hña er. ari hña er.
+ker[case=nom, number=sg] hn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+ser[case=nom, number=sg] hn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+ar[case=nom, number=sg] hn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# deri hña er?
+der[case=nom, number=sg] hn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "?" //
+
+# ── G. まとめ ──
+
+# Taka kek ir. keri Takno æ er.
+tak_name[case=nom, number=sg] ker[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+ker[case=nom, number=sg] tak_name[case=gen, number=sg] ae[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Lini sek ir. seri Linne kiji er.
+lin_name[case=nom, number=sg] ser[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+ser[case=nom, number=sg] lin_name[case=gen, number=sg] ki[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Taka sekr æihə meke. Lini kekr tokluh meke.
+tak_name[case=nom, number=sg] ser[case=abl, number=sg] ae[case=all, number=sg] ik[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+lin_name[case=nom, number=sg] ker[case=abl, number=sg] tokl[case=all, number=sg] ik[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# deri ɔkaŋ er? ari ɔkaŋ er.
+der[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "?"
+ar[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //

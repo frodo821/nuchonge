@@ -16,3 +16,14 @@ phonrule nasalization {
   "ə" -> "ə̃" / _ C* "ñ"
   "ñ" -> "" / _
 }
+
+# 子音連続間のシュワー挿入: CC+C → CCəC
+# 語幹末の子音連続(CC)に子音始まりの接辞(C)が続くとき、境界にəを挿入。
+# 例: tokl+do → toklədo, tokl+to → tokləto, tokl+mo → tokləmo
+phonrule cc_epenthesis {
+  # 音節主音 r̃, l̃, ñ, m̃ は核になれるため除外
+  class C = ["p", "b", "t", "d", "k", "g", "f", "v", "s", "z",
+             "ʃ", "ʒ", "ç", "x", "m", "n", "ŋ", "r", "l", "w", "j"]
+
+  "" -> "ə" / C C _ C
+}

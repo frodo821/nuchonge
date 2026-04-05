@@ -1,0 +1,101 @@
+# @title Ajə koŋ pənme: Asu
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə koŋ pənme: Asu
+# 第9章：明日
+# ============================================================
+#
+# 新出語彙:
+#   副詞: asu[case=loc, number=sg](明日)
+#
+# 既出語彙 (Ch 1–8): 全既出語彙 + kunɔ, kɔj
+#
+# 新出文法:
+#   未来時制（非完結相）、コピュラ未来 dəro-、
+#   2sg 未来の -t 付加（母音上昇との違い）
+# ============================================================
+
+# ── A. 3sg 未来: 3時制の対比 ──
+
+# kunɔ Taka hño jomɔtɔ. kɔj hño jomu. asu[case=loc, number=sg]hño jomo.
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
+kjo[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+asu[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=fut, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# kunɔ Lini kije mirata. kɔj kije mire. asu[case=loc, number=sg]kije miræ.
+kuno[case=loc, number=sg]lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
+kjo[case=loc, number=sg]ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+asu[case=loc, number=sg]ki[case=acc, number=sg] mir[tense=fut, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── B. 他の動詞の未来形 ──
+
+# asu[case=loc, number=sg]Taka namo kɔko.
+asu[case=loc, number=sg]tak_name[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=fut, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# asu[case=loc, number=sg]Lini mije tæbenæ.
+asu[case=loc, number=sg]lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=fut, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# asu[case=loc, number=sg]Taka Liniñ hño atɔwo.
+asu[case=loc, number=sg]tak_name[case=nom, number=sg] lin_name[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=fut, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── C. コピュラ未来: dəro ──
+
+# kɔj Taka æid ir. asu[case=loc, number=sg]Taka æid dəro.
+kjo[case=loc, number=sg]tak_name[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+asu[case=loc, number=sg]tak_name[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=fut, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# kɔj hña æid er. asu[case=loc, number=sg]hña æid dəro.
+kjo[case=loc, number=sg]hn[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+asu[case=loc, number=sg]hn[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=fut, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
+
+# ── D. 1sg/2sg 未来 ──
+# 1sg: +w、2sg: -t 付加（現在・過去の母音上昇とは異なる）
+
+# vəç asu[case=loc, number=sg]hño jomow.
+vech[case=nom, number=sg] asu[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=fut, aspect=impf, person=1, number=sg, polarity=pos] "."
+
+# ant asu[case=loc, number=sg]hño jomot.
+ant[case=nom, number=sg] asu[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=fut, aspect=impf, person=2, number=sg, polarity=pos] "."
+
+# vəç asu[case=loc, number=sg]kije miræw.
+vech[case=nom, number=sg] asu[case=loc, number=sg]ki[case=acc, number=sg] mir[tense=fut, aspect=impf, person=1, number=sg, polarity=pos] "."
+
+# ant asu[case=loc, number=sg]kije miræt.
+ant[case=nom, number=sg] asu[case=loc, number=sg]ki[case=acc, number=sg] mir[tense=fut, aspect=impf, person=2, number=sg, polarity=pos] "." //
+
+# ── E. コピュラ未来の人称 ──
+
+# vəç asu[case=loc, number=sg]æid dərow.
+vech[case=nom, number=sg] asu[case=loc, number=sg]ae[case=loc, number=sg] ar_verb[tense=fut, aspect=impf, person=1, number=sg, polarity=pos, animacy=anim] "."
+
+# ant asu[case=loc, number=sg]æid duro.
+ant[case=nom, number=sg] asu[case=loc, number=sg]ae[case=loc, number=sg] ar_verb[tense=fut, aspect=impf, person=2, number=sg, polarity=pos, animacy=anim] "." //
+
+# ── F. 2sg の時制別対比 ──
+# 現在: 母音上昇、過去: 母音上昇、未来: -t 付加
+
+# ant hño jomuj. — pres: u→uj
+ant[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "."
+
+# ant hño jomɔto. — past: ɔ→o
+ant[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=2, number=sg, polarity=pos] "."
+
+# ant hño jomot. — fut: +t
+ant[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=fut, aspect=impf, person=2, number=sg, polarity=pos] "." //
+
+# ── G. まとめ（主語省略も活用） ──
+
+# Taka kunɔ hño jomɔtɔ. kɔj hño jomu. asu[case=loc, number=sg]hño jomo.
+tak_name[case=nom, number=sg] kuno[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
+kjo[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+asu[case=loc, number=sg]hn[case=acc, number=sg] jom[tense=fut, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# asu[case=loc, number=sg]Taka Linte tokldo dəro. hñoro jomo, soʃ mire tæbenæ.
+asu[case=loc, number=sg]tak_name[case=nom, number=sg] lin_name[case=com, number=sg] tokl[case=loc, number=sg] ar_verb[tense=fut, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+hn[case=acc, number=pl] jom[tense=fut, aspect=impf, person=3, number=sg, polarity=pos] ","
+sosh mi[case=acc, number=pl] taeben[tense=fut, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# vəç asu[case=loc, number=sg]antñ hño atɔwow. ant mije miræt.
+vech[case=nom, number=sg] asu[case=loc, number=sg]ant[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=fut, aspect=impf, person=1, number=sg, polarity=pos] "."
+ant[case=nom, number=sg] mi[case=acc, number=pl] mir[tense=fut, aspect=impf, person=2, number=sg, polarity=pos] "." //

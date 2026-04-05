@@ -30,7 +30,7 @@
 inflection verb_front_cons for {tense, aspect, person, number, polarity} {
   requires stems: base, link
 
-  compose nasalization(tense_stem + pn_neg_sfx)
+  compose cc_epenthesis(nasalization(tense_stem + pn_neg_sfx))
 
   slot tense_stem {
     # 非完了相
@@ -98,7 +98,7 @@ inflection verb_front_cons for {tense, aspect, person, number, polarity} {
 inflection verb_back_cons for {tense, aspect, person, number, polarity} {
   requires stems: base
 
-  compose nasalization(tense_stem + pn_neg_sfx)
+  compose cc_epenthesis(nasalization(tense_stem + pn_neg_sfx))
 
   slot tense_stem {
     # 非完了相
@@ -169,7 +169,7 @@ inflection verb_back_cons for {tense, aspect, person, number, polarity} {
 inflection verb_front_v for {tense, aspect, person, number, polarity} {
   requires stems: base
 
-  compose nasalization(tense_stem + pn_neg_sfx)
+  compose cc_epenthesis(nasalization(tense_stem + pn_neg_sfx))
 
   slot tense_stem {
     # 非完了相 — 語幹末母音が時制を標示
@@ -240,7 +240,7 @@ inflection verb_front_v for {tense, aspect, person, number, polarity} {
 inflection verb_back_v for {tense, aspect, person, number, polarity} {
   requires stems: base
 
-  compose nasalization(tense_stem + pn_neg_sfx)
+  compose cc_epenthesis(nasalization(tense_stem + pn_neg_sfx))
 
   slot tense_stem {
     # 非完了相 — 語幹末母音が時制を標示
@@ -315,7 +315,7 @@ inflection verb_back_v for {tense, aspect, person, number, polarity} {
 inflection verb_neutral for {tense, aspect, person, number, polarity} {
   requires stems: base
 
-  compose nasalization(tense_stem + pn_neg_sfx)
+  compose cc_epenthesis(nasalization(tense_stem + pn_neg_sfx))
 
   slot tense_stem {
     # 非完了相

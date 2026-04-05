@@ -1,0 +1,107 @@
+# @title Ajə toç mi pənme: Ẽr
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə toç mi pənme: Ẽr
+# 第13章：〜ない
+# ============================================================
+#
+# 新出語彙: (なし)
+#
+# 新出文法:
+#   否定接辞 -ñ、鼻母音化規則、コピュラ否定
+# ============================================================
+
+# ── A. コピュラの否定（復習から拡張） ──
+
+# kiji er. kiji ẽr.
+ki[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+ki[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=neg, animacy=inanim] "."
+
+# Taka æid ir. Taka æid ĩr.
+tak_name[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+tak_name[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=neg, animacy=anim] "."
+
+# vəç ota dərw. vəç ota də̃rw.
+vech[case=nom, number=sg] ot[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=1, number=sg, polarity=pos, animacy=anim] "."
+vech[case=nom, number=sg] ot[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=1, number=sg, polarity=neg, animacy=anim] "." //
+
+# ── B. 規則動詞の否定: 鼻母音化 ──
+# 否定 -ñ → 時制母音が鼻母音化し、-ñ は脱落
+
+# Taka hño jomu. Taka hño jomũ.
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=neg] "."
+
+# Lini kije mire. Lini kije mirẽ.
+lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=neg] "." //
+
+# ── C. 人称+否定 ──
+
+# vəç hño jomũw. — 1sg neg
+vech[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=1, number=sg, polarity=neg] "."
+
+# ant hño jomũj. — 2sg neg (母音上昇+鼻母音化)
+# NOTE: u→uj の上昇形が ũj に鼻母音化
+ant[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=2, number=sg, polarity=neg] "."
+
+# vəçl hño jomũl. — 1pl neg
+vech[case=nom, number=pl] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=1, number=pl, polarity=neg] "."
+
+# antes hño jomũs. — 2pl neg
+ant[case=nom, number=pl] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=2, number=pl, polarity=neg] "."
+
+# karl hño jomũr. — 3pl neg
+kar[case=nom, number=pl] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=pl, polarity=neg] "." //
+
+# ── D. 前舌動詞の否定 ──
+
+# vəç kije mirẽw.
+vech[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=1, number=sg, polarity=neg] "."
+
+# ant mije tæbenĩ.
+# NOTE: 2sg の i が鼻母音化 → ĩ
+ant[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=2, number=sg, polarity=neg] "."
+
+# Lini kije mirẽ. Lini kije mirẽr.
+lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=neg] "."
+kar[case=nom, number=pl] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=pl, polarity=neg] "." //
+
+# ── E. 過去・未来の否定 ──
+
+# kunɔ Taka hño jomɔ̃tɔ. — past neg 3sg
+kuno[case=loc, number=sg]tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=past, aspect=impf, person=3, number=sg, polarity=neg] "."
+
+# asu[case=loc, number=sg]Lini kije mirǣ. — fut neg 3sg (æ→æ̃)
+asu[case=loc, number=sg]lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=fut, aspect=impf, person=3, number=sg, polarity=neg] "."
+
+# kunɔ Taka æid ẽt. — copula past neg inanim
+# 注: ẽt ← et の鼻母音化ではなく、コピュラ固有の否定形
+kuno[case=loc, number=sg]hn[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=neg, animacy=inanim] "." //
+
+# ── F. 否定の応用: 肯定文と否定文の対比 ──
+
+# Taka hño jomu. Lini hño jomũ.
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+lin_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=neg] "."
+
+# Taka æid ir. Lini æid ĩr.
+tak_name[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+lin_name[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=neg, animacy=anim] "."
+
+# Taka æikr̃ tokluh meke. Lini æikr̃ tokluh mekẽ.
+tak_name[case=nom, number=sg] ae[case=abl, number=sg] tokl[case=all, number=sg] ik[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+lin_name[case=nom, number=sg] ae[case=abl, number=sg] tokl[case=all, number=sg] ik[tense=pres, aspect=impf, person=3, number=sg, polarity=neg] "." //
+
+# ── G. まとめ ──
+
+# vəçl kunɔ æid dərl. kɔj æid də̃rl. asu[case=loc, number=sg]tokluh mekæl.
+vech[case=nom, number=pl] kuno[case=loc, number=sg]ae[case=loc, number=sg] ar_verb[tense=past, aspect=impf, person=1, number=pl, polarity=pos, animacy=anim] "."
+kjo[case=loc, number=sg]ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=1, number=pl, polarity=neg, animacy=anim] "."
+asu[case=loc, number=sg]tokl[case=all, number=sg] ik[tense=fut, aspect=impf, person=1, number=pl, polarity=pos] "."
+
+# Taka hño jomu, soʃ Lini hño jomũ. Lini mije tæbene.
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+sosh lin_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=neg] "."
+lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //

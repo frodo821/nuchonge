@@ -18,6 +18,7 @@
 # 例: çit (人)
 inflection noun_front_cons_anim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   # 単数
   [case=nom, number=sg] -> `{root}i`
   [case=acc, number=sg] -> `{root}e`
@@ -42,6 +43,7 @@ inflection noun_front_cons_anim for {case, number} {
 # 例: hin (品)
 inflection noun_front_cons_inanim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}i`
   [case=acc, number=sg] -> `{root}e`
   [case=gen, number=sg] -> `{root}me`
@@ -64,6 +66,7 @@ inflection noun_front_cons_inanim for {case, number} {
 # ── 後舌子音語幹・有生 ──
 inflection noun_back_cons_anim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}a`
   [case=acc, number=sg] -> `{root}o`
   [case=gen, number=sg] -> `{root}no`
@@ -87,6 +90,7 @@ inflection noun_back_cons_anim for {case, number} {
 # 例: hñ (本)
 inflection noun_back_cons_inanim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}a`
   [case=acc, number=sg] -> `{root}o`
   [case=gen, number=sg] -> `{root}mo`
@@ -109,6 +113,7 @@ inflection noun_back_cons_inanim for {case, number} {
 # ── 前舌母音語幹・有生（i/e/æ/ə 語幹、j 滑音）──
 inflection noun_front_v_anim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}ji`
   [case=acc, number=sg] -> `{root}je`
   [case=gen, number=sg] -> `{root}ne`
@@ -131,6 +136,7 @@ inflection noun_front_v_anim for {case, number} {
 # ── 前舌母音語幹・無生 ──
 inflection noun_front_v_inanim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}ji`
   [case=acc, number=sg] -> `{root}je`
   [case=gen, number=sg] -> `{root}me`
@@ -153,6 +159,7 @@ inflection noun_front_v_inanim for {case, number} {
 # ── 後舌母音語幹 o/ɔ/u・有生（w 滑音）──
 inflection noun_back_ov_anim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}wa`
   [case=acc, number=sg] -> `{root}wo`
   [case=gen, number=sg] -> `{root}no`
@@ -175,6 +182,7 @@ inflection noun_back_ov_anim for {case, number} {
 # ── 後舌母音語幹 o/ɔ/u・無生 ──
 inflection noun_back_ov_inanim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}wa`
   [case=acc, number=sg] -> `{root}wo`
   [case=gen, number=sg] -> `{root}mo`
@@ -197,6 +205,7 @@ inflection noun_back_ov_inanim for {case, number} {
 # ── 後舌 a 語幹・有生（j 滑音）──
 inflection noun_back_av_anim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}ja`
   [case=acc, number=sg] -> `{root}jo`
   [case=gen, number=sg] -> `{root}no`
@@ -219,6 +228,7 @@ inflection noun_back_av_anim for {case, number} {
 # ── 後舌 a 語幹・無生 ──
 inflection noun_back_av_inanim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}ja`
   [case=acc, number=sg] -> `{root}jo`
   [case=gen, number=sg] -> `{root}mo`
@@ -243,6 +253,7 @@ inflection noun_back_av_inanim for {case, number} {
 # 格母音は中立子音語幹と平行（ə/a）。複数有生: 主対は単数と同形、ə 挿入。
 inflection noun_neutral_v_anim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}jə`
   [case=acc, number=sg] -> `{root}ja`
   [case=gen, number=sg] -> `{root}nə`
@@ -266,6 +277,7 @@ inflection noun_neutral_v_anim for {case, number} {
 # 複数無生: r- 標識（前舌 r- / 後舌 r- と同形）
 inflection noun_neutral_v_inanim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}jə`
   [case=acc, number=sg] -> `{root}ja`
   [case=gen, number=sg] -> `{root}mə`
@@ -290,6 +302,7 @@ inflection noun_neutral_v_inanim for {case, number} {
 # 複数標識: 有生 ər-（前舌 ir- / 後舌 ar- の中間）
 inflection noun_neutral_cons_anim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}ə`
   [case=acc, number=sg] -> `{root}a`
   [case=gen, number=sg] -> `{root}nə`
@@ -313,6 +326,7 @@ inflection noun_neutral_cons_anim for {case, number} {
 # 複数標識: 無生 ər-（前舌 er- / 後舌 or- の中間）
 inflection noun_neutral_cons_inanim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}ə`
   [case=acc, number=sg] -> `{root}a`
   [case=gen, number=sg] -> `{root}mə`
@@ -353,6 +367,7 @@ inflection noun_neutral_cons_inanim for {case, number} {
 # 前舌子音語幹・有生
 inflection adj_link_front_cons_anim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}iŋ`
   [case=acc, number=sg] -> `{root}eŋ`
   [case=gen, number=sg] -> `{root}neŋ`
@@ -374,6 +389,7 @@ inflection adj_link_front_cons_anim for {case, number} {
 # 前舌子音語幹・無生
 inflection adj_link_front_cons_inanim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}iŋ`
   [case=acc, number=sg] -> `{root}eŋ`
   [case=gen, number=sg] -> `{root}meŋ`
@@ -395,6 +411,7 @@ inflection adj_link_front_cons_inanim for {case, number} {
 # 後舌子音語幹・有生
 inflection adj_link_back_cons_anim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}aŋ`
   [case=acc, number=sg] -> `{root}oŋ`
   [case=gen, number=sg] -> `{root}noŋ`
@@ -416,6 +433,7 @@ inflection adj_link_back_cons_anim for {case, number} {
 # 後舌子音語幹・無生
 inflection adj_link_back_cons_inanim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}aŋ`
   [case=acc, number=sg] -> `{root}oŋ`
   [case=gen, number=sg] -> `{root}moŋ`
@@ -437,6 +455,7 @@ inflection adj_link_back_cons_inanim for {case, number} {
 # 中立子音語幹・有生
 inflection adj_link_neutral_cons_anim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}əŋ`
   [case=acc, number=sg] -> `{root}aŋ`
   [case=gen, number=sg] -> `{root}nəŋ`
@@ -458,6 +477,7 @@ inflection adj_link_neutral_cons_anim for {case, number} {
 # 中立子音語幹・無生
 inflection adj_link_neutral_cons_inanim for {case, number} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [case=nom, number=sg] -> `{root}əŋ`
   [case=acc, number=sg] -> `{root}aŋ`
   [case=gen, number=sg] -> `{root}məŋ`
@@ -480,18 +500,21 @@ inflection adj_link_neutral_cons_inanim for {case, number} {
 
 inflection adj_comp_front for {case, number, animacy} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [animacy=anim, _] -> adj_link_front_cons_anim[case, number] with stems { root: root }
   [animacy=inanim, _] -> adj_link_front_cons_inanim[case, number] with stems { root: root }
 }
 
 inflection adj_comp_back for {case, number, animacy} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [animacy=anim, _] -> adj_link_back_cons_anim[case, number] with stems { root: root }
   [animacy=inanim, _] -> adj_link_back_cons_inanim[case, number] with stems { root: root }
 }
 
 inflection adj_comp_neutral for {case, number, animacy} {
   requires stems: root
+  apply cc_epenthesis(cell)
   [animacy=anim, _] -> adj_link_neutral_cons_anim[case, number] with stems { root: root }
   [animacy=inanim, _] -> adj_link_neutral_cons_inanim[case, number] with stems { root: root }
 }
@@ -500,6 +523,7 @@ inflection adj_comp_neutral for {case, number, animacy} {
 
 inflection adj_front_cons for {case, number, animacy, degree} {
   requires stems: root, comp
+  apply cc_epenthesis(cell)
   [degree=pos, animacy=anim, _] -> adj_link_front_cons_anim[case, number] with stems { root: root }
   [degree=pos, animacy=inanim, _] -> adj_link_front_cons_inanim[case, number] with stems { root: root }
   [degree=comp, _] -> adj_comp_front[case, number, animacy] with stems { root: comp }
@@ -507,6 +531,7 @@ inflection adj_front_cons for {case, number, animacy, degree} {
 
 inflection adj_back_cons for {case, number, animacy, degree} {
   requires stems: root, comp
+  apply cc_epenthesis(cell)
   [degree=pos, animacy=anim, _] -> adj_link_back_cons_anim[case, number] with stems { root: root }
   [degree=pos, animacy=inanim, _] -> adj_link_back_cons_inanim[case, number] with stems { root: root }
   [degree=comp, _] -> adj_comp_back[case, number, animacy] with stems { root: comp }
@@ -514,6 +539,7 @@ inflection adj_back_cons for {case, number, animacy, degree} {
 
 inflection adj_front_v for {case, number, animacy, degree} {
   requires stems: root, comp
+  apply cc_epenthesis(cell)
   [degree=pos, animacy=anim, _] -> adj_link_front_cons_anim[case, number] with stems { root: root }
   [degree=pos, animacy=inanim, _] -> adj_link_front_cons_inanim[case, number] with stems { root: root }
   [degree=comp, _] -> adj_comp_front[case, number, animacy] with stems { root: comp }
@@ -521,6 +547,7 @@ inflection adj_front_v for {case, number, animacy, degree} {
 
 inflection adj_back_ov for {case, number, animacy, degree} {
   requires stems: root, comp
+  apply cc_epenthesis(cell)
   [degree=pos, animacy=anim, _] -> adj_link_back_cons_anim[case, number] with stems { root: root }
   [degree=pos, animacy=inanim, _] -> adj_link_back_cons_inanim[case, number] with stems { root: root }
   [degree=comp, _] -> adj_comp_back[case, number, animacy] with stems { root: comp }
@@ -528,6 +555,7 @@ inflection adj_back_ov for {case, number, animacy, degree} {
 
 inflection adj_back_av for {case, number, animacy, degree} {
   requires stems: root, comp
+  apply cc_epenthesis(cell)
   [degree=pos, animacy=anim, _] -> adj_link_back_cons_anim[case, number] with stems { root: root }
   [degree=pos, animacy=inanim, _] -> adj_link_back_cons_inanim[case, number] with stems { root: root }
   [degree=comp, _] -> adj_comp_back[case, number, animacy] with stems { root: comp }
@@ -535,6 +563,7 @@ inflection adj_back_av for {case, number, animacy, degree} {
 
 inflection adj_neutral_cons for {case, number, animacy, degree} {
   requires stems: root, comp
+  apply cc_epenthesis(cell)
   [degree=pos, animacy=anim, _] -> adj_link_neutral_cons_anim[case, number] with stems { root: root }
   [degree=pos, animacy=inanim, _] -> adj_link_neutral_cons_inanim[case, number] with stems { root: root }
   [degree=comp, _] -> adj_comp_neutral[case, number, animacy] with stems { root: comp }
@@ -555,8 +584,9 @@ inflection adj_neutral_cons for {case, number, animacy, degree} {
 
 # 規則的指示詞の曲用（kor, sor, dor 共通パターン）
 # 軽語幹（kor-）: 主・対・与・属・共  重語幹（kok-）: 所・出・向
-inflection demonstrative for {case, number} {
+inflection demonstrative display { ja: "指示詞" } for {case, number} {
   requires stems: light, heavy
+  apply cc_epenthesis(cell)
 
   # 単数
   [case=nom, number=sg] -> `{light}i`
