@@ -1,0 +1,101 @@
+# @title Ajə mi pənme: Namo
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə mi pənme: Namo
+# 第3章：名前
+# ============================================================
+#
+# 新出語彙:
+#   代名詞: kar (3人称)
+#   名詞: (人物名 Tak, Lin)
+#
+# 既出語彙 (Ch 1–2): æ, ki, hñ, çit, ot, me, mi, nam, ɔk, çis,
+#   sə, soʃ, to, ar, mir, jom, kɔk, tæben
+#
+# 新出文法:
+#   属格単数（所有）、語順 GEN + NOUN、3人称代名詞 kar
+# ============================================================
+
+# ── A. 場面設定（Ch 1–2 復習） ──
+
+# ota ir. meji ir. sæ ɔkaŋ er.
+ot[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+me_f[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+se_def[sandhi=pre_v]~ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
+
+# ── B. 属格の導入: 所有 ──
+# GEN + NOUN = 「〜の〜」
+
+# sotno æ ɔkaŋ er.
+se_def[sandhi=pre_v]~ot[case=gen, number=sg] ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# sə mene kiji çisiŋ er.
+se_def[sandhi=pre_c] me_f[case=gen, number=sg] ki[case=nom, number=sg] chis[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# sotno hña er. sə mene hña er.
+se_def[sandhi=pre_v]~ot[case=gen, number=sg] hn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+se_def[sandhi=pre_c] me_f[case=gen, number=sg] hn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
+
+# ── C. 属格 + 対格: 他者の物を動詞の目的語に ──
+
+# sota sə mene hño jomu.
+se_def[sandhi=pre_v]~ot[case=nom, number=sg] se_def[sandhi=pre_c] me_f[case=gen, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# sə meji sotno hño jomu.
+se_def[sandhi=pre_c] me_f[case=nom, number=sg] se_def[sandhi=pre_v]~ot[case=gen, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── D. 3人称代名詞 kar ──
+# karne = 彼/彼女の（属格）
+
+# kar ir. karne æ ɔkaŋ er.
+kar[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+kar[case=gen, number=sg] ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# kar karne hño jomu.
+kar[case=nom, number=sg] kar[case=gen, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── E. 名前: nam + 属格 ──
+# 「〜の名前は…である」
+
+# sotno nama er.
+se_def[sandhi=pre_v]~ot[case=gen, number=sg] nam[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# sotno nama "Taka" er.
+# Tak の主格形 Taka をコピュラの述語名詞として使用
+se_def[sandhi=pre_v]~ot[case=gen, number=sg] nam[case=nom, number=sg] tak_name[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# sə mene nama "Lini" er.
+se_def[sandhi=pre_c] me_f[case=gen, number=sg] nam[case=nom, number=sg] lin_name[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
+
+# ── F. 人物名を主語として使う ──
+
+# Taka hño jomu.
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini kije mire.
+lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka Line mire.
+tak_name[case=nom, number=sg] lin_name[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini Tako mire.
+lin_name[case=nom, number=sg] tak_name[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── G. まとめ ──
+
+# Taka ota ir. Takno æ ɔkaŋ er.
+tak_name[case=nom, number=sg] ot[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+tak_name[case=gen, number=sg] ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Lini meji ir. Linne kiji çisiŋ er.
+lin_name[case=nom, number=sg] me_f[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+lin_name[case=gen, number=sg] ki[case=nom, number=sg] chis[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Taka Linne hño jomu, soʃ Lini Takno mije tæbene.
+tak_name[case=nom, number=sg] lin_name[case=gen, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+sosh lin_name[case=nom, number=sg] tak_name[case=gen, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka Line mire. karne æ mire.
+tak_name[case=nom, number=sg] lin_name[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+kar[case=gen, number=sg] ae[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //

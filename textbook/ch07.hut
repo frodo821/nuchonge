@@ -1,0 +1,115 @@
+# @title Ajə naŋ pənme: Tokla
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə naŋ pənme: Tokla
+# 第7章：場所
+# ============================================================
+#
+# 新出語彙:
+#   名詞: tokl (所), ʃit (下), uæ (上)
+#
+# 既出語彙 (Ch 1–6): æ, ki, hñ, çit, ot, me, mi, nam, tol, sakən,
+#   ɔk, çis, sə, soʃ, to, ar, mir, jom, kɔk, tæben, atɔw,
+#   kar, Tak, Lin, vəç, ant
+#
+# 新出文法:
+#   所格（場所）、共格（共同）
+# ============================================================
+
+# ── A. 所格: 場所の表現 ──
+# 「〜で」「〜に（場所）」
+
+# Taka æid ir.
+tak_name[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# Lini æid ir.
+lin_name[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# hña æid er.
+hn[case=nom, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Taka æid hño jomu.
+tak_name[case=nom, number=sg] ae[case=loc, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── B. tokl（場所）の導入 ──
+
+# tokla er. sə tokla ɔkaŋ er.
+tokl[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+se_def[sandhi=pre_c] tokl[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Taka tokldo ir. Lini tokldo ir.
+tak_name[case=nom, number=sg] tokl[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+lin_name[case=nom, number=sg] tokl[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# tolra tokldo irr. sakənrə tokldo irr.
+tol[case=nom, number=pl] tokl[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "."
+sakn[case=nom, number=pl] tokl[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "." //
+
+# ── C. ʃit（下）と uæ（上）: 属格 + 空間名詞 + 所格 ──
+
+# tola kime uæde ir.
+tol[case=nom, number=sg] ki[case=gen, number=sg] uae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# sakənə kime ʃitde ir.
+sakn[case=nom, number=sg] ki[case=gen, number=sg] shit[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# hña æim uæde er.
+hn[case=nom, number=sg] ae[case=gen, number=sg] uae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Lini kime ʃitde tolro mire.
+lin_name[case=nom, number=sg] ki[case=gen, number=sg] shit[case=loc, number=sg] tol[case=acc, number=pl] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── D. 共格: 共同の表現 ──
+# 「〜と共に」
+
+# Taka Linte hño jomu.
+tak_name[case=nom, number=sg] lin_name[case=com, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini Takto mije tæbene.
+lin_name[case=nom, number=sg] tak_name[case=com, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# vəç antet kije mirew.
+vech[case=nom, number=sg] ant[case=com, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
+
+# ant vəçet hño jomuj.
+ant[case=nom, number=sg] vech[case=com, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //
+
+# ── E. 格の対比: Lin の6格 ──
+
+# Lini hño jomu.               — NOM (主語)
+lin_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka Line mire.              — ACC (直接目的語)
+tak_name[case=nom, number=sg] lin_name[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Takno Linne hño jomu.        — GEN (所有)
+# wait, this should be "Tak reads Lin's book"
+tak_name[case=nom, number=sg] lin_name[case=gen, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka Liniñ hño atɔwu.        — DAT (間接目的語)
+tak_name[case=nom, number=sg] lin_name[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka Linde hño jomu.         — LOC (場所)
+tak_name[case=nom, number=sg] lin_name[case=loc, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka Linte hño jomu.         — COM (共同)
+tak_name[case=nom, number=sg] lin_name[case=com, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── F. まとめ ──
+
+# Taka Linte æid ir. Takno æ ɔkaŋ er.
+tak_name[case=nom, number=sg] lin_name[case=com, number=sg] ae[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+tak_name[case=gen, number=sg] ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# Taka æid hñoro jomu, soʃ Lini kime uæde tolro mire.
+tak_name[case=nom, number=sg] ae[case=loc, number=sg] hn[case=acc, number=pl] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+sosh lin_name[case=nom, number=sg] ki[case=gen, number=sg] uae[case=loc, number=sg] tol[case=acc, number=pl] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka Linte mije tæbene. Lini Takto hño jomu.
+tak_name[case=nom, number=sg] lin_name[case=com, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+lin_name[case=nom, number=sg] tak_name[case=com, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# vəç antet tokldo mije tæbenew, soʃ hño jomuw.
+vech[case=nom, number=sg] ant[case=com, number=sg] tokl[case=loc, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] ","
+sosh hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "." //

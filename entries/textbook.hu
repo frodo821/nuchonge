@@ -1,0 +1,110 @@
+# @suppress next-line: glob-import
+@use * from "../profile.hu"
+
+# ============================================================
+# 教材用エントリ（人物名・教材固有語彙）
+# ============================================================
+# 人物名は仮置き。正式な名前は別途設計。
+
+# 具格後置詞（出格支配）
+# NP[出格] jət = 「NPによって、NPで」（手段・原因）
+entry jet_inst {
+  headword: "jət"
+  tags: [pos=part]
+  meaning: "〜によって、〜で（手段・原因の後置詞、出格支配）"
+  etymology {
+    note: "現代日本語「によって」→ /nijotte/ → /jotte/ → /jot/ → /jət/（機能語弱化）"
+  }
+}
+
+# 再帰代名詞（中立子音語幹・有生/無生両用）
+# 先行詞の有生性に応じて属格・複数形が分岐
+entry zhet {
+  headword: "ʒət"
+  tags: [pos=pron, harmony=neutral]
+
+  inflect for {case, number, animacy} {
+    [animacy=anim, _] -> noun_neutral_cons_anim[case, number] with stems { root: "ʒət" }
+    [animacy=inanim, _] -> noun_neutral_cons_inanim[case, number] with stems { root: "ʒət" }
+  }
+
+  meaning: "自身、自ら（再帰代名詞）"
+
+  etymology {
+    note: "現代日本語「おのずと」/onozuto/ → /ʒuto/ → /ʒut/ → /ʒət/（弱化）"
+  }
+}
+
+# ヌヒョン語（中立子音語幹・無生）
+# 言語名。nihongo → nuçoŋə。中立子音語幹として曲用。
+entry nuchonge {
+  headword: "nuçoŋə"
+  tags: [pos=noun, harmony=neutral, stem_final=cons, animacy=inanim]
+  stems { root: "nuçoŋ" }
+  inflection_class: noun_neutral_cons_inanim
+
+  meaning: "ヌヒョン語、この言語自体を指す名称"
+
+  etymology {
+    note: "現代日本語「日本語」/nihongo/ → /niçoŋo/（h→ç）→ /nuçoŋə/（後舌調和で i→u、語末母音弱化 o→ə）"
+  }
+}
+
+# 章・文章（中立子音語幹・無生）
+entry aj {
+  headword: "aj"
+  tags: [pos=noun, harmony=neutral, stem_final=cons, animacy=inanim]
+  stems { root: "aj" }
+  inflection_class: noun_neutral_cons_inanim
+
+  meanings {
+    chapter { "章、ひとまとまりの文章" }
+    text { "文章、文" }
+  }
+
+  etymology {
+    note: "古語「あや」(文/綾) → /aja/ → /aj/。文様・文章の意。"
+  }
+}
+
+# ── 時間副詞 ──
+
+# 昨日
+entry kuno {
+  headword: "kunɔ"
+  tags: [pos=adv]
+  meaning: "昨日"
+  etymology {
+    note: "現代日本語「きのう」/kinou/ → /kino/ → /kuno/（後舌調和 i→u）→ /kunɔ/（o→ɔ）"
+  }
+}
+
+# 今日
+entry kjo {
+  headword: "kɔj"
+  tags: [pos=adv]
+  meaning: "今日"
+  etymology {
+    note: "現代日本語「きょう」/kjou/ → /kjɔ/（後舌化）→ /kɔj/（CV転倒で子音連続回避）"
+  }
+}
+
+# ── 人物名 ──
+
+# Tak（男性名、後舌子音語幹・有生）
+entry tak_name {
+  headword: "Tak"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=anim]
+  stems { root: "Tak" }
+  inflection_class: noun_back_cons_anim
+  meaning: "（人名・男性）"
+}
+
+# Lin（女性名、前舌子音語幹・有生）
+entry lin_name {
+  headword: "Lin"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=anim]
+  stems { root: "Lin" }
+  inflection_class: noun_front_cons_anim
+  meaning: "（人名・女性）"
+}

@@ -55,10 +55,10 @@ entry kur {
 }
 
 # 書く（後舌子音語幹）
-entry kak {
-  headword: "kak"
+entry kok {
+  headword: "kɔk"
   tags: [pos=verb, harmony=back, stem_final=cons]
-  stems { base: "kak" }
+  stems { base: "kɔk" }
   inflection_class: verb_back_cons
 
   meanings {
@@ -67,43 +67,43 @@ entry kak {
   }
 
   etymology {
-    note: "現代日本語「かく」(書く) → /kaku/ → /kak/"
+    note: "現代日本語「かく」(書く) → /kaku/ → /kak/ → /kɔk/（後舌調和で a→ɔ）"
   }
 }
 
-# 食べる（後舌子音語幹）
-entry tben {
-  headword: "tben"
-  tags: [pos=verb, harmony=back, stem_final=cons]
-  stems { base: "tben" }
-  inflection_class: verb_back_cons
+# 食べる（前舌子音語幹）
+entry taeben {
+  headword: "tæben"
+  tags: [pos=verb, harmony=front, stem_final=cons]
+  stems { base: "tæben", link: "a" }
+  inflection_class: verb_front_cons
   meaning: "食べる、摂取する"
   etymology {
-    note: "現代日本語「たべる」(食べる) → /taberu/ → /taber/ → /tben/"
+    note: "現代日本語「たべる」(食べる) → /taberu/ → /taber/ → /tæben/（a→æ 前舌化、r→n）"
   }
 }
 
 # 待つ（後舌子音語幹）
 entry mat {
-  headword: "mat"
+  headword: "mɔt"
   tags: [pos=verb, harmony=back, stem_final=cons]
-  stems { base: "mat" }
+  stems { base: "mɔt" }
   inflection_class: verb_back_cons
   meaning: "待つ、待機する"
   etymology {
-    note: "現代日本語「まつ」(待つ) → /matsu/ → /mat/"
+    note: "現代日本語「まつ」(待つ) → /matsu/ → /mat/ → /mɔt/（後舌調和で a→ɔ）"
   }
 }
 
 # 降る（後舌子音語幹）
 entry fal {
-  headword: "fal"
+  headword: "fɔl"
   tags: [pos=verb, harmony=back, stem_final=cons]
-  stems { base: "fal" }
+  stems { base: "fɔl" }
   inflection_class: verb_back_cons
   meaning: "降る（雨、雪などが）"
   etymology {
-    note: "現代日本語「ふる」(降る) → /furu/ → /fal/"
+    note: "現代日本語「ふる」(降る) → /furu/ → /fal/ → /fɔl/（後舌調和で a→ɔ）"
   }
 }
 
@@ -210,9 +210,9 @@ entry aeta {
 
 # なる（後舌子音語幹）
 entry nar {
-  headword: "nar"
+  headword: "nɔr"
   tags: [pos=verb, harmony=back, stem_final=cons]
-  stems { base: "nar" }
+  stems { base: "nɔr" }
   inflection_class: verb_back_cons
 
   meanings {
@@ -221,7 +221,7 @@ entry nar {
   }
 
   etymology {
-    note: "現代日本語「なる」→ /naru/ → /nar/"
+    note: "現代日本語「なる」→ /naru/ → /nar/ → /nɔr/（後舌調和で a→ɔ）"
   }
 }
 
@@ -244,13 +244,13 @@ entry waker {
 
 # 漂う（後舌子音語幹）
 entry tadaj {
-  headword: "tadaj"
+  headword: "tadɔj"
   tags: [pos=verb, harmony=back, stem_final=cons]
-  stems { base: "tadaj" }
+  stems { base: "tadɔj" }
   inflection_class: verb_back_cons
   meaning: "漂う、浮遊する"
   etymology {
-    note: "現代日本語「ただよう」(漂う) → /tadajou/ → /tadaj/"
+    note: "現代日本語「ただよう」(漂う) → /tadajou/ → /tadaj/ → /tadɔj/（末尾 a→ɔ）"
   }
 }
 
@@ -273,9 +273,9 @@ entry mitesh {
 
 # 造る（後舌子音語幹）
 entry tsukr {
-  headword: "tsukr"
+  headword: "tukr"
   tags: [pos=verb, harmony=back, stem_final=cons]
-  stems { base: "tsukr" }
+  stems { base: "tukr" }
   inflection_class: verb_back_cons
 
   meanings {
@@ -284,7 +284,7 @@ entry tsukr {
   }
 
   etymology {
-    note: "現代日本語「つくる」(作る/創る) → /tsukuru/ → /tsukr/"
+    note: "現代日本語「つくる」(作る/創る) → /tsukuru/ → /tukr/"
   }
 }
 
@@ -308,9 +308,9 @@ entry ier {
 
 # 輝く（後舌子音語幹）
 entry kagajk {
-  headword: "kagajk"
+  headword: "kagɔjk"
   tags: [pos=verb, harmony=back, stem_final=cons]
-  stems { base: "kagajk" }
+  stems { base: "kagɔjk" }
   inflection_class: verb_back_cons
 
   meanings {
@@ -319,7 +319,7 @@ entry kagajk {
   }
 
   etymology {
-    note: "現代日本語「かがやく」(輝く) → /kagajaku/ → /kagajk/"
+    note: "現代日本語「かがやく」(輝く) → /kagajaku/ → /kagajk/ → /kagɔjk/（末尾 a→ɔ）"
   }
 }
 
@@ -361,15 +361,15 @@ entry atmol {
 
 # 与える（後舌子音語幹）
 entry ataw {
-  headword: "ataw"
+  headword: "atɔw"
   tags: [pos=verb, harmony=back, stem_final=cons]
-  stems { base: "ataw" }
+  stems { base: "atɔw" }
   inflection_class: verb_back_cons
 
   meaning: "与える、供給する、授ける"
 
   etymology {
-    note: "現代日本語「あたえる」(与える) → /ataeru/ → /ataw/ (-eru→-w 縮約)"
+    note: "現代日本語「あたえる」(与える) → /ataeru/ → /ataw/ → /atɔw/（末尾 a→ɔ、-eru→-w 縮約）"
   }
 }
 
@@ -524,9 +524,9 @@ entry elve {
 
 # 乾く（後舌子音語幹）
 entry kawak {
-  headword: "kawak"
+  headword: "kawɔk"
   tags: [pos=verb, harmony=back, stem_final=cons]
-  stems { base: "kawak" }
+  stems { base: "kawɔk" }
   inflection_class: verb_back_cons
 
   meanings {
@@ -535,6 +535,6 @@ entry kawak {
   }
 
   etymology {
-    note: "現代日本語「かわく」(乾く) → /kawaku/ → /kawak/"
+    note: "現代日本語「かわく」(乾く) → /kawaku/ → /kawak/ → /kawɔk/（末尾 a→ɔ）"
   }
 }

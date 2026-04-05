@@ -1,0 +1,92 @@
+# @title Ajə mu pənme: Atɔw
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə mu pənme: Atɔw
+# 第6章：与える
+# ============================================================
+#
+# 新出語彙:
+#   動詞: atɔw (与える)
+#
+# 既出語彙 (Ch 1–5): æ, ki, hñ, çit, ot, me, mi, nam, tol, sakən,
+#   ɔk, çis, sə, soʃ, to, ar, mir, jom, kɔk, tæben, kar, Tak, Lin,
+#   vəç, ant
+#
+# 新出文法:
+#   与格単数/複数、間接目的語、語順 S + IO(dat) + DO(acc) + V
+# ============================================================
+
+# ── A. atɔw（与える）の導入 ──
+# S(主格) + IO(与格) + DO(対格) + V
+
+# Taka Liniñ hño atɔwu.
+tak_name[case=nom, number=sg] lin_name[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini Takuñ mije atɔwu.
+lin_name[case=nom, number=sg] tak_name[case=dat, number=sg] mi[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka Liniñ hñoro atɔwu.
+tak_name[case=nom, number=sg] lin_name[case=dat, number=sg] hn[case=acc, number=pl] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── B. 与格と他の格の対比 ──
+# Lin の3格: Lini (主格), Line (対格), Liniñ (与格)
+
+# Lini hño jomu.
+lin_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka Line mire.
+tak_name[case=nom, number=sg] lin_name[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka Liniñ hño atɔwu.
+tak_name[case=nom, number=sg] lin_name[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── C. 代名詞の与格 ──
+
+# Taka vəçñ hño atɔwu.
+tak_name[case=nom, number=sg] vech[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# vəç antñ mije atɔwuw.
+vech[case=nom, number=sg] ant[case=dat, number=sg] mi[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
+
+# ant vəçñ hño atɔwuj.
+ant[case=nom, number=sg] vech[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "."
+
+# ant karñ mije atɔwuj.
+ant[case=nom, number=sg] kar[case=dat, number=sg] mi[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //
+
+# ── D. 定冠詞付きの与格 ──
+
+# Taka sə çitiñ hño atɔwu.
+tak_name[case=nom, number=sg] se_def[sandhi=pre_c] chit[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini sotuñ mije atɔwu.
+lin_name[case=nom, number=sg] se_def[sandhi=pre_v]~ot[case=dat, number=sg] mi[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# vəç sə meñ hño atɔwuw.
+vech[case=nom, number=sg] se_def[sandhi=pre_c] me_f[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "." //
+
+# ── E. 与格複数 ──
+
+# Taka çitiriñ hñoro atɔwu.
+tak_name[case=nom, number=sg] chit[case=dat, number=pl] hn[case=acc, number=pl] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini sə çitiriñ mire atɔwu.
+lin_name[case=nom, number=sg] se_def[sandhi=pre_c] chit[case=dat, number=pl] mi[case=acc, number=pl] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── F. まとめ ──
+
+# Taka ota ir. Lini meji ir.
+tak_name[case=nom, number=sg] ot[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+lin_name[case=nom, number=sg] me_f[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# Taka Liniñ hño atɔwu, soʃ Lini Takuñ mije atɔwu.
+tak_name[case=nom, number=sg] lin_name[case=dat, number=sg] hn[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+sosh lin_name[case=nom, number=sg] tak_name[case=dat, number=sg] mi[case=acc, number=sg] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# vəç antñ hñoro atɔwuw. ant vəçñ mire atɔwuj.
+vech[case=nom, number=sg] ant[case=dat, number=sg] hn[case=acc, number=pl] ataw[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
+ant[case=nom, number=sg] vech[case=dat, number=sg] mi[case=acc, number=pl] ataw[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "."
+
+# Taka sə çitiriñ Linne hñoro atɔwu.
+tak_name[case=nom, number=sg] se_def[sandhi=pre_c] chit[case=dat, number=pl] lin_name[case=gen, number=sg] hn[case=acc, number=pl] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //

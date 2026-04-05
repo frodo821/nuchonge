@@ -1,0 +1,117 @@
+# @title Ajə its pənme: Vəç to Ant
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə its pənme: Vəç to Ant
+# 第5章：私とあなた
+# ============================================================
+#
+# 新出語彙:
+#   代名詞: vəç (私), ant (あなた)
+#
+# 既出語彙 (Ch 1–4): æ, ki, hñ, çit, ot, me, mi, nam, tol, sakən,
+#   ɔk, çis, sə, soʃ, to, ar, mir, jom, kɔk, tæben, kar, Tak, Lin
+#
+# 新出文法:
+#   1sg/2sg 代名詞、動詞の人称標識 (1sg -w, 2sg 母音上昇)、
+#   コピュラの人称形 (1sg dərw, 2sg ar)
+# ============================================================
+
+# ── A. 1人称単数: vəç ──
+# 動詞に -w を付加。コピュラ1sg = dərw
+
+# vəç ota dərw.
+vech[case=nom, number=sg] ot[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=1, number=sg, polarity=pos, animacy=anim] "."
+
+# vəç hño jomuw.
+vech[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
+
+# vəç kije mirew.
+vech[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
+
+# vəç mije tæbenew.
+vech[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "." //
+
+# ── B. 2人称単数: ant ──
+# 時制母音が上昇: 前舌 e→i, 後舌 u→uj。コピュラ2sg = ar
+
+# ant meji ar.
+ant[case=nom, number=sg] me_f[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=2, number=sg, polarity=pos, animacy=anim] "."
+
+# ant hño jomuj.
+ant[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "."
+
+# ant kije miri.
+ant[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "."
+
+# ant mije tæbeni.
+ant[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //
+
+# ── C. 1sg と 2sg の対比 ──
+
+# vəç hño jomuw. ant hño jomuj.
+vech[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
+ant[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "."
+
+# vəç namo kɔkuw. ant namo kɔkuj.
+vech[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
+ant[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //
+
+# ── D. 代名詞の対格: 「私を」「あなたを」 ──
+
+# vəç ante mirew.
+vech[case=nom, number=sg] ant[case=acc, number=sg] mir[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
+
+# ant vəçe miri.
+ant[case=nom, number=sg] vech[case=acc, number=sg] mir[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "."
+
+# Taka vəçe mire. Lini ante mire.
+tak_name[case=nom, number=sg] vech[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+lin_name[case=nom, number=sg] ant[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── E. 代名詞の属格: 「私の」「あなたの」 ──
+
+# vəçne æ ɔkaŋ er.
+vech[case=gen, number=sg] ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# antne kiji çisiŋ er.
+ant[case=gen, number=sg] ki[case=nom, number=sg] chis[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# vəç antne hño jomuw.
+vech[case=nom, number=sg] ant[case=gen, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
+
+# ant vəçne mije tæbeni.
+ant[case=nom, number=sg] vech[case=gen, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //
+
+# ── F. 3人称との対比 ──
+
+# Taka hño jomu. — 3sg: 語尾なし
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# vəç hño jomuw. — 1sg: -w
+vech[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
+
+# ant hño jomuj. — 2sg: 母音上昇
+ant[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //
+
+# ── G. まとめ ──
+
+# vəç ota dərw. vəçne nama Taka er.
+vech[case=nom, number=sg] ot[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=1, number=sg, polarity=pos, animacy=anim] "."
+vech[case=gen, number=sg] nam[case=nom, number=sg] tak_name[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# vəç hñoro jomuw, soʃ namo kɔkuw.
+vech[case=nom, number=sg] hn[case=acc, number=pl] jom[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] ","
+sosh nam[case=acc, number=sg] kok[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] "."
+
+# ant meji ar. antne nama Lini er.
+ant[case=nom, number=sg] me_f[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=2, number=sg, polarity=pos, animacy=anim] "."
+ant[case=gen, number=sg] nam[case=nom, number=sg] lin_name[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# ant mire tæbeni, soʃ tolro miri.
+ant[case=nom, number=sg] mi[case=acc, number=pl] taeben[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] ","
+sosh tol[case=acc, number=pl] mir[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "."
+
+# vəç ante mirew, soʃ ant vəçe miri.
+vech[case=nom, number=sg] ant[case=acc, number=sg] mir[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] ","
+sosh ant[case=nom, number=sg] vech[case=acc, number=sg] mir[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //

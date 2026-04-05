@@ -1,0 +1,118 @@
+# @title Ajə fut pənme: Çitiri
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə fut pənme: Çitiri
+# 第2章：人々
+# ============================================================
+#
+# 新出語彙:
+#   動詞: mir (見る), jom (読む), kɔk (書く), tæben (食べる)
+#   名詞: mi (実), nam (名前)
+#
+# 既出語彙 (Ch 1): æ, ki, hñ, çit, ot, me, ɔk, çis, sə, soʃ, to, ar
+#
+# 新出文法:
+#   対格単数、他動詞 3sg 現在非完結相、SOV語順
+# ============================================================
+
+# ── A. 導入: Ch 1 の復習と場面設定 ──
+
+# ota ir. meji ir.
+ot[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+me_f[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# sə ota ɔkaŋ ir, soʃ sə meji çisiŋ ir.
+se_def[sandhi=pre_v]~ot[case=nom, number=sg] ok[case=nom, number=sg, animacy=anim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] ","
+sosh se_def[sandhi=pre_c] me_f[case=nom, number=sg] chis[case=nom, number=sg, animacy=anim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "." //
+
+# ── B. jomu（読む）: 対格の導入 ──
+# 主語(主格) + 目的語(対格) + 動詞: SOV
+
+# sə ota hño jomu.
+se_def[sandhi=pre_v]~ot[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# sə meji hño jomu.
+se_def[sandhi=pre_c] me_f[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# sə ota sə hño jomu.
+se_def[sandhi=pre_v]~ot[case=nom, number=sg] se_def[sandhi=pre_c] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── C. mire（見る）: 無生目的語 ──
+
+# sə ota kije mire.
+se_def[sandhi=pre_v]~ot[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# sə meji kije mire.
+se_def[sandhi=pre_c] me_f[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# sæ ɔkaŋ er. sə ota sæ mire.
+se_def[sandhi=pre_v]~ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+se_def[sandhi=pre_v]~ot[case=nom, number=sg] se_def[sandhi=pre_v]~ae[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# sə meji sæ mire.
+se_def[sandhi=pre_c] me_f[case=nom, number=sg] se_def[sandhi=pre_v]~ae[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── D. mire（見る）: 有生目的語 ──
+# çit: nom çiti / acc çite — 格語尾の対比
+
+# sə ota çite mire.
+se_def[sandhi=pre_v]~ot[case=nom, number=sg] chit[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# sə ota meje mire.
+se_def[sandhi=pre_v]~ot[case=nom, number=sg] me_f[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# sə meji oto mire.
+se_def[sandhi=pre_c] me_f[case=nom, number=sg] ot[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── E. kɔku（書く）と namo（名前） ──
+
+# sə ota namo kɔku.
+se_def[sandhi=pre_v]~ot[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# sə meji namo kɔku.
+se_def[sandhi=pre_c] me_f[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── F. tæbene（食べる）と mije（実） ──
+
+# miji er.
+mi[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# sə ota mije tæbene.
+se_def[sandhi=pre_v]~ot[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# sə meji mije tæbene.
+se_def[sandhi=pre_c] me_f[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── G. 文の接続: 異なる動作の並列 ──
+
+# sə ota hño jomu, soʃ sə meji mije tæbene.
+se_def[sandhi=pre_v]~ot[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+sosh se_def[sandhi=pre_c] me_f[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# sə ota namo kɔku, soʃ sə meji hño jomu.
+se_def[sandhi=pre_v]~ot[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+sosh se_def[sandhi=pre_c] me_f[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── H. まとめ ──
+# Ch 1 + Ch 2 の語彙を組み合わせた総合パッセージ
+
+# sæ ɔkaŋ er. kiji er. hña er.
+se_def[sandhi=pre_v]~ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+ki[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+hn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# otat meji irr.
+ot[case=nom, number=sg]~to[sandhi=pre_v] me_f[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "."
+
+# sə ota sə hño jomu. sə ota meje mire.
+se_def[sandhi=pre_v]~ot[case=nom, number=sg] se_def[sandhi=pre_c] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+se_def[sandhi=pre_v]~ot[case=nom, number=sg] me_f[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# sə meji mije tæbene, soʃ sə ota namo kɔku.
+se_def[sandhi=pre_c] me_f[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+sosh se_def[sandhi=pre_v]~ot[case=nom, number=sg] nam[case=acc, number=sg] kok[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# sə meji oto mire. sə meji sə kije mire.
+se_def[sandhi=pre_c] me_f[case=nom, number=sg] ot[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+se_def[sandhi=pre_c] me_f[case=nom, number=sg] se_def[sandhi=pre_c] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //

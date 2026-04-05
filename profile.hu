@@ -1,5 +1,5 @@
 # @suppress entire-file: glob-import
-# ニンゴト語文法プロファイル
+# ヌヒョン語文法プロファイル
 
 @use * from "core/tags.hu"
 @use * from "core/phonrules.hu"

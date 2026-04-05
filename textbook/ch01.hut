@@ -1,0 +1,127 @@
+# @title Ajə çit pənme: Æ
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə çit pənme: Æ
+# 第1章：家
+# ============================================================
+#
+# 新出語彙:
+#   名詞: æ (家), ki (木), hñ (本), çit (人), ot (男), me (女)
+#   形容詞: ɔk (大きい), çis (小さい)
+#   コピュラ: ar → er (3sg無生), ir (3sg有生), err (3pl無生), irr (3pl有生)
+#   不変化詞: sə (定冠詞), to (列挙「と」), soʃ (そして)
+#
+# 新出文法:
+#   主格（単数・複数）、述語形容詞、コピュラ ar 3人称現在非完結相
+# ============================================================
+
+# ── A. 存在 ──
+# 無生名詞の主格単数 + コピュラ er
+
+# æ er.
+ae[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# kiji er.
+ki[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# hña er.
+hn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
+
+# ── B. 定冠詞と性質 ──
+# 定冠詞 sə + 述語形容詞（主格一致）+ コピュラ
+
+# sæ ɔkaŋ er.
+se_def[sandhi=pre_v]~ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# sə kiji çisiŋ er.
+se_def[sandhi=pre_c] ki[case=nom, number=sg] chis[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# sə hña çisiŋ er.
+se_def[sandhi=pre_c] hn[case=nom, number=sg] chis[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //
+
+# ── C. 有生名詞 ──
+# 有生コピュラ ir (3sg) — er との対比
+
+# çiti ir.
+chit[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# ota ir.
+ot[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# meji ir.
+me_f[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# sə ota ɔkaŋ ir.
+se_def[sandhi=pre_v]~ot[case=nom, number=sg] ok[case=nom, number=sg, animacy=anim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+
+# sə meji çisiŋ ir.
+se_def[sandhi=pre_c] me_f[case=nom, number=sg] chis[case=nom, number=sg, animacy=anim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "." //
+
+# ── D. 複数 ──
+# 無生複数 (err) と有生複数 (irr)
+
+# æje err.
+ae[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
+
+# sə æje ɔkoraŋ err.
+se_def[sandhi=pre_v]~ae[case=nom, number=pl] ok[case=nom, number=pl, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
+
+# kiri err.
+ki[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
+
+# sə kiri çiseriŋ err.
+se_def[sandhi=pre_c] ki[case=nom, number=pl] chis[case=nom, number=pl, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "." //
+
+# çitri irr.
+chit[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "."
+
+# otra irr.
+ot[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "."
+
+# meji irr.
+me_f[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "." //
+
+# ── E. 列挙 (to) ──
+# NP同士を to で結合。動詞は複数形で一致。
+
+# æt kiji err.
+ae[case=nom, number=sg]~to[sandhi=pre_v] ki[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
+
+# otat meji irr.
+ot[case=nom, number=sg]~to[sandhi=pre_v] me_f[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "." //
+
+# ── F. 文の接続 (soʃ) ──
+# 文レベルの並列接続
+
+# sæ ɔkaŋ er, soʃ sə kiji çisiŋ er.
+se_def[sandhi=pre_v]~ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] ","
+sosh se_def[sandhi=pre_c] ki[case=nom, number=sg] chis[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+
+# sota ɔkaŋ ir, soʃ sə meji çisiŋ ir.
+se_def[sandhi=pre_v]~ot[case=nom, number=sg] ok[case=nom, number=sg, animacy=anim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] ","
+sosh se_def[sandhi=pre_c] me_f[case=nom, number=sg] chis[case=nom, number=sg, animacy=anim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "." //
+
+# ── G. まとめ ──
+# セクション全体の語彙を組み合わせた総合パッセージ
+
+# æjet kiri err.
+ae[case=nom, number=pl]~to[sandhi=pre_v] ki[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
+
+# sə æje ɔkoraŋ err, soʃ sə kiri çiseriŋ err.
+se_def[sandhi=pre_v]~ae[case=nom, number=pl] ok[case=nom, number=pl, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] ","
+sosh se_def[sandhi=pre_c] ki[case=nom, number=pl] chis[case=nom, number=pl, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
+
+# otrat meji irr.
+ot[case=nom, number=pl]~to[sandhi=pre_v] me_f[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "."
+
+# sə otra ɔkraŋ irr, soʃ sə meji çisriŋ irr.
+se_def[sandhi=pre_v]~ot[case=nom, number=pl] ok[case=nom, number=pl, animacy=anim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] ","
+sosh se_def[sandhi=pre_c] me_f[case=nom, number=pl] chis[case=nom, number=pl, animacy=anim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "."
+
+# hñat kiji err.
+hn[case=nom, number=sg]~to[sandhi=pre_v] ki[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
+
+# sə hña çisiŋ er, soʃ sə kiji çisiŋ er.
+se_def[sandhi=pre_c] hn[case=nom, number=sg] chis[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] ","
+sosh se_def[sandhi=pre_c] ki[case=nom, number=sg] chis[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "." //

@@ -1,0 +1,94 @@
+# @title Ajə jo pənme: Kiri to Hñora
+@reference * from "../main.hu"
+
+# ============================================================
+# Ajə jo pənme: Kiri to Hñora
+# 第4章：木々と本々
+# ============================================================
+#
+# 新出語彙:
+#   名詞: tol (鳥), sakən (魚)
+#
+# 既出語彙 (Ch 1–3): æ, ki, hñ, çit, ot, me, mi, nam, ɔk, çis,
+#   sə, soʃ, to, ar, mir, jom, kɔk, tæben, kar, Tak, Lin
+#
+# 新出文法:
+#   対格複数、有生/無生の複数形対比
+# ============================================================
+
+# ── A. 復習: 単数目的語 ──
+
+# Taka hño jomu. Lini kije mire.
+tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+lin_name[case=nom, number=sg] ki[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── B. 対格複数: 無生目的語 ──
+# 無生複数: 前舌 -ere, 後舌 -oro, 前舌母音 -re
+
+# Taka hñoro jomu.
+tak_name[case=nom, number=sg] hn[case=acc, number=pl] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini kire mire.
+lin_name[case=nom, number=sg] ki[case=acc, number=pl] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka mire tæbene.
+tak_name[case=nom, number=sg] mi[case=acc, number=pl] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini hñoro jomu, soʃ Taka hñoro jomu.
+lin_name[case=nom, number=sg] hn[case=acc, number=pl] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+sosh tak_name[case=nom, number=sg] hn[case=acc, number=pl] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── C. 動物の導入: tol (鳥), sakən (魚) ──
+
+# tola ir. tolra irr.
+tol[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+tol[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "."
+
+# sakənə ir. sakənrə irr.
+sakn[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+sakn[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "."
+
+# sə tola çisiŋ ir. sə sakənə çisiŋ ir.
+se_def[sandhi=pre_c] tol[case=nom, number=sg] chis[case=nom, number=sg, animacy=anim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "."
+se_def[sandhi=pre_c] sakn[case=nom, number=sg] chis[case=nom, number=sg, animacy=anim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=anim] "." //
+
+# ── D. 対格複数: 有生目的語 ──
+# 有生複数: 前舌 -re, 後舌 -ro, 中立 -ra
+
+# Taka tolro mire.
+tak_name[case=nom, number=sg] tol[case=acc, number=pl] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini sakənra mire.
+lin_name[case=nom, number=sg] sakn[case=acc, number=pl] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka çitre mire.
+tak_name[case=nom, number=sg] chit[case=acc, number=pl] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── E. 単数 vs 複数の対比 ──
+
+# Taka tolo mire. Taka tolro mire.
+tak_name[case=nom, number=sg] tol[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+tak_name[case=nom, number=sg] tol[case=acc, number=pl] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini hño jomu. Lini hñoro jomu.
+lin_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+lin_name[case=nom, number=sg] hn[case=acc, number=pl] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Lini sakəna mire. Lini sakənra mire.
+lin_name[case=nom, number=sg] sakn[case=acc, number=sg] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+lin_name[case=nom, number=sg] sakn[case=acc, number=pl] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# ── F. まとめ ──
+
+# Takno æ ɔkaŋ er. Takno æ kiri err. Taka kire mire.
+tak_name[case=gen, number=sg] ae[case=nom, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] "."
+tak_name[case=gen, number=sg] ae[case=nom, number=sg] ki[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=inanim] "."
+tak_name[case=nom, number=sg] ki[case=acc, number=pl] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# tolrat sakənrə irr. Lini tolrot sakənra mire.
+tol[case=nom, number=pl]~to[sandhi=pre_v] sakn[case=nom, number=pl] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "."
+lin_name[case=nom, number=sg] tol[case=acc, number=pl]~to[sandhi=pre_v] sakn[case=acc, number=pl] mir[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "."
+
+# Taka hñoro jomu, soʃ Lini mire tæbene.
+tak_name[case=nom, number=sg] hn[case=acc, number=pl] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
+sosh lin_name[case=nom, number=sg] mi[case=acc, number=pl] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //

@@ -5,6 +5,7 @@
 @reference * from "entries/verb_irregular.hu"
 @reference * from "entries/adjective.hu"
 @reference * from "entries/particle.hu"
+@reference * from "entries/textbook.hu"
 
 @export reference * from "entries/pronoun.hu"
 @export reference * from "entries/noun.hu"
@@ -12,3 +13,4 @@
 @export reference * from "entries/verb_irregular.hu"
 @export reference * from "entries/adjective.hu"
 @export reference * from "entries/particle.hu"
+@export reference * from "entries/textbook.hu"
