@@ -122,4 +122,4 @@ sosh tol[case=acc, number=pl] mir[tense=pres, aspect=impf, person=2, number=sg, 
 # vəç ante mirew, soʃ ant vəçe miri.
 vech[case=nom, number=sg] ant[case=acc, number=sg] mir[tense=pres, aspect=impf, person=1, number=sg, polarity=pos] ","
 sosh ant[case=nom, number=sg] vech[case=acc, number=sg] mir[tense=pres, aspect=impf, person=2, number=sg, polarity=pos] "." //
-// <a href="../grammatica/ch05">"Grammatica"</a>
+// <a href="../../grammatica/ch05">"Grammatica"</a>

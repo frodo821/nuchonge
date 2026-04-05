@@ -106,4 +106,4 @@ ant[case=nom, number=pl] asu[case=loc, number=sg]tokl[case=all, number=sg] ik[te
 # karl kunɔ æikr̃ mekatɔr. kɔj tokldo irr.
 kar[case=nom, number=pl] kuno[case=loc, number=sg]ae[case=abl, number=sg] ik[tense=past, aspect=impf, person=3, number=pl, polarity=pos] "."
 kjo[case=loc, number=sg] tokl[case=loc, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=pl, polarity=pos, animacy=anim] "." //
-// <a href="../grammatica/ch12">"Grammatica"</a>
+// <a href="../../grammatica/ch12">"Grammatica"</a>

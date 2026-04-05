@@ -96,4 +96,4 @@ ant[case=nom, number=sg] vech[case=dat, number=sg] mi[case=acc, number=pl] ataw[
 
 # Taka sə çitiriñ Linne hñoro atɔwu.
 tak_name[case=nom, number=sg] se_def[sandhi=pre_c] chit[case=dat, number=pl] lin_name[case=gen, number=sg] hn[case=acc, number=pl] ataw[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
-// <a href="../grammatica/ch06">"Grammatica"</a>
+// <a href="../../grammatica/ch06">"Grammatica"</a>

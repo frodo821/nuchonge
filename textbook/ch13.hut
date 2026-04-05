@@ -111,4 +111,4 @@ asu[case=loc, number=sg]tokl[case=all, number=sg] ik[tense=fut, aspect=impf, per
 tak_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] ","
 sosh lin_name[case=nom, number=sg] hn[case=acc, number=sg] jom[tense=pres, aspect=impf, person=3, number=sg, polarity=neg] "."
 lin_name[case=nom, number=sg] mi[case=acc, number=sg] taeben[tense=pres, aspect=impf, person=3, number=sg, polarity=pos] "." //
-// <a href="../grammatica/ch13">"Grammatica"</a>
+// <a href="../../grammatica/ch13">"Grammatica"</a>
