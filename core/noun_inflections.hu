@@ -1,6 +1,8 @@
+# @suppress entire-file: unused-inflection, glob-import
 # ヌヒョン語名詞・形容詞・指示詞曲用
 
 @use * from "tags.hu"
+@use cc_epenthesis from "phonrules.hu"
 
 # ============================================================
 # 名詞曲用

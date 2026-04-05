@@ -1,3 +1,4 @@
+# @suppress entire-file: glob-import
 # ヌヒョン語動詞活用
 
 @use * from "tags.hu"
