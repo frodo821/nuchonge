@@ -228,20 +228,42 @@ entry shibl {
   etymology { note: "現代日本語「しばらく」→ /ʃibaraku/ → /ʃibar/ → /ʃiblə/（r→l、末尾母音弱化）" }
 }
 
-# ── Supine（目的の動詞名詞形）──
-# 動詞の3sg形に ~ で後接し、目的節「〜するために」を形成。
-# 形式: 動詞 tense_stem + 向格子音。被修飾動詞と時制一致を要求。
-# 用法: verb[tense, aspect, person=3, number=sg, polarity=pos]~sup[harmony]
+# ── Supine（動詞名詞形）──
+# 動詞の3sg形に ~ で後接し、副詞節を形成。被修飾動詞と時制一致を要求。
+# 用法: verb[tense, aspect, person=3, number=sg, polarity]~sup[harmony, case]
+#
+# 4格体系:
+#   向格 (all): 目的「〜するために」    — jomuh meke (読みに行く)
+#   出格 (abl): 原因・対象「〜することに」 — swɔlɔtɔkr̃ tukrelasta (座っていたことに疲れた)
+#   所格 (loc): 時間「〜している時に」   — usɔga hɔʃilɔtɔd (兎が走った時に)
+#   共格 (com): 同時「〜しながら」      — isɔgɔtɔt mirɔtɔ (急ぎながら見た)
+#
+# 接辞は名詞格語尾の子音骨格を動詞3sg形（母音終わり）に直接付加。
+# 出格 -kr̃ は調和に依存しない（直前の動詞母音が調和を担う）。
 entry sup {
   headword: "sup"
   tags: [pos=part]
-  inflect for {harmony} {
-    [harmony=back] -> `h`
-    [harmony=front] -> `he`
-    [harmony=neutral] -> `hə`
+  inflect for {harmony, case} {
+    # 向格 (purpose)
+    [case=all, harmony=back] -> `h`
+    [case=all, harmony=front] -> `he`
+    [case=all, harmony=neutral] -> `hə`
+    # 出格 (cause/respect)
+    # 調和非依存
+    [case=abl, _] -> `kr̃`
+    # 所格 (temporal)
+    [case=loc, harmony=back] -> `d`
+    [case=loc, harmony=front] -> `de`
+    [case=loc, harmony=neutral] -> `də`
+    # 共格 (concurrent)
+    [case=com, harmony=back] -> `t`
+    [case=com, harmony=front] -> `te`
+    [case=com, harmony=neutral] -> `tə`
+    # それ以外の格はなし
+    [_] -> null
   }
-  meaning: "目的標識（〜するために。動詞3sg形に後接する向格接辞）"
-  etymology { note: "向格語尾 -h/-he/-hə の動詞への転用。supine（目的の動詞名詞形）として文法化。" }
+  meaning: "Supine標識（動詞3sg形に後接して副詞節を形成。4格: 向格=目的、出格=原因、所格=時間、共格=同時）"
+  etymology { note: "名詞格語尾の動詞への転用。向格 -h/-he/-hə が最初に文法化し（目的節）、その後出格・所格・共格に拡張。ラテン語supineの機能分化に類似。" }
 }
 
 # ── 数詞 ──
@@ -358,6 +380,13 @@ entry sosh {
   tags: [pos=conj]
   meaning: "そして、また（並列接続詞）"
   etymology { note: "現代日本語「そして」→ /soʃite/ → /soʃ/" }
+}
+
+entry ked {
+  headword: "ked"
+  tags: [pos=conj]
+  meaning: "しかし、けれども（逆接接続詞）"
+  etymology { note: "現代日本語「けど」(けれど) → /kedo/ → /ked/" }
 }
 
 entry to {

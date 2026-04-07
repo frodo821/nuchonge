@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alisno Ʃitno Tr̃do Ækiketora: Tukrura 1</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #1a1a1a;
+  background: #fafafa;
+  display: flex;
+  min-height: 100vh;
+}
+nav {
+  width: 220px;
+  flex-shrink: 0;
+  background: #fff;
+  border-right: 1px solid #e0e0e0;
+  padding: 1.5rem 1rem;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+nav > a {
+  display: block;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+nav > a:hover { color: #0060df; }
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li { margin: 0.25rem 0; }
+nav li a {
+  color: #555;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+nav li a:hover { color: #0060df; }
+nav li.current {
+  font-weight: 600;
+  color: #0060df;
+  font-size: 0.95rem;
+}
+main {
+  flex: 1;
+  max-width: 52rem;
+  padding: 2rem 2.5rem;
+}
+h1 {
+  font-size: 1.6rem;
+  margin: 0 0 1.5rem;
+  color: #222;
+}
+.content p {
+  line-height: 1.7;
+  margin: 0.6rem 0;
+}
+.content a.word {
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+  cursor: help;
+  transition: border-color 0.15s, color 0.15s;
+}
+.content a.word:hover {
+  color: #0060df;
+  border-bottom-color: #0060df;
+}
+/* glossary page */
+.entry-card {
+  margin: 1.5rem 0;
+  padding: 1rem 1.2rem;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+}
+.entry-card h2 {
+  font-size: 1.15rem;
+  margin: 0 0 0.3rem;
+  color: #222;
+}
+.entry-card .meaning {
+  color: #555;
+  margin: 0 0 0.8rem;
+  font-style: italic;
+}
+.entry-card .meanings {
+  margin: 0 0 0.8rem;
+  padding: 0 0 0 1.4rem;
+  list-style: decimal;
+}
+.entry-card .meanings li {
+  color: #555;
+  font-style: italic;
+  margin: 0.15rem 0;
+}
+.entry-card .meanings li::marker {
+  font-style: normal;
+  font-weight: 600;
+  color: #777;
+  font-size: 0.85rem;
+}
+.entry-card .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin: 0.3rem 0 0.6rem;
+}
+.entry-card .tag {
+  display: inline-block;
+  background: #eef1f5;
+  color: #556;
+  font-size: 0.78rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 3px;
+}
+.entry-card .etymology {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.4rem 0 0.8rem;
+}
+.entry-card .etymology .proto {
+  font-family: "Georgia", serif;
+  font-style: italic;
+}
+.entry-card .etymology .etym-note {
+  margin-left: 0.3rem;
+}
+.entry-card .etymology .etym-links {
+  margin-top: 0.2rem;
+}
+.entry-card table {
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  width: 100%;
+  max-width: 100%;
+}
+.entry-card th, .entry-card td {
+  border: 1px solid #ddd;
+  padding: 0.3rem 0.6rem;
+  text-align: left;
+}
+.entry-card th {
+  background: #f5f5f5;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #444;
+  vertical-align: middle;
+}
+.entry-card th[rowspan] {
+  border-right: 2px solid #ccc;
+}
+.entry-card td {
+  font-family: "Georgia", serif;
+}
+.entry-card h3 {
+  font-size: 0.95rem;
+  margin: 1rem 0 0.3rem;
+  color: #555;
+  font-weight: 600;
+}
+@media (max-width: 700px) {
+  body { flex-direction: column; }
+  nav {
+    width: 100%;
+    height: auto;
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  nav ul { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .entry-card { overflow-x: auto; }
+}
+</style>
+</head>
+<body>
+<nav>
+<a href="index.html">Iværelriŋ Hñora</a>
+<ul>
+<li><a href="glossary.html">Glossary</a></li>
+<li><a href="bible/genesis-1.html">Iværelriŋ Hñora: Tukrura 1</a></li>
+<li class="current">Alisno Ʃitno Tr̃do Ækiketora: Tukrura 1</li>
+</ul>
+</nav>
+<main>
+<h1>Alisno Ʃitno Tr̃do Ækiketora: Tukrura 1</h1>
+<div class="content">
+<p><a href="glossary.html#entry-alis_name" class="word" title="Alis — （人名・女性）Alice [case=nom, number=sg]">Alisi</a> <a href="glossary.html#entry-zhet" class="word" title="ʒət — 自身、自ら（再帰代名詞） [case=gen, number=sg, animacy=anim]">ʒətnə</a> <a href="glossary.html#entry-aen" class="word" title="æn — 姉、年上の姉妹 [case=com, number=sg]">ænte</a> <a href="glossary.html#entry-kish" class="word" title="kiʃ — 岸、土手、堤 [case=loc, number=sg]">kiʃde</a> <a href="glossary.html#entry-swol" class="word" title="swɔl — 座る、腰掛ける [tense=past, aspect=result, person=3, number=sg, polarity=pos]">swɔlɔtrɔ</a><a href="glossary.html#entry-sup" class="word" title="sup — Supine標識（動詞3sg形に後接して副詞節を形成。4格: 向格=目的、出格=原因、所格=時間、共格=同時） [harmony=back, case=abl]">kr̃</a>, <a href="glossary.html#entry-sosh" class="word" title="soʃ — そして、また（並列接続詞）">soʃ</a> <a href="glossary.html#entry-der" class="word" title="der — どれ、どの（疑問・不定指示詞） [case=acc, number=sg]">dere</a> <a href="glossary.html#entry-su" class="word" title="su — する、行う [tense=past, aspect=impf, person=3, number=sg, polarity=neg]">nã</a><a href="glossary.html#entry-sup" class="word" title="sup — Supine標識（動詞3sg形に後接して副詞節を形成。4格: 向格=目的、出格=原因、所格=時間、共格=同時） [harmony=front, case=abl]">kr̃</a>, <a href="glossary.html#entry-tov" class="word" title="tov — とても〜（強意・程度）">tov</a><a href="glossary.html#entry-tikrel" class="word" title="tikrel — 疲れる、倦む [tense=past, aspect=incep, person=3, number=sg, polarity=pos]">tikrelasta</a>.</p>
+<p><a href="glossary.html#entry-chit_num" class="word" title="çit — 一（1）">çit</a> <a href="glossary.html#entry-kej_freq" class="word" title="kəj — 回（回数を形成する助数詞名詞） [case=nom, number=sg]">kəji</a> <a href="glossary.html#entry-to" class="word" title="to — 引用標識（直接引用の前後に置く）">to</a> <a href="glossary.html#entry-fut" class="word" title="fut — 二（2）">fut</a> <a href="glossary.html#entry-kej_freq" class="word" title="kəj — 回（回数を形成する助数詞名詞） [case=nom, number=sg]">kəji</a>, <a href="glossary.html#entry-aen" class="word" title="æn — 姉、年上の姉妹 [case=gen, number=sg]">ænne</a> <a href="glossary.html#entry-jom" class="word" title="jom — 文字や記号を見て、その意味を理解する">jom</a><a href="glossary.html#entry-ar_ptcp" class="word" title="ar — 能動分詞標識（〜している、〜した、〜する） [harmony=back, tense=pres, case=acc, number=sg, animacy=inanim]">uroŋ</a> <a href="glossary.html#entry-hn" class="word" title="hñ — 印刷または電子化された文字・画像からなる情報媒体 [case=acc, number=sg]">hño</a> <a href="glossary.html#entry-noz" class="word" title="noz — 覗く、ちらっと見る [tense=past, aspect=impf, person=3, number=sg, polarity=pos]">nozɔtɔ</a>. <a href="glossary.html#entry-ked" class="word" title="ked — しかし、けれども（逆接接続詞）">ked</a> <a href="glossary.html#entry-hn" class="word" title="hñ — 印刷または電子化された文字・画像からなる情報媒体 [case=loc, number=sg]">hñdo</a> <a href="glossary.html#entry-el" class="word" title="el — 絵、図、画像 [case=nom, number=sg]">eli</a><a href="glossary.html#entry-to" class="word" title="to — 引用標識（直接引用の前後に置く） [sandhi=pre_v]">t</a> <a href="glossary.html#entry-honsh" class="word" title="hɔnʃ — 話、会話、物語 [case=nom, number=sg]">hɔnʃa</a> <a href="glossary.html#entry-ar_verb" class="word" title="ar — 存在する、ある（物や事の存在を表す） [tense=past, aspect=impf, person=3, number=sg, polarity=neg, animacy=inanim]">ẽt</a>.</p>
+<p>«<a href="glossary.html#entry-hn" class="word" title="hñ — 印刷または電子化された文字・画像からなる情報媒体 [case=loc, number=sg]">hñdo</a> <a href="glossary.html#entry-el" class="word" title="el — 絵、図、画像 [case=nom, number=sg]">eli</a><a href="glossary.html#entry-to" class="word" title="to — 引用標識（直接引用の前後に置く） [sandhi=pre_v]">t</a> <a href="glossary.html#entry-honsh" class="word" title="hɔnʃ — 話、会話、物語 [case=nom, number=sg]">hɔnʃa</a> <a href="glossary.html#entry-ar_verb" class="word" title="ar — 存在する、ある（物や事の存在を表す） [tense=pres, aspect=impf, person=3, number=sg, polarity=neg, animacy=inanim]">ẽr</a>, <a href="glossary.html#entry-ser" class="word" title="ser — それ、その（中称指示詞） [case=nom, number=sg]">seri</a> <a href="glossary.html#entry-der" class="word" title="der — どれ、どの（疑問・不定指示詞） [case=acc, number=sg]">dere</a> <a href="glossary.html#entry-su" class="word" title="su — する、行う [tense=pres, aspect=impf, person=3, number=sg, polarity=pos]">su</a><a href="glossary.html#entry-sup" class="word" title="sup — Supine標識（動詞3sg形に後接して副詞節を形成。4格: 向格=目的、出格=原因、所格=時間、共格=同時） [harmony=front, case=all]">he</a> <a href="glossary.html#entry-ar_verb" class="word" title="ar — 存在する、ある（物や事の存在を表す） [tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim]">er</a>?» <a href="glossary.html#entry-to" class="word" title="to — 引用標識（直接引用の前後に置く）">to</a> <a href="glossary.html#entry-alis_name" class="word" title="Alis — （人名・女性）Alice [case=nom, number=sg]">Alisi</a> <a href="glossary.html#entry-omo" class="word" title="omɔ — 思考する、考える [tense=past, aspect=impf, person=3, number=sg, polarity=pos]">omɔtɔ</a>.</p>
+<p><a href="glossary.html#entry-totsen" class="word" title="totsen — 突然、急に">totsen</a><a href="glossary.html#entry-hashil" class="word" title="haʃil — 走る、駆ける [tense=past, aspect=impf, person=3, number=sg, polarity=pos]">haʃilata</a> <a href="glossary.html#entry-momol" class="word" title="momɔl — 桃色の、ピンクの [case=com, number=pl, animacy=inanim, degree=pos]">momɔlortoŋ</a> <a href="glossary.html#entry-med" class="word" title="med — 目、眼 [case=com, number=pl]">mederte</a> <a href="glossary.html#entry-shil" class="word" title="ʃil — 白い [case=nom, number=sg, animacy=anim, degree=pos]">ʃiliŋ</a> <a href="glossary.html#entry-usog" class="word" title="usɔg — 兎、ウサギ [case=nom, number=sg]">usɔga</a> <a href="glossary.html#entry-alis_name" class="word" title="Alis — （人名・女性）Alice [case=gen, number=sg]">Alisne</a> <a href="glossary.html#entry-sob" class="word" title="sɔb — そば、傍、近く [case=loc, number=sg]">sɔbdo</a>.</p>
+<p>«<a href="glossary.html#entry-tov" class="word" title="tov — とても〜（強意・程度）">tov</a><a href="glossary.html#entry-osoj" class="word" title="ɔsɔj — 遅い、遅刻の [case=nom, number=sg, animacy=anim, degree=pos]">ɔsɔjaŋ</a> <a href="glossary.html#entry-ar_verb" class="word" title="ar — 存在する、ある（物や事の存在を表す） [tense=fut, aspect=impf, person=1, number=sg, polarity=pos, animacy=anim]">dərow</a>» <a href="glossary.html#entry-to" class="word" title="to — 引用標識（直接引用の前後に置く）">to</a> <a href="glossary.html#entry-usog" class="word" title="usɔg — 兎、ウサギ [case=nom, number=sg]">usɔga</a> <a href="glossary.html#entry-zhet" class="word" title="ʒət — 自身、自ら（再帰代名詞） [case=dat, number=sg, animacy=anim]">ʒətəñ</a> <a href="glossary.html#entry-ier" class="word" title="ier — 言う、述べる [tense=past, aspect=impf, person=3, number=sg, polarity=pos]">ierata</a>.</p>
+<p><a href="glossary.html#entry-sosh" class="word" title="soʃ — そして、また（並列接続詞）">soʃ</a> <a href="glossary.html#entry-usog" class="word" title="usɔg — 兎、ウサギ [case=nom, number=sg]">usɔga</a> <a href="glossary.html#entry-zhet" class="word" title="ʒət — 自身、自ら（再帰代名詞） [case=gen, number=sg, animacy=anim]">ʒətnə</a> <a href="glossary.html#entry-fuk" class="word" title="fuk — 服、衣服 [case=gen, number=sg]">fukmo</a> <a href="glossary.html#entry-fut_pocket" class="word" title="futɔkol — 懐、ポケット [case=abl, number=sg]">futɔkolukr̃</a> <a href="glossary.html#entry-tokej" class="word" title="tokəj — 時計 [case=acc, number=sg]">tokəjo</a> <a href="glossary.html#entry-mot" class="word" title="mot — 所有する、持っている [tense=past, aspect=incep, person=3, number=sg, polarity=pos]">motɔstɔ</a>, <a href="glossary.html#entry-ser" class="word" title="ser — それ、その（中称指示詞） [case=acc, number=sg]">sere</a> <a href="glossary.html#entry-mir" class="word" title="mir — 視覚で捉える、目で認識する [tense=past, aspect=impf, person=3, number=sg, polarity=pos]">mirata</a>, <a href="glossary.html#entry-sosh" class="word" title="soʃ — そして、また（並列接続詞）">soʃ</a> <a href="glossary.html#entry-iseg" class="word" title="iseg — 急ぐ、慌てる [tense=past, aspect=incep, person=3, number=sg, polarity=pos]">isegasta</a>.</p>
+<p><a href="glossary.html#entry-alis_name" class="word" title="Alis — （人名・女性）Alice [case=nom, number=sg]">Alisi</a> <a href="glossary.html#entry-kesh" class="word" title="keʃ — かつて〜ない（否定と共起して「一度も」）">keʃ</a> <a href="glossary.html#entry-fut_pocket" class="word" title="futɔkol — 懐、ポケット [case=acc, number=sg]">futɔkolo</a><a href="glossary.html#entry-to" class="word" title="to — 引用標識（直接引用の前後に置く） [sandhi=pre_v]">t</a> <a href="glossary.html#entry-tokej" class="word" title="tokəj — 時計 [case=acc, number=sg]">tokəjo</a> <a href="glossary.html#entry-mot" class="word" title="mot — 所有する、持っている">mot</a><a href="glossary.html#entry-ar_ptcp" class="word" title="ar — 能動分詞標識（〜している、〜した、〜する） [harmony=back, tense=pres, case=acc, number=sg, animacy=anim]">uroŋ</a> <a href="glossary.html#entry-usog" class="word" title="usɔg — 兎、ウサギ [case=acc, number=sg]">usɔgo</a> <a href="glossary.html#entry-mir" class="word" title="mir — 視覚で捉える、目で認識する [tense=past, aspect=result, person=3, number=sg, polarity=neg]">miratrã</a>. <a href="glossary.html#entry-dak" class="word" title="dak — だから、ゆえに（理由・因果の接続詞）">dak</a> <a href="glossary.html#entry-usog" class="word" title="usɔg — 兎、ウサギ [case=acc, number=sg]">usɔgo</a> <a href="glossary.html#entry-ow" class="word" title="ɔw — 追う、追いかける [tense=past, aspect=incep, person=3, number=sg, polarity=pos]">ɔwɔstɔ</a>, <a href="glossary.html#entry-hol" class="word" title="hɔl — 野原、原っぱ、野 [case=acc, number=sg]">hɔlo</a> <a href="glossary.html#entry-hashil" class="word" title="haʃil — 走る、駆ける [tense=past, aspect=impf, person=3, number=sg, polarity=pos]">haʃilata</a>.</p>
+<p><a href="glossary.html#entry-kaeken" class="word" title="kæken — 垣根、生垣 [case=gen, number=sg]">kækenme</a> <a href="glossary.html#entry-shit" class="word" title="ʃit — 下、下方 [case=gen, number=sg]">ʃitme</a> <a href="glossary.html#entry-ok" class="word" title="ɔk — 大きい、サイズが大きい [case=loc, number=sg, animacy=inanim, degree=pos]">ɔkdoŋ</a> <a href="glossary.html#entry-usog" class="word" title="usɔg — 兎、ウサギ [case=gen, number=sg]">usɔgno</a> <a href="glossary.html#entry-an" class="word" title="ɔn — 穴、孔 [case=all, number=sg]">ɔnuh</a> <a href="glossary.html#entry-usog" class="word" title="usɔg — 兎、ウサギ [case=nom, number=sg]">usɔga</a> <a href="glossary.html#entry-echil" class="word" title="eçil — 落ちる、落下する [tense=past, aspect=impf, person=3, number=sg, polarity=pos]">eçilata</a>. <a href="glossary.html#entry-alis_name" class="word" title="Alis — （人名・女性）Alice [case=nom, number=sg]">Alisi</a> <a href="glossary.html#entry-usog" class="word" title="usɔg — 兎、ウサギ [case=gen, number=sg]">usɔgno</a> <a href="glossary.html#entry-noch" class="word" title="noç — 後、後方、以後 [case=loc, number=sg]">noçdo</a> <a href="glossary.html#entry-echil" class="word" title="eçil — 落ちる、落下する [tense=past, aspect=incep, person=3, number=sg, polarity=pos]">eçilasta</a>.</p>
+
+</div>
+</main>
+</body>
+</html>

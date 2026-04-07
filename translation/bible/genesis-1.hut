@@ -11,7 +11,7 @@ ser[case=loc, number=sg] kam[case=nom, number=sg] ten[case=acc, number=sg]~to[sa
 # > 2 地は形も定まらず、闇に包まれた水の上を、さらに神の霊が覆っていました。
 # NIV/Vulgate構造: 地は形も充満もなかった。闇が深淵の上を覆っていた。神の霊が水の上を漂っていた。
 "2" tir[case=nom, number=sg] katch[case=acc, number=sg]~to[sandhi=pre_v] mitesh[$=base]~ral_ptcp[harmony=front, tense=past, case=acc, number=sg, animacy=inanim] ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=neg, animacy=inanim] "."
-sosh jam[case=nom, number=sg] fuch[case=gen, number=sg] uae[case=acc, number=sg] oir[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
+sosh jam[case=nom, number=sg] fuch[case=gen, number=sg] uae[case=acc, number=sg] aeir[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
 sosh kam[case=gen, number=sg] lej[case=nom, number=sg] miz[case=gen, number=sg] uae[case=acc, number=sg] tadaj[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # > 3 「光よ、輝き出よ。」神が言われると、光がさっとさしてきました。
@@ -29,7 +29,7 @@ dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "."
 chikal[case=acc, number=sg]~to[sandhi=pre_v] jam[case=acc, number=sg] waker[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
 # しばらく光が輝き続け、やがて再び闇に覆われた。
 chikal[case=nom, number=sg] shibl[sandhi=pre_c]~kagajk[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
-chis[case=gen, number=sg, animacy=inanim, degree=pos] taemd[case=gen, number=sg] noch[case=loc, number=sg] jam[case=dat, number=sg] sae~ral~oir[tense=past, aspect=incep, person=3, number=sg, polarity=pos] "."
+chis[case=gen, number=sg, animacy=inanim, degree=pos] taemd[case=gen, number=sg] noch[case=loc, number=sg] jam[case=dat, number=sg] sae~ral~aeir[tense=past, aspect=incep, person=3, number=sg, polarity=pos] "."
 # 神は光を「昼」、闘を「夜」と名づけた。
 kam[case=nom, number=sg] chikal[case=acc, number=sg] "«"~ chiru ~"»" to jam[case=acc, number=sg] "«"~ jor ~"»" to ier[tense=past, aspect=term, person=3, number=sg, polarity=pos] "."
 # こうして一日目が終わった。
@@ -82,9 +82,9 @@ mi_num pen_ord[case=nom, number=sg] cha[case=nom, number=sg] owat[tense=past, as
 # TODO: tempora (moadim, 定められた時節) を taemd で仮置き。季節・祭期を表す専用語彙を要検討。
 # 「空に光あるべし、昼と夜を分けるために。しるしと時と日と年のためにあるべし。そして地を照らすために。」
 "14-15" "«"~ sor_noun[case=loc, number=sg] chikal[case=nom, number=pl] bek~ar_verb[tense=pres, aspect=result, person=3, number=pl, polarity=pos, animacy=inanim] ","
-chiru[case=acc, number=sg]~to[sandhi=pre_v] jor[case=acc, number=sg] waker[tense=pres, aspect=impf, person=3, number=sg, polarity=pos]~sup[harmony=back] "."
+chiru[case=acc, number=sg]~to[sandhi=pre_v] jor[case=acc, number=sg] waker[tense=pres, aspect=impf, person=3, number=sg, polarity=pos]~sup[case=all, harmony=back] "."
 shilesrel[case=dat, number=pl]~to[sandhi=pre_c] taemd[case=dat, number=pl]~to[sandhi=pre_c] cha[case=dat, number=pl]~to[sandhi=pre_c] tosh[case=dat, number=pl] bek~ar_verb[tense=pres, aspect=result, person=3, number=pl, polarity=pos, animacy=inanim] "."
-sosh tir[case=acc, number=sg] teraes[tense=pres, aspect=impf, person=3, number=sg, polarity=pos]~sup[harmony=front] ~"»"
+sosh tir[case=acc, number=sg] teraes[tense=pres, aspect=impf, person=3, number=sg, polarity=pos]~sup[case=all, harmony=front] ~"»"
 to kam[case=nom, number=sg] re[sandhi=pre_v]~ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
 # 実現
 sor_noun[case=loc, number=sg] chikal[case=nom, number=pl] ar_verb[tense=past, aspect=result, person=3, number=pl, polarity=pos, animacy=inanim] "."
@@ -141,7 +141,7 @@ dak tov~mitesh[tense=past, aspect=result, person=3, number=sg, polarity=pos] "."
 # 構造: 神の宣言(1pl義務法) + 創造
 # 「われわれの形に人を造るべし、あらゆる生き物を治めるために」
 "26-27" "«"~ vech[case=gen, number=pl] katch[case=loc, number=sg] chit[case=acc, number=pl] bek~tsukr[tense=pres, aspect=impf, person=1, number=pl, polarity=pos] ","
-sakn[case=acc, number=pl]~to[sandhi=pre_v] tol[case=acc, number=pl]~to[sandhi=pre_v] aekiler[case=acc, number=pl]~to[sandhi=pre_v] kemon[case=acc, number=pl]~to[sandhi=pre_v] alaj[case=acc, number=pl, animacy=anim, degree=pos] tir[case=gen, number=sg] ikiler[case=acc, number=pl] osmal[tense=pres, aspect=impf, person=3, number=sg, polarity=pos]~sup[harmony=back] ~"»"
+sakn[case=acc, number=pl]~to[sandhi=pre_v] tol[case=acc, number=pl]~to[sandhi=pre_v] aekiler[case=acc, number=pl]~to[sandhi=pre_v] kemon[case=acc, number=pl]~to[sandhi=pre_v] alaj[case=acc, number=pl, animacy=anim, degree=pos] tir[case=gen, number=sg] ikiler[case=acc, number=pl] osmal[tense=pres, aspect=impf, person=3, number=sg, polarity=pos]~sup[case=all, harmony=back] ~"»"
 to kam[case=nom, number=sg] ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
 # 神は神の形に人を造った。男と女に造った。
 kam[case=nom, number=sg] kam[case=gen, number=sg] katch[case=loc, number=sg] chit[case=acc, number=pl] tsukr[tense=past, aspect=term, person=3, number=sg, polarity=pos] ","

@@ -1,0 +1,322 @@
+# @suppress next-line: glob-import
+@use * from "../profile.hu"
+
+# ============================================================
+# アリス翻訳用語彙
+# ============================================================
+
+# ── 人名 ──
+
+entry alis_name {
+  headword: "Alis"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=anim]
+  stems { root: "Alis" }
+  inflection_class: noun_front_cons_anim
+  meaning: "（人名・女性）Alice"
+}
+
+# ── 名詞 ──
+
+# 姉（前舌子音語幹・有生）
+entry aen {
+  headword: "æn"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=anim]
+  stems { root: "æn" }
+  inflection_class: noun_front_cons_anim
+  meaning: "姉、年上の姉妹"
+  etymology {
+    note: "現代日本語「あね」(姉) → /ane/ → /æn/（前舌化、語末母音脱落）"
+  }
+}
+
+# 岸（前舌子音語幹・無生）
+entry kish {
+  headword: "kiʃ"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "kiʃ" }
+  inflection_class: noun_front_cons_inanim
+  meaning: "岸、土手、堤"
+  etymology {
+    note: "現代日本語「きし」(岸) → /kiʃi/ → /kiʃ/"
+  }
+}
+
+# 絵（前舌子音語幹・無生）
+entry el {
+  headword: "el"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "el" }
+  inflection_class: noun_front_cons_inanim
+  meaning: "絵、図、画像"
+  etymology {
+    note: "現代日本語「え」(絵) → /e/ → /el/（語末l付加で子音語幹化）"
+  }
+}
+
+# 話（後舌子音語幹・無生）
+entry honsh {
+  headword: "hɔnʃ"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "hɔnʃ" }
+  inflection_class: noun_back_cons_inanim
+  meaning: "話、会話、物語"
+  etymology {
+    note: "現代日本語「はなし」(話) → /hanaʃi/ → /hanʃ/ → /hɔnʃ/（母音脱落・後舌化）"
+  }
+}
+
+# 兎（後舌子音語幹・有生）
+entry usog {
+  headword: "usɔg"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=anim]
+  stems { root: "usɔg" }
+  inflection_class: noun_back_cons_anim
+  meaning: "兎、ウサギ"
+  etymology {
+    note: "現代日本語「うさぎ」(兎) → /usagi/ → /usag/ → /usɔg/（後舌化 a→ɔ）"
+  }
+}
+
+# 目（前舌子音語幹・無生）
+# me (女) との同形衝突を回避するため med に。語源的には「め」→「めど」(目処)の古形に近い。
+entry med {
+  headword: "med"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "med" }
+  inflection_class: noun_front_cons_inanim
+  meaning: "目、眼"
+  etymology {
+    note: "現代日本語「め」(目) → /me/ → /med/。me（女）との衝突回避で語末d付加。古語「めど」(目処)との合流。"
+  }
+}
+
+# 穴（後舌子音語幹・無生）
+entry an {
+  headword: "ɔn"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "ɔn" }
+  inflection_class: noun_back_cons_inanim
+  meaning: "穴、孔"
+  etymology {
+    note: "現代日本語「あな」(穴) → /ana/ → /an/ → /ɔn/（後舌化）"
+  }
+}
+
+# 時計（後舌子音語幹・無生）
+entry tokej {
+  headword: "tokəj"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "tokəj" }
+  inflection_class: noun_back_cons_inanim
+  meaning: "時計"
+  etymology {
+    note: "現代日本語「とけい」(時計) → /tokei/ → /tokəj/（e→ə弱化）"
+  }
+}
+
+# 服（後舌子音語幹・無生）
+entry fuk {
+  headword: "fuk"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "fuk" }
+  inflection_class: noun_back_cons_inanim
+  meaning: "服、衣服"
+  etymology {
+    note: "現代日本語「ふく」(服) → /fuku/ → /fuk/"
+  }
+}
+
+# 懐・ポケット（後舌子音語幹・無生）
+entry fut_pocket {
+  headword: "futɔkol"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "futɔkol" }
+  inflection_class: noun_back_cons_inanim
+  meaning: "懐、ポケット"
+  etymology {
+    note: "現代日本語「ふところ」(懐) → /futokoro/ → /futokol/ → /futɔkol/（r→l、後舌化）"
+  }
+}
+
+# 野原（後舌子音語幹・無生）
+entry hol {
+  headword: "hɔl"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "hɔl" }
+  inflection_class: noun_back_cons_inanim
+  meaning: "野原、原っぱ、野"
+  etymology {
+    note: "現代日本語「はら」(原) → /hara/ → /hal/ → /hɔl/（r→l、後舌化）"
+  }
+}
+
+# 垣根（前舌子音語幹・無生）
+entry kaeken {
+  headword: "kæken"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "kæken" }
+  inflection_class: noun_front_cons_inanim
+  meaning: "垣根、生垣"
+  etymology {
+    note: "現代日本語「かきね」(垣根) → /kakine/ → /kæken/（a→æ 前舌化、語末e脱落+n保存）"
+  }
+}
+
+# そば・傍（後舌子音語幹・無生）
+entry sob {
+  headword: "sɔb"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "sɔb" }
+  inflection_class: noun_back_cons_inanim
+  meaning: "そば、傍、近く"
+  etymology {
+    note: "現代日本語「そば」(傍) → /soba/ → /sɔb/（後舌化、語末母音脱落）"
+  }
+}
+
+# ── 動詞 ──
+
+# 座る（後舌子音語幹）
+entry swol {
+  headword: "swɔl"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "swɔl" }
+  inflection_class: verb_back_cons
+  meaning: "座る、腰掛ける"
+  etymology {
+    note: "現代日本語「すわる」(座る) → /suwaru/ → /suwal/ → /swɔl/（母音脱落・後舌化）"
+  }
+}
+
+# 疲れる（前舌子音語幹）
+entry tikrel {
+  headword: "tikrel"
+  tags: [pos=verb, harmony=front, stem_final=cons]
+  stems { base: "tikrel", link: "a" }
+  inflection_class: verb_front_cons
+  meaning: "疲れる、倦む"
+  etymology {
+    note: "現代日本語「つかれる」(疲れる) → /tsukareru/ → /tukarel/ → /tikrel/（ts→t、r→l、u→i 前舌化、母音脱落）"
+  }
+}
+
+# 覗く（後舌子音語幹）
+entry noz {
+  headword: "noz"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "noz" }
+  inflection_class: verb_back_cons
+  meaning: "覗く、ちらっと見る"
+  etymology {
+    note: "現代日本語「のぞく」(覗く) → /nozoku/ → /noz/（語末2音節脱落）"
+  }
+}
+
+# 走る（前舌子音語幹）
+entry hashil {
+  headword: "haʃil"
+  tags: [pos=verb, harmony=front, stem_final=cons]
+  stems { base: "haʃil", link: "a" }
+  inflection_class: verb_front_cons
+  meaning: "走る、駆ける"
+  etymology {
+    note: "現代日本語「はしる」(走る) → /haʃiru/ → /haʃil/（r→l）。a は中立母音、i が前舌を決定。"
+  }
+}
+
+# 急ぐ（前舌子音語幹）
+entry iseg {
+  headword: "iseg"
+  tags: [pos=verb, harmony=front, stem_final=cons]
+  stems { base: "iseg", link: "a" }
+  inflection_class: verb_front_cons
+  meaning: "急ぐ、慌てる"
+  etymology {
+    note: "現代日本語「いそぐ」(急ぐ) → /isogu/ → /isog/ → /iseg/（o→e 前舌化）"
+  }
+}
+
+# 追う（後舌子音語幹）
+entry ow {
+  headword: "ɔw"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "ɔw" }
+  inflection_class: verb_back_cons
+  meaning: "追う、追いかける"
+  etymology {
+    note: "現代日本語「おう」(追う) → /ou/ → /ɔw/（二重母音→半母音化）"
+  }
+}
+
+# 落ちる（前舌子音語幹）
+entry echil {
+  headword: "eçil"
+  tags: [pos=verb, harmony=front, stem_final=cons]
+  stems { base: "eçil", link: "a" }
+  inflection_class: verb_front_cons
+  meaning: "落ちる、落下する"
+  etymology {
+    note: "現代日本語「おちる」(落ちる) → /otʃiru/ → /oçil/ → /eçil/（o→e 前舌化、r→l）"
+  }
+}
+
+# ── 形容詞 ──
+
+# 白い（前舌子音語幹）
+entry shil {
+  headword: "ʃil"
+  tags: [pos=adj, harmony=front, stem_final=cons]
+  stems { root: "ʃil", comp: "ʃiljər" }
+  inflection_class: adj_front_cons
+  meaning: "白い"
+  etymology {
+    note: "現代日本語「しろい」(白い) → /ʃiroi/ → /ʃiloj/ → /ʃil/（r→l、縮約）"
+  }
+}
+
+# 桃色の・ピンクの（後舌子音語幹）
+# momɔ (桃) + el (色彩接辞) の融合形
+entry momol {
+  headword: "momɔl"
+  tags: [pos=adj, harmony=back, stem_final=cons]
+  stems { root: "momɔl", comp: "momɔljər" }
+  inflection_class: adj_back_cons
+  meaning: "桃色の、ピンクの"
+  etymology {
+    note: "現代日本語「ももいろ」(桃色) → /momoiro/ → /momol/（iro→ol、後舌化）"
+  }
+}
+
+# 遅い（後舌子音語幹）
+entry osoj {
+  headword: "ɔsɔj"
+  tags: [pos=adj, harmony=back, stem_final=cons]
+  stems { root: "ɔsɔj", comp: "ɔsɔjjər" }
+  inflection_class: adj_back_cons
+  meaning: "遅い、遅刻の"
+  etymology {
+    note: "現代日本語「おそい」(遅い) → /osoi/ → /osoj/ → /ɔsɔj/（後舌化）"
+  }
+}
+
+# ── 副詞 ──
+
+# 突然（副詞）
+entry totsen {
+  headword: "totsen"
+  tags: [pos=adv]
+  meaning: "突然、急に"
+  etymology {
+    note: "現代日本語「とつぜん」(突然) → /totsuzen/ → /totsen/（ts→t、z→s）"
+  }
+}
+
+# けして（副詞）
+entry kesh {
+  headword: "keʃ"
+  tags: [pos=adv]
+  meaning: "かつて〜ない（否定と共起して「一度も」）"
+  etymology {
+    note: "現代日本語「けっして」(決して) → /keʃʃite/ → /keʃ/"
+  }
+}

@@ -1,0 +1,302 @@
+# @suppress next-line: glob-import
+@use * from "../profile.hu"
+
+# ============================================================
+# 不規則動詞 su（する/なす統合）
+# ============================================================
+# 3語幹: su (←する, 現在), na (←なす, 過去), si (←内的ablaut, 未来)
+# 母音ablaut: u (現在) / a (過去) / i (未来)
+#
+# 融合規則:
+#   - 相接辞が語幹子音と直接結合 → CC クラスタ発生
+#   - 現在: 時制母音 e を挿入して解消 (s-e-C-e)
+#   - 過去: n→ñ 変異で吸収 (ñ-C-a)。ñ が過去 su の標識
+#   - 未来: 時制母音 i を挿入して解消 (s-i-C-i)
+#   - impf: 相接辞なし → 素の語幹 su/na/si
+#
+# 2sg: 後舌上昇 u→uj を規則適用 (leveling)
+#   対面発話の高頻度で規則パターンに引き戻された
+#
+# 人称標識: 通常通り (-w, -l, -s, -r, 2sg上昇)
+# 否定: 鼻母音化規則適用
+
+entry su {
+  headword: "su"
+  tags: [pos=verb, harmony=front]
+
+  inflect for {tense, aspect, person, number, polarity} {
+    # ══════════════════════════════════════
+    # 現在 (su 語幹, 時制母音 e)
+    # ══════════════════════════════════════
+
+    # ── 現在 impf ──
+    [tense=pres, aspect=impf, polarity=pos, person=1, number=sg] -> `suw`
+    [tense=pres, aspect=impf, polarity=pos, person=2, number=sg] -> `suj`
+    [tense=pres, aspect=impf, polarity=pos, person=3, number=sg] -> `su`
+    [tense=pres, aspect=impf, polarity=pos, person=1, number=pl] -> `sul`
+    [tense=pres, aspect=impf, polarity=pos, person=2, number=pl] -> `sus`
+    [tense=pres, aspect=impf, polarity=pos, person=3, number=pl] -> `sur`
+    [tense=pres, aspect=impf, polarity=neg, person=1, number=sg] -> `sũw`
+    [tense=pres, aspect=impf, polarity=neg, person=2, number=sg] -> `sũj`
+    [tense=pres, aspect=impf, polarity=neg, person=3, number=sg] -> `sũ`
+    [tense=pres, aspect=impf, polarity=neg, person=1, number=pl] -> `sũl`
+    [tense=pres, aspect=impf, polarity=neg, person=2, number=pl] -> `sũs`
+    [tense=pres, aspect=impf, polarity=neg, person=3, number=pl] -> `sũr`
+
+    # ── 現在 term (-v-) → seve ──
+    [tense=pres, aspect=term, polarity=pos, person=1, number=sg] -> `sevew`
+    [tense=pres, aspect=term, polarity=pos, person=2, number=sg] -> `sevi`
+    [tense=pres, aspect=term, polarity=pos, person=3, number=sg] -> `seve`
+    [tense=pres, aspect=term, polarity=pos, person=1, number=pl] -> `sevel`
+    [tense=pres, aspect=term, polarity=pos, person=2, number=pl] -> `seves`
+    [tense=pres, aspect=term, polarity=pos, person=3, number=pl] -> `sever`
+    [tense=pres, aspect=term, polarity=neg, person=1, number=sg] -> `sevẽw`
+    [tense=pres, aspect=term, polarity=neg, person=2, number=sg] -> `sevĩ`
+    [tense=pres, aspect=term, polarity=neg, person=3, number=sg] -> `sevẽ`
+    [tense=pres, aspect=term, polarity=neg, person=1, number=pl] -> `sevẽl`
+    [tense=pres, aspect=term, polarity=neg, person=2, number=pl] -> `sevẽs`
+    [tense=pres, aspect=term, polarity=neg, person=3, number=pl] -> `sevẽr`
+
+    # ── 現在 result (-tr-) → setre ──
+    [tense=pres, aspect=result, polarity=pos, person=1, number=sg] -> `setrew`
+    [tense=pres, aspect=result, polarity=pos, person=2, number=sg] -> `setri`
+    [tense=pres, aspect=result, polarity=pos, person=3, number=sg] -> `setre`
+    [tense=pres, aspect=result, polarity=pos, person=1, number=pl] -> `setrel`
+    [tense=pres, aspect=result, polarity=pos, person=2, number=pl] -> `setres`
+    [tense=pres, aspect=result, polarity=pos, person=3, number=pl] -> `setrer`
+    [tense=pres, aspect=result, polarity=neg, person=1, number=sg] -> `setrẽw`
+    [tense=pres, aspect=result, polarity=neg, person=2, number=sg] -> `setrĩ`
+    [tense=pres, aspect=result, polarity=neg, person=3, number=sg] -> `setrẽ`
+    [tense=pres, aspect=result, polarity=neg, person=1, number=pl] -> `setrẽl`
+    [tense=pres, aspect=result, polarity=neg, person=2, number=pl] -> `setrẽs`
+    [tense=pres, aspect=result, polarity=neg, person=3, number=pl] -> `setrẽr`
+
+    # ── 現在 perf (-sm-) → sesme ──
+    [tense=pres, aspect=perf, polarity=pos, person=1, number=sg] -> `sesmew`
+    [tense=pres, aspect=perf, polarity=pos, person=2, number=sg] -> `sesmi`
+    [tense=pres, aspect=perf, polarity=pos, person=3, number=sg] -> `sesme`
+    [tense=pres, aspect=perf, polarity=pos, person=1, number=pl] -> `sesmel`
+    [tense=pres, aspect=perf, polarity=pos, person=2, number=pl] -> `sesmes`
+    [tense=pres, aspect=perf, polarity=pos, person=3, number=pl] -> `sesmer`
+    [tense=pres, aspect=perf, polarity=neg, person=1, number=sg] -> `sesmẽw`
+    [tense=pres, aspect=perf, polarity=neg, person=2, number=sg] -> `sesmĩ`
+    [tense=pres, aspect=perf, polarity=neg, person=3, number=sg] -> `sesmẽ`
+    [tense=pres, aspect=perf, polarity=neg, person=1, number=pl] -> `sesmẽl`
+    [tense=pres, aspect=perf, polarity=neg, person=2, number=pl] -> `sesmẽs`
+    [tense=pres, aspect=perf, polarity=neg, person=3, number=pl] -> `sesmẽr`
+
+    # ── 現在 incep (-ds-) → sedse ──
+    [tense=pres, aspect=incep, polarity=pos, person=1, number=sg] -> `sedsew`
+    [tense=pres, aspect=incep, polarity=pos, person=2, number=sg] -> `sedsi`
+    [tense=pres, aspect=incep, polarity=pos, person=3, number=sg] -> `sedse`
+    [tense=pres, aspect=incep, polarity=pos, person=1, number=pl] -> `sedsel`
+    [tense=pres, aspect=incep, polarity=pos, person=2, number=pl] -> `sedses`
+    [tense=pres, aspect=incep, polarity=pos, person=3, number=pl] -> `sedser`
+    [tense=pres, aspect=incep, polarity=neg, person=1, number=sg] -> `sedsẽw`
+    [tense=pres, aspect=incep, polarity=neg, person=2, number=sg] -> `sedsĩ`
+    [tense=pres, aspect=incep, polarity=neg, person=3, number=sg] -> `sedsẽ`
+    [tense=pres, aspect=incep, polarity=neg, person=1, number=pl] -> `sedsẽl`
+    [tense=pres, aspect=incep, polarity=neg, person=2, number=pl] -> `sedsẽs`
+    [tense=pres, aspect=incep, polarity=neg, person=3, number=pl] -> `sedsẽr`
+
+    # ── 現在 prep (-tk-) → setke ──
+    [tense=pres, aspect=prep, polarity=pos, person=1, number=sg] -> `setkew`
+    [tense=pres, aspect=prep, polarity=pos, person=2, number=sg] -> `setki`
+    [tense=pres, aspect=prep, polarity=pos, person=3, number=sg] -> `setke`
+    [tense=pres, aspect=prep, polarity=pos, person=1, number=pl] -> `setkel`
+    [tense=pres, aspect=prep, polarity=pos, person=2, number=pl] -> `setkes`
+    [tense=pres, aspect=prep, polarity=pos, person=3, number=pl] -> `setker`
+    [tense=pres, aspect=prep, polarity=neg, person=1, number=sg] -> `setkẽw`
+    [tense=pres, aspect=prep, polarity=neg, person=2, number=sg] -> `setkĩ`
+    [tense=pres, aspect=prep, polarity=neg, person=3, number=sg] -> `setkẽ`
+    [tense=pres, aspect=prep, polarity=neg, person=1, number=pl] -> `setkẽl`
+    [tense=pres, aspect=prep, polarity=neg, person=2, number=pl] -> `setkẽs`
+    [tense=pres, aspect=prep, polarity=neg, person=3, number=pl] -> `setkẽr`
+
+    # ══════════════════════════════════════
+    # 過去 (na 語幹 → ñ + C + a)
+    # ══════════════════════════════════════
+
+    # ── 過去 impf ──
+    [tense=past, aspect=impf, polarity=pos, person=1, number=sg] -> `naw`
+    [tense=past, aspect=impf, polarity=pos, person=2, number=sg] -> `ne`
+    [tense=past, aspect=impf, polarity=pos, person=3, number=sg] -> `na`
+    [tense=past, aspect=impf, polarity=pos, person=1, number=pl] -> `nal`
+    [tense=past, aspect=impf, polarity=pos, person=2, number=pl] -> `nas`
+    [tense=past, aspect=impf, polarity=pos, person=3, number=pl] -> `nar`
+    [tense=past, aspect=impf, polarity=neg, person=1, number=sg] -> `nãw`
+    [tense=past, aspect=impf, polarity=neg, person=2, number=sg] -> `nẽ`
+    [tense=past, aspect=impf, polarity=neg, person=3, number=sg] -> `nã`
+    [tense=past, aspect=impf, polarity=neg, person=1, number=pl] -> `nãl`
+    [tense=past, aspect=impf, polarity=neg, person=2, number=pl] -> `nãs`
+    [tense=past, aspect=impf, polarity=neg, person=3, number=pl] -> `nãr`
+
+    # ── 過去 term (-v-) → ñva ──
+    [tense=past, aspect=term, polarity=pos, person=1, number=sg] -> `ñvaw`
+    [tense=past, aspect=term, polarity=pos, person=2, number=sg] -> `ñve`
+    [tense=past, aspect=term, polarity=pos, person=3, number=sg] -> `ñva`
+    [tense=past, aspect=term, polarity=pos, person=1, number=pl] -> `ñval`
+    [tense=past, aspect=term, polarity=pos, person=2, number=pl] -> `ñvas`
+    [tense=past, aspect=term, polarity=pos, person=3, number=pl] -> `ñvar`
+    [tense=past, aspect=term, polarity=neg, person=1, number=sg] -> `ñvãw`
+    [tense=past, aspect=term, polarity=neg, person=2, number=sg] -> `ñvẽ`
+    [tense=past, aspect=term, polarity=neg, person=3, number=sg] -> `ñvã`
+    [tense=past, aspect=term, polarity=neg, person=1, number=pl] -> `ñvãl`
+    [tense=past, aspect=term, polarity=neg, person=2, number=pl] -> `ñvãs`
+    [tense=past, aspect=term, polarity=neg, person=3, number=pl] -> `ñvãr`
+
+    # ── 過去 result (-tr-) → ñra (tr→r 簡略化) ──
+    [tense=past, aspect=result, polarity=pos, person=1, number=sg] -> `ñraw`
+    [tense=past, aspect=result, polarity=pos, person=2, number=sg] -> `ñre`
+    [tense=past, aspect=result, polarity=pos, person=3, number=sg] -> `ñra`
+    [tense=past, aspect=result, polarity=pos, person=1, number=pl] -> `ñral`
+    [tense=past, aspect=result, polarity=pos, person=2, number=pl] -> `ñras`
+    [tense=past, aspect=result, polarity=pos, person=3, number=pl] -> `ñrar`
+    [tense=past, aspect=result, polarity=neg, person=1, number=sg] -> `ñrãw`
+    [tense=past, aspect=result, polarity=neg, person=2, number=sg] -> `ñrẽ`
+    [tense=past, aspect=result, polarity=neg, person=3, number=sg] -> `ñrã`
+    [tense=past, aspect=result, polarity=neg, person=1, number=pl] -> `ñrãl`
+    [tense=past, aspect=result, polarity=neg, person=2, number=pl] -> `ñrãs`
+    [tense=past, aspect=result, polarity=neg, person=3, number=pl] -> `ñrãr`
+
+    # ── 過去 perf (-sm-) → ñma (sm→m 簡略化) ──
+    [tense=past, aspect=perf, polarity=pos, person=1, number=sg] -> `ñmaw`
+    [tense=past, aspect=perf, polarity=pos, person=2, number=sg] -> `ñme`
+    [tense=past, aspect=perf, polarity=pos, person=3, number=sg] -> `ñma`
+    [tense=past, aspect=perf, polarity=pos, person=1, number=pl] -> `ñmal`
+    [tense=past, aspect=perf, polarity=pos, person=2, number=pl] -> `ñmas`
+    [tense=past, aspect=perf, polarity=pos, person=3, number=pl] -> `ñmar`
+    [tense=past, aspect=perf, polarity=neg, person=1, number=sg] -> `ñmãw`
+    [tense=past, aspect=perf, polarity=neg, person=2, number=sg] -> `ñmẽ`
+    [tense=past, aspect=perf, polarity=neg, person=3, number=sg] -> `ñmã`
+    [tense=past, aspect=perf, polarity=neg, person=1, number=pl] -> `ñmãl`
+    [tense=past, aspect=perf, polarity=neg, person=2, number=pl] -> `ñmãs`
+    [tense=past, aspect=perf, polarity=neg, person=3, number=pl] -> `ñmãr`
+
+    # ── 過去 incep (-ds-) → ñsa (ds→s 簡略化) ──
+    [tense=past, aspect=incep, polarity=pos, person=1, number=sg] -> `ñsaw`
+    [tense=past, aspect=incep, polarity=pos, person=2, number=sg] -> `ñse`
+    [tense=past, aspect=incep, polarity=pos, person=3, number=sg] -> `ñsa`
+    [tense=past, aspect=incep, polarity=pos, person=1, number=pl] -> `ñsal`
+    [tense=past, aspect=incep, polarity=pos, person=2, number=pl] -> `ñsas`
+    [tense=past, aspect=incep, polarity=pos, person=3, number=pl] -> `ñsar`
+    [tense=past, aspect=incep, polarity=neg, person=1, number=sg] -> `ñsãw`
+    [tense=past, aspect=incep, polarity=neg, person=2, number=sg] -> `ñsẽ`
+    [tense=past, aspect=incep, polarity=neg, person=3, number=sg] -> `ñsã`
+    [tense=past, aspect=incep, polarity=neg, person=1, number=pl] -> `ñsãl`
+    [tense=past, aspect=incep, polarity=neg, person=2, number=pl] -> `ñsãs`
+    [tense=past, aspect=incep, polarity=neg, person=3, number=pl] -> `ñsãr`
+
+    # ── 過去 prep (-tk-) → ñka (tk→k 簡略化) ──
+    [tense=past, aspect=prep, polarity=pos, person=1, number=sg] -> `ñkaw`
+    [tense=past, aspect=prep, polarity=pos, person=2, number=sg] -> `ñke`
+    [tense=past, aspect=prep, polarity=pos, person=3, number=sg] -> `ñka`
+    [tense=past, aspect=prep, polarity=pos, person=1, number=pl] -> `ñkal`
+    [tense=past, aspect=prep, polarity=pos, person=2, number=pl] -> `ñkas`
+    [tense=past, aspect=prep, polarity=pos, person=3, number=pl] -> `ñkar`
+    [tense=past, aspect=prep, polarity=neg, person=1, number=sg] -> `ñkãw`
+    [tense=past, aspect=prep, polarity=neg, person=2, number=sg] -> `ñkẽ`
+    [tense=past, aspect=prep, polarity=neg, person=3, number=sg] -> `ñkã`
+    [tense=past, aspect=prep, polarity=neg, person=1, number=pl] -> `ñkãl`
+    [tense=past, aspect=prep, polarity=neg, person=2, number=pl] -> `ñkãs`
+    [tense=past, aspect=prep, polarity=neg, person=3, number=pl] -> `ñkãr`
+
+    # ══════════════════════════════════════
+    # 未来 (si 語幹, 時制母音 i)
+    # ══════════════════════════════════════
+
+    # ── 未来 impf ──
+    [tense=fut, aspect=impf, polarity=pos, person=1, number=sg] -> `siw`
+    [tense=fut, aspect=impf, polarity=pos, person=2, number=sg] -> `sit`
+    [tense=fut, aspect=impf, polarity=pos, person=3, number=sg] -> `si`
+    [tense=fut, aspect=impf, polarity=pos, person=1, number=pl] -> `sil`
+    [tense=fut, aspect=impf, polarity=pos, person=2, number=pl] -> `sis`
+    [tense=fut, aspect=impf, polarity=pos, person=3, number=pl] -> `sir`
+    [tense=fut, aspect=impf, polarity=neg, person=1, number=sg] -> `sĩw`
+    [tense=fut, aspect=impf, polarity=neg, person=2, number=sg] -> `sĩt`
+    [tense=fut, aspect=impf, polarity=neg, person=3, number=sg] -> `sĩ`
+    [tense=fut, aspect=impf, polarity=neg, person=1, number=pl] -> `sĩl`
+    [tense=fut, aspect=impf, polarity=neg, person=2, number=pl] -> `sĩs`
+    [tense=fut, aspect=impf, polarity=neg, person=3, number=pl] -> `sĩr`
+
+    # ── 未来 term (-v-) → sivi ──
+    [tense=fut, aspect=term, polarity=pos, person=1, number=sg] -> `siviw`
+    [tense=fut, aspect=term, polarity=pos, person=2, number=sg] -> `sivit`
+    [tense=fut, aspect=term, polarity=pos, person=3, number=sg] -> `sivi`
+    [tense=fut, aspect=term, polarity=pos, person=1, number=pl] -> `sivil`
+    [tense=fut, aspect=term, polarity=pos, person=2, number=pl] -> `sivis`
+    [tense=fut, aspect=term, polarity=pos, person=3, number=pl] -> `sivir`
+    [tense=fut, aspect=term, polarity=neg, person=1, number=sg] -> `sivĩw`
+    [tense=fut, aspect=term, polarity=neg, person=2, number=sg] -> `sivĩt`
+    [tense=fut, aspect=term, polarity=neg, person=3, number=sg] -> `sivĩ`
+    [tense=fut, aspect=term, polarity=neg, person=1, number=pl] -> `sivĩl`
+    [tense=fut, aspect=term, polarity=neg, person=2, number=pl] -> `sivĩs`
+    [tense=fut, aspect=term, polarity=neg, person=3, number=pl] -> `sivĩr`
+
+    # ── 未来 result (-tr-) → sitri ──
+    [tense=fut, aspect=result, polarity=pos, person=1, number=sg] -> `sitriw`
+    [tense=fut, aspect=result, polarity=pos, person=2, number=sg] -> `sitrit`
+    [tense=fut, aspect=result, polarity=pos, person=3, number=sg] -> `sitri`
+    [tense=fut, aspect=result, polarity=pos, person=1, number=pl] -> `sitril`
+    [tense=fut, aspect=result, polarity=pos, person=2, number=pl] -> `sitris`
+    [tense=fut, aspect=result, polarity=pos, person=3, number=pl] -> `sitrir`
+    [tense=fut, aspect=result, polarity=neg, person=1, number=sg] -> `sitrĩw`
+    [tense=fut, aspect=result, polarity=neg, person=2, number=sg] -> `sitrĩt`
+    [tense=fut, aspect=result, polarity=neg, person=3, number=sg] -> `sitrĩ`
+    [tense=fut, aspect=result, polarity=neg, person=1, number=pl] -> `sitrĩl`
+    [tense=fut, aspect=result, polarity=neg, person=2, number=pl] -> `sitrĩs`
+    [tense=fut, aspect=result, polarity=neg, person=3, number=pl] -> `sitrĩr`
+
+    # ── 未来 perf (-sm-) → sismi ──
+    [tense=fut, aspect=perf, polarity=pos, person=1, number=sg] -> `sismiw`
+    [tense=fut, aspect=perf, polarity=pos, person=2, number=sg] -> `sismit`
+    [tense=fut, aspect=perf, polarity=pos, person=3, number=sg] -> `sismi`
+    [tense=fut, aspect=perf, polarity=pos, person=1, number=pl] -> `sismil`
+    [tense=fut, aspect=perf, polarity=pos, person=2, number=pl] -> `sismis`
+    [tense=fut, aspect=perf, polarity=pos, person=3, number=pl] -> `sismir`
+    [tense=fut, aspect=perf, polarity=neg, person=1, number=sg] -> `sismĩw`
+    [tense=fut, aspect=perf, polarity=neg, person=2, number=sg] -> `sismĩt`
+    [tense=fut, aspect=perf, polarity=neg, person=3, number=sg] -> `sismĩ`
+    [tense=fut, aspect=perf, polarity=neg, person=1, number=pl] -> `sismĩl`
+    [tense=fut, aspect=perf, polarity=neg, person=2, number=pl] -> `sismĩs`
+    [tense=fut, aspect=perf, polarity=neg, person=3, number=pl] -> `sismĩr`
+
+    # ── 未来 incep (-ds-) → sidsi ──
+    [tense=fut, aspect=incep, polarity=pos, person=1, number=sg] -> `sidsiw`
+    [tense=fut, aspect=incep, polarity=pos, person=2, number=sg] -> `sidsit`
+    [tense=fut, aspect=incep, polarity=pos, person=3, number=sg] -> `sidsi`
+    [tense=fut, aspect=incep, polarity=pos, person=1, number=pl] -> `sidsil`
+    [tense=fut, aspect=incep, polarity=pos, person=2, number=pl] -> `sidsis`
+    [tense=fut, aspect=incep, polarity=pos, person=3, number=pl] -> `sidsir`
+    [tense=fut, aspect=incep, polarity=neg, person=1, number=sg] -> `sidsĩw`
+    [tense=fut, aspect=incep, polarity=neg, person=2, number=sg] -> `sidsĩt`
+    [tense=fut, aspect=incep, polarity=neg, person=3, number=sg] -> `sidsĩ`
+    [tense=fut, aspect=incep, polarity=neg, person=1, number=pl] -> `sidsĩl`
+    [tense=fut, aspect=incep, polarity=neg, person=2, number=pl] -> `sidsĩs`
+    [tense=fut, aspect=incep, polarity=neg, person=3, number=pl] -> `sidsĩr`
+
+    # ── 未来 prep (-tk-) → sitki ──
+    [tense=fut, aspect=prep, polarity=pos, person=1, number=sg] -> `sitkiw`
+    [tense=fut, aspect=prep, polarity=pos, person=2, number=sg] -> `sitkit`
+    [tense=fut, aspect=prep, polarity=pos, person=3, number=sg] -> `sitki`
+    [tense=fut, aspect=prep, polarity=pos, person=1, number=pl] -> `sitkil`
+    [tense=fut, aspect=prep, polarity=pos, person=2, number=pl] -> `sitkis`
+    [tense=fut, aspect=prep, polarity=pos, person=3, number=pl] -> `sitkir`
+    [tense=fut, aspect=prep, polarity=neg, person=1, number=sg] -> `sitkĩw`
+    [tense=fut, aspect=prep, polarity=neg, person=2, number=sg] -> `sitkĩt`
+    [tense=fut, aspect=prep, polarity=neg, person=3, number=sg] -> `sitkĩ`
+    [tense=fut, aspect=prep, polarity=neg, person=1, number=pl] -> `sitkĩl`
+    [tense=fut, aspect=prep, polarity=neg, person=2, number=pl] -> `sitkĩs`
+    [tense=fut, aspect=prep, polarity=neg, person=3, number=pl] -> `sitkĩr`
+  }
+
+  meanings {
+    do { "する、行う" }
+    make { "作る、こしらえる" }
+    perform { "実行する、遂行する" }
+  }
+
+  etymology {
+    note: "2語幹の統合。su ← 現代日本語「する」/suru/ → /su/（現在・未来語幹）。na ← 古語「なす」/nasu/ → /na/（過去語幹。「為す」の完遂ニュアンスが過去時制に定着）。未来 si は内的ablaut（u→i、irrealis最遠母音）。超高頻度ゆえに相接辞が語幹母音と融合: 現在 s-e-C-e（挿入母音e）、過去 ñ-C-a（n→ñ変異）、未来 s-i-C-i（挿入母音i）。2sg suj は後舌上昇 u→uj の規則適用（対面高頻度で leveling）。"
+  }
+}

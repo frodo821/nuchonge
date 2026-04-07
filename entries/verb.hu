@@ -150,7 +150,7 @@ entry ivae {
   }
 
   etymology {
-    note: "現代日本語「祝う」(いわう) + 「福」(ふく) → /iwau/ + /fuku/ → /ivæ/（融合・前舌化）"
+    note: "現代日本語「祝う」(いわう) → /iwau/ → /ivæ/（前舌化）"
   }
 }
 
@@ -323,12 +323,12 @@ entry kagajk {
   }
 }
 
-# 覆う（後舌子音語幹）
-entry oir {
-  headword: "ɔir"
-  tags: [pos=verb, harmony=back, stem_final=cons]
-  stems { base: "ɔir" }
-  inflection_class: verb_back_cons
+# 覆う（前舌子音語幹）
+entry aeir {
+  headword: "æir"
+  tags: [pos=verb, harmony=front, stem_final=cons]
+  stems { base: "æir", link: "a" }
+  inflection_class: verb_front_cons
 
   meanings {
     cover { "覆う、包む" }
@@ -336,7 +336,7 @@ entry oir {
   }
 
   etymology {
-    note: "現代日本語「おおう」(覆う) → /oou/ → /ɔir/（二重母音化 oo→ɔi、語末 r 付加）"
+    note: "現代日本語「おおう」(覆う) → /oou/ → /ɔir/ → /æir/（ɔ→æ 前舌化、i が前舌を決定）"
   }
 }
 

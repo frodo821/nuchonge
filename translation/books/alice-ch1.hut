@@ -1,0 +1,107 @@
+# @title Alisno Ʃitno Tr̃do Ækiketora: Tukrura 1
+@reference * from "../../main.hu"
+
+# Alice's Adventures Under Ground — Chapter I
+# 底本: Lewis Carroll, 1864 原稿版
+# 訳注: 原文のニュアンスより構文の自然さを優先する意訳方針
+
+# ============================================================
+# 第1段落
+# ============================================================
+
+# > Alice was beginning to get very tired of sitting by her sister
+# > on the bank, and of having nothing to do:
+#
+# Alis は姉と岸に座っていることに、
+# そして何もすることがないことに、
+# とても疲れ始めていた。
+#
+# 構造:
+#   [座る-PAST.RESULT.3sg ~ supine出格],   ← 原因1: 座っていたことに
+#   soʃ [何を する-PAST.NEG.3sg ~ supine出格],  ← 原因2: 何もしなかったことに
+#   tov tukrel-PAST.INCEP                ← 主節: とても疲れ始めていた
+#
+# supine出格: 動詞3sg過去形 + kr̃ (時制一致: 主節が過去)
+
+alis_name[case=nom, number=sg] zhet[case=gen, number=sg, animacy=anim] aen[case=com, number=sg] kish[case=loc, number=sg] swol[tense=past, aspect=result, person=3, number=sg, polarity=pos]~sup[harmony=back, case=abl] "," sosh der[case=acc, number=sg] su[tense=past, aspect=impf, person=3, number=sg, polarity=neg]~sup[harmony=front, case=abl] "," tov~tikrel[tense=past, aspect=incep, person=3, number=sg, polarity=pos] "." //
+
+# > once or twice she had peeped into the book her sister was
+# > reading, but it had no pictures or conversations in it,
+#
+# 一度か二度、姉が読んでいる本を覗いた。
+# しかし本の中に絵も話もなかった。
+#
+# 構造: [頻度] + [姉の本を覗く] + [しかし絵も話もない]
+# 「姉が読んでいる本」= 能動分詞で修飾: ænno jomuraŋ hño
+
+chit_num kej_freq[case=nom, number=sg] to fut kej_freq[case=nom, number=sg] "," aen[case=gen, number=sg] jom~ar_ptcp[harmony=back, tense=pres, case=acc, number=sg, animacy=inanim] hn[case=acc, number=sg] noz[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "." ked hn[case=loc, number=sg] el[case=nom, number=sg]~to[sandhi=pre_v] honsh[case=nom, number=sg] ar_verb[tense=past, aspect=impf, person=3, number=sg, polarity=neg, animacy=inanim] "." //
+
+# > and where is the use of a book, thought Alice, without
+# > pictures or conversations?
+#
+# 「絵も話もない本は何のためにあるのか」とAlisは思った。
+#
+# 構造: [否定存在の本] + der suhe er? (何をするためにあるのか)
+# 引用(to) + 思考動詞
+
+"«"~ hn[case=loc, number=sg] el[case=nom, number=sg]~to[sandhi=pre_v] honsh[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=neg, animacy=inanim] "," ser[case=nom, number=sg] der[case=acc, number=sg] su[tense=pres, aspect=impf, person=3, number=sg, polarity=pos]~sup[harmony=front, case=all] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] ~"?»" to alis_name[case=nom, number=sg] omo[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# > So she was considering in her own mind, (as well as she could,
+# > for the hot day made her feel very sleepy and stupid,)
+# > whether the pleasure of making a daisy-chain would be worth
+# > the trouble of getting up and picking the daisies,
+#
+# [省略・要約: 暑い日で眠くなっていた]
+# TODO: 「暑い」(ɔts)、「眠い」(nem)、「花」(hɔn)等の造語後に詳訳
+
+# > when suddenly a white rabbit with pink eyes ran close by her.
+#
+# その時、突然、桃色の目を持つ白い兎がAlisのそばを走り過ぎた。
+#
+# 構造: [付帯特徴-COM] + [主語] + [場所] + totsen~[走る]
+# 「桃色の目をした白い兎がAlisのそばを走り過ぎた」
+#   Alisne sɔbdo = Alisのそばで（所格: 走った場所）
+
+totsen~hashil[tense=past, aspect=impf, person=3, number=sg, polarity=pos] momol[case=com, number=pl, animacy=inanim, degree=pos] med[case=com, number=pl] shil[case=nom, number=sg, animacy=anim, degree=pos] usog[case=nom, number=sg] alis_name[case=gen, number=sg] sob[case=loc, number=sg] "." //
+
+# ============================================================
+# 第2段落 冒頭
+# ============================================================
+
+# > There was nothing so very remarkable in that; nor did Alice
+# > think it so very much out of the way to hear the rabbit say
+# > to itself, "dear, dear! I shall be too late!"
+#
+# それはとても珍しいことではなかった。
+# 兎が自身に「大変だ！遅すぎる！」と言うのを聞いても、
+# Alisはあまり不思議に思わなかった。
+#
+# TODO: 「珍しい」「不思議」「聞く」等の造語が必要
+# 暫定: 兎の台詞のみ訳出
+
+"«"~ tov~osoj[case=nom, number=sg, animacy=anim, degree=pos] ar_verb[tense=fut, aspect=impf, person=1, number=sg, polarity=pos, animacy=anim] ~"»"
+to usog[case=nom, number=sg] zhet[case=dat, number=sg, animacy=anim] ier[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+# > but when the rabbit actually took a watch out of its
+# > waistcoat-pocket, and looked at it, and then hurried on,
+# > Alice started to her feet, for it flashed across her mind
+# > that she had never before seen a rabbit with either a
+# > waistcoat-pocket or a watch to take out of it, and, full of
+# > curiosity, she ran across the field after it, and was just in
+# > time to see it pop down a large rabbit-hole under the hedge.
+#
+# しかし兎が服の懐から時計を出して、それを見て、急いだ時——
+# Alisは立ち上がった。なぜなら、懐や時計を持つ兎を一度も見たことがなかったから。
+# Alisは兎を追って野原を走り、
+# 垣根の下の大きな兎穴に兎が落ちるのをちょうど見た。
+
+sosh usog[case=nom, number=sg] zhet[case=gen, number=sg, animacy=anim] fuk[case=gen, number=sg] fut_pocket[case=abl, number=sg] tokej[case=acc, number=sg] mot[tense=past, aspect=incep, person=3, number=sg, polarity=pos] ","
+ser[case=acc, number=sg] mir[tense=past, aspect=impf, person=3, number=sg, polarity=pos] ","
+sosh iseg[tense=past, aspect=incep, person=3, number=sg, polarity=pos] "." //
+
+alis_name[case=nom, number=sg] kesh fut_pocket[case=acc, number=sg]~to[sandhi=pre_v] tokej[case=acc, number=sg] mot~ar_ptcp[harmony=back, tense=pres, case=acc, number=sg, animacy=anim] usog[case=acc, number=sg] mir[tense=past, aspect=result, person=3, number=sg, polarity=neg] "."
+dak usog[case=acc, number=sg] ow[tense=past, aspect=incep, person=3, number=sg, polarity=pos] ","
+hol[case=acc, number=sg] hashil[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "." //
+
+kaeken[case=gen, number=sg] shit[case=gen, number=sg] ok[case=loc, number=sg, animacy=inanim, degree=pos] usog[case=gen, number=sg] an[case=all, number=sg] usog[case=nom, number=sg] echil[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "."
+alis_name[case=nom, number=sg] usog[case=gen, number=sg] noch[case=loc, number=sg] echil[tense=past, aspect=incep, person=3, number=sg, polarity=pos] "." //
