@@ -106,7 +106,9 @@ TODO.md               Open design questions and outstanding lexical/translation 
 
 ## Reading order for newcomers
 
-- To understand the language: `booklet_4th.md` → `grammatica/ch01.md` onward.
-- To understand the Hubullu format: `core/tags.hu` → `core/noun_inflections.hu` → `entries/noun.hu`.
-- To see the compiler end-to-end: any `.hut` file in `translation/` alongside its rendered HTML in
-  `contents/`.
+- To understand the language: [`grammatica/`](./grammatica)
+  (start with [Chapter 1](./grammatica/ch01); see the
+  [grammatica index](./grammatica) for the full 22-chapter tour in three parts).
+- To understand the Hubullu format: [`core/tags.hu`](https://github.com/frodo821/nuchonge/blob/main/core/tags.hu) → [`core/noun_inflections.hu`](https://github.com/frodo821/nuchonge/blob/main/core/noun_inflections.hu) → [`entries/noun.hu`](https://github.com/frodo821/nuchonge/blob/main/entries/noun.hu).
+- To see the compiler end-to-end: any `.hut` file in [`translation/`](https://github.com/frodo821/nuchonge/tree/main/translation) alongside its
+  rendered HTML in [`contents/`](https://github.com/frodo821/nuchonge/tree/main/contents).
