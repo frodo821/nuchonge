@@ -51,8 +51,20 @@ chit_num kej_freq[case=nom, number=sg] to fut kej_freq[case=nom, number=sg] "," 
 # > whether the pleasure of making a daisy-chain would be worth
 # > the trouble of getting up and picking the daisies,
 #
-# [省略・要約: 暑い日で眠くなっていた]
-# TODO: 「暑い」(ɔts)、「眠い」(nem)、「花」(hɔn)等の造語後に詳訳
+# 構造（一文で連結）:
+#   dak — 前段落（座っていて退屈で疲れた）からの帰結
+#   «引用内容» to — 考えていた内容
+#     花の輪を作るのは楽しい、しかし立って花を摘むのは手間だ、
+#     楽しさは手間より大きいだろうか
+#   挿入（括弧に相当）: ɔtsoŋ çajəd tov nemiŋ
+#     暑い日-LOCで とても 眠い = 暑い日のせいで眠い状態の
+#   主節: Alis ʒətuñ omɔɔtɔ = Alisは自身に考えていた
+
+dak "«"~ hon[case=gen, number=sg] wo[case=acc, number=sg] tsukr~ket_ger[harmony=back, sandhi=pre_c, case=nom, number=sg] tanosh[case=nom, number=sg, animacy=inanim, degree=pos] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] ","
+ked tot~ket_ger[harmony=back, sandhi=pre_c, case=nom, number=sg] sosh hon[case=acc, number=pl] tum~ket_ger[harmony=back, sandhi=pre_c, case=nom, number=sg] tem[case=nom, number=sg] ar_verb[tense=pres, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] ","
+tanosh[case=nom, number=sg, degree=nmlz,  animacy=inanim] tem[case=abl, number=sg] ok[case=nom, number=sg, animacy=inanim, degree=comp] ar_verb[tense=fut, aspect=impf, person=3, number=sg, polarity=pos, animacy=inanim] ke_q ~"»"
+to ","
+ots[case=loc, number=sg, animacy=inanim, degree=pos] cha[case=loc, number=sg] tov~nem[case=nom, number=sg, animacy=anim, degree=pos] alis_name[case=nom, number=sg] zhet[case=dat, number=sg, animacy=anim] omo[tense=past, aspect=impf, person=3, number=sg, polarity=pos] "." //
 
 # > when suddenly a white rabbit with pink eyes ran close by her.
 #

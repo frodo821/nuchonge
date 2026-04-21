@@ -368,6 +368,17 @@ entry pemal {
 
 # ── 接続詞 ──
 
+# ── 疑問標識 ──
+
+entry ke_q {
+  headword: "kə"
+  tags: [pos=part]
+  meaning: "疑問標識（文末に置いて諾否疑問を形成）"
+  etymology { note: "現代日本語「か」(疑問助詞) → /ka/ → /kə/（弱化）" }
+}
+
+# ── 接続詞 ──
+
 entry dak {
   headword: "dak"
   tags: [pos=conj]

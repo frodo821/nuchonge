@@ -149,6 +149,7 @@ tagaxis degree {
 @extend degree_values for tagaxis degree {
   pos  { display: { ja: "原級" } }
   comp { display: { ja: "比較級" } }
+  nmlz { display: { ja: "名詞化" } }
 }
 
 tagaxis sandhi {

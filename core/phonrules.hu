@@ -17,6 +17,12 @@ phonrule nasalization {
   "ñ" -> "" / _
 }
 
+# 同一半母音の重複簡略化: jj → j
+# 比較級 -jər が j 終わり語幹に付くと jj が生じる（例: ɔsɔj+jər → ɔsɔjjər → ɔsɔjər）
+phonrule geminate_j {
+  "jj" -> "j" / _
+}
+
 # 子音連続間のシュワー挿入: CC+C → CCəC
 # 語幹末の子音連続(CC)に子音始まりの接辞(C)が続くとき、境界にəを挿入。
 # 例: tokl+do → toklədo, tokl+to → tokləto, tokl+mo → tokləmo

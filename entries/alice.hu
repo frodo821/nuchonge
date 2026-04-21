@@ -260,6 +260,68 @@ entry echil {
   }
 }
 
+# 花（後舌子音語幹・無生）
+entry hon {
+  headword: "hɔn"
+  tags: [pos=noun, harmony=back, stem_final=cons, animacy=inanim]
+  stems { root: "hɔn" }
+  inflection_class: noun_back_cons_inanim
+  meaning: "花"
+  etymology {
+    note: "現代日本語「はな」(花) → /hana/ → /han/ → /hɔn/（後舌化）"
+  }
+}
+
+# 輪（後舌母音語幹・無生）
+entry wo {
+  headword: "wɔ"
+  tags: [pos=noun, harmony=back, stem_final=back_vowel, animacy=inanim]
+  stems { root: "wɔ" }
+  inflection_class: noun_back_ov_inanim
+  meaning: "輪、環、鎖"
+  etymology {
+    note: "現代日本語「わ」(輪) → /wa/ → /wɔ/（後舌化）"
+  }
+}
+
+# 手間（前舌子音語幹・無生）
+entry tem {
+  headword: "tem"
+  tags: [pos=noun, harmony=front, stem_final=cons, animacy=inanim]
+  stems { root: "tem" }
+  inflection_class: noun_front_cons_inanim
+  meaning: "手間、面倒、労力"
+  etymology {
+    note: "現代日本語「てま」(手間) → /tema/ → /tem/"
+  }
+}
+
+# ── 動詞（追加） ──
+
+# 立つ（後舌子音語幹）
+entry tot {
+  headword: "tɔt"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "tɔt" }
+  inflection_class: verb_back_cons
+  meaning: "立つ、立ち上がる"
+  etymology {
+    note: "現代日本語「たつ」(立つ) → /tatsu/ → /tat/ → /tɔt/（後舌化）"
+  }
+}
+
+# 摘む（後舌子音語幹）
+entry tum {
+  headword: "tum"
+  tags: [pos=verb, harmony=back, stem_final=cons]
+  stems { base: "tum" }
+  inflection_class: verb_back_cons
+  meaning: "摘む、摘み取る"
+  etymology {
+    note: "現代日本語「つむ」(摘む) → /tsumu/ → /tum/（ts→t）"
+  }
+}
+
 # ── 形容詞 ──
 
 # 白い（前舌子音語幹）
@@ -284,6 +346,42 @@ entry momol {
   meaning: "桃色の、ピンクの"
   etymology {
     note: "現代日本語「ももいろ」(桃色) → /momoiro/ → /momol/（iro→ol、後舌化）"
+  }
+}
+
+# 暑い（後舌子音語幹）
+entry ots {
+  headword: "ɔts"
+  tags: [pos=adj, harmony=back, stem_final=cons]
+  stems { root: "ɔts", comp: "ɔtsjər" }
+  inflection_class: adj_back_cons
+  meaning: "暑い、熱い"
+  etymology {
+    note: "現代日本語「あつい」(暑い) → /atsui/ → /ats/ → /ɔts/（後舌化）"
+  }
+}
+
+# 眠い（前舌子音語幹）
+entry nem {
+  headword: "nem"
+  tags: [pos=adj, harmony=front, stem_final=cons]
+  stems { root: "nem", comp: "nemjər" }
+  inflection_class: adj_front_cons
+  meaning: "眠い"
+  etymology {
+    note: "現代日本語「ねむい」(眠い) → /nemui/ → /nem/"
+  }
+}
+
+# 楽しい（後舌子音語幹）
+entry tanosh {
+  headword: "tanɔʃ"
+  tags: [pos=adj, harmony=back, stem_final=cons]
+  stems { root: "tanɔʃ", comp: "tanɔʃjər" }
+  inflection_class: adj_back_cons
+  meaning: "楽しい、愉快な"
+  etymology {
+    note: "現代日本語「たのしい」(楽しい) → /tanoʃii/ → /tanɔʃ/（後舌化、語末母音脱落）"
   }
 }
 
