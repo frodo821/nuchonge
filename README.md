@@ -1,6 +1,6 @@
 # Nuhyon (nuçongə) — a Hubullu sample project
 
-This repository is a sample project for [**Hubullu**](https://github.com/frodo821/hubullu), a compiler
+This repository is a sample project for [**Hubullu**](https://github.com/frodo821/hubullu-lang), a compiler
 that turns `.hu` dictionary/grammar definition files into a queryable SQLite database and renders `.hut`
 text sources (interlinear source for sentences) into fully inflected prose. The project doubles as a
 real-world exercise of the toolchain: a working conlang with phonology, inflectional paradigms, a
