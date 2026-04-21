@@ -47,6 +47,6 @@
 
 ## 関連ファイル
 
-- [`../textbook/`](../textbook/) — 各章に対応する `.hut` 例文ソース (`chNN.hut`)
+- [`../textbook/`](../contents/textbook/) — 各章に対応する `.hut` 例文ソース (`chNN.hut`)
 - [`../booklet_4th`](../booklet_4th) — ヌヒョン語ブックレット第4版 (体系的記述)
-- [`../README`](../README) — リポジトリ全体の概要 (英語)
+- [`../README`](../) — リポジトリ全体の概要 (英語)
