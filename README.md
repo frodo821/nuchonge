@@ -23,7 +23,7 @@ grammatical domains sit at different points along that drift:
 | ----------------------- | ----------------------- | ------------------------------------------------------- |
 | Nouns / adjectives      | Fusional                | Case + number fused; adjectives agree with heads        |
 | Verb TAP (tense/aspect/person) | Fusion in progress | Old layer fused (stem = tense); new layer agglutinative (person affixes) |
-| Verbal mood             | Analytic                | Prefixes joined with `~`, not yet grammaticalized       |
+| Verbal mood             | Analytic                | Prefixes joined to verbs                                |
 | Definiteness            | Analytic                | Invariant proclitic `sə` (< *sorne*)                    |
 
 The ancestor (modern Japanese) has, strictly, only a non-past/realis opposition. Nuhyon's **three-tense
