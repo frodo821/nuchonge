@@ -5,11 +5,13 @@
 @use * from "core/phonrules.hu"
 @use * from "core/noun_inflections.hu"
 @use * from "core/verb_inflections.hu"
+@use * from "core/num_inflections.hu"
 
 @export use * from "core/tags.hu"
 @export use * from "core/phonrules.hu"
 @export use * from "core/noun_inflections.hu"
 @export use * from "core/verb_inflections.hu"
+@export use * from "core/num_inflections.hu"
 
 @render {
   separator: " "

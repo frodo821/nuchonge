@@ -161,3 +161,14 @@ tagaxis sandhi {
   pre_c { display: { ja: "子音前" } }
   pre_v { display: { ja: "母音前" } }
 }
+
+tagaxis place {
+  role: inflectional
+  display: { ja: "位取り" }
+  index: exact
+}
+
+@extend place_values for tagaxis place {
+  bare { display: { ja: "素形" } }
+  pos  { display: { ja: "位取り形" } }
+}

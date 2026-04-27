@@ -334,36 +334,46 @@ entry kong {
 entry toch {
   headword: "toç"
   tags: [pos=num]
-  meaning: "十（10）"
+  stems { root: "toç" }
+  inflection_class: num_unit
+  meaning: "十（10）。位取り形 toçl̃ で「十の位」。"
   etymology { note: "現代日本語「とお」(十) → /too/ → /toç/（末尾子音付加）" }
 }
 
 entry jak_num {
   headword: "jak"
   tags: [pos=num]
-  meaning: "百（100）"
+  stems { root: "jak" }
+  inflection_class: num_unit
+  meaning: "百（100）。位取り形 jakl̃ で「百の位」。"
   etymology { note: "現代日本語「ひゃく」(百) → /hjaku/ → /jak/" }
 }
 
 entry tochak {
   headword: "toçak"
   tags: [pos=num]
-  meaning: "千（1000）"
+  stems { root: "toçak" }
+  inflection_class: num_unit
+  meaning: "千（1000）。位取り形 toçakl̃ で「千の位」。"
   etymology { note: "toç (十) + jak (百) の融合。j が脱落して toçak に。" }
 }
 
 entry mang {
   headword: "maŋ"
   tags: [pos=num]
-  meaning: "万（10000）"
+  stems { root: "maŋ" }
+  inflection_class: num_unit
+  meaning: "万（10000）。位取り形 mal̃ で「万の位」（ŋ は nasal_coda_fusion で消失）。"
   etymology { note: "現代日本語「まん」(万) → /maŋ/" }
 }
 
-entry pemal {
-  headword: "pəmal̃"
+entry pemang {
+  headword: "pəmaŋ"
   tags: [pos=num]
-  meaning: "万の高次位（N pəmal̃ = 万^N。fut pəmal̃ = 億、mi pəmal̃ = 兆）"
-  etymology { note: "pən (序数) + mal̃ (万の位取り) の融合。" }
+  stems { root: "pəmaŋ" }
+  inflection_class: num_unit
+  meaning: "万の高次位（N pəmaŋ = 万^N。fut pəmaŋ = 億、mi pəmaŋ = 兆、jo pəmaŋ = 京）。位取り形 pəmal̃。"
+  etymology { note: "pən (序数) + maŋ (万) の融合。pəmaŋ + l̃ → pəmal̃ で位取り形。" }
 }
 
 # ── 接続詞 ──

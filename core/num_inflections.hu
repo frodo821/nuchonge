@@ -1,0 +1,19 @@
+# @suppress entire-file: unused-inflection, glob-import
+# ヌヒョン語数詞曲用
+# 単位数詞（toç, jak, toçak, maŋ）に位取り標識 -l̃ を付加。
+# 軸: {place} のみ（素形 / 位取り形）
+
+@use * from "tags.hu"
+@use nasal_coda_fusion from "phonrules.hu"
+
+# ── 単位数詞曲用 ──
+# 素形と位取り形（-l̃）の2形。
+# 鼻音語幹末（maŋ）は nasal_coda_fusion により ŋ が消失する。
+# 例: maŋ + l̃ → mal̃, jak + l̃ → jakl̃, toç + l̃ → toçl̃, toçak + l̃ → toçakl̃
+inflection num_unit for {place} {
+  requires stems: root
+  apply nasal_coda_fusion(cell)
+
+  [place=bare] -> `{root}`
+  [place=pos]  -> `{root}l̃`
+}
